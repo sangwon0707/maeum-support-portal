@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC '-//mybatis.org//DTD Mapper 3.0//EN'
+  'https://mybatis.org/dtd/mybatis-3-mapper.dtd'>
+<mapper namespace="kr.co.maeum.support.identity.IdentityMapper">
+  <sql id="account">
+    SELECT u.id,u.workspace_id,u.login_id,u.password_hash,u.display_name,r.role_code,w.kind workspace_kind
+    FROM app_user u
+    JOIN user_role r ON r.user_id=u.id
+    JOIN workspace w ON w.id=u.workspace_id
+  </sql>
+  <select id="findLogin" resultType="kr.co.maeum.support.identity.Account">
+    <include refid="account"/>
+    WHERE u.login_id=#{loginId}
+    AND u.status='ACTIVE'
+    AND w.kind='NORMAL'
+  </select>
+  <select id="findRole" resultType="kr.co.maeum.support.identity.Account">
+    <include refid="account"/>
+    WHERE w.id=#{workspaceId}
+    AND r.role_code=#{role}
+    AND u.status='ACTIVE'
+    LIMIT 1
+  </select>
+  <select id="activeWorkspace" resultType="int">
+    SELECT COUNT(*)
+    FROM workspace
+    WHERE id=#{workspaceId}
+    AND (kind='NORMAL'
+    OR expires_at &gt; UTC_TIMESTAMP(6))
+  </select>
+  <insert id="insertAccount" useGeneratedKeys="true" keyProperty="id">
+    INSERT INTO app_user(workspace_id,login_id,password_hash,display_name)
+    VALUES(#{workspaceId},#{loginId},#{passwordHash},#{displayName})
+  </insert>
+  <insert id="insertRole">
+    INSERT INTO user_role(user_id,role_code)
+    VALUES(#{userId},#{role})
+  </insert>
+  <select id="listStaff" resultType="kr.co.maeum.support.identity.Account">
+    <include refid="account"/>
+    WHERE w.id=#{workspaceId}
+    AND r.role_code='STAFF'
+    AND u.status='ACTIVE'
+    ORDER BY u.id
+  </select>
+</mapper>

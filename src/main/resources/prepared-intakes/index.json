@@ -1,0 +1,33 @@
+{
+  "pipelineVersion": "pdfbox-3.0.8-paddle-v5-ko-layout-v2",
+  "cases": [
+    {
+      "code": "access",
+      "sourceSha256": "1e9eb2cbbad8b49b579a8d65512fca474f1964b58fc982c515e2148b81d1c7fe"
+    },
+    {
+      "code": "comparison",
+      "sourceSha256": "6f7af17e98afb62b1081c8dc408ba5af7c9109fa068f3bf70cdb18dc3851d0f6"
+    },
+    {
+      "code": "digital",
+      "sourceSha256": "973f78c61ff049136498d83d37c7d13d7ae5b3aad1f46af24e0ffa92f19fed48"
+    },
+    {
+      "code": "energy",
+      "sourceSha256": "5fe859ebd3dc670eb228a0be8b52df84fc419da5a73148b8b643a279f7987a08"
+    },
+    {
+      "code": "online",
+      "sourceSha256": "174a38a8246af041f9a23be35348d5de7eef77162e2dd79b1432e054f5de675d"
+    },
+    {
+      "code": "original",
+      "sourceSha256": "305c348d53312032e605ebbee04f40eb285fd03735ca1ad3d855a5b6c6f303ae"
+    },
+    {
+      "code": "safety",
+      "sourceSha256": "cc207466d38dcedd3a91e90ca26973d1962ea037bbb3e88d0df712008c7a0360"
+    }
+  ]
+}

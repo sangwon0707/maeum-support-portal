@@ -1,0 +1,28 @@
+.my-applications-heading { display: flex; align-items: center; justify-content: space-between; margin: 20px 0 12px; font-size: 13px; }
+.my-applications-heading p { margin: 0; }
+.my-applications-heading strong { color: #255db7; }
+.my-applications-heading > span { color: #748296; font-size: 12px; }
+.my-applications-scroll { overflow-x: auto; border-top: 2px solid #344b66; border-bottom: 1px solid #d6e0eb; }
+.my-applications-table { width: 100%; min-width: 960px; table-layout: fixed; border-collapse: collapse; font-size: 13px; }
+.my-applications-table caption { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.my-applications-table .my-col-number { width: 54px; }
+.my-applications-table .my-col-receipt { width: 130px; }
+.my-applications-table .my-col-status { width: 100px; }
+.my-applications-table .my-col-date { width: 145px; }
+.my-applications-table .my-col-actions { width: 198px; }
+.my-applications-table thead th { padding: 14px 10px; background: #f4f7fb; color: #4b6078; font-size: 12px; font-weight: 600; text-align: center; border-bottom: 1px solid #d6e0eb; }
+.my-applications-table tbody td,.my-applications-table tbody th { padding: 16px 10px; border-bottom: 1px solid #e4eaf1; vertical-align: middle; text-align: center; }
+.my-applications-table tbody tr:last-child > * { border-bottom: 0; }
+.my-applications-table tbody tr:hover { background: #f9fbfe; }
+.my-applications-table .my-business { text-align: left; font-weight: 500; }
+.my-business a { font-size: 14px; line-height: 1.5; color: #263e58; text-decoration: none; display: block; overflow-wrap: anywhere; }
+.my-business a:hover { color: #245bb0; text-decoration: underline; }
+.my-business > span { display: block; font-size: 12px; color: #78879a; margin-top: 5px; }
+.my-row-number,.my-modified { color: #687b91; font-size: 12px; }
+.my-receipt { font-size: 12px; font-variant-numeric: tabular-nums; font-weight: 600; }
+.my-receipt > span { color: #8b98a7; font-weight: 400; }
+.my-applications-table .status { font-size: 11px; white-space: nowrap; }
+.my-applications-actions { display: flex; justify-content: flex-end; align-items: center; gap: 6px; }
+.my-applications-actions .krds-btn { font-size: 11px; padding: 0 10px; height: 32px; min-height: 32px; border-radius: 5px; white-space: nowrap; }
+.my-applications-scroll:focus-visible { outline: 2px solid #2864bd; outline-offset: 3px; }
+@media(max-width:750px) { .my-applications-table { min-width: 900px; } .my-applications-table tbody td,.my-applications-table tbody th { padding: 13px 8px; } }

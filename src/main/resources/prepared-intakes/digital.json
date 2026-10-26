@@ -1,0 +1,5183 @@
+{
+  "pipelineVersion": "pdfbox-3.0.8-paddle-v5-ko-layout-v2",
+  "pdfProcessor": "Apache PDFBox 3.0.8",
+  "sourceSha256": "973f78c61ff049136498d83d37c7d13d7ae5b3aad1f46af24e0ffa92f19fed48",
+  "engine": "PaddleOCR",
+  "modelVersion": "PP-OCRv5_mobile_det+korean_PP-OCRv5_mobile_rec",
+  "preparedAt": "2026-10-25T19:54:51.852693+00:00",
+  "result": {
+    "pages": [
+      {
+        "pageNumber": 1,
+        "pageCount": 6,
+        "kind": "APPLICATION",
+        "width": 992,
+        "height": 1403,
+        "textSource": "PADDLE_OCR",
+        "tableRows": [],
+        "lines": [
+          {
+            "text": "마음이음|디지털전환개별서식",
+            "bbox": [
+              80,
+              53,
+              267,
+              76
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8932260870933533
+          },
+          {
+            "text": "가상예시/공식서식아님",
+            "bbox": [
+              779,
+              60,
+              928,
+              83
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.981260359287262
+          },
+          {
+            "text": "서식D-01|디지털전환신청자료",
+            "bbox": [
+              89,
+              126,
+              278,
+              151
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9076633453369141
+          },
+          {
+            "text": "지원사업신청서",
+            "bbox": [
+              88,
+              155,
+              285,
+              191
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9933098554611206
+          },
+          {
+            "text": "2026소상공인디지털매장전환지원사업",
+            "bbox": [
+              88,
+              189,
+              310,
+              212
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.965070903301239
+          },
+          {
+            "text": "신청인",
+            "bbox": [
+              96,
+              229,
+              145,
+              255
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9967434406280518
+          },
+          {
+            "text": "가상달빛식당",
+            "bbox": [
+              221,
+              231,
+              307,
+              255
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.965006411075592
+          },
+          {
+            "text": "대표자",
+            "bbox": [
+              515,
+              234,
+              565,
+              260
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9927758574485779
+          },
+          {
+            "text": "가상지은",
+            "bbox": [
+              639,
+              232,
+              703,
+              263
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9913167357444763
+          },
+          {
+            "text": "등록번호",
+            "bbox": [
+              96,
+              265,
+              159,
+              294
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9875597953796387
+          },
+          {
+            "text": "000-00-00100",
+            "bbox": [
+              222,
+              269,
+              317,
+              293
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9564122557640076
+          },
+          {
+            "text": "개업일",
+            "bbox": [
+              514,
+              270,
+              564,
+              297
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9995265603065491
+          },
+          {
+            "text": "2022-04-18",
+            "bbox": [
+              641,
+              272,
+              722,
+              296
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9576787948608398
+          },
+          {
+            "text": "사업장",
+            "bbox": [
+              96,
+              304,
+              145,
+              330
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9952037930488586
+          },
+          {
+            "text": "가상시예시구달빛로18,1층",
+            "bbox": [
+              222,
+              307,
+              397,
+              330
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9789438843727112
+          },
+          {
+            "text": "연락처",
+            "bbox": [
+              515,
+              308,
+              564,
+              334
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9817197322845459
+          },
+          {
+            "text": "000-0000-0110",
+            "bbox": [
+              641,
+              309,
+              744,
+              335
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9853572249412537
+          },
+          {
+            "text": "업태·종목",
+            "bbox": [
+              97,
+              343,
+              164,
+              365
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9850653409957886
+          },
+          {
+            "text": "음식점업/한식일반음식점",
+            "bbox": [
+              222,
+              343,
+              385,
+              366
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.978033721446991
+          },
+          {
+            "text": "사례",
+            "bbox": [
+              513,
+              344,
+              552,
+              372
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9992542266845703
+          },
+          {
+            "text": "가상신청",
+            "bbox": [
+              639,
+              345,
+              705,
+              374
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9887186288833618
+          },
+          {
+            "text": "도입전·후업무흐름비교",
+            "bbox": [
+              88,
+              386,
+              273,
+              412
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9336292743682861
+          },
+          {
+            "text": "업무단계",
+            "bbox": [
+              95,
+              422,
+              162,
+              447
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9946786761283875
+          },
+          {
+            "text": "도입전",
+            "bbox": [
+              216,
+              420,
+              273,
+              451
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9960670471191406
+          },
+          {
+            "text": "도입후목표",
+            "bbox": [
+              559,
+              427,
+              638,
+              452
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9786990880966187
+          },
+          {
+            "text": "주문 전달",
+            "bbox": [
+              95,
+              459,
+              160,
+              488
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9221585988998413
+          },
+          {
+            "text": "종이 전표를 주방에 전달",
+            "bbox": [
+              221,
+              462,
+              365,
+              485
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9005841612815857
+          },
+          {
+            "text": "POS주문이 주방출력기로 전달",
+            "bbox": [
+              560,
+              465,
+              747,
+              489
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9021511077880859
+          },
+          {
+            "text": "주문변경",
+            "bbox": [
+              96,
+              497,
+              160,
+              523
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9694452285766602
+          },
+          {
+            "text": "변경내용을 다시 전달",
+            "bbox": [
+              221,
+              497,
+              354,
+              524
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9250641465187073
+          },
+          {
+            "text": "변경내역을화면·출력으로확인",
+            "bbox": [
+              559,
+              502,
+              751,
+              524
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9851198792457581
+          },
+          {
+            "text": "재고정리",
+            "bbox": [
+              94,
+              534,
+              160,
+              559
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9942783117294312
+          },
+          {
+            "text": "영업종료뒤수기집계",
+            "bbox": [
+              221,
+              536,
+              357,
+              559
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9847660064697266
+          },
+          {
+            "text": "주요품목을 화면에서 함께 관리",
+            "bbox": [
+              560,
+              539,
+              746,
+              561
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9057176113128662
+          },
+          {
+            "text": "신청범위와사업비",
+            "bbox": [
+              87,
+              577,
+              223,
+              604
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9968680143356323
+          },
+          {
+            "text": "신청 품목",
+            "bbox": [
+              94,
+              617,
+              160,
+              643
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9295727610588074
+          },
+          {
+            "text": "수량·규격",
+            "bbox": [
+              283,
+              618,
+              351,
+              644
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9436960220336914
+          },
+          {
+            "text": "확인기준",
+            "bbox": [
+              587,
+              620,
+              653,
+              647
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9980961680412292
+          },
+          {
+            "text": "매장용POS",
+            "bbox": [
+              93,
+              652,
+              174,
+              680
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9913060665130615
+          },
+          {
+            "text": "1대/주문·재고관리",
+            "bbox": [
+              283,
+              654,
+              412,
+              683
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9402627944946289
+          },
+          {
+            "text": "메뉴등록및 주문흐름확인",
+            "bbox": [
+              589,
+              657,
+              754,
+              686
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.910906970500946
+          },
+          {
+            "text": "주방 출력 장치",
+            "bbox": [
+              94,
+              689,
+              187,
+              717
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8650832772254944
+          },
+          {
+            "text": "2대/주문표출력",
+            "bbox": [
+              282,
+              694,
+              391,
+              717
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9499534368515015
+          },
+          {
+            "text": "주문 전달·변경 출력확인",
+            "bbox": [
+              590,
+              699,
+              743,
+              719
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9158197641372681
+          },
+          {
+            "text": "초기설정·교육",
+            "bbox": [
+              94,
+              727,
+              192,
+              754
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9907809495925903
+          },
+          {
+            "text": "견적명세 기준",
+            "bbox": [
+              282,
+              729,
+              375,
+              756
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.919590413570404
+          },
+          {
+            "text": "계정·매뉴설정및직원 안내",
+            "bbox": [
+              588,
+              733,
+              758,
+              756
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9392573833465576
+          },
+          {
+            "text": "지원신청액",
+            "bbox": [
+              93,
+              777,
+              172,
+              804
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9897497296333313
+          },
+          {
+            "text": "자부담",
+            "bbox": [
+              373,
+              779,
+              427,
+              809
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.995718777179718
+          },
+          {
+            "text": "총사업비",
+            "bbox": [
+              657,
+              785,
+              719,
+              807
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9969524145126343
+          },
+          {
+            "text": "3,300,000원",
+            "bbox": [
+              94,
+              816,
+              178,
+              841
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9459352493286133
+          },
+          {
+            "text": "880,000원",
+            "bbox": [
+              374,
+              817,
+              447,
+              844
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9918389320373535
+          },
+          {
+            "text": "4,180,000원",
+            "bbox": [
+              655,
+              821,
+              738,
+              845
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9869810342788696
+          },
+          {
+            "text": "본 자료와 인물·업체·금액은가상입니다.실제 지원 자격·선정·지급 효력이 없습니다.",
+            "bbox": [
+              85,
+              855,
+              528,
+              880
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8613715171813965
+          },
+          {
+            "text": "작성일2026-10-25·테스트용가상신청서",
+            "bbox": [
+              678,
+              897,
+              922,
+              918
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9712958931922913
+          },
+          {
+            "text": "가상자료:실제 신청·증명·계약·지급에 사용할 수 없습니다",
+            "bbox": [
+              77,
+              1302,
+              413,
+              1327
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.910969614982605
+          },
+          {
+            "text": "1/6",
+            "bbox": [
+              886,
+              1309,
+              925,
+              1333
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9960811138153076
+          }
+        ],
+        "fields": {
+          "businessName": "가상달빛식당",
+          "businessNo": "0000000100",
+          "representative": "가상지은",
+          "openedOn": "2022-04-18",
+          "phone": "000-0000-0110",
+          "address": "가상시예시구달빛로18,1층",
+          "businessItem": "한식일반음식점",
+          "businessType": "음식점업",
+          "requestedAmount": "3300000",
+          "selfContribution": "880000",
+          "totalAmount": "4180000"
+        },
+        "evidence": {
+          "businessName": {
+            "bbox": [
+              221,
+              231,
+              307,
+              255
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.965006411075592
+          },
+          "businessNo": {
+            "bbox": [
+              222,
+              269,
+              317,
+              293
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9564122557640076
+          },
+          "representative": {
+            "bbox": [
+              639,
+              232,
+              703,
+              263
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9913167357444763
+          },
+          "openedOn": {
+            "bbox": [
+              641,
+              272,
+              722,
+              296
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9576787948608398
+          },
+          "phone": {
+            "bbox": [
+              641,
+              309,
+              744,
+              335
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9853572249412537
+          },
+          "address": {
+            "bbox": [
+              222,
+              307,
+              397,
+              330
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9789438843727112
+          },
+          "businessType": {
+            "bbox": [
+              222,
+              343,
+              385,
+              366
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.978033721446991
+          },
+          "requestedAmount": {
+            "bbox": [
+              94,
+              816,
+              178,
+              841
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9459352493286133
+          },
+          "selfContribution": {
+            "bbox": [
+              374,
+              817,
+              447,
+              844
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9918389320373535
+          },
+          "totalAmount": {
+            "bbox": [
+              655,
+              821,
+              738,
+              845
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9869810342788696
+          }
+        },
+        "photos": [],
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kindLabel": "신청서",
+        "previewKey": "7f9bb5e2c82d1a7a91f9d790cc5b3b42109ee9793fb8ed9a44a2ccb963032e1a.png",
+        "groupStart": true,
+        "ai": {
+          "pageNumber": 1,
+          "fields": {
+            "businessName": "가상달빛식당",
+            "representative": "가상지은",
+            "businessNo": "0000000100",
+            "openedOn": "2022-04-18",
+            "phone": "000-0000-0110",
+            "address": "가상시예시구달빛로18,1층",
+            "businessType": "음식점업",
+            "businessItem": "한식일반음식점",
+            "requestedAmount": "3300000",
+            "selfContribution": "880000",
+            "totalAmount": "4180000"
+          },
+          "evidence": {
+            "businessName": {
+              "lineIndex": 6,
+              "rawValue": "가상달빛식당",
+              "bbox": [
+                221,
+                231,
+                307,
+                255
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "representative": {
+              "lineIndex": 8,
+              "rawValue": "가상지은",
+              "bbox": [
+                639,
+                232,
+                703,
+                263
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "businessNo": {
+              "lineIndex": 10,
+              "rawValue": "000-00-00100",
+              "bbox": [
+                222,
+                269,
+                317,
+                293
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "openedOn": {
+              "lineIndex": 12,
+              "rawValue": "2022-04-18",
+              "bbox": [
+                641,
+                272,
+                722,
+                296
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "phone": {
+              "lineIndex": 16,
+              "rawValue": "000-0000-0110",
+              "bbox": [
+                641,
+                309,
+                744,
+                335
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "address": {
+              "lineIndex": 14,
+              "rawValue": "가상시예시구달빛로18,1층",
+              "bbox": [
+                222,
+                307,
+                397,
+                330
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "businessType": {
+              "lineIndex": 18,
+              "rawValue": "음식점업",
+              "bbox": [
+                222,
+                343,
+                385,
+                366
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "businessItem": {
+              "lineIndex": 18,
+              "rawValue": "한식일반음식점",
+              "bbox": [
+                222,
+                343,
+                385,
+                366
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "requestedAmount": {
+              "lineIndex": 50,
+              "rawValue": "3,300,000원",
+              "bbox": [
+                94,
+                816,
+                178,
+                841
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "selfContribution": {
+              "lineIndex": 51,
+              "rawValue": "880,000원",
+              "bbox": [
+                374,
+                817,
+                447,
+                844
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "totalAmount": {
+              "lineIndex": 52,
+              "rawValue": "4,180,000원",
+              "bbox": [
+                655,
+                821,
+                738,
+                845
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            }
+          },
+          "suggestedKind": "APPLICATION",
+          "kindEvidence": {
+            "lineIndex": 3,
+            "text": "지원사업신청서"
+          },
+          "kindAgreement": true,
+          "kindLabel": "신청서"
+        }
+      },
+      {
+        "pageNumber": 2,
+        "pageCount": 6,
+        "kind": "BUSINESS_PLAN",
+        "width": 992,
+        "height": 1403,
+        "textSource": "PADDLE_OCR",
+        "tableRows": [
+          {
+            "y": 221,
+            "cells": [
+              {
+                "text": "도입기능",
+                "bbox": [
+                  420,
+                  221,
+                  484,
+                  249
+                ]
+              },
+              {
+                "text": "기대 확인",
+                "bbox": [
+                  716,
+                  221,
+                  780,
+                  246
+                ]
+              },
+              {
+                "text": "업무",
+                "bbox": [
+                  85,
+                  224,
+                  124,
+                  253
+                ]
+              },
+              {
+                "text": "현재처리",
+                "bbox": [
+                  204,
+                  226,
+                  268,
+                  251
+                ]
+              }
+            ]
+          },
+          {
+            "y": 258,
+            "cells": [
+              {
+                "text": "누락·재전달 기록",
+                "bbox": [
+                  718,
+                  258,
+                  826,
+                  282
+                ]
+              },
+              {
+                "text": "주문",
+                "bbox": [
+                  85,
+                  261,
+                  124,
+                  290
+                ]
+              },
+              {
+                "text": "종이 전표",
+                "bbox": [
+                  204,
+                  262,
+                  269,
+                  287
+                ]
+              },
+              {
+                "text": "POS 등록·주방 출력",
+                "bbox": [
+                  424,
+                  263,
+                  550,
+                  283
+                ]
+              }
+            ]
+          },
+          {
+            "y": 295,
+            "cells": [
+              {
+                "text": "입출고기록",
+                "bbox": [
+                  717,
+                  295,
+                  794,
+                  320
+                ]
+              },
+              {
+                "text": "품목별화연 관리",
+                "bbox": [
+                  423,
+                  296,
+                  526,
+                  322
+                ]
+              },
+              {
+                "text": "재고",
+                "bbox": [
+                  85,
+                  297,
+                  125,
+                  325
+                ]
+              },
+              {
+                "text": "마감후수기",
+                "bbox": [
+                  204,
+                  299,
+                  284,
+                  323
+                ]
+              }
+            ]
+          },
+          {
+            "y": 332,
+            "cells": [
+              {
+                "text": "직원인계",
+                "bbox": [
+                  84,
+                  332,
+                  153,
+                  364
+                ]
+              },
+              {
+                "text": "공통 메뉴·절차",
+                "bbox": [
+                  423,
+                  333,
+                  520,
+                  359
+                ]
+              },
+              {
+                "text": "교육체크",
+                "bbox": [
+                  718,
+                  333,
+                  781,
+                  355
+                ]
+              },
+              {
+                "text": "구두 전달",
+                "bbox": [
+                  205,
+                  335,
+                  269,
+                  361
+                ]
+              }
+            ]
+          }
+        ],
+        "lines": [
+          {
+            "text": "마음이음디지털전환개발서식",
+            "bbox": [
+              66,
+              49,
+              253,
+              72
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9425482153892517
+          },
+          {
+            "text": "가상예시/공식 서식아님",
+            "bbox": [
+              767,
+              41,
+              916,
+              64
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.947597086429596
+          },
+          {
+            "text": "서식D-02|디지털 전환신청자료",
+            "bbox": [
+              77,
+              123,
+              266,
+              148
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9338443875312805
+          },
+          {
+            "text": "도입전후업무전환 계획",
+            "bbox": [
+              79,
+              152,
+              367,
+              185
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9607425928115845
+          },
+          {
+            "text": "달빛식당의 주문·재고관리전환",
+            "bbox": [
+              79,
+              187,
+              249,
+              204
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.949380099773407
+          },
+          {
+            "text": "업무",
+            "bbox": [
+              85,
+              224,
+              124,
+              253
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9971266984939575
+          },
+          {
+            "text": "현재처리",
+            "bbox": [
+              204,
+              226,
+              268,
+              251
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9972001314163208
+          },
+          {
+            "text": "도입기능",
+            "bbox": [
+              420,
+              221,
+              484,
+              249
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9977980852127075
+          },
+          {
+            "text": "기대 확인",
+            "bbox": [
+              716,
+              221,
+              780,
+              246
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9312084913253784
+          },
+          {
+            "text": "주문",
+            "bbox": [
+              85,
+              261,
+              124,
+              290
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9969242811203003
+          },
+          {
+            "text": "종이 전표",
+            "bbox": [
+              204,
+              262,
+              269,
+              287
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9415262341499329
+          },
+          {
+            "text": "POS 등록·주방 출력",
+            "bbox": [
+              424,
+              263,
+              550,
+              283
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8977351188659668
+          },
+          {
+            "text": "누락·재전달 기록",
+            "bbox": [
+              718,
+              258,
+              826,
+              282
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9307061433792114
+          },
+          {
+            "text": "재고",
+            "bbox": [
+              85,
+              297,
+              125,
+              325
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.988520622253418
+          },
+          {
+            "text": "마감후수기",
+            "bbox": [
+              204,
+              299,
+              284,
+              323
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9931181073188782
+          },
+          {
+            "text": "품목별화연 관리",
+            "bbox": [
+              423,
+              296,
+              526,
+              322
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9329856634140015
+          },
+          {
+            "text": "입출고기록",
+            "bbox": [
+              717,
+              295,
+              794,
+              320
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.97822505235672
+          },
+          {
+            "text": "직원인계",
+            "bbox": [
+              84,
+              332,
+              153,
+              364
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9887316226959229
+          },
+          {
+            "text": "구두 전달",
+            "bbox": [
+              205,
+              335,
+              269,
+              361
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9054115414619446
+          },
+          {
+            "text": "공통 메뉴·절차",
+            "bbox": [
+              423,
+              333,
+              520,
+              359
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9257336258888245
+          },
+          {
+            "text": "교육체크",
+            "bbox": [
+              718,
+              333,
+              781,
+              355
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9971389770507812
+          },
+          {
+            "text": "현행업무와문제",
+            "bbox": [
+              80,
+              400,
+              201,
+              424
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.992843508720398
+          },
+          {
+            "text": "현행업무와문제",
+            "bbox": [
+              89,
+              437,
+              190,
+              461
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.984175980091095
+          },
+          {
+            "text": "점심시간주문은종이 전표로주방에전달하고재고는영업 좋료후수기로집계하고 있습니다.주문 변경내용을다시전달하는일이있어주문",
+            "bbox": [
+              88,
+              466,
+              906,
+              495
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9302085041999817
+          },
+          {
+            "text": "내역과 재고 기록을 한 화면에서 확인할 필요가 있습니다.",
+            "bbox": [
+              89,
+              492,
+              421,
+              514
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.914008378982544
+          },
+          {
+            "text": "도입기능·장비명세",
+            "bbox": [
+              81,
+              543,
+              226,
+              567
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9236304759979248
+          },
+          {
+            "text": "도입기능장비명세",
+            "bbox": [
+              90,
+              583,
+              210,
+              603
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9906185269355774
+          },
+          {
+            "text": "매장용P0S1대와 주방 출력장치2대를설치하고,주요메뉴와재고품목을 초기등록합니다. 직원교육2회를 진행해주문취소·수정과 마감 집",
+            "bbox": [
+              90,
+              611,
+              922,
+              640
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9044596552848816
+          },
+          {
+            "text": "계절차를 연습합니다",
+            "bbox": [
+              90,
+              639,
+              224,
+              660
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9440078735351562
+          },
+          {
+            "text": "운영전환·교육",
+            "bbox": [
+              81,
+              685,
+              193,
+              713
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9400748014450073
+          },
+          {
+            "text": "운영전환·교육",
+            "bbox": [
+              92,
+              726,
+              182,
+              747
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9120681881904602
+          },
+          {
+            "text": "개점 전설치하고비영업 시간에교육합니다.통신장애시에는기존종이 전표로주문을받으며복구후집계합니다.도입이후매월발생하는이",
+            "bbox": [
+              92,
+              756,
+              916,
+              782
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9360150694847107
+          },
+          {
+            "text": "용료와 통신비는 본 건적에서 제외했습니다",
+            "bbox": [
+              92,
+              782,
+              348,
+              804
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8995670080184937
+          },
+          {
+            "text": "완료확인 항목",
+            "bbox": [
+              83,
+              833,
+              188,
+              857
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9390230774879456
+          },
+          {
+            "text": "완료확인항목",
+            "bbox": [
+              94,
+              872,
+              179,
+              893
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9899970889091492
+          },
+          {
+            "text": "메뉴등록, 주문 변경 전달,재고차감과일 마감 집계를 각각실행해 확인합니다매출종가나 주문 오류감소을을임의로 약속하지 않습니다",
+            "bbox": [
+              93,
+              900,
+              894,
+              930
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8916716575622559
+          },
+          {
+            "text": "가상 자료: 실제 신청·증명·계약·지급에사용할 수없습니다",
+            "bbox": [
+              78,
+              1332,
+              413,
+              1353
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9367948174476624
+          },
+          {
+            "text": "2/6",
+            "bbox": [
+              896,
+              1325,
+              935,
+              1351
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8775318264961243
+          }
+        ],
+        "fields": {
+          "planText": "점심시간주문은종이 전표로주방에전달하고재고는영업 좋료후수기로집계하고 있습니다.주문 변경내용을다시전달하는일이있어주문\n내역과 재고 기록을 한 화면에서 확인할 필요가 있습니다.\n매장용P0S1대와 주방 출력장치2대를설치하고,주요메뉴와재고품목을 초기등록합니다. 직원교육2회를 진행해주문취소·수정과 마감 집\n개점 전설치하고비영업 시간에교육합니다.통신장애시에는기존종이 전표로주문을받으며복구후집계합니다.도입이후매월발생하는이\n메뉴등록, 주문 변경 전달,재고차감과일 마감 집계를 각각실행해 확인합니다매출종가나 주문 오류감소을을임의로 약속하지 않습니다"
+        },
+        "evidence": {},
+        "photos": [],
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kindLabel": "사업계획서",
+        "previewKey": "df519d7123a3564c53fa1a7f626781efdd79ab02cec43d1cf3354d89005cbe4c.png",
+        "groupStart": true,
+        "ai": {
+          "pageNumber": 2,
+          "fields": {},
+          "evidence": {},
+          "suggestedKind": "BUSINESS_PLAN",
+          "kindEvidence": {
+            "lineIndex": 3,
+            "text": "도입전후업무전환 계획"
+          },
+          "kindAgreement": true,
+          "kindLabel": "사업계획서"
+        }
+      },
+      {
+        "pageNumber": 3,
+        "pageCount": 6,
+        "kind": "BUSINESS_PLAN",
+        "width": 992,
+        "height": 1403,
+        "textSource": "PADDLE_OCR",
+        "tableRows": [
+          {
+            "y": 52,
+            "cells": [
+              {
+                "text": "마음이음디지털전환개별서식",
+                "bbox": [
+                  70,
+                  52,
+                  258,
+                  72
+                ]
+              },
+              {
+                "text": "가상예시/공식 서식아님",
+                "bbox": [
+                  774,
+                  53,
+                  925,
+                  76
+                ]
+              }
+            ]
+          },
+          {
+            "y": 226,
+            "cells": [
+              {
+                "text": "품목-규격",
+                "bbox": [
+                  89,
+                  226,
+                  159,
+                  252
+                ]
+              },
+              {
+                "text": "단가",
+                "bbox": [
+                  586,
+                  227,
+                  626,
+                  256
+                ]
+              },
+              {
+                "text": "금액",
+                "bbox": [
+                  760,
+                  229,
+                  800,
+                  257
+                ]
+              },
+              {
+                "text": "수량",
+                "bbox": [
+                  496,
+                  230,
+                  535,
+                  256
+                ]
+              }
+            ]
+          },
+          {
+            "y": 274,
+            "cells": [
+              {
+                "text": "1대",
+                "bbox": [
+                  496,
+                  274,
+                  534,
+                  303
+                ]
+              },
+              {
+                "text": "1,600,000원",
+                "bbox": [
+                  589,
+                  277,
+                  672,
+                  302
+                ]
+              },
+              {
+                "text": "1,60,000원",
+                "bbox": [
+                  761,
+                  277,
+                  846,
+                  305
+                ]
+              }
+            ]
+          },
+          {
+            "y": 331,
+            "cells": [
+              {
+                "text": "2대",
+                "bbox": [
+                  496,
+                  331,
+                  534,
+                  361
+                ]
+              },
+              {
+                "text": "600,000원",
+                "bbox": [
+                  760,
+                  331,
+                  835,
+                  362
+                ]
+              },
+              {
+                "text": "300,000원",
+                "bbox": [
+                  589,
+                  334,
+                  661,
+                  359
+                ]
+              }
+            ]
+          },
+          {
+            "y": 389,
+            "cells": [
+              {
+                "text": "1식",
+                "bbox": [
+                  496,
+                  389,
+                  533,
+                  418
+                ]
+              },
+              {
+                "text": "900,000원",
+                "bbox": [
+                  587,
+                  389,
+                  662,
+                  417
+                ]
+              },
+              {
+                "text": "900,000원",
+                "bbox": [
+                  762,
+                  393,
+                  834,
+                  418
+                ]
+              }
+            ]
+          },
+          {
+            "y": 445,
+            "cells": [
+              {
+                "text": "2회",
+                "bbox": [
+                  495,
+                  445,
+                  533,
+                  473
+                ]
+              },
+              {
+                "text": "700,000원",
+                "bbox": [
+                  762,
+                  447,
+                  835,
+                  476
+                ]
+              },
+              {
+                "text": "350,000원",
+                "bbox": [
+                  589,
+                  448,
+                  662,
+                  473
+                ]
+              }
+            ]
+          },
+          {
+            "y": 491,
+            "cells": [
+              {
+                "text": "공급가액",
+                "bbox": [
+                  91,
+                  491,
+                  153,
+                  517
+                ]
+              },
+              {
+                "text": "3,800,000원",
+                "bbox": [
+                  762,
+                  496,
+                  846,
+                  521
+                ]
+              }
+            ]
+          },
+          {
+            "y": 646,
+            "cells": [
+              {
+                "text": "지원신청액",
+                "bbox": [
+                  87,
+                  646,
+                  167,
+                  674
+                ]
+              },
+              {
+                "text": "자부담",
+                "bbox": [
+                  296,
+                  647,
+                  349,
+                  677
+                ]
+              },
+              {
+                "text": "총사업비",
+                "bbox": [
+                  490,
+                  649,
+                  554,
+                  675
+                ]
+              }
+            ]
+          },
+          {
+            "y": 682,
+            "cells": [
+              {
+                "text": "880,000원",
+                "bbox": [
+                  296,
+                  682,
+                  372,
+                  714
+                ]
+              },
+              {
+                "text": "3,300,000원",
+                "bbox": [
+                  88,
+                  684,
+                  173,
+                  711
+                ]
+              }
+            ]
+          },
+          {
+            "y": 688,
+            "cells": [
+              {
+                "text": "4,180,000원",
+                "bbox": [
+                  490,
+                  688,
+                  574,
+                  712
+                ]
+              },
+              {
+                "text": "신청액+자부담=건적총액",
+                "bbox": [
+                  690,
+                  688,
+                  859,
+                  715
+                ]
+              }
+            ]
+          },
+          {
+            "y": 765,
+            "cells": [
+              {
+                "text": "시점",
+                "bbox": [
+                  87,
+                  765,
+                  127,
+                  795
+                ]
+              },
+              {
+                "text": "작업·확인",
+                "bbox": [
+                  198,
+                  767,
+                  268,
+                  793
+                ]
+              },
+              {
+                "text": "기록물",
+                "bbox": [
+                  655,
+                  770,
+                  706,
+                  796
+                ]
+              }
+            ]
+          },
+          {
+            "y": 803,
+            "cells": [
+              {
+                "text": "1~3일",
+                "bbox": [
+                  89,
+                  803,
+                  137,
+                  830
+                ]
+              },
+              {
+                "text": "기존 주문호름 확인·메뉴목록정리",
+                "bbox": [
+                  200,
+                  805,
+                  411,
+                  829
+                ]
+              },
+              {
+                "text": "사업주/메뉴·품목 목록",
+                "bbox": [
+                  658,
+                  808,
+                  804,
+                  832
+                ]
+              }
+            ]
+          },
+          {
+            "y": 839,
+            "cells": [
+              {
+                "text": "4~7일",
+                "bbox": [
+                  88,
+                  839,
+                  136,
+                  867
+                ]
+              },
+              {
+                "text": "장비설치·초기데이터등록",
+                "bbox": [
+                  200,
+                  842,
+                  365,
+                  865
+                ]
+              },
+              {
+                "text": "공급업체/설치·설정 내역",
+                "bbox": [
+                  658,
+                  844,
+                  817,
+                  870
+                ]
+              }
+            ]
+          },
+          {
+            "y": 876,
+            "cells": [
+              {
+                "text": "8~10일",
+                "bbox": [
+                  88,
+                  876,
+                  143,
+                  903
+                ]
+              },
+              {
+                "text": "직원교육·주문변경·마감점검",
+                "bbox": [
+                  200,
+                  879,
+                  387,
+                  902
+                ]
+              }
+            ]
+          }
+        ],
+        "lines": [
+          {
+            "text": "마음이음디지털전환개별서식",
+            "bbox": [
+              70,
+              52,
+              258,
+              72
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9571183919906616
+          },
+          {
+            "text": "가상예시/공식 서식아님",
+            "bbox": [
+              774,
+              53,
+              925,
+              76
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9346042275428772
+          },
+          {
+            "text": "세식D-03|디지털전환신청자료",
+            "bbox": [
+              79,
+              126,
+              268,
+              148
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.934763491153717
+          },
+          {
+            "text": "장비·기능별 산출및 설치일정",
+            "bbox": [
+              80,
+              153,
+              439,
+              189
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9511534571647644
+          },
+          {
+            "text": "적변호 TEST-Q-DIGITAL-001",
+            "bbox": [
+              80,
+              186,
+              257,
+              208
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9586607217788696
+          },
+          {
+            "text": "품목-규격",
+            "bbox": [
+              89,
+              226,
+              159,
+              252
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9234409332275391
+          },
+          {
+            "text": "수량",
+            "bbox": [
+              496,
+              230,
+              535,
+              256
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9992341995239258
+          },
+          {
+            "text": "단가",
+            "bbox": [
+              586,
+              227,
+              626,
+              256
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9945293068885803
+          },
+          {
+            "text": "금액",
+            "bbox": [
+              760,
+              229,
+              800,
+              257
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9935418367385864
+          },
+          {
+            "text": "매장용POS",
+            "bbox": [
+              91,
+              264,
+              169,
+              287
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9615247845649719
+          },
+          {
+            "text": "가상모델POS-D1/본체및설정",
+            "bbox": [
+              90,
+              283,
+              288,
+              309
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9512461423873901
+          },
+          {
+            "text": "1대",
+            "bbox": [
+              496,
+              274,
+              534,
+              303
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9950598478317261
+          },
+          {
+            "text": "1,600,000원",
+            "bbox": [
+              589,
+              277,
+              672,
+              302
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9927905201911926
+          },
+          {
+            "text": "1,60,000원",
+            "bbox": [
+              761,
+              277,
+              846,
+              305
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9627206325531006
+          },
+          {
+            "text": "주방출력장치",
+            "bbox": [
+              91,
+              321,
+              183,
+              345
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9796149134635925
+          },
+          {
+            "text": "2대",
+            "bbox": [
+              496,
+              331,
+              534,
+              361
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9983376264572144
+          },
+          {
+            "text": "300,000원",
+            "bbox": [
+              589,
+              334,
+              661,
+              359
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9146261215209961
+          },
+          {
+            "text": "600,000원",
+            "bbox": [
+              760,
+              331,
+              835,
+              362
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9929662346839905
+          },
+          {
+            "text": "가상모델PR-D2/주방·음료구역",
+            "bbox": [
+              92,
+              343,
+              296,
+              364
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9797073602676392
+          },
+          {
+            "text": "메뉴·재고 초기 구축",
+            "bbox": [
+              91,
+              376,
+              216,
+              402
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8789303302764893
+          },
+          {
+            "text": "매뉴 및 품목 등록·연동설정",
+            "bbox": [
+              91,
+              398,
+              261,
+              422
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8783242702484131
+          },
+          {
+            "text": "1식",
+            "bbox": [
+              496,
+              389,
+              533,
+              418
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9966946244239807
+          },
+          {
+            "text": "900,000원",
+            "bbox": [
+              587,
+              389,
+              662,
+              417
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.995553731918335
+          },
+          {
+            "text": "900,000원",
+            "bbox": [
+              762,
+              393,
+              834,
+              418
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9869009852409363
+          },
+          {
+            "text": "직원사용교육",
+            "bbox": [
+              92,
+              435,
+              182,
+              456
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9976077079772949
+          },
+          {
+            "text": "주문변경-취소·일마감실습",
+            "bbox": [
+              90,
+              453,
+              266,
+              480
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9614104628562927
+          },
+          {
+            "text": "2회",
+            "bbox": [
+              495,
+              445,
+              533,
+              473
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9731861352920532
+          },
+          {
+            "text": "350,000원",
+            "bbox": [
+              589,
+              448,
+              662,
+              473
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.978103518486023
+          },
+          {
+            "text": "700,000원",
+            "bbox": [
+              762,
+              447,
+              835,
+              476
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9792929887771606
+          },
+          {
+            "text": "공급가액",
+            "bbox": [
+              91,
+              491,
+              153,
+              517
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9985935688018799
+          },
+          {
+            "text": "3,800,000원",
+            "bbox": [
+              762,
+              496,
+              846,
+              521
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9958008527755737
+          },
+          {
+            "text": "부가세",
+            "bbox": [
+              89,
+              526,
+              141,
+              556
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9932469725608826
+          },
+          {
+            "text": "380,000원",
+            "bbox": [
+              762,
+              533,
+              834,
+              558
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9544657468795776
+          },
+          {
+            "text": "총액",
+            "bbox": [
+              88,
+              563,
+              129,
+              592
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9719891548156738
+          },
+          {
+            "text": "4,180,000원",
+            "bbox": [
+              762,
+              571,
+              846,
+              596
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9552704691886902
+          },
+          {
+            "text": "재원대조",
+            "bbox": [
+              78,
+              606,
+              155,
+              636
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9977584481239319
+          },
+          {
+            "text": "지원신청액",
+            "bbox": [
+              87,
+              646,
+              167,
+              674
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9868893623352051
+          },
+          {
+            "text": "자부담",
+            "bbox": [
+              296,
+              647,
+              349,
+              677
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9957287907600403
+          },
+          {
+            "text": "총사업비",
+            "bbox": [
+              490,
+              649,
+              554,
+              675
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9964705109596252
+          },
+          {
+            "text": "합계대조",
+            "bbox": [
+              689,
+              652,
+              754,
+              677
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9972501993179321
+          },
+          {
+            "text": "3,300,000원",
+            "bbox": [
+              88,
+              684,
+              173,
+              711
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.988893985748291
+          },
+          {
+            "text": "880,000원",
+            "bbox": [
+              296,
+              682,
+              372,
+              714
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9969867467880249
+          },
+          {
+            "text": "4,180,000원",
+            "bbox": [
+              490,
+              688,
+              574,
+              712
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9560545682907104
+          },
+          {
+            "text": "신청액+자부담=건적총액",
+            "bbox": [
+              690,
+              688,
+              859,
+              715
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9506142735481262
+          },
+          {
+            "text": "추진일정",
+            "bbox": [
+              78,
+              723,
+              156,
+              759
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9925326704978943
+          },
+          {
+            "text": "시점",
+            "bbox": [
+              87,
+              765,
+              127,
+              795
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9854220151901245
+          },
+          {
+            "text": "작업·확인",
+            "bbox": [
+              198,
+              767,
+              268,
+              793
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9847389459609985
+          },
+          {
+            "text": "기록물",
+            "bbox": [
+              655,
+              770,
+              706,
+              796
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9928116202354431
+          },
+          {
+            "text": "1~3일",
+            "bbox": [
+              89,
+              803,
+              137,
+              830
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9853495955467224
+          },
+          {
+            "text": "기존 주문호름 확인·메뉴목록정리",
+            "bbox": [
+              200,
+              805,
+              411,
+              829
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.915140688419342
+          },
+          {
+            "text": "사업주/메뉴·품목 목록",
+            "bbox": [
+              658,
+              808,
+              804,
+              832
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9142417907714844
+          },
+          {
+            "text": "4~7일",
+            "bbox": [
+              88,
+              839,
+              136,
+              867
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9923287034034729
+          },
+          {
+            "text": "장비설치·초기데이터등록",
+            "bbox": [
+              200,
+              842,
+              365,
+              865
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.957169234752655
+          },
+          {
+            "text": "공급업체/설치·설정 내역",
+            "bbox": [
+              658,
+              844,
+              817,
+              870
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9377354979515076
+          },
+          {
+            "text": "8~10일",
+            "bbox": [
+              88,
+              876,
+              143,
+              903
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9588619470596313
+          },
+          {
+            "text": "직원교육·주문변경·마감점검",
+            "bbox": [
+              200,
+              879,
+              387,
+              902
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.967892050743103
+          },
+          {
+            "text": "사업주·직원/교육·확인표",
+            "bbox": [
+              658,
+              884,
+              820,
+              905
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9928696751594543
+          },
+          {
+            "text": "가상계획입니다.설치·제작·공사·비용지급이실제로이루어졌다는 뜻이 아닙니다.",
+            "bbox": [
+              79,
+              923,
+              513,
+              948
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8793031573295593
+          },
+          {
+            "text": "가상자료:실제 신청·증명·계약·지급에 사용할 수없습니다",
+            "bbox": [
+              71,
+              1315,
+              404,
+              1341
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9163103103637695
+          },
+          {
+            "text": "3/6",
+            "bbox": [
+              887,
+              1325,
+              925,
+              1349
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9939683079719543
+          }
+        ],
+        "fields": {
+          "totalAmount": "4180000",
+          "planText": "가상자료:실제 신청·증명·계약·지급에 사용할 수없습니다"
+        },
+        "evidence": {
+          "totalAmount": {
+            "bbox": [
+              762,
+              571,
+              846,
+              596
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9552704691886902
+          }
+        },
+        "photos": [],
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kindLabel": "사업계획서",
+        "previewKey": "b202db3d0900165acbd66a23d507973c339ac4d5da486d4c1db9d1e43f66c7ee.png",
+        "groupStart": false,
+        "ai": {
+          "pageNumber": 3,
+          "fields": {},
+          "evidence": {},
+          "suggestedKind": "BUSINESS_PLAN",
+          "kindEvidence": {
+            "lineIndex": 3,
+            "text": "장비·기능별 산출및 설치일정"
+          },
+          "kindAgreement": true,
+          "kindLabel": "사업계획서"
+        }
+      },
+      {
+        "pageNumber": 4,
+        "pageCount": 6,
+        "kind": "PHOTO_SHEET",
+        "width": 992,
+        "height": 1403,
+        "textSource": "PADDLE_OCR",
+        "tableRows": [],
+        "lines": [
+          {
+            "text": "마음이음ㅣ디지털전한개별서식",
+            "bbox": [
+              85,
+              57,
+              269,
+              78
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8937917947769165
+          },
+          {
+            "text": "가상예시/공식서식아님",
+            "bbox": [
+              779,
+              60,
+              923,
+              80
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9754600524902344
+          },
+          {
+            "text": "서식D-04|디지털전환 신청자료",
+            "bbox": [
+              97,
+              133,
+              278,
+              149
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9507032036781311
+          },
+          {
+            "text": "업무 공간 현황·장비 배치",
+            "bbox": [
+              97,
+              158,
+              390,
+              189
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.913497269153595
+          },
+          {
+            "text": "A생성현황예시/실제현장·활영·시공 증거아님",
+            "bbox": [
+              93,
+              189,
+              357,
+              210
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9205421209335327
+          },
+          {
+            "text": "현황참고이미지",
+            "bbox": [
+              105,
+              231,
+              200,
+              249
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9867907166481018
+          },
+          {
+            "text": "A생성현황 예시 실제 사업장·활영일·설비상태·시공 결과를 증명하지 않습니다.",
+            "bbox": [
+              89,
+              762,
+              514,
+              781
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8961174488067627
+          },
+          {
+            "text": "사진과계획의연결",
+            "bbox": [
+              90,
+              791,
+              224,
+              817
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9974953532218933
+          },
+          {
+            "text": "현황항목",
+            "bbox": [
+              98,
+              832,
+              161,
+              854
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9705414175987244
+          },
+          {
+            "text": "계획된 확인",
+            "bbox": [
+              252,
+              833,
+              326,
+              854
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9232437610626221
+          },
+          {
+            "text": "주문전달",
+            "bbox": [
+              98,
+              867,
+              162,
+              892
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9803758859634399
+          },
+          {
+            "text": "좋이 전표를 손으로 전달",
+            "bbox": [
+              253,
+              870,
+              397,
+              890
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8785366415977478
+          },
+          {
+            "text": "주방출력장치2개구역연동",
+            "bbox": [
+              587,
+              868,
+              755,
+              891
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9741477966308594
+          },
+          {
+            "text": "재고관리",
+            "bbox": [
+              98,
+              905,
+              161,
+              926
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9938646554946899
+          },
+          {
+            "text": "영업종료후수기집계",
+            "bbox": [
+              254,
+              906,
+              387,
+              926
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9583473205566406
+          },
+          {
+            "text": "주요품목등록과 재고차감 확인",
+            "bbox": [
+              587,
+              906,
+              774,
+              926
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8866602778434753
+          },
+          {
+            "text": "직원사용",
+            "bbox": [
+              97,
+              940,
+              161,
+              965
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9989983439445496
+          },
+          {
+            "text": "디지털 장비 사용 경험이 적음",
+            "bbox": [
+              253,
+              941,
+              425,
+              964
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8919894099235535
+          },
+          {
+            "text": "비영업시간교육2회진행",
+            "bbox": [
+              586,
+              943,
+              740,
+              963
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9861792922019958
+          },
+          {
+            "text": "AI 생성 현황 예시,실제 사업장·활영일·설비 상태·시공 결과를 증명하지 않습니다",
+            "bbox": [
+              89,
+              983,
+              514,
+              1000
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8952592015266418
+          },
+          {
+            "text": "가상자료:실제신청·중명·계약·지급예 사용할수없습니다",
+            "bbox": [
+              82,
+              1316,
+              412,
+              1333
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9380612373352051
+          },
+          {
+            "text": "4/6",
+            "bbox": [
+              893,
+              1316,
+              929,
+              1339
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9469507336616516
+          }
+        ],
+        "fields": {},
+        "evidence": {},
+        "photos": [
+          {
+            "bbox": [
+              95,
+              226,
+              930,
+              754
+            ],
+            "method": "OPENCV_CANDIDATE",
+            "storageKey": "dfbb7b03521cb3a7be325d290d439996a5348807e5fd0bcdcd7bd37b67973335.png"
+          }
+        ],
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kindLabel": "현장 사진",
+        "previewKey": "e72cee6a276f0dd1fa0a42961bf79611838ad5ad3c85c1188d85ac40ce380842.png",
+        "groupStart": true,
+        "ai": {
+          "pageNumber": 4,
+          "fields": {},
+          "evidence": {},
+          "suggestedKind": "PHOTO_SHEET",
+          "kindEvidence": {
+            "lineIndex": 3,
+            "text": "업무 공간 현황·장비 배치"
+          },
+          "kindAgreement": true,
+          "kindLabel": "현장 사진"
+        }
+      },
+      {
+        "pageNumber": 5,
+        "pageCount": 6,
+        "kind": "BUSINESS_CERT",
+        "width": 992,
+        "height": 1403,
+        "textSource": "PADDLE_OCR",
+        "tableRows": [],
+        "lines": [
+          {
+            "text": "마음이음|디지털전환개별서식",
+            "bbox": [
+              77,
+              58,
+              263,
+              81
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9137142300605774
+          },
+          {
+            "text": "가상예시/공식 서식아님",
+            "bbox": [
+              771,
+              61,
+              920,
+              82
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9286217093467712
+          },
+          {
+            "text": "첨부서류A/사업자정보대조용",
+            "bbox": [
+              88,
+              134,
+              270,
+              153
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9930739402770996
+          },
+          {
+            "text": "사업자등록증 예시(가상)",
+            "bbox": [
+              87,
+              164,
+              385,
+              204
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9630213379859924
+          },
+          {
+            "text": "실제세무기관 발급 문서가 아니며 자격 증빙으로사용할 수없습니다.",
+            "bbox": [
+              263,
+              198,
+              735,
+              226
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8989692330360413
+          },
+          {
+            "text": "등록번호",
+            "bbox": [
+              94,
+              282,
+              161,
+              313
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9936574697494507
+          },
+          {
+            "text": "000-00-00100",
+            "bbox": [
+              285,
+              287,
+              383,
+              312
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9892260432243347
+          },
+          {
+            "text": "상호",
+            "bbox": [
+              95,
+              359,
+              134,
+              387
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9971199631690979
+          },
+          {
+            "text": "가상달빛식당",
+            "bbox": [
+              283,
+              357,
+              374,
+              388
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9876478314399719
+          },
+          {
+            "text": "성명(대표자)",
+            "bbox": [
+              97,
+              436,
+              184,
+              461
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9969469308853149
+          },
+          {
+            "text": "가상지은",
+            "bbox": [
+              282,
+              432,
+              349,
+              464
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9936527013778687
+          },
+          {
+            "text": "개업연월일",
+            "bbox": [
+              96,
+              510,
+              172,
+              535
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9985059499740601
+          },
+          {
+            "text": "2022년 04월 18일",
+            "bbox": [
+              285,
+              510,
+              402,
+              535
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9473369121551514
+          },
+          {
+            "text": "사업장소재지",
+            "bbox": [
+              96,
+              597,
+              186,
+              622
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9932382702827454
+          },
+          {
+            "text": "가상시예시구달빛로18,1층",
+            "bbox": [
+              285,
+              597,
+              463,
+              623
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.979315459728241
+          },
+          {
+            "text": "사업의 종류",
+            "bbox": [
+              94,
+              694,
+              174,
+              726
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9580085873603821
+          },
+          {
+            "text": "업태:음식점업",
+            "bbox": [
+              286,
+              690,
+              380,
+              713
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9676797986030579
+          },
+          {
+            "text": "종목:한식일반음식점",
+            "bbox": [
+              287,
+              711,
+              421,
+              732
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9711785316467285
+          },
+          {
+            "text": "사업자유형",
+            "bbox": [
+              95,
+              786,
+              174,
+              814
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9568911790847778
+          },
+          {
+            "text": "개인사업자(가상 분류)",
+            "bbox": [
+              285,
+              786,
+              426,
+              813
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9534263610839844
+          },
+          {
+            "text": "시험자료 안내",
+            "bbox": [
+              96,
+              870,
+              186,
+              894
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9259405136108398
+          },
+          {
+            "text": "신청서와상호-대표자·번호-개업일을대조하기위한 가상 사례입니다.실제 개인정보·관인·QR발급기관표시는없습니다.",
+            "bbox": [
+              98,
+              906,
+              813,
+              930
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8990373015403748
+          },
+          {
+            "text": "2026년10월25일/마음이음테스트자료제작자(가상)",
+            "bbox": [
+              306,
+              970,
+              693,
+              999
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9732407927513123
+          },
+          {
+            "text": "가상자료: 실제 신청-증명·계약·지급에사용할수없습니다",
+            "bbox": [
+              78,
+              1321,
+              412,
+              1344
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9314867258071899
+          },
+          {
+            "text": "5/6",
+            "bbox": [
+              887,
+              1321,
+              926,
+              1347
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9909270405769348
+          }
+        ],
+        "fields": {
+          "businessName": "가상달빛식당",
+          "businessNo": "0000000100",
+          "representative": "가상지은",
+          "openedOn": "2022-04-18",
+          "address": "가상시예시구달빛로18,1층",
+          "businessType": "음식점업",
+          "businessItem": "한식일반음식점"
+        },
+        "evidence": {
+          "businessName": {
+            "bbox": [
+              283,
+              357,
+              374,
+              388
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9876478314399719
+          },
+          "businessNo": {
+            "bbox": [
+              285,
+              287,
+              383,
+              312
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9892260432243347
+          },
+          "representative": {
+            "bbox": [
+              282,
+              432,
+              349,
+              464
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9936527013778687
+          },
+          "openedOn": {
+            "bbox": [
+              285,
+              510,
+              402,
+              535
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9473369121551514
+          },
+          "address": {
+            "bbox": [
+              285,
+              597,
+              463,
+              623
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.979315459728241
+          },
+          "businessType": {
+            "bbox": [
+              286,
+              690,
+              380,
+              713
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9676797986030579
+          },
+          "businessItem": {
+            "bbox": [
+              287,
+              711,
+              421,
+              732
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9711785316467285
+          }
+        },
+        "photos": [],
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kindLabel": "사업자등록증",
+        "previewKey": "d382ff23d0dba79605c6b4eb16b2f3b6e9036fe989aa49aa67c8dc38660dc555.png",
+        "groupStart": true,
+        "ai": {
+          "pageNumber": 5,
+          "fields": {
+            "businessName": "가상달빛식당",
+            "representative": "가상지은",
+            "businessNo": "0000000100",
+            "openedOn": "2022-04-18",
+            "address": "가상시예시구달빛로18,1층",
+            "businessType": "음식점업",
+            "businessItem": "한식일반음식점"
+          },
+          "evidence": {
+            "businessName": {
+              "lineIndex": 8,
+              "rawValue": "가상달빛식당",
+              "bbox": [
+                283,
+                357,
+                374,
+                388
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "representative": {
+              "lineIndex": 10,
+              "rawValue": "가상지은",
+              "bbox": [
+                282,
+                432,
+                349,
+                464
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "businessNo": {
+              "lineIndex": 6,
+              "rawValue": "000-00-00100",
+              "bbox": [
+                285,
+                287,
+                383,
+                312
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "openedOn": {
+              "lineIndex": 12,
+              "rawValue": "2022년 04월 18일",
+              "bbox": [
+                285,
+                510,
+                402,
+                535
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "address": {
+              "lineIndex": 14,
+              "rawValue": "가상시예시구달빛로18,1층",
+              "bbox": [
+                285,
+                597,
+                463,
+                623
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "businessType": {
+              "lineIndex": 16,
+              "rawValue": "음식점업",
+              "bbox": [
+                286,
+                690,
+                380,
+                713
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "businessItem": {
+              "lineIndex": 17,
+              "rawValue": "한식일반음식점",
+              "bbox": [
+                287,
+                711,
+                421,
+                732
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            }
+          },
+          "suggestedKind": "BUSINESS_CERT",
+          "kindEvidence": {
+            "lineIndex": 2,
+            "text": "첨부서류A/사업자정보대조용"
+          },
+          "kindAgreement": true,
+          "kindLabel": "사업자등록증"
+        }
+      },
+      {
+        "pageNumber": 6,
+        "pageCount": 6,
+        "kind": "ESTIMATE",
+        "width": 992,
+        "height": 1403,
+        "textSource": "PADDLE_OCR",
+        "tableRows": [
+          {
+            "y": 251,
+            "cells": [
+              {
+                "text": "예시디지털상점",
+                "bbox": [
+                  633,
+                  251,
+                  729,
+                  277
+                ]
+              },
+              {
+                "text": "상호",
+                "bbox": [
+                  504,
+                  254,
+                  544,
+                  284
+                ]
+              }
+            ]
+          },
+          {
+            "y": 263,
+            "cells": [
+              {
+                "text": "가상달빛식당",
+                "bbox": [
+                  211,
+                  263,
+                  298,
+                  287
+                ]
+              },
+              {
+                "text": "상호",
+                "bbox": [
+                  85,
+                  264,
+                  124,
+                  294
+                ]
+              }
+            ]
+          },
+          {
+            "y": 289,
+            "cells": [
+              {
+                "text": "가상도윤",
+                "bbox": [
+                  633,
+                  289,
+                  694,
+                  314
+                ]
+              },
+              {
+                "text": "대표자",
+                "bbox": [
+                  505,
+                  291,
+                  557,
+                  318
+                ]
+              }
+            ]
+          },
+          {
+            "y": 299,
+            "cells": [
+              {
+                "text": "가상지은",
+                "bbox": [
+                  212,
+                  299,
+                  274,
+                  325
+                ]
+              },
+              {
+                "text": "대표자",
+                "bbox": [
+                  84,
+                  300,
+                  137,
+                  330
+                ]
+              }
+            ]
+          },
+          {
+            "y": 325,
+            "cells": [
+              {
+                "text": "000-00-00101",
+                "bbox": [
+                  633,
+                  325,
+                  730,
+                  351
+                ]
+              },
+              {
+                "text": "사업자번호",
+                "bbox": [
+                  509,
+                  329,
+                  582,
+                  354
+                ]
+              }
+            ]
+          },
+          {
+            "y": 334,
+            "cells": [
+              {
+                "text": "000-00-00100",
+                "bbox": [
+                  213,
+                  334,
+                  309,
+                  361
+                ]
+              },
+              {
+                "text": "사업자번호",
+                "bbox": [
+                  86,
+                  338,
+                  162,
+                  365
+                ]
+              }
+            ]
+          },
+          {
+            "y": 362,
+            "cells": [
+              {
+                "text": "2026-11-11",
+                "bbox": [
+                  635,
+                  362,
+                  714,
+                  386
+                ]
+              },
+              {
+                "text": "유효기간",
+                "bbox": [
+                  508,
+                  363,
+                  570,
+                  392
+                ]
+              }
+            ]
+          },
+          {
+            "y": 370,
+            "cells": [
+              {
+                "text": "2026-10-20",
+                "bbox": [
+                  212,
+                  370,
+                  294,
+                  397
+                ]
+              },
+              {
+                "text": "건적일",
+                "bbox": [
+                  89,
+                  375,
+                  137,
+                  402
+                ]
+              }
+            ]
+          },
+          {
+            "y": 412,
+            "cells": [
+              {
+                "text": "금액",
+                "bbox": [
+                  757,
+                  412,
+                  796,
+                  439
+                ]
+              },
+              {
+                "text": "단가",
+                "bbox": [
+                  585,
+                  415,
+                  624,
+                  443
+                ]
+              },
+              {
+                "text": "수량",
+                "bbox": [
+                  495,
+                  417,
+                  533,
+                  445
+                ]
+              }
+            ]
+          },
+          {
+            "y": 461,
+            "cells": [
+              {
+                "text": "1,600,000원",
+                "bbox": [
+                  587,
+                  461,
+                  672,
+                  487
+                ]
+              },
+              {
+                "text": "매장용 POS",
+                "bbox": [
+                  92,
+                  463,
+                  169,
+                  489
+                ]
+              },
+              {
+                "text": "1대",
+                "bbox": [
+                  495,
+                  463,
+                  530,
+                  492
+                ]
+              }
+            ]
+          },
+          {
+            "y": 513,
+            "cells": [
+              {
+                "text": "600,000원",
+                "bbox": [
+                  761,
+                  513,
+                  835,
+                  541
+                ]
+              },
+              {
+                "text": "300,000원",
+                "bbox": [
+                  588,
+                  518,
+                  662,
+                  545
+                ]
+              }
+            ]
+          },
+          {
+            "y": 519,
+            "cells": [
+              {
+                "text": "주방 출력장치",
+                "bbox": [
+                  93,
+                  519,
+                  187,
+                  546
+                ]
+              },
+              {
+                "text": "2대",
+                "bbox": [
+                  495,
+                  520,
+                  532,
+                  548
+                ]
+              }
+            ]
+          },
+          {
+            "y": 574,
+            "cells": [
+              {
+                "text": "900,000원",
+                "bbox": [
+                  763,
+                  574,
+                  835,
+                  596
+                ]
+              },
+              {
+                "text": "메뉴·재고초기구축",
+                "bbox": [
+                  94,
+                  575,
+                  222,
+                  603
+                ]
+              },
+              {
+                "text": "900,000원",
+                "bbox": [
+                  591,
+                  576,
+                  663,
+                  601
+                ]
+              },
+              {
+                "text": "1식",
+                "bbox": [
+                  498,
+                  579,
+                  533,
+                  604
+                ]
+              }
+            ]
+          },
+          {
+            "y": 630,
+            "cells": [
+              {
+                "text": "350,000원",
+                "bbox": [
+                  592,
+                  630,
+                  664,
+                  660
+                ]
+              },
+              {
+                "text": "700,000원",
+                "bbox": [
+                  766,
+                  630,
+                  837,
+                  655
+                ]
+              }
+            ]
+          },
+          {
+            "y": 636,
+            "cells": [
+              {
+                "text": "직원사용 교육",
+                "bbox": [
+                  97,
+                  636,
+                  187,
+                  657
+                ]
+              },
+              {
+                "text": "2회",
+                "bbox": [
+                  499,
+                  637,
+                  533,
+                  661
+                ]
+              }
+            ]
+          }
+        ],
+        "lines": [
+          {
+            "text": "가상예시/공식서식아님",
+            "bbox": [
+              764,
+              31,
+              913,
+              56
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9701648354530334
+          },
+          {
+            "text": "마음이음ㅣ디지털전환개별서식",
+            "bbox": [
+              62,
+              50,
+              251,
+              76
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9175349473953247
+          },
+          {
+            "text": "서식D-첨부|디지털전환신청자료",
+            "bbox": [
+              75,
+              124,
+              270,
+              152
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9267157316207886
+          },
+          {
+            "text": "사업별견적서예시",
+            "bbox": [
+              76,
+              152,
+              303,
+              192
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9669255018234253
+          },
+          {
+            "text": "TEST-Q-DIGITAL-001/가상거래·청구용 아님",
+            "bbox": [
+              76,
+              184,
+              333,
+              211
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.941258430480957
+          },
+          {
+            "text": "공급자",
+            "bbox": [
+              505,
+              219,
+              555,
+              246
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9988911747932434
+          },
+          {
+            "text": "공급받는자",
+            "bbox": [
+              84,
+              228,
+              163,
+              255
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.992240309715271
+          },
+          {
+            "text": "상호",
+            "bbox": [
+              504,
+              254,
+              544,
+              284
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9865168333053589
+          },
+          {
+            "text": "예시디지털상점",
+            "bbox": [
+              633,
+              251,
+              729,
+              277
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9926067590713501
+          },
+          {
+            "text": "상호",
+            "bbox": [
+              85,
+              264,
+              124,
+              294
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9960613250732422
+          },
+          {
+            "text": "가상달빛식당",
+            "bbox": [
+              211,
+              263,
+              298,
+              287
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9862455725669861
+          },
+          {
+            "text": "대표자",
+            "bbox": [
+              505,
+              291,
+              557,
+              318
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9965944290161133
+          },
+          {
+            "text": "가상도윤",
+            "bbox": [
+              633,
+              289,
+              694,
+              314
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9963222146034241
+          },
+          {
+            "text": "대표자",
+            "bbox": [
+              84,
+              300,
+              137,
+              330
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9957435727119446
+          },
+          {
+            "text": "가상지은",
+            "bbox": [
+              212,
+              299,
+              274,
+              325
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.993518054485321
+          },
+          {
+            "text": "사업자번호",
+            "bbox": [
+              509,
+              329,
+              582,
+              354
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9829502105712891
+          },
+          {
+            "text": "000-00-00101",
+            "bbox": [
+              633,
+              325,
+              730,
+              351
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9673693180084229
+          },
+          {
+            "text": "사업자번호",
+            "bbox": [
+              86,
+              338,
+              162,
+              365
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9824897646903992
+          },
+          {
+            "text": "000-00-00100",
+            "bbox": [
+              213,
+              334,
+              309,
+              361
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9650769829750061
+          },
+          {
+            "text": "2026-10-20",
+            "bbox": [
+              212,
+              370,
+              294,
+              397
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9992572665214539
+          },
+          {
+            "text": "유효기간",
+            "bbox": [
+              508,
+              363,
+              570,
+              392
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9922545552253723
+          },
+          {
+            "text": "2026-11-11",
+            "bbox": [
+              635,
+              362,
+              714,
+              386
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.998029887676239
+          },
+          {
+            "text": "건적일",
+            "bbox": [
+              89,
+              375,
+              137,
+              402
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8677294254302979
+          },
+          {
+            "text": "수량",
+            "bbox": [
+              495,
+              417,
+              533,
+              445
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9966404438018799
+          },
+          {
+            "text": "단가",
+            "bbox": [
+              585,
+              415,
+              624,
+              443
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9921083450317383
+          },
+          {
+            "text": "금액",
+            "bbox": [
+              757,
+              412,
+              796,
+              439
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9942495822906494
+          },
+          {
+            "text": "항목-규격",
+            "bbox": [
+              89,
+              426,
+              160,
+              455
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8836954236030579
+          },
+          {
+            "text": "매장용 POS",
+            "bbox": [
+              92,
+              463,
+              169,
+              489
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9251425862312317
+          },
+          {
+            "text": "1대",
+            "bbox": [
+              495,
+              463,
+              530,
+              492
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.997978687286377
+          },
+          {
+            "text": "1,600,000원",
+            "bbox": [
+              587,
+              461,
+              672,
+              487
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9674516916275024
+          },
+          {
+            "text": "1,600,000원",
+            "bbox": [
+              761,
+              455,
+              843,
+              485
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.991101861000061
+          },
+          {
+            "text": "가상모델POS-D1/본체 및설정",
+            "bbox": [
+              92,
+              483,
+              290,
+              507
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9473947882652283
+          },
+          {
+            "text": "주방 출력장치",
+            "bbox": [
+              93,
+              519,
+              187,
+              546
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8943762183189392
+          },
+          {
+            "text": "2대",
+            "bbox": [
+              495,
+              520,
+              532,
+              548
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9966355562210083
+          },
+          {
+            "text": "300,000원",
+            "bbox": [
+              588,
+              518,
+              662,
+              545
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.946230411529541
+          },
+          {
+            "text": "600,000원",
+            "bbox": [
+              761,
+              513,
+              835,
+              541
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9908955097198486
+          },
+          {
+            "text": "가상 모델PR-D2/주방·음료구역",
+            "bbox": [
+              94,
+              538,
+              300,
+              564
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9290795922279358
+          },
+          {
+            "text": "메뉴·재고초기구축",
+            "bbox": [
+              94,
+              575,
+              222,
+              603
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9565951824188232
+          },
+          {
+            "text": "1식",
+            "bbox": [
+              498,
+              579,
+              533,
+              604
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9979733228683472
+          },
+          {
+            "text": "900,000원",
+            "bbox": [
+              591,
+              576,
+              663,
+              601
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9516984224319458
+          },
+          {
+            "text": "900,000원",
+            "bbox": [
+              763,
+              574,
+              835,
+              596
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9844619035720825
+          },
+          {
+            "text": "메뉴 및 품목 등록·연동설정",
+            "bbox": [
+              95,
+              597,
+              265,
+              622
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8653050661087036
+          },
+          {
+            "text": "직원사용 교육",
+            "bbox": [
+              97,
+              636,
+              187,
+              657
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.938386857509613
+          },
+          {
+            "text": "2회",
+            "bbox": [
+              499,
+              637,
+              533,
+              661
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9981436729431152
+          },
+          {
+            "text": "350,000원",
+            "bbox": [
+              592,
+              630,
+              664,
+              660
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9927845001220703
+          },
+          {
+            "text": "700,000원",
+            "bbox": [
+              766,
+              630,
+              837,
+              655
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9967702627182007
+          },
+          {
+            "text": "주문변경·취소·일마감실습",
+            "bbox": [
+              96,
+              651,
+              272,
+              681
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9561440348625183
+          },
+          {
+            "text": "3,800,000원",
+            "bbox": [
+              765,
+              675,
+              849,
+              703
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9401346445083618
+          },
+          {
+            "text": "공급가액",
+            "bbox": [
+              95,
+              689,
+              158,
+              718
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9985100626945496
+          },
+          {
+            "text": "380,000원",
+            "bbox": [
+              767,
+              713,
+              838,
+              738
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9791141152381897
+          },
+          {
+            "text": "부가세",
+            "bbox": [
+              97,
+              726,
+              147,
+              755
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9960072040557861
+          },
+          {
+            "text": "4,180,000원",
+            "bbox": [
+              767,
+              748,
+              851,
+              776
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9729732275009155
+          },
+          {
+            "text": "총건적금액",
+            "bbox": [
+              97,
+              762,
+              176,
+              790
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9551922082901001
+          },
+          {
+            "text": "거래조건·사업별확인사항",
+            "bbox": [
+              99,
+              816,
+              255,
+              841
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.986900806427002
+          },
+          {
+            "text": "남품:POS 및 출력 장치설치, 초기 품목 등록, 직원 교육2회, 정기 구독료·통신비·결제 수수료 제외.장에시 기존 종이 주문 절차를 병행합니다.",
+            "bbox": [
+              100,
+              837,
+              926,
+              878
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8616822957992554
+          },
+          {
+            "text": "공급업체 확인:예시디지털상점/가상도윤(가상확인)",
+            "bbox": [
+              622,
+              882,
+              920,
+              908
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9685779213905334
+          },
+          {
+            "text": "6/6",
+            "bbox": [
+              903,
+              1318,
+              942,
+              1341
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9688658714294434
+          },
+          {
+            "text": "가상 자료:실제 신청·증명·계약·지급에사용할 수 없습니다",
+            "bbox": [
+              95,
+              1330,
+              430,
+              1356
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9189286231994629
+          }
+        ],
+        "fields": {
+          "businessName": "예시디지털상점",
+          "businessNo": "0000000101",
+          "representative": "가상도윤",
+          "totalAmount": "4180000"
+        },
+        "evidence": {
+          "businessName": {
+            "bbox": [
+              633,
+              251,
+              729,
+              277
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9926067590713501
+          },
+          "businessNo": {
+            "bbox": [
+              633,
+              325,
+              730,
+              351
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9673693180084229
+          },
+          "representative": {
+            "bbox": [
+              633,
+              289,
+              694,
+              314
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9963222146034241
+          },
+          "totalAmount": {
+            "lineIndex": 51,
+            "rawValue": "4,180,000원",
+            "bbox": [
+              767,
+              748,
+              851,
+              776
+            ],
+            "source": "PADDLE_OCR",
+            "method": "LLM_SOURCE_VERIFIED"
+          }
+        },
+        "photos": [],
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kindLabel": "견적서",
+        "previewKey": "0bbce8ca72ffe9acbf627798c435bda358b06615a1e2cbe1f99da33ae01f693a.png",
+        "groupStart": true,
+        "ai": {
+          "pageNumber": 6,
+          "fields": {
+            "businessName": "가상달빛식당",
+            "representative": "가상지은",
+            "businessNo": "0000000100",
+            "totalAmount": "4180000"
+          },
+          "evidence": {
+            "businessName": {
+              "lineIndex": 10,
+              "rawValue": "가상달빛식당",
+              "bbox": [
+                211,
+                263,
+                298,
+                287
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "representative": {
+              "lineIndex": 14,
+              "rawValue": "가상지은",
+              "bbox": [
+                212,
+                299,
+                274,
+                325
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "businessNo": {
+              "lineIndex": 18,
+              "rawValue": "000-00-00100",
+              "bbox": [
+                213,
+                334,
+                309,
+                361
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "totalAmount": {
+              "lineIndex": 51,
+              "rawValue": "4,180,000원",
+              "bbox": [
+                767,
+                748,
+                851,
+                776
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            }
+          },
+          "suggestedKind": "ESTIMATE",
+          "kindEvidence": {
+            "lineIndex": 3,
+            "text": "사업별견적서예시"
+          },
+          "kindAgreement": true,
+          "kindLabel": "견적서"
+        }
+      }
+    ],
+    "groups": [
+      {
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kind": "APPLICATION",
+        "kindLabel": "신청서",
+        "pageNumbers": [
+          1
+        ],
+        "indexes": [
+          0
+        ],
+        "pdfKey": "4c74a87ab63d073cf58ba8239b3ebf776ef43ca1a2c0bc67fce735340a28eff2.pdf"
+      },
+      {
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kind": "BUSINESS_PLAN",
+        "kindLabel": "사업계획서",
+        "pageNumbers": [
+          2,
+          3
+        ],
+        "indexes": [
+          1,
+          2
+        ],
+        "pdfKey": "dc25d03af4b3150b43f4f5d37eddb11f687e646bfd03545ccf484aa32f66d370.pdf"
+      },
+      {
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kind": "PHOTO_SHEET",
+        "kindLabel": "현장 사진",
+        "pageNumbers": [
+          4
+        ],
+        "indexes": [
+          3
+        ],
+        "pdfKey": "1ac92e7989d6e1635e6af0b865bcc5682a2204900ed93ad6985685b54ac7753d.pdf"
+      },
+      {
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kind": "BUSINESS_CERT",
+        "kindLabel": "사업자등록증",
+        "pageNumbers": [
+          5
+        ],
+        "indexes": [
+          4
+        ],
+        "pdfKey": "76b913cafdb0583443913cf2bb7d5d3bfb425915517e90c49ede54d74f8931a5.pdf"
+      },
+      {
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kind": "ESTIMATE",
+        "kindLabel": "견적서",
+        "pageNumbers": [
+          6
+        ],
+        "indexes": [
+          5
+        ],
+        "pdfKey": "ad38e6c5eb1d68a716b605cfd85d907d663e6561ae783344c76d3a3146137d30.pdf"
+      }
+    ],
+    "fields": {
+      "businessName": "가상달빛식당",
+      "businessNo": "0000000100",
+      "representative": "가상지은",
+      "openedOn": "2022-04-18",
+      "phone": "000-0000-0110",
+      "address": "가상시예시구달빛로18,1층",
+      "businessItem": "한식일반음식점",
+      "businessType": "음식점업",
+      "requestedAmount": "3300000",
+      "selfContribution": "880000",
+      "totalAmount": "4180000",
+      "planText": "점심시간주문은종이 전표로주방에전달하고재고는영업 좋료후수기로집계하고 있습니다.주문 변경내용을다시전달하는일이있어주문\n내역과 재고 기록을 한 화면에서 확인할 필요가 있습니다.\n매장용P0S1대와 주방 출력장치2대를설치하고,주요메뉴와재고품목을 초기등록합니다. 직원교육2회를 진행해주문취소·수정과 마감 집\n개점 전설치하고비영업 시간에교육합니다.통신장애시에는기존종이 전표로주문을받으며복구후집계합니다.도입이후매월발생하는이\n메뉴등록, 주문 변경 전달,재고차감과일 마감 집계를 각각실행해 확인합니다매출종가나 주문 오류감소을을임의로 약속하지 않습니다\n가상자료:실제 신청·증명·계약·지급에 사용할 수없습니다"
+    },
+    "evidence": {
+      "businessName": {
+        "pageNumber": 5,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "businessNo": {
+        "pageNumber": 5,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "representative": {
+        "pageNumber": 5,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "openedOn": {
+        "pageNumber": 5,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "phone": {
+        "pageNumber": 1,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "address": {
+        "pageNumber": 5,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "businessItem": {
+        "pageNumber": 5,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "businessType": {
+        "pageNumber": 5,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "requestedAmount": {
+        "pageNumber": 1,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "selfContribution": {
+        "pageNumber": 1,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "totalAmount": {
+        "pageNumber": 3,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "planText": {
+        "pageNumber": 2,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      }
+    },
+    "conflicts": [
+      {
+        "field": "businessName",
+        "previous": "가상달빛식당",
+        "candidate": "예시디지털상점",
+        "pageNumber": 6,
+        "sourceName": "신청서.pdf"
+      },
+      {
+        "field": "businessNo",
+        "previous": "0000000100",
+        "candidate": "0000000101",
+        "pageNumber": 6,
+        "sourceName": "신청서.pdf"
+      },
+      {
+        "field": "representative",
+        "previous": "가상지은",
+        "candidate": "가상도윤",
+        "pageNumber": 6,
+        "sourceName": "신청서.pdf"
+      },
+      {
+        "pageNumber": 6,
+        "field": "businessName",
+        "previous": "예시디지털상점",
+        "candidate": "가상달빛식당",
+        "sourceName": "신청서.pdf",
+        "method": "LLM_SOURCE_VERIFIED"
+      },
+      {
+        "pageNumber": 6,
+        "field": "representative",
+        "previous": "가상도윤",
+        "candidate": "가상지은",
+        "sourceName": "신청서.pdf",
+        "method": "LLM_SOURCE_VERIFIED"
+      },
+      {
+        "pageNumber": 6,
+        "field": "businessNo",
+        "previous": "0000000101",
+        "candidate": "0000000100",
+        "sourceName": "신청서.pdf",
+        "method": "LLM_SOURCE_VERIFIED"
+      }
+    ],
+    "pageCount": 6,
+    "photoCount": 1,
+    "aiAnalyses": [
+      {
+        "provider": "openrouter",
+        "model": "google/gemma-4-26b-a4b-it",
+        "status": "SUCCEEDED",
+        "verifiedCount": 22,
+        "rejectedCount": 2,
+        "conflicts": [
+          {
+            "pageNumber": 6,
+            "field": "businessName",
+            "previous": "예시디지털상점",
+            "candidate": "가상달빛식당"
+          },
+          {
+            "pageNumber": 6,
+            "field": "representative",
+            "previous": "가상도윤",
+            "candidate": "가상지은"
+          },
+          {
+            "pageNumber": 6,
+            "field": "businessNo",
+            "previous": "0000000101",
+            "candidate": "0000000100"
+          }
+        ],
+        "pageResults": [
+          {
+            "pageNumber": 1,
+            "fields": {
+              "businessName": "가상달빛식당",
+              "representative": "가상지은",
+              "businessNo": "0000000100",
+              "openedOn": "2022-04-18",
+              "phone": "000-0000-0110",
+              "address": "가상시예시구달빛로18,1층",
+              "businessType": "음식점업",
+              "businessItem": "한식일반음식점",
+              "requestedAmount": "3300000",
+              "selfContribution": "880000",
+              "totalAmount": "4180000"
+            },
+            "evidence": {
+              "businessName": {
+                "lineIndex": 6,
+                "rawValue": "가상달빛식당",
+                "bbox": [
+                  221,
+                  231,
+                  307,
+                  255
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "representative": {
+                "lineIndex": 8,
+                "rawValue": "가상지은",
+                "bbox": [
+                  639,
+                  232,
+                  703,
+                  263
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "businessNo": {
+                "lineIndex": 10,
+                "rawValue": "000-00-00100",
+                "bbox": [
+                  222,
+                  269,
+                  317,
+                  293
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "openedOn": {
+                "lineIndex": 12,
+                "rawValue": "2022-04-18",
+                "bbox": [
+                  641,
+                  272,
+                  722,
+                  296
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "phone": {
+                "lineIndex": 16,
+                "rawValue": "000-0000-0110",
+                "bbox": [
+                  641,
+                  309,
+                  744,
+                  335
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "address": {
+                "lineIndex": 14,
+                "rawValue": "가상시예시구달빛로18,1층",
+                "bbox": [
+                  222,
+                  307,
+                  397,
+                  330
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "businessType": {
+                "lineIndex": 18,
+                "rawValue": "음식점업",
+                "bbox": [
+                  222,
+                  343,
+                  385,
+                  366
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "businessItem": {
+                "lineIndex": 18,
+                "rawValue": "한식일반음식점",
+                "bbox": [
+                  222,
+                  343,
+                  385,
+                  366
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "requestedAmount": {
+                "lineIndex": 50,
+                "rawValue": "3,300,000원",
+                "bbox": [
+                  94,
+                  816,
+                  178,
+                  841
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "selfContribution": {
+                "lineIndex": 51,
+                "rawValue": "880,000원",
+                "bbox": [
+                  374,
+                  817,
+                  447,
+                  844
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "totalAmount": {
+                "lineIndex": 52,
+                "rawValue": "4,180,000원",
+                "bbox": [
+                  655,
+                  821,
+                  738,
+                  845
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              }
+            },
+            "suggestedKind": "APPLICATION",
+            "kindEvidence": {
+              "lineIndex": 3,
+              "text": "지원사업신청서"
+            },
+            "kindAgreement": true,
+            "kindLabel": "신청서"
+          },
+          {
+            "pageNumber": 2,
+            "fields": {},
+            "evidence": {},
+            "suggestedKind": "BUSINESS_PLAN",
+            "kindEvidence": {
+              "lineIndex": 3,
+              "text": "도입전후업무전환 계획"
+            },
+            "kindAgreement": true,
+            "kindLabel": "사업계획서"
+          },
+          {
+            "pageNumber": 3,
+            "fields": {},
+            "evidence": {},
+            "suggestedKind": "BUSINESS_PLAN",
+            "kindEvidence": {
+              "lineIndex": 3,
+              "text": "장비·기능별 산출및 설치일정"
+            },
+            "kindAgreement": true,
+            "kindLabel": "사업계획서"
+          },
+          {
+            "pageNumber": 4,
+            "fields": {},
+            "evidence": {},
+            "suggestedKind": "PHOTO_SHEET",
+            "kindEvidence": {
+              "lineIndex": 3,
+              "text": "업무 공간 현황·장비 배치"
+            },
+            "kindAgreement": true,
+            "kindLabel": "현장 사진"
+          },
+          {
+            "pageNumber": 5,
+            "fields": {
+              "businessName": "가상달빛식당",
+              "representative": "가상지은",
+              "businessNo": "0000000100",
+              "openedOn": "2022-04-18",
+              "address": "가상시예시구달빛로18,1층",
+              "businessType": "음식점업",
+              "businessItem": "한식일반음식점"
+            },
+            "evidence": {
+              "businessName": {
+                "lineIndex": 8,
+                "rawValue": "가상달빛식당",
+                "bbox": [
+                  283,
+                  357,
+                  374,
+                  388
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "representative": {
+                "lineIndex": 10,
+                "rawValue": "가상지은",
+                "bbox": [
+                  282,
+                  432,
+                  349,
+                  464
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "businessNo": {
+                "lineIndex": 6,
+                "rawValue": "000-00-00100",
+                "bbox": [
+                  285,
+                  287,
+                  383,
+                  312
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "openedOn": {
+                "lineIndex": 12,
+                "rawValue": "2022년 04월 18일",
+                "bbox": [
+                  285,
+                  510,
+                  402,
+                  535
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "address": {
+                "lineIndex": 14,
+                "rawValue": "가상시예시구달빛로18,1층",
+                "bbox": [
+                  285,
+                  597,
+                  463,
+                  623
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "businessType": {
+                "lineIndex": 16,
+                "rawValue": "음식점업",
+                "bbox": [
+                  286,
+                  690,
+                  380,
+                  713
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "businessItem": {
+                "lineIndex": 17,
+                "rawValue": "한식일반음식점",
+                "bbox": [
+                  287,
+                  711,
+                  421,
+                  732
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              }
+            },
+            "suggestedKind": "BUSINESS_CERT",
+            "kindEvidence": {
+              "lineIndex": 2,
+              "text": "첨부서류A/사업자정보대조용"
+            },
+            "kindAgreement": true,
+            "kindLabel": "사업자등록증"
+          },
+          {
+            "pageNumber": 6,
+            "fields": {
+              "businessName": "가상달빛식당",
+              "representative": "가상지은",
+              "businessNo": "0000000100",
+              "totalAmount": "4180000"
+            },
+            "evidence": {
+              "businessName": {
+                "lineIndex": 10,
+                "rawValue": "가상달빛식당",
+                "bbox": [
+                  211,
+                  263,
+                  298,
+                  287
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "representative": {
+                "lineIndex": 14,
+                "rawValue": "가상지은",
+                "bbox": [
+                  212,
+                  299,
+                  274,
+                  325
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "businessNo": {
+                "lineIndex": 18,
+                "rawValue": "000-00-00100",
+                "bbox": [
+                  213,
+                  334,
+                  309,
+                  361
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "totalAmount": {
+                "lineIndex": 51,
+                "rawValue": "4,180,000원",
+                "bbox": [
+                  767,
+                  748,
+                  851,
+                  776
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              }
+            },
+            "suggestedKind": "ESTIMATE",
+            "kindEvidence": {
+              "lineIndex": 3,
+              "text": "사업별견적서예시"
+            },
+            "kindAgreement": true,
+            "kindLabel": "견적서"
+          }
+        ],
+        "supplementedCount": 1,
+        "agreementCount": 18,
+        "durationSeconds": 13.5,
+        "sourceName": "신청서.pdf"
+      }
+    ]
+  },
+  "aiPreparedAt": "2026-10-25T19:57:03.488688+00:00"
+}

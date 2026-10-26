@@ -1,0 +1,115 @@
+{
+  "version": "energy-safety-scan-edits-v1",
+  "method": "built-in image_gen img2img",
+  "pages": [
+    {
+      "dataset": "energy",
+      "page": 1,
+      "generatedSourcePath": "[local-path-omitted]",
+      "outputPath": "output/images/사업별신청예시-비정형스캔/energy/에너지절감-01.png",
+      "sourceSha256": "73192ef6752e3714550ff8ee32ad58fd2823a99244491152f243080e6c17b708",
+      "outputSha256": "c564ccb60d5e0094ec8d75c2a5b0b0bf9e35c3649164beca4d5514ae56a0b552",
+      "reviewStatus": "generated"
+    },
+    {
+      "dataset": "safety",
+      "page": 1,
+      "generatedSourcePath": "[local-path-omitted]",
+      "outputPath": "output/images/사업별신청예시-비정형스캔/safety/안전위생-01.png",
+      "sourceSha256": "328028ea4208baee54b53c2264fe9e3b59b85ea10b3e352cfd8284eb9e12782d",
+      "outputSha256": "065c75f282e24a09cef0da39b7351a2a4eca7197e5be9da35a021f9567c40cc5",
+      "reviewStatus": "generated"
+    },
+    {
+      "dataset": "energy",
+      "page": 2,
+      "generatedSourcePath": "[local-path-omitted]",
+      "outputPath": "output/images/사업별신청예시-비정형스캔/energy/에너지절감-02.png",
+      "sourceSha256": "2435436823c0c2d9e09f550e65cd54e6891b9b94fdd7a8af07100b01ec949c36",
+      "outputSha256": "5e7b52e57b54ad3de327863fa08c406c76313eb9eef3671385d2e4a055523312",
+      "reviewStatus": "generated"
+    },
+    {
+      "dataset": "safety",
+      "page": 2,
+      "generatedSourcePath": "[local-path-omitted]",
+      "outputPath": "output/images/사업별신청예시-비정형스캔/safety/안전위생-02.png",
+      "sourceSha256": "b814b5129cbb0adad8d587947f8f59487be158ad664a2f758d555d03741d46b8",
+      "outputSha256": "49fd72f1d3a66306c4ac840438287948955acd200bd831e66903d02248e804a8",
+      "reviewStatus": "generated"
+    },
+    {
+      "dataset": "energy",
+      "page": 3,
+      "generatedSourcePath": "[local-path-omitted]",
+      "outputPath": "output/images/사업별신청예시-비정형스캔/energy/에너지절감-03.png",
+      "sourceSha256": "352f9741c75bc9c24b5f28e2529d1cde391ffa52eb4914037d9ea16efef6a38a",
+      "outputSha256": "9ce4a65498021e79b43da15d45297038759afd8dce1ae6e705c4915b56b2097b",
+      "reviewStatus": "generated"
+    },
+    {
+      "dataset": "safety",
+      "page": 3,
+      "generatedSourcePath": "[local-path-omitted]",
+      "outputPath": "output/images/사업별신청예시-비정형스캔/safety/안전위생-03.png",
+      "sourceSha256": "1deb35f755bb2fbc2add6405f20493b396f155ec464d7fbb24daaa359f0f729f",
+      "outputSha256": "f0f91ef45f083299a46bc7ea9e223aaa62144a1ac2db6ff94833f373214361b7",
+      "reviewStatus": "generated"
+    },
+    {
+      "dataset": "energy",
+      "page": 4,
+      "generatedSourcePath": "[local-path-omitted]",
+      "outputPath": "output/images/사업별신청예시-비정형스캔/energy/에너지절감-04.png",
+      "sourceSha256": "32ffe30b6d0760def6bc399d399dbe9930beec8dcc117a16a1d4aefcfb3a0708",
+      "outputSha256": "2d87518bd235eb376ac67b6bba574be5b4f2d790aef9ab7711526a33efa629db",
+      "reviewStatus": "generated"
+    },
+    {
+      "dataset": "safety",
+      "page": 4,
+      "generatedSourcePath": "[local-path-omitted]",
+      "outputPath": "output/images/사업별신청예시-비정형스캔/safety/안전위생-04.png",
+      "sourceSha256": "521a100c83e85ed476d97ca29a3da0be2ac827946b53bf33f7c2b9804870ef43",
+      "outputSha256": "437fba66504bc453cdb691e01c651e21ced1799a0febdb272a34209bdcdd6857",
+      "reviewStatus": "generated"
+    },
+    {
+      "dataset": "energy",
+      "page": 5,
+      "generatedSourcePath": "[local-path-omitted]",
+      "outputPath": "output/images/사업별신청예시-비정형스캔/energy/에너지절감-05.png",
+      "sourceSha256": "a9a56a0a399a85caf14c2b345ce18b4df32e3dd55778b92805aa1718da073e29",
+      "outputSha256": "0e28f88b9256b5ccb6520ca003aa16aeae8e7ab86d4afce1315b905c0d7ca615",
+      "reviewStatus": "generated"
+    },
+    {
+      "dataset": "safety",
+      "page": 5,
+      "generatedSourcePath": "[local-path-omitted]",
+      "outputPath": "output/images/사업별신청예시-비정형스캔/safety/안전위생-05.png",
+      "sourceSha256": "a5db2a2d93f118869d9276496105adbbcb0f969eb9be947449fde100111427c3",
+      "outputSha256": "e9096db7179c8fcea5f590be3d95ef3c5e6eabbcf2d204f877cbca39e8941c3a",
+      "reviewStatus": "generated"
+    },
+    {
+      "dataset": "energy",
+      "page": 6,
+      "generatedSourcePath": "[local-path-omitted]",
+      "outputPath": "output/images/사업별신청예시-비정형스캔/energy/에너지절감-06.png",
+      "sourceSha256": "7b9043d8d2cd6df6d05fb0d2f1cd18d92b4992cb6a40a8c776c1548fe516fd1e",
+      "outputSha256": "86ad7253c7c0165c2982670c08a670c13819a4f5fc732c7fb203d539bf664f67",
+      "reviewStatus": "generated"
+    },
+    {
+      "dataset": "safety",
+      "page": 6,
+      "generatedSourcePath": "[local-path-omitted]",
+      "outputPath": "output/images/사업별신청예시-비정형스캔/safety/안전위생-06.png",
+      "sourceSha256": "3f9bbde704464e238751db56ad4950dfe0d21a123b302f3857489b6350df3ea2",
+      "outputSha256": "bf38a2c80fbc8b1a92fb1395d5ad0a13270b19d2e0ef3d644861595fef183831",
+      "reviewStatus": "generated"
+    }
+  ],
+  "hashMeaning": "sourceSha256는 입력 PNG, outputSha256는 생성·복사 결과 PNG의 SHA256이다."
+}

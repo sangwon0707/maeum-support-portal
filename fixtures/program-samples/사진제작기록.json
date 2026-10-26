@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-25",
+  "tool": "built-in image_gen",
+  "note": "가상 사업장 현황 사진. 실제 사업장·설비 상태·시공 결과가 아님.",
+  "prompts": [
+    {
+      "dataset": "digital",
+      "prompt": "Use case: photorealistic-natural. Asset type: a clearly synthetic field-condition photo for a fictional Korean small-business grant sample application. Landscape 3:2, realistic editorial interior photography, natural practical light, eye-level wide 28mm lens, detailed believable materials, unposed environment, no people, no readable text, no letters or numbers, no logos, no watermark, no fake date stamps. Portray a modest normal shop before a planned improvement, not a disaster or unsafe emergency. Do not diagnose structural, electrical, hygiene or medical conditions. Interior of a small neighborhood casual rice-and-soup restaurant. The counter has an old plain standalone cash register, handwritten-looking but completely unreadable blank order tickets, an open paper inventory notebook and shelves of bowls. No POS touchscreen or modern kiosk yet. Neutral wood, cream tile, simple chairs. Compose to show the order counter and ordinary paper-based workflow clearly."
+    },
+    {
+      "dataset": "energy",
+      "prompt": "Use case: photorealistic-natural. Asset type: a clearly synthetic field-condition photo for a fictional Korean small-business grant sample application. Landscape 3:2, realistic editorial interior photography, natural practical light, eye-level wide 28mm lens, detailed believable materials, unposed environment, no people, no readable text, no letters or numbers, no logos, no watermark, no fake date stamps. Portray a modest normal shop before a planned improvement, not a disaster or unsafe emergency. Do not diagnose structural, electrical, hygiene or medical conditions. Interior of a small Korean florist. An older glass-front flower display refrigerator with a simple dark frame, buckets of fresh cut flowers, fluorescent-style ceiling light housings and a worktable for wrapping bouquets. Show the existing equipment and flower storage layout realistically; do not show energy ratings, electrical readings, damage or smoke."
+    },
+    {
+      "dataset": "access",
+      "prompt": "Use case: photorealistic-natural. Asset type: a clearly synthetic field-condition photo for a fictional Korean small-business grant sample application. Landscape 3:2, realistic editorial interior photography, natural practical light, eye-level wide 28mm lens, detailed believable materials, unposed environment, no people, no readable text, no letters or numbers, no logos, no watermark, no fake date stamps. Portray a modest normal shop before a planned improvement, not a disaster or unsafe emergency. Do not diagnose structural, electrical, hygiene or medical conditions. Entrance and front aisle of a small independent neighborhood bookshop, photographed from just outside toward the interior. A clearly visible small raised doorstep and a narrow aisle between low book display tables, no ramp installed. Books have plain unlettered spines, warm timber shelving, calm daylight. Frame the threshold and circulation path without exaggeration or measuring labels."
+    },
+    {
+      "dataset": "online",
+      "prompt": "Use case: photorealistic-natural. Asset type: a clearly synthetic field-condition photo for a fictional Korean small-business grant sample application. Landscape 3:2, realistic editorial interior photography, natural practical light, eye-level wide 28mm lens, detailed believable materials, unposed environment, no people, no readable text, no letters or numbers, no logos, no watermark, no fake date stamps. Portray a modest normal shop before a planned improvement, not a disaster or unsafe emergency. Do not diagnose structural, electrical, hygiene or medical conditions. A small handmade ceramics workshop preparing products for online sale. On a worn wooden worktable sit three distinct handmade mugs, folded kraft wrapping, and a simple phone stand by a window. No professional photo lighting or seamless backdrop yet. Modest shelving of pottery behind. Clearly show the present improvised product photo setup; no logos, no screen UI or legible text."
+    },
+    {
+      "dataset": "safety",
+      "prompt": "Use case: photorealistic-natural. Asset type: a clearly synthetic field-condition photo for a fictional Korean small-business grant sample application. Landscape 3:2, realistic editorial interior photography, natural practical light, eye-level wide 28mm lens, detailed believable materials, unposed environment, no people, no readable text, no letters or numbers, no logos, no watermark, no fake date stamps. Portray a modest normal shop before a planned improvement, not a disaster or unsafe emergency. Do not diagnose structural, electrical, hygiene or medical conditions. A modest small snack restaurant kitchen before planned ventilation and floor improvement. Show an older stainless steel exhaust hood above a normal cooking counter, tiled floor and a visible floor drain, tidy shelves and utensils. Everything is clean and unoccupied, no open flames, no garbage, no pests or graphic dirt. Frame the ventilation installation area and floor work area; do not assert a violation or dangerous condition."
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+<Configuration><Appenders><Console name="Console"><PatternLayout pattern="%d{HH:mm:ss} %-5level %c{1} - %msg%n"/></Console></Appenders><Loggers><Logger name="org.springframework" level="warn"/><Logger name="org.flywaydb" level="info"/><Root level="info"><AppenderRef ref="Console"/></Root></Loggers></Configuration>

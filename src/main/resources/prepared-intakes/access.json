@@ -1,0 +1,5097 @@
+{
+  "pipelineVersion": "pdfbox-3.0.8-paddle-v5-ko-layout-v2",
+  "pdfProcessor": "Apache PDFBox 3.0.8",
+  "sourceSha256": "1e9eb2cbbad8b49b579a8d65512fca474f1964b58fc982c515e2148b81d1c7fe",
+  "engine": "PaddleOCR",
+  "modelVersion": "PP-OCRv5_mobile_det+korean_PP-OCRv5_mobile_rec",
+  "preparedAt": "2026-10-25T19:52:47.264537+00:00",
+  "result": {
+    "pages": [
+      {
+        "pageNumber": 1,
+        "pageCount": 6,
+        "kind": "APPLICATION",
+        "width": 992,
+        "height": 1403,
+        "textSource": "PADDLE_OCR",
+        "tableRows": [],
+        "lines": [
+          {
+            "text": "마음이음|이용환경개선개별서식",
+            "bbox": [
+              76,
+              54,
+              274,
+              74
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9612606763839722
+          },
+          {
+            "text": "가상예시/공식서식아님",
+            "bbox": [
+              772,
+              57,
+              921,
+              80
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9708963632583618
+          },
+          {
+            "text": "지원사업신청서",
+            "bbox": [
+              85,
+              129,
+              279,
+              167
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9972178339958191
+          },
+          {
+            "text": "접근환경개선기록·01",
+            "bbox": [
+              95,
+              170,
+              238,
+              195
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9626960158348083
+          },
+          {
+            "text": "2026소상공인모두를위한매장이용환경개선사업",
+            "bbox": [
+              336,
+              174,
+              640,
+              197
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9827781319618225
+          },
+          {
+            "text": "신청인/상호",
+            "bbox": [
+              96,
+              225,
+              179,
+              250
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9945495128631592
+          },
+          {
+            "text": "가상모통이책방",
+            "bbox": [
+              269,
+              225,
+              368,
+              252
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9560627341270447
+          },
+          {
+            "text": "대표자",
+            "bbox": [
+              585,
+              230,
+              634,
+              253
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.994627058506012
+          },
+          {
+            "text": "가상수민",
+            "bbox": [
+              689,
+              227,
+              753,
+              256
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9955337047576904
+          },
+          {
+            "text": "동록번호/개업",
+            "bbox": [
+              95,
+              262,
+              191,
+              286
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9726864695549011
+          },
+          {
+            "text": "000-00-00300 /2021-03-22",
+            "bbox": [
+              271,
+              264,
+              446,
+              285
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9755321145057678
+          },
+          {
+            "text": "연락처",
+            "bbox": [
+              585,
+              264,
+              634,
+              290
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9877312183380127
+          },
+          {
+            "text": "000-000-0130",
+            "bbox": [
+              689,
+              264,
+              794,
+              291
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9693474173545837
+          },
+          {
+            "text": "사업장소재지",
+            "bbox": [
+              95,
+              297,
+              183,
+              321
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9925469756126404
+          },
+          {
+            "text": "가상시예시구책마루길35,1층",
+            "bbox": [
+              271,
+              299,
+              459,
+              323
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9913098812103271
+          },
+          {
+            "text": "위치별불편·치수조사및 설치허가계획",
+            "bbox": [
+              85,
+              342,
+              365,
+              365
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9527851939201355
+          },
+          {
+            "text": "위치",
+            "bbox": [
+              92,
+              377,
+              131,
+              406
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9958202242851257
+          },
+          {
+            "text": "현재불편",
+            "bbox": [
+              206,
+              379,
+              269,
+              405
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9723584651947021
+          },
+          {
+            "text": "현장확인·허가",
+            "bbox": [
+              423,
+              382,
+              520,
+              406
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9864713549613953
+          },
+          {
+            "text": "예정 작업",
+            "bbox": [
+              699,
+              383,
+              763,
+              409
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9457752108573914
+          },
+          {
+            "text": "출입구",
+            "bbox": [
+              92,
+              414,
+              145,
+              443
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9981997013092041
+          },
+          {
+            "text": "작은 단차",
+            "bbox": [
+              206,
+              416,
+              270,
+              441
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9512462615966797
+          },
+          {
+            "text": "폭-높이실축/임대인협의",
+            "bbox": [
+              423,
+              417,
+              587,
+              445
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.89701247215271
+          },
+          {
+            "text": "단차완화설치물1식",
+            "bbox": [
+              701,
+              421,
+              827,
+              445
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9316699504852295
+          },
+          {
+            "text": "서가사이",
+            "bbox": [
+              94,
+              452,
+              158,
+              477
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9943188428878784
+          },
+          {
+            "text": "진열대사이 폭이 좁음",
+            "bbox": [
+              206,
+              452,
+              340,
+              478
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8276195526123047
+          },
+          {
+            "text": "유효 통로폭실측",
+            "bbox": [
+              425,
+              457,
+              526,
+              478
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9012129306793213
+          },
+          {
+            "text": "진열대이동·동선 확보",
+            "bbox": [
+              703,
+              459,
+              837,
+              479
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9112247228622437
+          },
+          {
+            "text": "안내구간",
+            "bbox": [
+              92,
+              486,
+              159,
+              516
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9979807734489441
+          },
+          {
+            "text": "서가구분이어려움",
+            "bbox": [
+              206,
+              489,
+              322,
+              515
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9504406452178955
+          },
+          {
+            "text": "설치 위치·고정방식협의",
+            "bbox": [
+              425,
+              494,
+              574,
+              515
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.938518226146698
+          },
+          {
+            "text": "큰글자안내판6개",
+            "bbox": [
+              702,
+              495,
+              816,
+              516
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9839789867401123
+          },
+          {
+            "text": "신청액과사업범위",
+            "bbox": [
+              84,
+              531,
+              221,
+              558
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.992982029914856
+          },
+          {
+            "text": "지원 신청액",
+            "bbox": [
+              94,
+              573,
+              170,
+              595
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9157243371009827
+          },
+          {
+            "text": "3,000,000원",
+            "bbox": [
+              391,
+              574,
+              478,
+              598
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9955002665519714
+          },
+          {
+            "text": "자부담",
+            "bbox": [
+              92,
+              604,
+              143,
+              635
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9923399090766907
+          },
+          {
+            "text": "850,000원",
+            "bbox": [
+              391,
+              609,
+              466,
+              636
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.942696213722229
+          },
+          {
+            "text": "총사업비",
+            "bbox": [
+              93,
+              645,
+              158,
+              670
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9987428784370422
+          },
+          {
+            "text": "3,850,000원",
+            "bbox": [
+              392,
+              648,
+              477,
+              672
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9841572046279907
+          },
+          {
+            "text": "공용보도에고정물을설치하지 않는 방안을우선 검토합니다.허가·규격 확인 전설치하지않는 가상계획입니다.",
+            "bbox": [
+              84,
+              688,
+              663,
+              712
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8965466618537903
+          },
+          {
+            "text": "작성일2026-10-25· 테스트용가상신청서",
+            "bbox": [
+              669,
+              724,
+              913,
+              746
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9580192565917969
+          },
+          {
+            "text": "가상자료:실제신청·증명·계약·지급에사용할수없습니다.",
+            "bbox": [
+              80,
+              1315,
+              416,
+              1338
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9408879280090332
+          },
+          {
+            "text": "1/6",
+            "bbox": [
+              874,
+              1319,
+              913,
+              1343
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9970963597297668
+          }
+        ],
+        "fields": {
+          "businessName": "가상모통이책방",
+          "representative": "가상수민",
+          "phone": "000-000-0130",
+          "address": "가상시예시구책마루길35,1층",
+          "requestedAmount": "3000000",
+          "selfContribution": "850000",
+          "totalAmount": "3850000",
+          "businessNo": "0000000300",
+          "openedOn": "2021-03-22"
+        },
+        "evidence": {
+          "businessName": {
+            "bbox": [
+              269,
+              225,
+              368,
+              252
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9560627341270447
+          },
+          "representative": {
+            "bbox": [
+              689,
+              227,
+              753,
+              256
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9955337047576904
+          },
+          "phone": {
+            "bbox": [
+              689,
+              264,
+              794,
+              291
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9693474173545837
+          },
+          "address": {
+            "bbox": [
+              271,
+              299,
+              459,
+              323
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9913098812103271
+          },
+          "requestedAmount": {
+            "bbox": [
+              391,
+              574,
+              478,
+              598
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9955002665519714
+          },
+          "selfContribution": {
+            "bbox": [
+              391,
+              609,
+              466,
+              636
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.942696213722229
+          },
+          "totalAmount": {
+            "bbox": [
+              392,
+              648,
+              477,
+              672
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9841572046279907
+          },
+          "businessNo": {
+            "lineIndex": 10,
+            "rawValue": "000-00-00300",
+            "bbox": [
+              271,
+              264,
+              446,
+              285
+            ],
+            "source": "PADDLE_OCR",
+            "method": "LLM_SOURCE_VERIFIED"
+          },
+          "openedOn": {
+            "lineIndex": 10,
+            "rawValue": "2021-03-22",
+            "bbox": [
+              271,
+              264,
+              446,
+              285
+            ],
+            "source": "PADDLE_OCR",
+            "method": "LLM_SOURCE_VERIFIED"
+          }
+        },
+        "photos": [],
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kindLabel": "신청서",
+        "previewKey": "26bfee0686a9f022e62780f0bc0c62d040a1d8c0b9399a0e0b488f9f29a4c911.png",
+        "groupStart": true,
+        "ai": {
+          "pageNumber": 1,
+          "fields": {
+            "businessName": "가상모통이책방",
+            "representative": "가상수민",
+            "businessNo": "0000000300",
+            "openedOn": "2021-03-22",
+            "phone": "000-000-0130",
+            "address": "가상시예시구책마루길35,1층",
+            "requestedAmount": "3000000",
+            "selfContribution": "850000",
+            "totalAmount": "3850000"
+          },
+          "evidence": {
+            "businessName": {
+              "lineIndex": 6,
+              "rawValue": "가상모통이책방",
+              "bbox": [
+                269,
+                225,
+                368,
+                252
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "representative": {
+              "lineIndex": 8,
+              "rawValue": "가상수민",
+              "bbox": [
+                689,
+                227,
+                753,
+                256
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "businessNo": {
+              "lineIndex": 10,
+              "rawValue": "000-00-00300",
+              "bbox": [
+                271,
+                264,
+                446,
+                285
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "openedOn": {
+              "lineIndex": 10,
+              "rawValue": "2021-03-22",
+              "bbox": [
+                271,
+                264,
+                446,
+                285
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "phone": {
+              "lineIndex": 12,
+              "rawValue": "000-000-0130",
+              "bbox": [
+                689,
+                264,
+                794,
+                291
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "address": {
+              "lineIndex": 14,
+              "rawValue": "가상시예시구책마루길35,1층",
+              "bbox": [
+                271,
+                299,
+                459,
+                323
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "requestedAmount": {
+              "lineIndex": 34,
+              "rawValue": "3,000,000원",
+              "bbox": [
+                391,
+                574,
+                478,
+                598
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "selfContribution": {
+              "lineIndex": 36,
+              "rawValue": "850,000원",
+              "bbox": [
+                391,
+                609,
+                466,
+                636
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "totalAmount": {
+              "lineIndex": 38,
+              "rawValue": "3,850,000원",
+              "bbox": [
+                392,
+                648,
+                477,
+                672
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            }
+          },
+          "suggestedKind": "APPLICATION",
+          "kindEvidence": {
+            "lineIndex": 2,
+            "text": "지원사업신청서"
+          },
+          "kindAgreement": true,
+          "kindLabel": "신청서"
+        }
+      },
+      {
+        "pageNumber": 2,
+        "pageCount": 6,
+        "kind": "BUSINESS_PLAN",
+        "width": 992,
+        "height": 1403,
+        "textSource": "PADDLE_OCR",
+        "tableRows": [
+          {
+            "y": 164,
+            "cells": [
+              {
+                "text": "모돔이책방의출입·이동동선개선",
+                "bbox": [
+                  330,
+                  164,
+                  532,
+                  188
+                ]
+              },
+              {
+                "text": "접근환경개선기록·02",
+                "bbox": [
+                  92,
+                  169,
+                  233,
+                  192
+                ]
+              }
+            ]
+          },
+          {
+            "y": 216,
+            "cells": [
+              {
+                "text": "공사전조건",
+                "bbox": [
+                  690,
+                  216,
+                  765,
+                  238
+                ]
+              },
+              {
+                "text": "치수-허가기록",
+                "bbox": [
+                  419,
+                  217,
+                  515,
+                  241
+                ]
+              },
+              {
+                "text": "위치",
+                "bbox": [
+                  90,
+                  221,
+                  129,
+                  249
+                ]
+              },
+              {
+                "text": "조사항목",
+                "bbox": [
+                  214,
+                  221,
+                  278,
+                  246
+                ]
+              }
+            ]
+          },
+          {
+            "y": 250,
+            "cells": [
+              {
+                "text": "임대인설치동의 확인",
+                "bbox": [
+                  690,
+                  250,
+                  821,
+                  273
+                ]
+              },
+              {
+                "text": "현장실축전미기임",
+                "bbox": [
+                  420,
+                  253,
+                  541,
+                  278
+                ]
+              },
+              {
+                "text": "단차·통과 쪽",
+                "bbox": [
+                  215,
+                  255,
+                  299,
+                  282
+                ]
+              }
+            ]
+          },
+          {
+            "y": 287,
+            "cells": [
+              {
+                "text": "진열대이동범위협의",
+                "bbox": [
+                  690,
+                  287,
+                  821,
+                  311
+                ]
+              },
+              {
+                "text": "가구이동후재측정",
+                "bbox": [
+                  421,
+                  290,
+                  541,
+                  314
+                ]
+              }
+            ]
+          },
+          {
+            "y": 294,
+            "cells": [
+              {
+                "text": "유효 통로 폭",
+                "bbox": [
+                  216,
+                  294,
+                  297,
+                  318
+                ]
+              },
+              {
+                "text": "서가사이",
+                "bbox": [
+                  92,
+                  295,
+                  156,
+                  320
+                ]
+              }
+            ]
+          },
+          {
+            "y": 325,
+            "cells": [
+              {
+                "text": "벽체고정허가확인",
+                "bbox": [
+                  692,
+                  325,
+                  809,
+                  346
+                ]
+              },
+              {
+                "text": "설치높이 확인 예정",
+                "bbox": [
+                  422,
+                  326,
+                  542,
+                  352
+                ]
+              },
+              {
+                "text": "문자크기·시야",
+                "bbox": [
+                  216,
+                  329,
+                  313,
+                  355
+                ]
+              }
+            ]
+          },
+          {
+            "y": 1318,
+            "cells": [
+              {
+                "text": "2/6",
+                "bbox": [
+                  888,
+                  1318,
+                  925,
+                  1342
+                ]
+              },
+              {
+                "text": "가상자료: 실제 신청·증명·계약-지급에 사용할 수 없습니다.",
+                "bbox": [
+                  92,
+                  1320,
+                  427,
+                  1342
+                ]
+              }
+            ]
+          }
+        ],
+        "lines": [
+          {
+            "text": "가상예시/공식서식아님",
+            "bbox": [
+              764,
+              41,
+              910,
+              61
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9751949906349182
+          },
+          {
+            "text": "마음이음|이용환경개선개별서식",
+            "bbox": [
+              72,
+              49,
+              269,
+              73
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9470003247261047
+          },
+          {
+            "text": "위치별이용환경 개선 계획",
+            "bbox": [
+              84,
+              125,
+              384,
+              162
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9312282800674438
+          },
+          {
+            "text": "접근환경개선기록·02",
+            "bbox": [
+              92,
+              169,
+              233,
+              192
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9660747647285461
+          },
+          {
+            "text": "모돔이책방의출입·이동동선개선",
+            "bbox": [
+              330,
+              164,
+              532,
+              188
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9774864315986633
+          },
+          {
+            "text": "위치",
+            "bbox": [
+              90,
+              221,
+              129,
+              249
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.99688720703125
+          },
+          {
+            "text": "조사항목",
+            "bbox": [
+              214,
+              221,
+              278,
+              246
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9956421852111816
+          },
+          {
+            "text": "치수-허가기록",
+            "bbox": [
+              419,
+              217,
+              515,
+              241
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9633440375328064
+          },
+          {
+            "text": "공사전조건",
+            "bbox": [
+              690,
+              216,
+              765,
+              238
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9971993565559387
+          },
+          {
+            "text": "출입구",
+            "bbox": [
+              92,
+              258,
+              141,
+              285
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9944456219673157
+          },
+          {
+            "text": "단차·통과 쪽",
+            "bbox": [
+              215,
+              255,
+              299,
+              282
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.893680989742279
+          },
+          {
+            "text": "현장실축전미기임",
+            "bbox": [
+              420,
+              253,
+              541,
+              278
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8604562282562256
+          },
+          {
+            "text": "임대인설치동의 확인",
+            "bbox": [
+              690,
+              250,
+              821,
+              273
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9476287961006165
+          },
+          {
+            "text": "서가사이",
+            "bbox": [
+              92,
+              295,
+              156,
+              320
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.98905348777771
+          },
+          {
+            "text": "유효 통로 폭",
+            "bbox": [
+              216,
+              294,
+              297,
+              318
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8566277623176575
+          },
+          {
+            "text": "가구이동후재측정",
+            "bbox": [
+              421,
+              290,
+              541,
+              314
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9792039394378662
+          },
+          {
+            "text": "진열대이동범위협의",
+            "bbox": [
+              690,
+              287,
+              821,
+              311
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9589860439300537
+          },
+          {
+            "text": "안내 구간",
+            "bbox": [
+              93,
+              331,
+              157,
+              357
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9398683309555054
+          },
+          {
+            "text": "문자크기·시야",
+            "bbox": [
+              216,
+              329,
+              313,
+              355
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9230917096138
+          },
+          {
+            "text": "설치높이 확인 예정",
+            "bbox": [
+              422,
+              326,
+              542,
+              352
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8861054182052612
+          },
+          {
+            "text": "벽체고정허가확인",
+            "bbox": [
+              692,
+              325,
+              809,
+              346
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.953589916229248
+          },
+          {
+            "text": "위치별이용불편",
+            "bbox": [
+              87,
+              392,
+              203,
+              413
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9638156890869141
+          },
+          {
+            "text": "위치별 이용 불편",
+            "bbox": [
+              94,
+              426,
+              193,
+              453
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8560488224029541
+          },
+          {
+            "text": "출입구에 작은 단차가 있고 입구 안쪽진열대사이의 동선이 좁아 유모차와 보행보조기 이용 고객이 이동할때 불편을 겪는상황을 가정했습니다.",
+            "bbox": [
+              97,
+              456,
+              912,
+              485
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8871966004371643
+          },
+          {
+            "text": "공용보도에고정 구조물을 두지 않는 방향을 먼저 검토합니다",
+            "bbox": [
+              97,
+              482,
+              453,
+              506
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.904572069644928
+          },
+          {
+            "text": "실측-허가·설치순서",
+            "bbox": [
+              88,
+              533,
+              235,
+              559
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9248838424682617
+          },
+          {
+            "text": "실측·히가·설치순세",
+            "bbox": [
+              98,
+              575,
+              218,
+              596
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8193365931510925
+          },
+          {
+            "text": "출입구조건에 맞춘단차완화설치를1식과 손잡이2개를 계획하고,앞쪽진열대를재배치합니다.큰글자 안내판6개를제작해 입구와서가구분",
+            "bbox": [
+              97,
+              603,
+              917,
+              633
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9254709482192993
+          },
+          {
+            "text": "을 됩습니다.",
+            "bbox": [
+              98,
+              633,
+              174,
+              655
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8528851270675659
+          },
+          {
+            "text": "통행 유지 계획",
+            "bbox": [
+              88,
+              679,
+              193,
+              707
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.891717791557312
+          },
+          {
+            "text": "통행 유지 계획",
+            "bbox": [
+              99,
+              720,
+              184,
+              745
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8842172026634216
+          },
+          {
+            "text": "임대인과설치 가능범위를 확인한뒤치수를 재고규격을정합니다.통행을 막지 않는설치 방식과 철거·복구 가능여부를 확인합니다.접근성인",
+            "bbox": [
+              99,
+              750,
+              919,
+              781
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9193035364151001
+          },
+          {
+            "text": "증이나 관계규정 적합성은 본자료로확정하지 않습니다",
+            "bbox": [
+              100,
+              777,
+              426,
+              802
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9374080300331116
+          },
+          {
+            "text": "이용동선확인",
+            "bbox": [
+              90,
+              829,
+              194,
+              853
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9680977463722229
+          },
+          {
+            "text": "이용동선 확인",
+            "bbox": [
+              100,
+              868,
+              186,
+              892
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9055684804916382
+          },
+          {
+            "text": "출입구와매장 안이동경로를따라불편이 줄었는지점검하고설치를 규격·고정상태·안내판수량을 확인합니다.인증 취득또는 모든이용자의",
+            "bbox": [
+              102,
+              901,
+              918,
+              926
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9129655957221985
+          },
+          {
+            "text": "이동 보장을 약속하지 않습니다.",
+            "bbox": [
+              103,
+              927,
+              286,
+              947
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.877083957195282
+          },
+          {
+            "text": "가상자료: 실제 신청·증명·계약-지급에 사용할 수 없습니다.",
+            "bbox": [
+              92,
+              1320,
+              427,
+              1342
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9136446714401245
+          },
+          {
+            "text": "2/6",
+            "bbox": [
+              888,
+              1318,
+              925,
+              1342
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9897167682647705
+          }
+        ],
+        "fields": {
+          "planText": "출입구에 작은 단차가 있고 입구 안쪽진열대사이의 동선이 좁아 유모차와 보행보조기 이용 고객이 이동할때 불편을 겪는상황을 가정했습니다.\n공용보도에고정 구조물을 두지 않는 방향을 먼저 검토합니다\n출입구조건에 맞춘단차완화설치를1식과 손잡이2개를 계획하고,앞쪽진열대를재배치합니다.큰글자 안내판6개를제작해 입구와서가구분\n임대인과설치 가능범위를 확인한뒤치수를 재고규격을정합니다.통행을 막지 않는설치 방식과 철거·복구 가능여부를 확인합니다.접근성인\n출입구와매장 안이동경로를따라불편이 줄었는지점검하고설치를 규격·고정상태·안내판수량을 확인합니다.인증 취득또는 모든이용자의\n가상자료: 실제 신청·증명·계약-지급에 사용할 수 없습니다."
+        },
+        "evidence": {},
+        "photos": [],
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kindLabel": "사업계획서",
+        "previewKey": "bc3f200e02b5b347074faac6c55cbdbbfa14d94d7b6f3850e914325370c14d96.png",
+        "groupStart": true,
+        "ai": {
+          "pageNumber": 2,
+          "fields": {},
+          "evidence": {},
+          "suggestedKind": "BUSINESS_PLAN",
+          "kindEvidence": {
+            "lineIndex": 2,
+            "text": "위치별이용환경 개선 계획"
+          },
+          "kindAgreement": true,
+          "kindLabel": "사업계획서"
+        }
+      },
+      {
+        "pageNumber": 3,
+        "pageCount": 6,
+        "kind": "BUSINESS_PLAN",
+        "width": 992,
+        "height": 1403,
+        "textSource": "PADDLE_OCR",
+        "tableRows": [
+          {
+            "y": 172,
+            "cells": [
+              {
+                "text": "접근환경개선기록·03",
+                "bbox": [
+                  106,
+                  172,
+                  246,
+                  193
+                ]
+              },
+              {
+                "text": "건적번호 TEST-Q-ACCESS-001",
+                "bbox": [
+                  343,
+                  172,
+                  542,
+                  197
+                ]
+              }
+            ]
+          },
+          {
+            "y": 223,
+            "cells": [
+              {
+                "text": "품목·규격",
+                "bbox": [
+                  103,
+                  223,
+                  172,
+                  248
+                ]
+              },
+              {
+                "text": "수량",
+                "bbox": [
+                  505,
+                  225,
+                  545,
+                  254
+                ]
+              },
+              {
+                "text": "단가",
+                "bbox": [
+                  596,
+                  226,
+                  635,
+                  255
+                ]
+              }
+            ]
+          },
+          {
+            "y": 272,
+            "cells": [
+              {
+                "text": "1식",
+                "bbox": [
+                  505,
+                  272,
+                  542,
+                  301
+                ]
+              },
+              {
+                "text": "1,250,000원",
+                "bbox": [
+                  598,
+                  275,
+                  681,
+                  300
+                ]
+              },
+              {
+                "text": "1,250,000원",
+                "bbox": [
+                  769,
+                  277,
+                  852,
+                  302
+                ]
+              }
+            ]
+          },
+          {
+            "y": 331,
+            "cells": [
+              {
+                "text": "2개",
+                "bbox": [
+                  505,
+                  331,
+                  541,
+                  361
+                ]
+              },
+              {
+                "text": "450,000원",
+                "bbox": [
+                  596,
+                  332,
+                  669,
+                  358
+                ]
+              },
+              {
+                "text": "900,000원",
+                "bbox": [
+                  768,
+                  334,
+                  840,
+                  359
+                ]
+              }
+            ]
+          },
+          {
+            "y": 388,
+            "cells": [
+              {
+                "text": "1식",
+                "bbox": [
+                  506,
+                  388,
+                  540,
+                  414
+                ]
+              },
+              {
+                "text": "750,000원",
+                "bbox": [
+                  597,
+                  390,
+                  669,
+                  415
+                ]
+              },
+              {
+                "text": "750,000원",
+                "bbox": [
+                  768,
+                  390,
+                  840,
+                  418
+                ]
+              }
+            ]
+          },
+          {
+            "y": 444,
+            "cells": [
+              {
+                "text": "6개",
+                "bbox": [
+                  505,
+                  444,
+                  541,
+                  473
+                ]
+              },
+              {
+                "text": "100,000원",
+                "bbox": [
+                  596,
+                  444,
+                  669,
+                  473
+                ]
+              },
+              {
+                "text": "600,000원",
+                "bbox": [
+                  768,
+                  448,
+                  840,
+                  473
+                ]
+              }
+            ]
+          },
+          {
+            "y": 646,
+            "cells": [
+              {
+                "text": "지원신청액",
+                "bbox": [
+                  102,
+                  646,
+                  178,
+                  671
+                ]
+              },
+              {
+                "text": "자부담",
+                "bbox": [
+                  306,
+                  646,
+                  358,
+                  676
+                ]
+              },
+              {
+                "text": "총사업비",
+                "bbox": [
+                  499,
+                  650,
+                  563,
+                  676
+                ]
+              }
+            ]
+          },
+          {
+            "y": 684,
+            "cells": [
+              {
+                "text": "3,000,000원",
+                "bbox": [
+                  102,
+                  684,
+                  184,
+                  707
+                ]
+              },
+              {
+                "text": "850,000원",
+                "bbox": [
+                  307,
+                  684,
+                  380,
+                  709
+                ]
+              },
+              {
+                "text": "3,850,000원",
+                "bbox": [
+                  499,
+                  688,
+                  582,
+                  711
+                ]
+              },
+              {
+                "text": "신청액+자부담=건적총액",
+                "bbox": [
+                  698,
+                  688,
+                  865,
+                  714
+                ]
+              }
+            ]
+          },
+          {
+            "y": 762,
+            "cells": [
+              {
+                "text": "시정",
+                "bbox": [
+                  100,
+                  762,
+                  138,
+                  792
+                ]
+              },
+              {
+                "text": "작업·확인",
+                "bbox": [
+                  209,
+                  765,
+                  277,
+                  791
+                ]
+              }
+            ]
+          },
+          {
+            "y": 801,
+            "cells": [
+              {
+                "text": "1~5일",
+                "bbox": [
+                  101,
+                  801,
+                  147,
+                  829
+                ]
+              },
+              {
+                "text": "설치권한·공간치수·통행 경로확인",
+                "bbox": [
+                  211,
+                  805,
+                  423,
+                  827
+                ]
+              }
+            ]
+          },
+          {
+            "y": 841,
+            "cells": [
+              {
+                "text": "6~12일",
+                "bbox": [
+                  102,
+                  841,
+                  154,
+                  864
+                ]
+              },
+              {
+                "text": "설치를 제작·진열대재배치·안내판제작",
+                "bbox": [
+                  211,
+                  841,
+                  446,
+                  865
+                ]
+              },
+              {
+                "text": "공급업체/제작내역",
+                "bbox": [
+                  665,
+                  845,
+                  788,
+                  869
+                ]
+              }
+            ]
+          },
+          {
+            "y": 877,
+            "cells": [
+              {
+                "text": "13~18일",
+                "bbox": [
+                  101,
+                  877,
+                  162,
+                  903
+                ]
+              },
+              {
+                "text": "설치·동선이용점검-규격확인",
+                "bbox": [
+                  211,
+                  879,
+                  396,
+                  902
+                ]
+              }
+            ]
+          }
+        ],
+        "lines": [
+          {
+            "text": "마음이음이용환경개선개별서식",
+            "bbox": [
+              86,
+              52,
+              282,
+              74
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9434628486633301
+          },
+          {
+            "text": "가상예시/공식서식아님",
+            "bbox": [
+              781,
+              59,
+              928,
+              80
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9184377193450928
+          },
+          {
+            "text": "위치별 개선비와 현장 추진 일정",
+            "bbox": [
+              96,
+              129,
+              461,
+              169
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9334406852722168
+          },
+          {
+            "text": "접근환경개선기록·03",
+            "bbox": [
+              106,
+              172,
+              246,
+              193
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9547320008277893
+          },
+          {
+            "text": "건적번호 TEST-Q-ACCESS-001",
+            "bbox": [
+              343,
+              172,
+              542,
+              197
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9331094622612
+          },
+          {
+            "text": "품목·규격",
+            "bbox": [
+              103,
+              223,
+              172,
+              248
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9736636281013489
+          },
+          {
+            "text": "수량",
+            "bbox": [
+              505,
+              225,
+              545,
+              254
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9233132600784302
+          },
+          {
+            "text": "단가",
+            "bbox": [
+              596,
+              226,
+              635,
+              255
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9944210052490234
+          },
+          {
+            "text": "금액",
+            "bbox": [
+              767,
+              229,
+              805,
+              257
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.995567798614502
+          },
+          {
+            "text": "단차완화설치물",
+            "bbox": [
+              104,
+              260,
+              206,
+              283
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9445846676826477
+          },
+          {
+            "text": "출입구치수 확인후가상규격 확정",
+            "bbox": [
+              105,
+              281,
+              309,
+              303
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9419622421264648
+          },
+          {
+            "text": "1식",
+            "bbox": [
+              505,
+              272,
+              542,
+              301
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9922655820846558
+          },
+          {
+            "text": "1,250,000원",
+            "bbox": [
+              598,
+              275,
+              681,
+              300
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9973556399345398
+          },
+          {
+            "text": "1,250,000원",
+            "bbox": [
+              769,
+              277,
+              852,
+              302
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9980557560920715
+          },
+          {
+            "text": "이동보조손잡이",
+            "bbox": [
+              104,
+              318,
+              206,
+              342
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9873555302619934
+          },
+          {
+            "text": "출입·안내구역설치",
+            "bbox": [
+              103,
+              338,
+              228,
+              364
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9353253245353699
+          },
+          {
+            "text": "2개",
+            "bbox": [
+              505,
+              331,
+              541,
+              361
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9964523911476135
+          },
+          {
+            "text": "450,000원",
+            "bbox": [
+              596,
+              332,
+              669,
+              358
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9755855798721313
+          },
+          {
+            "text": "900,000원",
+            "bbox": [
+              768,
+              334,
+              840,
+              359
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9417276978492737
+          },
+          {
+            "text": "진열동선재배치",
+            "bbox": [
+              105,
+              377,
+              205,
+              398
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9613812565803528
+          },
+          {
+            "text": "입구앞진열대위치·통행경로조정",
+            "bbox": [
+              104,
+              394,
+              313,
+              421
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9064292907714844
+          },
+          {
+            "text": "1식",
+            "bbox": [
+              506,
+              388,
+              540,
+              414
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9968003630638123
+          },
+          {
+            "text": "750,000원",
+            "bbox": [
+              597,
+              390,
+              669,
+              415
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9942188858985901
+          },
+          {
+            "text": "750,000원",
+            "bbox": [
+              768,
+              390,
+              840,
+              418
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9967373013496399
+          },
+          {
+            "text": "큰글자안내판",
+            "bbox": [
+              105,
+              434,
+              193,
+              455
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9862516522407532
+          },
+          {
+            "text": "입구및서가구역구분",
+            "bbox": [
+              103,
+              451,
+              240,
+              477
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9930234551429749
+          },
+          {
+            "text": "6개",
+            "bbox": [
+              505,
+              444,
+              541,
+              473
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9879755973815918
+          },
+          {
+            "text": "100,000원",
+            "bbox": [
+              596,
+              444,
+              669,
+              473
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9890626668930054
+          },
+          {
+            "text": "600,000원",
+            "bbox": [
+              768,
+              448,
+              840,
+              473
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9372422695159912
+          },
+          {
+            "text": "공급가액",
+            "bbox": [
+              102,
+              488,
+              164,
+              518
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9982888698577881
+          },
+          {
+            "text": "3,500,000원",
+            "bbox": [
+              768,
+              496,
+              852,
+              521
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9868396520614624
+          },
+          {
+            "text": "부가세",
+            "bbox": [
+              101,
+              525,
+              151,
+              554
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9950502514839172
+          },
+          {
+            "text": "350,000원",
+            "bbox": [
+              768,
+              534,
+              840,
+              559
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9955195188522339
+          },
+          {
+            "text": "총액",
+            "bbox": [
+              101,
+              563,
+              138,
+              592
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9926587343215942
+          },
+          {
+            "text": "3,850,000원",
+            "bbox": [
+              767,
+              570,
+              852,
+              597
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9718124270439148
+          },
+          {
+            "text": "재원대조",
+            "bbox": [
+              93,
+              606,
+              164,
+              634
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9935299158096313
+          },
+          {
+            "text": "지원신청액",
+            "bbox": [
+              102,
+              646,
+              178,
+              671
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9957895278930664
+          },
+          {
+            "text": "자부담",
+            "bbox": [
+              306,
+              646,
+              358,
+              676
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9961226582527161
+          },
+          {
+            "text": "총사업비",
+            "bbox": [
+              499,
+              650,
+              563,
+              676
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9986039400100708
+          },
+          {
+            "text": "합계대조",
+            "bbox": [
+              697,
+              653,
+              757,
+              675
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9951485991477966
+          },
+          {
+            "text": "3,000,000원",
+            "bbox": [
+              102,
+              684,
+              184,
+              707
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9934910535812378
+          },
+          {
+            "text": "850,000원",
+            "bbox": [
+              307,
+              684,
+              380,
+              709
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9586614966392517
+          },
+          {
+            "text": "3,850,000원",
+            "bbox": [
+              499,
+              688,
+              582,
+              711
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9598382711410522
+          },
+          {
+            "text": "신청액+자부담=건적총액",
+            "bbox": [
+              698,
+              688,
+              865,
+              714
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9601735472679138
+          },
+          {
+            "text": "추진 일정",
+            "bbox": [
+              93,
+              724,
+              165,
+              753
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9249199032783508
+          },
+          {
+            "text": "시정",
+            "bbox": [
+              100,
+              762,
+              138,
+              792
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8417794108390808
+          },
+          {
+            "text": "작업·확인",
+            "bbox": [
+              209,
+              765,
+              277,
+              791
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9527814984321594
+          },
+          {
+            "text": "기록물",
+            "bbox": [
+              662,
+              769,
+              712,
+              795
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.93511563539505
+          },
+          {
+            "text": "1~5일",
+            "bbox": [
+              101,
+              801,
+              147,
+              829
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9753090143203735
+          },
+          {
+            "text": "설치권한·공간치수·통행 경로확인",
+            "bbox": [
+              211,
+              805,
+              423,
+              827
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9588638544082642
+          },
+          {
+            "text": "사업주·공급업체/치수·범위기록",
+            "bbox": [
+              664,
+              807,
+              870,
+              834
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9631402492523193
+          },
+          {
+            "text": "6~12일",
+            "bbox": [
+              102,
+              841,
+              154,
+              864
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9818253517150879
+          },
+          {
+            "text": "설치를 제작·진열대재배치·안내판제작",
+            "bbox": [
+              211,
+              841,
+              446,
+              865
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9489439725875854
+          },
+          {
+            "text": "공급업체/제작내역",
+            "bbox": [
+              665,
+              845,
+              788,
+              869
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9940064549446106
+          },
+          {
+            "text": "13~18일",
+            "bbox": [
+              101,
+              877,
+              162,
+              903
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9403284192085266
+          },
+          {
+            "text": "설치·동선이용점검-규격확인",
+            "bbox": [
+              211,
+              879,
+              396,
+              902
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9225220680236816
+          },
+          {
+            "text": "사업주/동선·수량확인표",
+            "bbox": [
+              666,
+              885,
+              823,
+              906
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9453210830688477
+          },
+          {
+            "text": "가상계획입니다설치·제작·공사·비용지급이실제로이루어졌다는 뜻이아닙니다.",
+            "bbox": [
+              93,
+              922,
+              523,
+              947
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8807327747344971
+          },
+          {
+            "text": "가상자료: 실제 신청·증명·계약·지급에사용할 수없습니다.",
+            "bbox": [
+              84,
+              1326,
+              411,
+              1350
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8861775398254395
+          },
+          {
+            "text": "3/6",
+            "bbox": [
+              886,
+              1333,
+              923,
+              1358
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9963314533233643
+          }
+        ],
+        "fields": {
+          "totalAmount": "3850000",
+          "planText": "가상계획입니다설치·제작·공사·비용지급이실제로이루어졌다는 뜻이아닙니다.\n가상자료: 실제 신청·증명·계약·지급에사용할 수없습니다."
+        },
+        "evidence": {
+          "totalAmount": {
+            "bbox": [
+              767,
+              570,
+              852,
+              597
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9718124270439148
+          }
+        },
+        "photos": [],
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kindLabel": "사업계획서",
+        "previewKey": "69dfe1b1feaafe9a26e589e702ad30af2f6e0852f38835abcbbd4c16e651ef7e.png",
+        "groupStart": false,
+        "ai": {
+          "pageNumber": 3,
+          "fields": {
+            "totalAmount": "3850000"
+          },
+          "evidence": {
+            "totalAmount": {
+              "lineIndex": 42,
+              "rawValue": "3,850,000원",
+              "bbox": [
+                499,
+                688,
+                582,
+                711
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            }
+          },
+          "suggestedKind": "BUSINESS_PLAN",
+          "kindEvidence": {
+            "lineIndex": 2,
+            "text": "위치별 개선비와 현장 추진 일정"
+          },
+          "kindAgreement": true,
+          "kindLabel": "사업계획서"
+        }
+      },
+      {
+        "pageNumber": 4,
+        "pageCount": 6,
+        "kind": "PHOTO_SHEET",
+        "width": 992,
+        "height": 1403,
+        "textSource": "PADDLE_OCR",
+        "tableRows": [],
+        "lines": [
+          {
+            "text": "가상예시/공식서식아님",
+            "bbox": [
+              763,
+              37,
+              911,
+              62
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9740276336669922
+          },
+          {
+            "text": "마음이움이용환경개선개별서식",
+            "bbox": [
+              62,
+              55,
+              259,
+              75
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9534773826599121
+          },
+          {
+            "text": "현장 위치·볼편 사진대지",
+            "bbox": [
+              73,
+              130,
+              365,
+              167
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9107924103736877
+          },
+          {
+            "text": "접근환경개선기록·04",
+            "bbox": [
+              83,
+              174,
+              225,
+              196
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9570096731185913
+          },
+          {
+            "text": "AI생성현황예시/실제현장·활영-시공증거아님",
+            "bbox": [
+              323,
+              165,
+              623,
+              192
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9309593439102173
+          },
+          {
+            "text": "현장예시이미지",
+            "bbox": [
+              81,
+              225,
+              181,
+              251
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9809032082557678
+          },
+          {
+            "text": "위치·체수조사메모",
+            "bbox": [
+              590,
+              216,
+              710,
+              239
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8925684690475464
+          },
+          {
+            "text": "위치",
+            "bbox": [
+              600,
+              324,
+              638,
+              353
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.994371771812439
+          },
+          {
+            "text": "확인항목",
+            "bbox": [
+              728,
+              324,
+              793,
+              349
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9895190000534058
+          },
+          {
+            "text": "출입구",
+            "bbox": [
+              602,
+              362,
+              650,
+              389
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9929184913635254
+          },
+          {
+            "text": "폭·단차실측",
+            "bbox": [
+              730,
+              362,
+              813,
+              383
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9196600914001465
+          },
+          {
+            "text": "서가사이",
+            "bbox": [
+              601,
+              397,
+              666,
+              426
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.993537425994873
+          },
+          {
+            "text": "유효 통로쪽",
+            "bbox": [
+              732,
+              399,
+              805,
+              421
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8274519443511963
+          },
+          {
+            "text": "안내판",
+            "bbox": [
+              603,
+              434,
+              652,
+              461
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9962105751037598
+          },
+          {
+            "text": "높이-고정방식",
+            "bbox": [
+              731,
+              433,
+              825,
+              457
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9343034029006958
+          },
+          {
+            "text": "허가",
+            "bbox": [
+              603,
+              472,
+              640,
+              497
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9663784503936768
+          },
+          {
+            "text": "임대인 확인",
+            "bbox": [
+              731,
+              467,
+              807,
+              496
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9197347164154053
+          },
+          {
+            "text": "사진은 치수를 판독하거나시공권한을입증하지 않습니다.실제 실측과 동의가 선행되어야 합니다.",
+            "bbox": [
+              79,
+              587,
+              580,
+              615
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8931909799575806
+          },
+          {
+            "text": "사진과계획의연결",
+            "bbox": [
+              80,
+              623,
+              214,
+              649
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9960140585899353
+          },
+          {
+            "text": "현황항목",
+            "bbox": [
+              89,
+              664,
+              152,
+              686
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9811330437660217
+          },
+          {
+            "text": "계획된확인",
+            "bbox": [
+              242,
+              660,
+              317,
+              685
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9961832761764526
+          },
+          {
+            "text": "출입구",
+            "bbox": [
+              89,
+              698,
+              137,
+              724
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9647427201271057
+          },
+          {
+            "text": "작은 단차가 있는 입구",
+            "bbox": [
+              245,
+              699,
+              375,
+              719
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8813421130180359
+          },
+          {
+            "text": "치수·설치방식·권한확인후설치",
+            "bbox": [
+              577,
+              692,
+              779,
+              714
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9699569940567017
+          },
+          {
+            "text": "서가사이",
+            "bbox": [
+              90,
+              734,
+              154,
+              759
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9647418856620789
+          },
+          {
+            "text": "입구 주변 진열대동선이 좁음",
+            "bbox": [
+              246,
+              735,
+              417,
+              755
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8940652012825012
+          },
+          {
+            "text": "진열대재배치와 통행 경로정리",
+            "bbox": [
+              577,
+              729,
+              763,
+              751
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9309638142585754
+          },
+          {
+            "text": "안내",
+            "bbox": [
+              89,
+              771,
+              126,
+              795
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9974392056465149
+          },
+          {
+            "text": "서가 구분 표시 개선 필요",
+            "bbox": [
+              245,
+              769,
+              392,
+              793
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8763469457626343
+          },
+          {
+            "text": "큰글자안내판6개제작",
+            "bbox": [
+              578,
+              765,
+              720,
+              789
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9843131899833679
+          },
+          {
+            "text": "A생성현황예시 실제 사업장·촬영일-실비 상태·시공결과를 증명하지 않습니다.",
+            "bbox": [
+              79,
+              807,
+              506,
+              832
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8815813660621643
+          },
+          {
+            "text": "가상자료:실제신청·증명·계약·지급에사용할 수 없습니다",
+            "bbox": [
+              82,
+              1316,
+              418,
+              1338
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9248439073562622
+          },
+          {
+            "text": "4/6",
+            "bbox": [
+              890,
+              1316,
+              928,
+              1340
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9808340072631836
+          }
+        ],
+        "fields": {},
+        "evidence": {},
+        "photos": [
+          {
+            "bbox": [
+              78,
+              208,
+              925,
+              587
+            ],
+            "method": "OPENCV_CANDIDATE",
+            "storageKey": "b0124befa15d7b1ffb562dfd528504b76d4a3a2d634a003f1aa59ed78174fff7.png"
+          }
+        ],
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kindLabel": "현장 사진",
+        "previewKey": "f0fd3ce6745a7a9f66baf345185218415a04693a39a259cc1562c1401aa0cd5e.png",
+        "groupStart": true,
+        "ai": {
+          "pageNumber": 4,
+          "fields": {},
+          "evidence": {},
+          "suggestedKind": "PHOTO_SHEET",
+          "kindEvidence": {
+            "lineIndex": 2,
+            "text": "현장 위치·볼편 사진대지"
+          },
+          "kindAgreement": true,
+          "kindLabel": "현장 사진"
+        }
+      },
+      {
+        "pageNumber": 5,
+        "pageCount": 6,
+        "kind": "BUSINESS_CERT",
+        "width": 992,
+        "height": 1403,
+        "textSource": "PADDLE_OCR",
+        "tableRows": [],
+        "lines": [
+          {
+            "text": "마음이음|이용환경개선개별서식",
+            "bbox": [
+              72,
+              51,
+              267,
+              73
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.934747040271759
+          },
+          {
+            "text": "가상예시/공식서식아님",
+            "bbox": [
+              764,
+              42,
+              911,
+              68
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9625948071479797
+          },
+          {
+            "text": "첨부서류A/사업자정보대조용",
+            "bbox": [
+              82,
+              124,
+              262,
+              149
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9861157536506653
+          },
+          {
+            "text": "사업자등록증예시(가상)",
+            "bbox": [
+              83,
+              157,
+              377,
+              194
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9839801788330078
+          },
+          {
+            "text": "실제 세무기관발급 문서가 아니며자격 증빙으로사용할수없습니다.",
+            "bbox": [
+              257,
+              184,
+              727,
+              215
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9206483364105225
+          },
+          {
+            "text": "등록번호",
+            "bbox": [
+              91,
+              270,
+              154,
+              298
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9915017485618591
+          },
+          {
+            "text": "000-00-00300",
+            "bbox": [
+              280,
+              270,
+              376,
+              297
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9909603595733643
+          },
+          {
+            "text": "상호",
+            "bbox": [
+              88,
+              340,
+              133,
+              376
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9956583976745605
+          },
+          {
+            "text": "가상모통이책방",
+            "bbox": [
+              282,
+              346,
+              381,
+              370
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9814854264259338
+          },
+          {
+            "text": "성명 (대표자)",
+            "bbox": [
+              92,
+              414,
+              180,
+              446
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9454175233840942
+          },
+          {
+            "text": "가상수민",
+            "bbox": [
+              280,
+              415,
+              345,
+              444
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.990635335445404
+          },
+          {
+            "text": "개업연월일",
+            "bbox": [
+              94,
+              492,
+              167,
+              517
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9983705282211304
+          },
+          {
+            "text": "2021년 03월22일",
+            "bbox": [
+              282,
+              491,
+              398,
+              515
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9595345854759216
+          },
+          {
+            "text": "사업장소재지",
+            "bbox": [
+              93,
+              576,
+              185,
+              606
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9944790005683899
+          },
+          {
+            "text": "가상시예시구책마루길35,1층",
+            "bbox": [
+              285,
+              578,
+              474,
+              602
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9570834040641785
+          },
+          {
+            "text": "사업의 종류",
+            "bbox": [
+              95,
+              679,
+              172,
+              703
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9385237097740173
+          },
+          {
+            "text": "업태: 도매및소매업",
+            "bbox": [
+              286,
+              669,
+              410,
+              692
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9429217576980591
+          },
+          {
+            "text": "종목:서적및 잡지 소매",
+            "bbox": [
+              285,
+              688,
+              427,
+              714
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.89388507604599
+          },
+          {
+            "text": "사업자유형",
+            "bbox": [
+              96,
+              765,
+              173,
+              793
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9936206936836243
+          },
+          {
+            "text": "개인사업자(가상 분류)",
+            "bbox": [
+              287,
+              765,
+              425,
+              789
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9216349720954895
+          },
+          {
+            "text": "시험 자료 안내",
+            "bbox": [
+              97,
+              847,
+              186,
+              871
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8867995142936707
+          },
+          {
+            "text": "신청서와상호·대표자·번호·개업일을대조하기위한가상사례입니다.실제 개인정보·관인·QR-발급기관표시는없습니다.",
+            "bbox": [
+              97,
+              876,
+              813,
+              906
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.931067705154419
+          },
+          {
+            "text": "2026년10월25일/마음이음테스트자료제작자(가상)",
+            "bbox": [
+              311,
+              945,
+              692,
+              969
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9858998656272888
+          },
+          {
+            "text": "가상자료:실제 신청·증명·계약-지급에사용할수없습니다",
+            "bbox": [
+              82,
+              1320,
+              417,
+              1340
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9259964823722839
+          },
+          {
+            "text": "5/6",
+            "bbox": [
+              893,
+              1313,
+              934,
+              1341
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9928444027900696
+          }
+        ],
+        "fields": {
+          "businessName": "가상모통이책방",
+          "businessNo": "0000000300",
+          "representative": "가상수민",
+          "openedOn": "2021-03-22",
+          "address": "가상시예시구책마루길35,1층",
+          "businessType": "도매및소매업",
+          "businessItem": "서적및 잡지 소매"
+        },
+        "evidence": {
+          "businessName": {
+            "bbox": [
+              282,
+              346,
+              381,
+              370
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9814854264259338
+          },
+          "businessNo": {
+            "bbox": [
+              280,
+              270,
+              376,
+              297
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9909603595733643
+          },
+          "representative": {
+            "bbox": [
+              280,
+              415,
+              345,
+              444
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.990635335445404
+          },
+          "openedOn": {
+            "bbox": [
+              282,
+              491,
+              398,
+              515
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9595345854759216
+          },
+          "address": {
+            "bbox": [
+              285,
+              578,
+              474,
+              602
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9570834040641785
+          },
+          "businessType": {
+            "bbox": [
+              286,
+              669,
+              410,
+              692
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9429217576980591
+          },
+          "businessItem": {
+            "bbox": [
+              285,
+              688,
+              427,
+              714
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.89388507604599
+          }
+        },
+        "photos": [],
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kindLabel": "사업자등록증",
+        "previewKey": "2420f69af2c46fcea0cc31fd78a6cfe65392c4fc489be488dfa0416574b8e387.png",
+        "groupStart": true,
+        "ai": {
+          "pageNumber": 5,
+          "fields": {
+            "businessName": "가상모통이책방",
+            "businessNo": "0000000300",
+            "representative": "가상수민",
+            "openedOn": "2021-03-22",
+            "address": "가상시예시구책마루길35,1층",
+            "businessType": "도매및소매업",
+            "businessItem": "서적및 잡지 소매"
+          },
+          "evidence": {
+            "businessName": {
+              "lineIndex": 8,
+              "rawValue": "가상모통이책방",
+              "bbox": [
+                282,
+                346,
+                381,
+                370
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "businessNo": {
+              "lineIndex": 6,
+              "rawValue": "000-00-00300",
+              "bbox": [
+                280,
+                270,
+                376,
+                297
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "representative": {
+              "lineIndex": 10,
+              "rawValue": "가상수민",
+              "bbox": [
+                280,
+                415,
+                345,
+                444
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "openedOn": {
+              "lineIndex": 12,
+              "rawValue": "2021년 03월22일",
+              "bbox": [
+                282,
+                491,
+                398,
+                515
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "address": {
+              "lineIndex": 14,
+              "rawValue": "가상시예시구책마루길35,1층",
+              "bbox": [
+                285,
+                578,
+                474,
+                602
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "businessType": {
+              "lineIndex": 16,
+              "rawValue": "도매및소매업",
+              "bbox": [
+                286,
+                669,
+                410,
+                692
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "businessItem": {
+              "lineIndex": 17,
+              "rawValue": "서적및 잡지 소매",
+              "bbox": [
+                285,
+                688,
+                427,
+                714
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            }
+          },
+          "suggestedKind": "BUSINESS_CERT",
+          "kindEvidence": {
+            "lineIndex": 2,
+            "text": "첨부서류A/사업자정보대조용"
+          },
+          "kindAgreement": true,
+          "kindLabel": "사업자등록증"
+        }
+      },
+      {
+        "pageNumber": 6,
+        "pageCount": 6,
+        "kind": "ESTIMATE",
+        "width": 992,
+        "height": 1403,
+        "textSource": "PADDLE_OCR",
+        "tableRows": [
+          {
+            "y": 44,
+            "cells": [
+              {
+                "text": "가상예시/공식서식아님",
+                "bbox": [
+                  768,
+                  44,
+                  915,
+                  65
+                ]
+              },
+              {
+                "text": "마음이음|이용환경개선개별서식",
+                "bbox": [
+                  69,
+                  48,
+                  267,
+                  70
+                ]
+              }
+            ]
+          },
+          {
+            "y": 161,
+            "cells": [
+              {
+                "text": "TEST-Q-ACCESS-001/가상거래·청구용 아님",
+                "bbox": [
+                  330,
+                  161,
+                  616,
+                  186
+                ]
+              },
+              {
+                "text": "접근환경개선기록·첨부",
+                "bbox": [
+                  88,
+                  164,
+                  242,
+                  190
+                ]
+              }
+            ]
+          },
+          {
+            "y": 214,
+            "cells": [
+              {
+                "text": "공급자",
+                "bbox": [
+                  506,
+                  214,
+                  556,
+                  241
+                ]
+              },
+              {
+                "text": "공급받는자",
+                "bbox": [
+                  88,
+                  215,
+                  166,
+                  243
+                ]
+              }
+            ]
+          },
+          {
+            "y": 247,
+            "cells": [
+              {
+                "text": "상호",
+                "bbox": [
+                  504,
+                  247,
+                  546,
+                  280
+                ]
+              },
+              {
+                "text": "상호",
+                "bbox": [
+                  87,
+                  249,
+                  128,
+                  282
+                ]
+              },
+              {
+                "text": "예시편의시공",
+                "bbox": [
+                  633,
+                  249,
+                  719,
+                  273
+                ]
+              }
+            ]
+          },
+          {
+            "y": 282,
+            "cells": [
+              {
+                "text": "가상유진",
+                "bbox": [
+                  631,
+                  282,
+                  696,
+                  314
+                ]
+              },
+              {
+                "text": "대표자",
+                "bbox": [
+                  506,
+                  286,
+                  557,
+                  313
+                ]
+              }
+            ]
+          },
+          {
+            "y": 288,
+            "cells": [
+              {
+                "text": "가상수민",
+                "bbox": [
+                  212,
+                  288,
+                  276,
+                  314
+                ]
+              },
+              {
+                "text": "대표자",
+                "bbox": [
+                  88,
+                  289,
+                  138,
+                  315
+                ]
+              }
+            ]
+          },
+          {
+            "y": 321,
+            "cells": [
+              {
+                "text": "사업자번호",
+                "bbox": [
+                  508,
+                  321,
+                  582,
+                  348
+                ]
+              },
+              {
+                "text": "000-00-00301",
+                "bbox": [
+                  635,
+                  322,
+                  730,
+                  346
+                ]
+              },
+              {
+                "text": "사업자변호",
+                "bbox": [
+                  90,
+                  324,
+                  162,
+                  352
+                ]
+              },
+              {
+                "text": "000-00-00300",
+                "bbox": [
+                  214,
+                  325,
+                  310,
+                  349
+                ]
+              }
+            ]
+          },
+          {
+            "y": 357,
+            "cells": [
+              {
+                "text": "유효기간",
+                "bbox": [
+                  508,
+                  357,
+                  571,
+                  386
+                ]
+              },
+              {
+                "text": "2026-11-13",
+                "bbox": [
+                  635,
+                  358,
+                  715,
+                  382
+                ]
+              },
+              {
+                "text": "견적일",
+                "bbox": [
+                  89,
+                  361,
+                  138,
+                  387
+                ]
+              },
+              {
+                "text": "2026-10-22",
+                "bbox": [
+                  213,
+                  361,
+                  295,
+                  385
+                ]
+              }
+            ]
+          },
+          {
+            "y": 408,
+            "cells": [
+              {
+                "text": "금액",
+                "bbox": [
+                  756,
+                  408,
+                  796,
+                  436
+                ]
+              },
+              {
+                "text": "수량",
+                "bbox": [
+                  493,
+                  410,
+                  532,
+                  437
+                ]
+              },
+              {
+                "text": "단가",
+                "bbox": [
+                  583,
+                  410,
+                  623,
+                  437
+                ]
+              },
+              {
+                "text": "항목-규격",
+                "bbox": [
+                  90,
+                  413,
+                  159,
+                  438
+                ]
+              }
+            ]
+          },
+          {
+            "y": 455,
+            "cells": [
+              {
+                "text": "1식",
+                "bbox": [
+                  493,
+                  455,
+                  530,
+                  484
+                ]
+              },
+              {
+                "text": "1,250,000원",
+                "bbox": [
+                  760,
+                  455,
+                  843,
+                  480
+                ]
+              },
+              {
+                "text": "1,250,000원",
+                "bbox": [
+                  586,
+                  456,
+                  670,
+                  481
+                ]
+              }
+            ]
+          },
+          {
+            "y": 506,
+            "cells": [
+              {
+                "text": "이동보조손잡이",
+                "bbox": [
+                  93,
+                  506,
+                  195,
+                  527
+                ]
+              },
+              {
+                "text": "2개",
+                "bbox": [
+                  492,
+                  511,
+                  531,
+                  540
+                ]
+              }
+            ]
+          },
+          {
+            "y": 512,
+            "cells": [
+              {
+                "text": "900,000원",
+                "bbox": [
+                  759,
+                  512,
+                  834,
+                  537
+                ]
+              },
+              {
+                "text": "450,000원",
+                "bbox": [
+                  586,
+                  513,
+                  660,
+                  538
+                ]
+              }
+            ]
+          },
+          {
+            "y": 570,
+            "cells": [
+              {
+                "text": "1식",
+                "bbox": [
+                  493,
+                  570,
+                  530,
+                  598
+                ]
+              },
+              {
+                "text": "750,000원",
+                "bbox": [
+                  761,
+                  570,
+                  834,
+                  596
+                ]
+              },
+              {
+                "text": "750,000원",
+                "bbox": [
+                  587,
+                  571,
+                  660,
+                  596
+                ]
+              }
+            ]
+          },
+          {
+            "y": 626,
+            "cells": [
+              {
+                "text": "6개",
+                "bbox": [
+                  494,
+                  626,
+                  533,
+                  655
+                ]
+              },
+              {
+                "text": "600,000원",
+                "bbox": [
+                  761,
+                  626,
+                  834,
+                  654
+                ]
+              },
+              {
+                "text": "100,000원",
+                "bbox": [
+                  588,
+                  627,
+                  661,
+                  653
+                ]
+              }
+            ]
+          },
+          {
+            "y": 672,
+            "cells": [
+              {
+                "text": "3,500,000원",
+                "bbox": [
+                  761,
+                  672,
+                  845,
+                  701
+                ]
+              },
+              {
+                "text": "공급가액",
+                "bbox": [
+                  93,
+                  675,
+                  154,
+                  701
+                ]
+              }
+            ]
+          },
+          {
+            "y": 709,
+            "cells": [
+              {
+                "text": "350,000원",
+                "bbox": [
+                  762,
+                  709,
+                  835,
+                  734
+                ]
+              },
+              {
+                "text": "부가세",
+                "bbox": [
+                  92,
+                  710,
+                  141,
+                  737
+                ]
+              }
+            ]
+          },
+          {
+            "y": 745,
+            "cells": [
+              {
+                "text": "총건적금액",
+                "bbox": [
+                  92,
+                  745,
+                  169,
+                  773
+                ]
+              },
+              {
+                "text": "3,850,000원",
+                "bbox": [
+                  761,
+                  745,
+                  846,
+                  773
+                ]
+              }
+            ]
+          },
+          {
+            "y": 1326,
+            "cells": [
+              {
+                "text": "가상자료:실제 신청·증명·계약·지급에사용할 수 없습니다",
+                "bbox": [
+                  78,
+                  1326,
+                  410,
+                  1348
+                ]
+              },
+              {
+                "text": "6/6",
+                "bbox": [
+                  886,
+                  1327,
+                  927,
+                  1354
+                ]
+              }
+            ]
+          }
+        ],
+        "lines": [
+          {
+            "text": "마음이음|이용환경개선개별서식",
+            "bbox": [
+              69,
+              48,
+              267,
+              70
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9205132722854614
+          },
+          {
+            "text": "가상예시/공식서식아님",
+            "bbox": [
+              768,
+              44,
+              915,
+              65
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9728004336357117
+          },
+          {
+            "text": "사업별견적서예시",
+            "bbox": [
+              80,
+              123,
+              304,
+              161
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9670222997665405
+          },
+          {
+            "text": "접근환경개선기록·첨부",
+            "bbox": [
+              88,
+              164,
+              242,
+              190
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9675743579864502
+          },
+          {
+            "text": "TEST-Q-ACCESS-001/가상거래·청구용 아님",
+            "bbox": [
+              330,
+              161,
+              616,
+              186
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9453133344650269
+          },
+          {
+            "text": "공급받는자",
+            "bbox": [
+              88,
+              215,
+              166,
+              243
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9985023736953735
+          },
+          {
+            "text": "공급자",
+            "bbox": [
+              506,
+              214,
+              556,
+              241
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9982832074165344
+          },
+          {
+            "text": "상호",
+            "bbox": [
+              87,
+              249,
+              128,
+              282
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9941951632499695
+          },
+          {
+            "text": "가상모통이책방",
+            "bbox": [
+              214,
+              254,
+              310,
+              275
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9689360857009888
+          },
+          {
+            "text": "상호",
+            "bbox": [
+              504,
+              247,
+              546,
+              280
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9974545836448669
+          },
+          {
+            "text": "예시편의시공",
+            "bbox": [
+              633,
+              249,
+              719,
+              273
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9915413856506348
+          },
+          {
+            "text": "대표자",
+            "bbox": [
+              88,
+              289,
+              138,
+              315
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9923365712165833
+          },
+          {
+            "text": "가상수민",
+            "bbox": [
+              212,
+              288,
+              276,
+              314
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9968637228012085
+          },
+          {
+            "text": "대표자",
+            "bbox": [
+              506,
+              286,
+              557,
+              313
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.988128662109375
+          },
+          {
+            "text": "가상유진",
+            "bbox": [
+              631,
+              282,
+              696,
+              314
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9962525367736816
+          },
+          {
+            "text": "사업자변호",
+            "bbox": [
+              90,
+              324,
+              162,
+              352
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9839188456535339
+          },
+          {
+            "text": "000-00-00300",
+            "bbox": [
+              214,
+              325,
+              310,
+              349
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9748523235321045
+          },
+          {
+            "text": "사업자번호",
+            "bbox": [
+              508,
+              321,
+              582,
+              348
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9751822352409363
+          },
+          {
+            "text": "000-00-00301",
+            "bbox": [
+              635,
+              322,
+              730,
+              346
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9958371520042419
+          },
+          {
+            "text": "견적일",
+            "bbox": [
+              89,
+              361,
+              138,
+              387
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9885351061820984
+          },
+          {
+            "text": "2026-10-22",
+            "bbox": [
+              213,
+              361,
+              295,
+              385
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9991633296012878
+          },
+          {
+            "text": "유효기간",
+            "bbox": [
+              508,
+              357,
+              571,
+              386
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9913809299468994
+          },
+          {
+            "text": "2026-11-13",
+            "bbox": [
+              635,
+              358,
+              715,
+              382
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9977735280990601
+          },
+          {
+            "text": "항목-규격",
+            "bbox": [
+              90,
+              413,
+              159,
+              438
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8897721171379089
+          },
+          {
+            "text": "수량",
+            "bbox": [
+              493,
+              410,
+              532,
+              437
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9519537687301636
+          },
+          {
+            "text": "단가",
+            "bbox": [
+              583,
+              410,
+              623,
+              437
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9982216358184814
+          },
+          {
+            "text": "금액",
+            "bbox": [
+              756,
+              408,
+              796,
+              436
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9983358383178711
+          },
+          {
+            "text": "단차완화설치물",
+            "bbox": [
+              92,
+              449,
+              196,
+              473
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9364867806434631
+          },
+          {
+            "text": "1식",
+            "bbox": [
+              493,
+              455,
+              530,
+              484
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9959685802459717
+          },
+          {
+            "text": "1,250,000원",
+            "bbox": [
+              586,
+              456,
+              670,
+              481
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9571636915206909
+          },
+          {
+            "text": "1,250,000원",
+            "bbox": [
+              760,
+              455,
+              843,
+              480
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.971207320690155
+          },
+          {
+            "text": "출입구치수확인후가상규격확정",
+            "bbox": [
+              92,
+              467,
+              298,
+              493
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9332175850868225
+          },
+          {
+            "text": "이동보조손잡이",
+            "bbox": [
+              93,
+              506,
+              195,
+              527
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9851050972938538
+          },
+          {
+            "text": "2개",
+            "bbox": [
+              492,
+              511,
+              531,
+              540
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.995973527431488
+          },
+          {
+            "text": "450,000원",
+            "bbox": [
+              586,
+              513,
+              660,
+              538
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9679445624351501
+          },
+          {
+            "text": "900,000원",
+            "bbox": [
+              759,
+              512,
+              834,
+              537
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9952433109283447
+          },
+          {
+            "text": "출입·안내구역설치",
+            "bbox": [
+              91,
+              524,
+              216,
+              550
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9611592888832092
+          },
+          {
+            "text": "진열동선재배치",
+            "bbox": [
+              93,
+              562,
+              195,
+              585
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.965011715888977
+          },
+          {
+            "text": "1식",
+            "bbox": [
+              493,
+              570,
+              530,
+              598
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9990425109863281
+          },
+          {
+            "text": "750,000원",
+            "bbox": [
+              587,
+              571,
+              660,
+              596
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9644900560379028
+          },
+          {
+            "text": "750,000원",
+            "bbox": [
+              761,
+              570,
+              834,
+              596
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9750055074691772
+          },
+          {
+            "text": "입구앞진열대위치·통행경로조정",
+            "bbox": [
+              94,
+              583,
+              302,
+              604
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9480318427085876
+          },
+          {
+            "text": "큰글자안내판",
+            "bbox": [
+              93,
+              616,
+              184,
+              643
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9913139343261719
+          },
+          {
+            "text": "6개",
+            "bbox": [
+              494,
+              626,
+              533,
+              655
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9963696002960205
+          },
+          {
+            "text": "100,000원",
+            "bbox": [
+              588,
+              627,
+              661,
+              653
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9967566728591919
+          },
+          {
+            "text": "입구및서가구역구분",
+            "bbox": [
+              93,
+              637,
+              230,
+              664
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.987633466720581
+          },
+          {
+            "text": "600,000원",
+            "bbox": [
+              761,
+              626,
+              834,
+              654
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9623292684555054
+          },
+          {
+            "text": "공급가액",
+            "bbox": [
+              93,
+              675,
+              154,
+              701
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9982502460479736
+          },
+          {
+            "text": "3,500,000원",
+            "bbox": [
+              761,
+              672,
+              845,
+              701
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9270485639572144
+          },
+          {
+            "text": "부가세",
+            "bbox": [
+              92,
+              710,
+              141,
+              737
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9931213855743408
+          },
+          {
+            "text": "350,000원",
+            "bbox": [
+              762,
+              709,
+              835,
+              734
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9940879344940186
+          },
+          {
+            "text": "총건적금액",
+            "bbox": [
+              92,
+              745,
+              169,
+              773
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9920312166213989
+          },
+          {
+            "text": "3,850,000원",
+            "bbox": [
+              761,
+              745,
+              846,
+              773
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9793919324874878
+          },
+          {
+            "text": "거래조건·사업별 확인사항",
+            "bbox": [
+              95,
+              804,
+              247,
+              825
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9564203023910522
+          },
+          {
+            "text": "현장 치수와설치 권한 확인 후제작규격 확정,공용보도점유와 구조변경공사는 포함하지 않습니다.안내판6개와 진열대재배치포함.",
+            "bbox": [
+              95,
+              839,
+              875,
+              862
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8975183367729187
+          },
+          {
+            "text": "공급업체 확인:예시편의시공/가상유진(가상확인)",
+            "bbox": [
+              629,
+              884,
+              914,
+              904
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.968793511390686
+          },
+          {
+            "text": "가상자료:실제 신청·증명·계약·지급에사용할 수 없습니다",
+            "bbox": [
+              78,
+              1326,
+              410,
+              1348
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.927239716053009
+          },
+          {
+            "text": "6/6",
+            "bbox": [
+              886,
+              1327,
+              927,
+              1354
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9859147071838379
+          }
+        ],
+        "fields": {
+          "businessName": "가상모통이책방",
+          "businessNo": "0000000301",
+          "representative": "가상수민",
+          "totalAmount": "3850000"
+        },
+        "evidence": {
+          "businessName": {
+            "bbox": [
+              214,
+              254,
+              310,
+              275
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9689360857009888
+          },
+          "businessNo": {
+            "bbox": [
+              635,
+              322,
+              730,
+              346
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9958371520042419
+          },
+          "representative": {
+            "bbox": [
+              212,
+              288,
+              276,
+              314
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9968637228012085
+          },
+          "totalAmount": {
+            "lineIndex": 52,
+            "rawValue": "3,850,000원",
+            "bbox": [
+              761,
+              745,
+              846,
+              773
+            ],
+            "source": "PADDLE_OCR",
+            "method": "LLM_SOURCE_VERIFIED"
+          }
+        },
+        "photos": [],
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kindLabel": "견적서",
+        "previewKey": "7b91ffa2572ddd4a508d9fe52f6f84d00d1f38e80e53637cb3ccd0e205922d9d.png",
+        "groupStart": true,
+        "ai": {
+          "pageNumber": 6,
+          "fields": {
+            "totalAmount": "3850000"
+          },
+          "evidence": {
+            "totalAmount": {
+              "lineIndex": 52,
+              "rawValue": "3,850,000원",
+              "bbox": [
+                761,
+                745,
+                846,
+                773
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            }
+          },
+          "suggestedKind": "ESTIMATE",
+          "kindEvidence": {
+            "lineIndex": 2,
+            "text": "사업별견적서예시"
+          },
+          "kindAgreement": true,
+          "kindLabel": "견적서"
+        }
+      }
+    ],
+    "groups": [
+      {
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kind": "APPLICATION",
+        "kindLabel": "신청서",
+        "pageNumbers": [
+          1
+        ],
+        "indexes": [
+          0
+        ],
+        "pdfKey": "62117abc0215ed53ed0a8806445ad4e4df31ceb7495be681a6b82c5c3f25098b.pdf"
+      },
+      {
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kind": "BUSINESS_PLAN",
+        "kindLabel": "사업계획서",
+        "pageNumbers": [
+          2,
+          3
+        ],
+        "indexes": [
+          1,
+          2
+        ],
+        "pdfKey": "f4eae1d4fea897e7a7d09ed70137cad6ac569613757dc293e3572c50c8533468.pdf"
+      },
+      {
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kind": "PHOTO_SHEET",
+        "kindLabel": "현장 사진",
+        "pageNumbers": [
+          4
+        ],
+        "indexes": [
+          3
+        ],
+        "pdfKey": "1326cc9a7738ba6ce99653c70c4b8fe5b46e65b6bf69cfb71683e422c870db16.pdf"
+      },
+      {
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kind": "BUSINESS_CERT",
+        "kindLabel": "사업자등록증",
+        "pageNumbers": [
+          5
+        ],
+        "indexes": [
+          4
+        ],
+        "pdfKey": "3b89262a9319406a434031f00d804e9d8f8ab92eb808838e03f14edd6d15fb38.pdf"
+      },
+      {
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kind": "ESTIMATE",
+        "kindLabel": "견적서",
+        "pageNumbers": [
+          6
+        ],
+        "indexes": [
+          5
+        ],
+        "pdfKey": "abfacb123110107fb2b205b015f681aa863e386d7ae34f00c552deecd60e4789.pdf"
+      }
+    ],
+    "fields": {
+      "businessName": "가상모통이책방",
+      "representative": "가상수민",
+      "phone": "000-000-0130",
+      "address": "가상시예시구책마루길35,1층",
+      "requestedAmount": "3000000",
+      "selfContribution": "850000",
+      "totalAmount": "3850000",
+      "planText": "출입구에 작은 단차가 있고 입구 안쪽진열대사이의 동선이 좁아 유모차와 보행보조기 이용 고객이 이동할때 불편을 겪는상황을 가정했습니다.\n공용보도에고정 구조물을 두지 않는 방향을 먼저 검토합니다\n출입구조건에 맞춘단차완화설치를1식과 손잡이2개를 계획하고,앞쪽진열대를재배치합니다.큰글자 안내판6개를제작해 입구와서가구분\n임대인과설치 가능범위를 확인한뒤치수를 재고규격을정합니다.통행을 막지 않는설치 방식과 철거·복구 가능여부를 확인합니다.접근성인\n출입구와매장 안이동경로를따라불편이 줄었는지점검하고설치를 규격·고정상태·안내판수량을 확인합니다.인증 취득또는 모든이용자의\n가상자료: 실제 신청·증명·계약-지급에 사용할 수 없습니다.\n가상계획입니다설치·제작·공사·비용지급이실제로이루어졌다는 뜻이아닙니다.\n가상자료: 실제 신청·증명·계약·지급에사용할 수없습니다.",
+      "businessNo": "0000000300",
+      "openedOn": "2021-03-22",
+      "businessType": "도매및소매업",
+      "businessItem": "서적및 잡지 소매"
+    },
+    "evidence": {
+      "businessName": {
+        "pageNumber": 6,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "representative": {
+        "pageNumber": 6,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "phone": {
+        "pageNumber": 1,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "address": {
+        "pageNumber": 5,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "requestedAmount": {
+        "pageNumber": 1,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "selfContribution": {
+        "pageNumber": 1,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "totalAmount": {
+        "pageNumber": 3,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "planText": {
+        "pageNumber": 2,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "businessNo": {
+        "pageNumber": 5,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "openedOn": {
+        "pageNumber": 5,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "businessType": {
+        "pageNumber": 5,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "businessItem": {
+        "pageNumber": 5,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      }
+    },
+    "conflicts": [
+      {
+        "field": "businessNo",
+        "previous": "0000000300",
+        "candidate": "0000000301",
+        "pageNumber": 6,
+        "sourceName": "신청서.pdf"
+      }
+    ],
+    "pageCount": 6,
+    "photoCount": 1,
+    "aiAnalyses": [
+      {
+        "provider": "openrouter",
+        "model": "google/gemma-4-26b-a4b-it",
+        "status": "SUCCEEDED",
+        "verifiedCount": 18,
+        "rejectedCount": 1,
+        "conflicts": [],
+        "pageResults": [
+          {
+            "pageNumber": 1,
+            "fields": {
+              "businessName": "가상모통이책방",
+              "representative": "가상수민",
+              "businessNo": "0000000300",
+              "openedOn": "2021-03-22",
+              "phone": "000-000-0130",
+              "address": "가상시예시구책마루길35,1층",
+              "requestedAmount": "3000000",
+              "selfContribution": "850000",
+              "totalAmount": "3850000"
+            },
+            "evidence": {
+              "businessName": {
+                "lineIndex": 6,
+                "rawValue": "가상모통이책방",
+                "bbox": [
+                  269,
+                  225,
+                  368,
+                  252
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "representative": {
+                "lineIndex": 8,
+                "rawValue": "가상수민",
+                "bbox": [
+                  689,
+                  227,
+                  753,
+                  256
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "businessNo": {
+                "lineIndex": 10,
+                "rawValue": "000-00-00300",
+                "bbox": [
+                  271,
+                  264,
+                  446,
+                  285
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "openedOn": {
+                "lineIndex": 10,
+                "rawValue": "2021-03-22",
+                "bbox": [
+                  271,
+                  264,
+                  446,
+                  285
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "phone": {
+                "lineIndex": 12,
+                "rawValue": "000-000-0130",
+                "bbox": [
+                  689,
+                  264,
+                  794,
+                  291
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "address": {
+                "lineIndex": 14,
+                "rawValue": "가상시예시구책마루길35,1층",
+                "bbox": [
+                  271,
+                  299,
+                  459,
+                  323
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "requestedAmount": {
+                "lineIndex": 34,
+                "rawValue": "3,000,000원",
+                "bbox": [
+                  391,
+                  574,
+                  478,
+                  598
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "selfContribution": {
+                "lineIndex": 36,
+                "rawValue": "850,000원",
+                "bbox": [
+                  391,
+                  609,
+                  466,
+                  636
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "totalAmount": {
+                "lineIndex": 38,
+                "rawValue": "3,850,000원",
+                "bbox": [
+                  392,
+                  648,
+                  477,
+                  672
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              }
+            },
+            "suggestedKind": "APPLICATION",
+            "kindEvidence": {
+              "lineIndex": 2,
+              "text": "지원사업신청서"
+            },
+            "kindAgreement": true,
+            "kindLabel": "신청서"
+          },
+          {
+            "pageNumber": 2,
+            "fields": {},
+            "evidence": {},
+            "suggestedKind": "BUSINESS_PLAN",
+            "kindEvidence": {
+              "lineIndex": 2,
+              "text": "위치별이용환경 개선 계획"
+            },
+            "kindAgreement": true,
+            "kindLabel": "사업계획서"
+          },
+          {
+            "pageNumber": 3,
+            "fields": {
+              "totalAmount": "3850000"
+            },
+            "evidence": {
+              "totalAmount": {
+                "lineIndex": 42,
+                "rawValue": "3,850,000원",
+                "bbox": [
+                  499,
+                  688,
+                  582,
+                  711
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              }
+            },
+            "suggestedKind": "BUSINESS_PLAN",
+            "kindEvidence": {
+              "lineIndex": 2,
+              "text": "위치별 개선비와 현장 추진 일정"
+            },
+            "kindAgreement": true,
+            "kindLabel": "사업계획서"
+          },
+          {
+            "pageNumber": 4,
+            "fields": {},
+            "evidence": {},
+            "suggestedKind": "PHOTO_SHEET",
+            "kindEvidence": {
+              "lineIndex": 2,
+              "text": "현장 위치·볼편 사진대지"
+            },
+            "kindAgreement": true,
+            "kindLabel": "현장 사진"
+          },
+          {
+            "pageNumber": 5,
+            "fields": {
+              "businessName": "가상모통이책방",
+              "businessNo": "0000000300",
+              "representative": "가상수민",
+              "openedOn": "2021-03-22",
+              "address": "가상시예시구책마루길35,1층",
+              "businessType": "도매및소매업",
+              "businessItem": "서적및 잡지 소매"
+            },
+            "evidence": {
+              "businessName": {
+                "lineIndex": 8,
+                "rawValue": "가상모통이책방",
+                "bbox": [
+                  282,
+                  346,
+                  381,
+                  370
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "businessNo": {
+                "lineIndex": 6,
+                "rawValue": "000-00-00300",
+                "bbox": [
+                  280,
+                  270,
+                  376,
+                  297
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "representative": {
+                "lineIndex": 10,
+                "rawValue": "가상수민",
+                "bbox": [
+                  280,
+                  415,
+                  345,
+                  444
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "openedOn": {
+                "lineIndex": 12,
+                "rawValue": "2021년 03월22일",
+                "bbox": [
+                  282,
+                  491,
+                  398,
+                  515
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "address": {
+                "lineIndex": 14,
+                "rawValue": "가상시예시구책마루길35,1층",
+                "bbox": [
+                  285,
+                  578,
+                  474,
+                  602
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "businessType": {
+                "lineIndex": 16,
+                "rawValue": "도매및소매업",
+                "bbox": [
+                  286,
+                  669,
+                  410,
+                  692
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "businessItem": {
+                "lineIndex": 17,
+                "rawValue": "서적및 잡지 소매",
+                "bbox": [
+                  285,
+                  688,
+                  427,
+                  714
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              }
+            },
+            "suggestedKind": "BUSINESS_CERT",
+            "kindEvidence": {
+              "lineIndex": 2,
+              "text": "첨부서류A/사업자정보대조용"
+            },
+            "kindAgreement": true,
+            "kindLabel": "사업자등록증"
+          },
+          {
+            "pageNumber": 6,
+            "fields": {
+              "totalAmount": "3850000"
+            },
+            "evidence": {
+              "totalAmount": {
+                "lineIndex": 52,
+                "rawValue": "3,850,000원",
+                "bbox": [
+                  761,
+                  745,
+                  846,
+                  773
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              }
+            },
+            "suggestedKind": "ESTIMATE",
+            "kindEvidence": {
+              "lineIndex": 2,
+              "text": "사업별견적서예시"
+            },
+            "kindAgreement": true,
+            "kindLabel": "견적서"
+          }
+        ],
+        "supplementedCount": 3,
+        "agreementCount": 15,
+        "durationSeconds": 25.13,
+        "sourceName": "신청서.pdf"
+      }
+    ]
+  },
+  "aiPreparedAt": "2026-10-25T19:56:36.153619+00:00"
+}

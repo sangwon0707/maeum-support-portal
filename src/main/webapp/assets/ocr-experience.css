@@ -1,0 +1,23 @@
+.ocr-progress-panel { display: flex; gap: 18px; align-items: center; padding: 22px 26px; margin: 24px 0; border: 1px solid #d9e4ef; border-radius: 14px; background: #f7fafd; }
+.ocr-progress-symbol { display: grid; place-items: center; flex-shrink: 0; width: 46px; height: 52px; border: 1px solid #c3d6eb; border-radius: 10px; background: #fff; color: #3368ad; font-size: 30px; }
+.ocr-progress-eyebrow { font-size: 11px; color: #667f99; }
+.ocr-progress-panel h2 { font-size: 20px; margin: 4px 0; }
+.ocr-progress-panel p { font-size: 12px; color: #60768d; margin: 0; line-height: 1.7; }
+.ocr-progress-badge { margin-left: auto; flex-shrink: 0; font-size: 12px; color: #476481; padding: 8px 12px; border-radius: 30px; background: #e8eef6; }
+[data-phase="done"] .ocr-progress-badge { background: #e0f3e9; color: #216b47; }
+[data-phase="failed"] .ocr-progress-badge { background: #fff0e4; color: #9c5124; }
+.ocr-document-stage { position: relative; line-height: 0; overflow: hidden; border-radius: 5px; }
+.ocr-document-stage .document-preview { display: block; }
+.ocr-evidence-overlay { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+.ocr-evidence-overlay polygon { fill: #59c88a16; stroke: #379b69; stroke-width: 2; vector-effect: non-scaling-stroke; opacity: .35; }
+.ocr-evidence-overlay polygon[data-match="review"] { fill: #ffd44722; stroke: #b88a14; }
+.ocr-evidence-overlay polygon.is-active { opacity: 1; stroke-width: 3; }
+.ocr-match-badge { display: block; width: fit-content; margin-top: 6px; border-radius: 4px; padding: 3px 6px; background: #e8f5ed; color: #246747; font-size: 11px; white-space: nowrap; }
+.ocr-match-badge[hidden] { display: none; }
+[data-match="review"] .ocr-match-badge { background: #fff4ce; color: #815e10; }
+.ocr-reveal [data-ocr-field] { animation: ocr-row-settle .45s ease-out both; animation-delay: calc(var(--ocr-order) * 180ms); }
+.ocr-reveal .ocr-evidence-overlay polygon { animation: ocr-evidence-found 1.2s ease-out both; animation-delay: calc(var(--ocr-order) * 180ms); }
+@keyframes ocr-row-settle { from { opacity: .25; transform: translateY(6px); background: #edf6ff; } to { opacity: 1; transform: none; background: transparent; } }
+@keyframes ocr-evidence-found { 0% { opacity: 0; } 35% { opacity: 1; } 100% { opacity: .35; } }
+@media(prefers-reduced-motion:reduce) { .ocr-reveal [data-ocr-field],.ocr-reveal .ocr-evidence-overlay polygon { animation: none; } }
+@media(max-width:750px) { .ocr-progress-panel { flex-wrap: wrap; padding: 16px; gap: 12px; } .ocr-progress-panel > div:nth-child(2) { flex: 1; min-width: 180px; } .ocr-progress-panel h2 { font-size: 17px; } .ocr-progress-badge { margin-left: 58px; } }

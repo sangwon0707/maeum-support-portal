@@ -1,0 +1,4730 @@
+{
+  "pipelineVersion": "pdfbox-3.0.8-paddle-v5-ko-layout-v2",
+  "pdfProcessor": "Apache PDFBox 3.0.8",
+  "sourceSha256": "cc207466d38dcedd3a91e90ca26973d1962ea037bbb3e88d0df712008c7a0360",
+  "engine": "PaddleOCR",
+  "modelVersion": "PP-OCRv5_mobile_det+korean_PP-OCRv5_mobile_rec",
+  "preparedAt": "2026-10-25T19:58:38.734918+00:00",
+  "result": {
+    "pages": [
+      {
+        "pageNumber": 1,
+        "pageCount": 6,
+        "kind": "APPLICATION",
+        "width": 992,
+        "height": 1403,
+        "textSource": "PADDLE_OCR",
+        "tableRows": [],
+        "lines": [
+          {
+            "text": "마음이음|안전위생개발서식",
+            "bbox": [
+              78,
+              49,
+              253,
+              70
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9414336681365967
+          },
+          {
+            "text": "가상예시/공식서식아님",
+            "bbox": [
+              779,
+              52,
+              925,
+              75
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9795929193496704
+          },
+          {
+            "text": "지원사업 신청서",
+            "bbox": [
+              98,
+              134,
+              293,
+              172
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9696357250213623
+          },
+          {
+            "text": "안전·위생현장관리기록|01·2026소상공인점포안전-위생개선지원사업",
+            "bbox": [
+              98,
+              184,
+              497,
+              207
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9315183162689209
+          },
+          {
+            "text": "신청자",
+            "bbox": [
+              96,
+              234,
+              145,
+              260
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9912059903144836
+          },
+          {
+            "text": "가상바른분식",
+            "bbox": [
+              229,
+              233,
+              314,
+              261
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9772436022758484
+          },
+          {
+            "text": "대표자",
+            "bbox": [
+              528,
+              235,
+              578,
+              262
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9850504994392395
+          },
+          {
+            "text": "가상태호",
+            "bbox": [
+              662,
+              236,
+              723,
+              262
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.993194580078125
+          },
+          {
+            "text": "번호·개업",
+            "bbox": [
+              96,
+              271,
+              166,
+              296
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9770906567573547
+          },
+          {
+            "text": "000-00-00500/2019-11-05",
+            "bbox": [
+              230,
+              274,
+              409,
+              294
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.999279797077179
+          },
+          {
+            "text": "연락처",
+            "bbox": [
+              528,
+              272,
+              577,
+              298
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9963591694831848
+          },
+          {
+            "text": "000-0000-0150",
+            "bbox": [
+              662,
+              272,
+              766,
+              298
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.995647668838501
+          },
+          {
+            "text": "주소·업종",
+            "bbox": [
+              96,
+              306,
+              166,
+              334
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9244707822799683
+          },
+          {
+            "text": "가상시예시구정다운로9,1층/분식및간이음식점",
+            "bbox": [
+              230,
+              310,
+              533,
+              332
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9746732115745544
+          },
+          {
+            "text": "구역별점검및공사범위",
+            "bbox": [
+              89,
+              352,
+              260,
+              375
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9821368455886841
+          },
+          {
+            "text": "작업구역",
+            "bbox": [
+              96,
+              390,
+              161,
+              415
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9972352981567383
+          },
+          {
+            "text": "점검·공사 내용",
+            "bbox": [
+              241,
+              388,
+              337,
+              416
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9106787443161011
+          },
+          {
+            "text": "분리·운영조치",
+            "bbox": [
+              608,
+              396,
+              703,
+              417
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.971201479434967
+          },
+          {
+            "text": "조리후드",
+            "bbox": [
+              95,
+              424,
+              161,
+              453
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9948346614837646
+          },
+          {
+            "text": "배기연결부첨검후1식보완",
+            "bbox": [
+              243,
+              428,
+              414,
+              453
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9505994915962219
+          },
+          {
+            "text": "조리도구·식재료이동",
+            "bbox": [
+              607,
+              430,
+              740,
+              453
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9578946232795715
+          },
+          {
+            "text": "작업바닥",
+            "bbox": [
+              97,
+              463,
+              161,
+              488
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9867124557495117
+          },
+          {
+            "text": "미끄럼방지바닥15m",
+            "bbox": [
+              242,
+              467,
+              378,
+              487
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9854263067245483
+          },
+          {
+            "text": "작업구역출입재한",
+            "bbox": [
+              606,
+              466,
+              724,
+              492
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9262205362319946
+          },
+          {
+            "text": "세척대",
+            "bbox": [
+              93,
+              498,
+              146,
+              529
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9970860481262207
+          },
+          {
+            "text": "급·배수연결부점검·정비",
+            "bbox": [
+              242,
+              505,
+              399,
+              525
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9691085815429688
+          },
+          {
+            "text": "세척일정·임시사용협의",
+            "bbox": [
+              607,
+              505,
+              760,
+              528
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9684470891952515
+          },
+          {
+            "text": "사업비 및영업중단계획",
+            "bbox": [
+              87,
+              544,
+              257,
+              570
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9599071145057678
+          },
+          {
+            "text": "지원신청액",
+            "bbox": [
+              97,
+              584,
+              172,
+              606
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9899910092353821
+          },
+          {
+            "text": "자부담",
+            "bbox": [
+              374,
+              582,
+              427,
+              612
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9964051246643066
+          },
+          {
+            "text": "총사업비",
+            "bbox": [
+              658,
+              586,
+              722,
+              612
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9971518516540527
+          },
+          {
+            "text": "1,800,000원",
+            "bbox": [
+              96,
+              619,
+              179,
+              646
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9973181486129761
+          },
+          {
+            "text": "510,000원",
+            "bbox": [
+              376,
+              621,
+              448,
+              646
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9980000257492065
+          },
+          {
+            "text": "2,310,000원",
+            "bbox": [
+              658,
+              624,
+              742,
+              648
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9772002100944519
+          },
+          {
+            "text": "휴무일공사를 가정합니다.식재료·조리도구를 작업 구역과 분리하고, 실제공사일은 작업범위확인뒤정합니다.",
+            "bbox": [
+              87,
+              662,
+              663,
+              685
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9241169095039368
+          },
+          {
+            "text": "작성일2026-10-25·태스트용가상신청서",
+            "bbox": [
+              675,
+              699,
+              916,
+              721
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9690502882003784
+          },
+          {
+            "text": "가상자료:실제 신청-증명·계약·지급에사용할수없습니다",
+            "bbox": [
+              77,
+              1317,
+              410,
+              1342
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9327307343482971
+          },
+          {
+            "text": "1/6",
+            "bbox": [
+              891,
+              1325,
+              927,
+              1350
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9963789582252502
+          }
+        ],
+        "fields": {
+          "businessName": "가상바른분식",
+          "businessNo": "0000000500",
+          "representative": "가상태호",
+          "openedOn": "2019-11-05",
+          "phone": "000-0000-0150",
+          "address": "가상시예시구정다운로9,1층",
+          "requestedAmount": "1800000",
+          "selfContribution": "510000",
+          "totalAmount": "2310000",
+          "businessType": "분식및간이음식점",
+          "planText": "휴무일공사를 가정합니다.식재료·조리도구를 작업 구역과 분리하고, 실제공사일은 작업범위확인뒤정합니다."
+        },
+        "evidence": {
+          "businessName": {
+            "bbox": [
+              229,
+              233,
+              314,
+              261
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9772436022758484
+          },
+          "businessNo": {
+            "bbox": [
+              230,
+              274,
+              409,
+              294
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.999279797077179
+          },
+          "representative": {
+            "bbox": [
+              662,
+              236,
+              723,
+              262
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.993194580078125
+          },
+          "openedOn": {
+            "bbox": [
+              230,
+              274,
+              409,
+              294
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.999279797077179
+          },
+          "phone": {
+            "bbox": [
+              662,
+              272,
+              766,
+              298
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.995647668838501
+          },
+          "address": {
+            "bbox": [
+              230,
+              310,
+              533,
+              332
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9746732115745544
+          },
+          "requestedAmount": {
+            "bbox": [
+              96,
+              619,
+              179,
+              646
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9973181486129761
+          },
+          "selfContribution": {
+            "bbox": [
+              376,
+              621,
+              448,
+              646
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9980000257492065
+          },
+          "totalAmount": {
+            "bbox": [
+              658,
+              624,
+              742,
+              648
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9772002100944519
+          },
+          "businessType": {
+            "lineIndex": 13,
+            "rawValue": "분식및간이음식점",
+            "bbox": [
+              230,
+              310,
+              533,
+              332
+            ],
+            "source": "PADDLE_OCR",
+            "method": "LLM_SOURCE_VERIFIED"
+          },
+          "planText": {
+            "lineIndex": 34,
+            "rawValue": "휴무일공사를 가정합니다.식재료·조리도구를 작업 구역과 분리하고, 실제공사일은 작업범위확인뒤정합니다.",
+            "bbox": [
+              87,
+              662,
+              663,
+              685
+            ],
+            "source": "PADDLE_OCR",
+            "method": "LLM_SOURCE_VERIFIED"
+          }
+        },
+        "photos": [],
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kindLabel": "신청서",
+        "previewKey": "31836ec4f3bada4efdd876f54b44123ec3045cac182e6573577cb9dd3b2a73a6.png",
+        "groupStart": true,
+        "ai": {
+          "pageNumber": 1,
+          "fields": {
+            "businessName": "가상바른분식",
+            "businessNo": "0000000500",
+            "representative": "가상태호",
+            "openedOn": "2019-11-05",
+            "phone": "000-0000-0150",
+            "address": "가상시예시구정다운로9,1층",
+            "businessType": "분식및간이음식점",
+            "requestedAmount": "1800000",
+            "selfContribution": "510000",
+            "totalAmount": "2310000",
+            "planText": "휴무일공사를 가정합니다.식재료·조리도구를 작업 구역과 분리하고, 실제공사일은 작업범위확인뒤정합니다."
+          },
+          "evidence": {
+            "businessName": {
+              "lineIndex": 5,
+              "rawValue": "가상바른분식",
+              "bbox": [
+                229,
+                233,
+                314,
+                261
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "businessNo": {
+              "lineIndex": 9,
+              "rawValue": "000-00-00500",
+              "bbox": [
+                230,
+                274,
+                409,
+                294
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "representative": {
+              "lineIndex": 7,
+              "rawValue": "가상태호",
+              "bbox": [
+                662,
+                236,
+                723,
+                262
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "openedOn": {
+              "lineIndex": 9,
+              "rawValue": "2019-11-05",
+              "bbox": [
+                230,
+                274,
+                409,
+                294
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "phone": {
+              "lineIndex": 11,
+              "rawValue": "000-0000-0150",
+              "bbox": [
+                662,
+                272,
+                766,
+                298
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "address": {
+              "lineIndex": 13,
+              "rawValue": "가상시예시구정다운로9,1층",
+              "bbox": [
+                230,
+                310,
+                533,
+                332
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "businessType": {
+              "lineIndex": 13,
+              "rawValue": "분식및간이음식점",
+              "bbox": [
+                230,
+                310,
+                533,
+                332
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "requestedAmount": {
+              "lineIndex": 31,
+              "rawValue": "1,800,000원",
+              "bbox": [
+                96,
+                619,
+                179,
+                646
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "selfContribution": {
+              "lineIndex": 32,
+              "rawValue": "510,000원",
+              "bbox": [
+                376,
+                621,
+                448,
+                646
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "totalAmount": {
+              "lineIndex": 33,
+              "rawValue": "2,310,000원",
+              "bbox": [
+                658,
+                624,
+                742,
+                648
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "planText": {
+              "lineIndex": 34,
+              "rawValue": "휴무일공사를 가정합니다.식재료·조리도구를 작업 구역과 분리하고, 실제공사일은 작업범위확인뒤정합니다.",
+              "bbox": [
+                87,
+                662,
+                663,
+                685
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            }
+          },
+          "suggestedKind": "APPLICATION",
+          "kindEvidence": {
+            "lineIndex": 2,
+            "text": "지원사업 신청서"
+          },
+          "kindAgreement": true,
+          "kindLabel": "신청서"
+        }
+      },
+      {
+        "pageNumber": 2,
+        "pageCount": 6,
+        "kind": "BUSINESS_PLAN",
+        "width": 992,
+        "height": 1403,
+        "textSource": "PADDLE_OCR",
+        "tableRows": [
+          {
+            "y": 229,
+            "cells": [
+              {
+                "text": "완료확인",
+                "bbox": [
+                  717,
+                  229,
+                  782,
+                  254
+                ]
+              },
+              {
+                "text": "구역",
+                "bbox": [
+                  85,
+                  233,
+                  127,
+                  265
+                ]
+              },
+              {
+                "text": "중단·분리조치",
+                "bbox": [
+                  463,
+                  234,
+                  557,
+                  255
+                ]
+              }
+            ]
+          },
+          {
+            "y": 266,
+            "cells": [
+              {
+                "text": "작동·연결상태",
+                "bbox": [
+                  719,
+                  266,
+                  815,
+                  290
+                ]
+              },
+              {
+                "text": "조리 중단/도구 분리",
+                "bbox": [
+                  462,
+                  267,
+                  590,
+                  294
+                ]
+              }
+            ]
+          },
+          {
+            "y": 272,
+            "cells": [
+              {
+                "text": "조리후드",
+                "bbox": [
+                  89,
+                  272,
+                  153,
+                  297
+                ]
+              },
+              {
+                "text": "연결부점검·보완",
+                "bbox": [
+                  224,
+                  273,
+                  329,
+                  294
+                ]
+              }
+            ]
+          },
+          {
+            "y": 302,
+            "cells": [
+              {
+                "text": "시공면적·마감",
+                "bbox": [
+                  719,
+                  302,
+                  812,
+                  326
+                ]
+              },
+              {
+                "text": "구역 통제-건조시간준수",
+                "bbox": [
+                  464,
+                  305,
+                  611,
+                  328
+                ]
+              },
+              {
+                "text": "15mi미끄럼방지",
+                "bbox": [
+                  224,
+                  307,
+                  330,
+                  331
+                ]
+              }
+            ]
+          },
+          {
+            "y": 337,
+            "cells": [
+              {
+                "text": "누수·배수확인",
+                "bbox": [
+                  718,
+                  337,
+                  816,
+                  364
+                ]
+              },
+              {
+                "text": "식재료임시보관분리",
+                "bbox": [
+                  466,
+                  342,
+                  595,
+                  363
+                ]
+              }
+            ]
+          },
+          {
+            "y": 344,
+            "cells": [
+              {
+                "text": "세척대",
+                "bbox": [
+                  90,
+                  344,
+                  138,
+                  371
+                ]
+              },
+              {
+                "text": "급·배수점검·정비",
+                "bbox": [
+                  224,
+                  344,
+                  338,
+                  367
+                ]
+              }
+            ]
+          },
+          {
+            "y": 1318,
+            "cells": [
+              {
+                "text": "2/6",
+                "bbox": [
+                  888,
+                  1318,
+                  924,
+                  1342
+                ]
+              },
+              {
+                "text": "가상 자료; 실제 신청·증명-계약·지급에사용할 수 없습니다",
+                "bbox": [
+                  88,
+                  1321,
+                  420,
+                  1341
+                ]
+              }
+            ]
+          }
+        ],
+        "lines": [
+          {
+            "text": "가상예시/공식서식아님",
+            "bbox": [
+              766,
+              41,
+              916,
+              64
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.944196343421936
+          },
+          {
+            "text": "마음이음안전위생개발서식",
+            "bbox": [
+              68,
+              53,
+              242,
+              76
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9772610664367676
+          },
+          {
+            "text": "안전·위생공사 작업계획",
+            "bbox": [
+              90,
+              136,
+              381,
+              175
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9756969809532166
+          },
+          {
+            "text": "안전·위생현장관리기록|02·바른분석의환기·바닥·급배수정비",
+            "bbox": [
+              90,
+              183,
+              436,
+              208
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9341156482696533
+          },
+          {
+            "text": "구역",
+            "bbox": [
+              85,
+              233,
+              127,
+              265
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9989542365074158
+          },
+          {
+            "text": "점검·작업",
+            "bbox": [
+              221,
+              235,
+              288,
+              260
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8936522603034973
+          },
+          {
+            "text": "중단·분리조치",
+            "bbox": [
+              463,
+              234,
+              557,
+              255
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9410065412521362
+          },
+          {
+            "text": "완료확인",
+            "bbox": [
+              717,
+              229,
+              782,
+              254
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.998461902141571
+          },
+          {
+            "text": "조리후드",
+            "bbox": [
+              89,
+              272,
+              153,
+              297
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9915885329246521
+          },
+          {
+            "text": "연결부점검·보완",
+            "bbox": [
+              224,
+              273,
+              329,
+              294
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9287499189376831
+          },
+          {
+            "text": "조리 중단/도구 분리",
+            "bbox": [
+              462,
+              267,
+              590,
+              294
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8931884765625
+          },
+          {
+            "text": "작동·연결상태",
+            "bbox": [
+              719,
+              266,
+              815,
+              290
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9804844260215759
+          },
+          {
+            "text": "작업 바닥",
+            "bbox": [
+              90,
+              308,
+              153,
+              333
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9024850130081177
+          },
+          {
+            "text": "15mi미끄럼방지",
+            "bbox": [
+              224,
+              307,
+              330,
+              331
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8716309666633606
+          },
+          {
+            "text": "구역 통제-건조시간준수",
+            "bbox": [
+              464,
+              305,
+              611,
+              328
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9260869026184082
+          },
+          {
+            "text": "시공면적·마감",
+            "bbox": [
+              719,
+              302,
+              812,
+              326
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9796742796897888
+          },
+          {
+            "text": "세척대",
+            "bbox": [
+              90,
+              344,
+              138,
+              371
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9934374690055847
+          },
+          {
+            "text": "급·배수점검·정비",
+            "bbox": [
+              224,
+              344,
+              338,
+              367
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9129347205162048
+          },
+          {
+            "text": "식재료임시보관분리",
+            "bbox": [
+              466,
+              342,
+              595,
+              363
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9894593358039856
+          },
+          {
+            "text": "누수·배수확인",
+            "bbox": [
+              718,
+              337,
+              816,
+              364
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9564512372016907
+          },
+          {
+            "text": "점검구역과범위",
+            "bbox": [
+              82,
+              403,
+              203,
+              431
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9918084740638733
+          },
+          {
+            "text": "점검구역과범위",
+            "bbox": [
+              93,
+              444,
+              190,
+              465
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9724510908126831
+          },
+          {
+            "text": "조리공간의 배기설비와작업 구역 바닥,세척대주변 배수동선을정비하려는가상매장입니다.사진만으로위생위반이나설비위험을판단하지",
+            "bbox": [
+              94,
+              471,
+              916,
+              499
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9418838620185852
+          },
+          {
+            "text": "않고실제 작업범위는 점검 후정하도록계획했습니다",
+            "bbox": [
+              96,
+              497,
+              410,
+              521
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9464771747589111
+          },
+          {
+            "text": "공사방법·자재",
+            "bbox": [
+              84,
+              546,
+              195,
+              573
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9829564690589905
+          },
+          {
+            "text": "공사방법·자재",
+            "bbox": [
+              94,
+              587,
+              184,
+              608
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9738052487373352
+          },
+          {
+            "text": "배기설비1식을교체·보완하고 작업구역바닥15제곱미터를미끄럼방지방식으로시공합니다.세척대급·배수연결부는점검후필요한구간",
+            "bbox": [
+              94,
+              616,
+              911,
+              644
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9422001838684082
+          },
+          {
+            "text": "만 정비합니다",
+            "bbox": [
+              94,
+              644,
+              184,
+              665
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9413338899612427
+          },
+          {
+            "text": "영업중단·분리계획",
+            "bbox": [
+              85,
+              691,
+              222,
+              718
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9828060865402222
+          },
+          {
+            "text": "영업중단·분리계획",
+            "bbox": [
+              96,
+              731,
+              205,
+              752
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9340340495109558
+          },
+          {
+            "text": "휴무일에시공하고 조리도구·식재료는작업 구역과 분리합니다.자재비와 시공비,공사구역을구분해건적받았습니다.정기청소·소독·세제갈",
+            "bbox": [
+              95,
+              759,
+              919,
+              788
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9121959209442139
+          },
+          {
+            "text": "은소모성비용은산정하지 않습니다.",
+            "bbox": [
+              95,
+              786,
+              309,
+              808
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9414010643959045
+          },
+          {
+            "text": "작업후확인",
+            "bbox": [
+              86,
+              838,
+              175,
+              863
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9923410415649414
+          },
+          {
+            "text": "작업후확인",
+            "bbox": [
+              97,
+              876,
+              169,
+              898
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.975921630859375
+          },
+          {
+            "text": "배기 작동,바닥시공범위,급·배수정비 내역과작업후 정리상태를 확인합니다.법정 검사합격이나 위생인증취득을 주장하지 않습니다",
+            "bbox": [
+              96,
+              907,
+              885,
+              935
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.90689617395401
+          },
+          {
+            "text": "가상 자료; 실제 신청·증명-계약·지급에사용할 수 없습니다",
+            "bbox": [
+              88,
+              1321,
+              420,
+              1341
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9150854349136353
+          },
+          {
+            "text": "2/6",
+            "bbox": [
+              888,
+              1318,
+              924,
+              1342
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.976646900177002
+          }
+        ],
+        "fields": {
+          "planText": "안전·위생현장관리기록|02·바른분석의환기·바닥·급배수정비\n조리공간의 배기설비와작업 구역 바닥,세척대주변 배수동선을정비하려는가상매장입니다.사진만으로위생위반이나설비위험을판단하지\n배기설비1식을교체·보완하고 작업구역바닥15제곱미터를미끄럼방지방식으로시공합니다.세척대급·배수연결부는점검후필요한구간\n휴무일에시공하고 조리도구·식재료는작업 구역과 분리합니다.자재비와 시공비,공사구역을구분해건적받았습니다.정기청소·소독·세제갈\n배기 작동,바닥시공범위,급·배수정비 내역과작업후 정리상태를 확인합니다.법정 검사합격이나 위생인증취득을 주장하지 않습니다"
+        },
+        "evidence": {},
+        "photos": [],
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kindLabel": "사업계획서",
+        "previewKey": "327940a419c705e7a68c2ca05b9901b5bbb555765a7f56c1a9c0e520bab211c9.png",
+        "groupStart": true
+      },
+      {
+        "pageNumber": 3,
+        "pageCount": 6,
+        "kind": "BUSINESS_PLAN",
+        "width": 992,
+        "height": 1403,
+        "textSource": "PADDLE_OCR",
+        "tableRows": [
+          {
+            "y": 48,
+            "cells": [
+              {
+                "text": "마음이음안전위생개발 서식",
+                "bbox": [
+                  81,
+                  48,
+                  253,
+                  69
+                ]
+              },
+              {
+                "text": "가상예시/공식서식아님",
+                "bbox": [
+                  779,
+                  53,
+                  933,
+                  76
+                ]
+              }
+            ]
+          },
+          {
+            "y": 234,
+            "cells": [
+              {
+                "text": "품목·규격",
+                "bbox": [
+                  97,
+                  234,
+                  164,
+                  260
+                ]
+              },
+              {
+                "text": "수량",
+                "bbox": [
+                  502,
+                  235,
+                  541,
+                  265
+                ]
+              },
+              {
+                "text": "단가",
+                "bbox": [
+                  594,
+                  236,
+                  634,
+                  265
+                ]
+              },
+              {
+                "text": "금액",
+                "bbox": [
+                  767,
+                  238,
+                  805,
+                  267
+                ]
+              }
+            ]
+          },
+          {
+            "y": 283,
+            "cells": [
+              {
+                "text": "1식",
+                "bbox": [
+                  501,
+                  283,
+                  538,
+                  313
+                ]
+              },
+              {
+                "text": "950,000원",
+                "bbox": [
+                  593,
+                  284,
+                  668,
+                  312
+                ]
+              },
+              {
+                "text": "950,000원",
+                "bbox": [
+                  767,
+                  287,
+                  842,
+                  312
+                ]
+              }
+            ]
+          },
+          {
+            "y": 341,
+            "cells": [
+              {
+                "text": "15m",
+                "bbox": [
+                  501,
+                  341,
+                  547,
+                  368
+                ]
+              },
+              {
+                "text": "750,000원",
+                "bbox": [
+                  767,
+                  342,
+                  840,
+                  370
+                ]
+              },
+              {
+                "text": "50,000원",
+                "bbox": [
+                  594,
+                  343,
+                  660,
+                  368
+                ]
+              }
+            ]
+          },
+          {
+            "y": 398,
+            "cells": [
+              {
+                "text": "1식",
+                "bbox": [
+                  501,
+                  398,
+                  537,
+                  426
+                ]
+              },
+              {
+                "text": "400,000원",
+                "bbox": [
+                  766,
+                  400,
+                  840,
+                  428
+                ]
+              },
+              {
+                "text": "400,000원",
+                "bbox": [
+                  594,
+                  401,
+                  666,
+                  425
+                ]
+              }
+            ]
+          },
+          {
+            "y": 479,
+            "cells": [
+              {
+                "text": "부가세",
+                "bbox": [
+                  94,
+                  479,
+                  144,
+                  506
+                ]
+              },
+              {
+                "text": "210,000원",
+                "bbox": [
+                  765,
+                  483,
+                  839,
+                  511
+                ]
+              }
+            ]
+          },
+          {
+            "y": 598,
+            "cells": [
+              {
+                "text": "지원신청액",
+                "bbox": [
+                  93,
+                  598,
+                  171,
+                  625
+                ]
+              },
+              {
+                "text": "자부담",
+                "bbox": [
+                  299,
+                  599,
+                  352,
+                  629
+                ]
+              },
+              {
+                "text": "총사업비",
+                "bbox": [
+                  495,
+                  602,
+                  559,
+                  628
+                ]
+              },
+              {
+                "text": "합계대조",
+                "bbox": [
+                  694,
+                  603,
+                  758,
+                  629
+                ]
+              }
+            ]
+          },
+          {
+            "y": 636,
+            "cells": [
+              {
+                "text": "1,800,000원",
+                "bbox": [
+                  94,
+                  636,
+                  178,
+                  664
+                ]
+              },
+              {
+                "text": "510,000원",
+                "bbox": [
+                  302,
+                  638,
+                  375,
+                  664
+                ]
+              },
+              {
+                "text": "2,310,000원",
+                "bbox": [
+                  495,
+                  640,
+                  579,
+                  665
+                ]
+              },
+              {
+                "text": "신청액+자부답=견적총액",
+                "bbox": [
+                  695,
+                  641,
+                  863,
+                  667
+                ]
+              }
+            ]
+          },
+          {
+            "y": 718,
+            "cells": [
+              {
+                "text": "시점",
+                "bbox": [
+                  93,
+                  718,
+                  130,
+                  748
+                ]
+              },
+              {
+                "text": "작업·확인",
+                "bbox": [
+                  203,
+                  719,
+                  271,
+                  745
+                ]
+              },
+              {
+                "text": "기록물",
+                "bbox": [
+                  660,
+                  723,
+                  709,
+                  749
+                ]
+              }
+            ]
+          },
+          {
+            "y": 756,
+            "cells": [
+              {
+                "text": "1~3일",
+                "bbox": [
+                  93,
+                  756,
+                  140,
+                  784
+                ]
+              },
+              {
+                "text": "작업 구역·점검범위·휴무일정조을",
+                "bbox": [
+                  203,
+                  756,
+                  420,
+                  782
+                ]
+              }
+            ]
+          },
+          {
+            "y": 793,
+            "cells": [
+              {
+                "text": "4~8일",
+                "bbox": [
+                  93,
+                  793,
+                  140,
+                  821
+                ]
+              },
+              {
+                "text": "조리도구분리·설비와바닥시공",
+                "bbox": [
+                  204,
+                  795,
+                  394,
+                  818
+                ]
+              },
+              {
+                "text": "공급업체/작업·자재내역",
+                "bbox": [
+                  661,
+                  798,
+                  821,
+                  822
+                ]
+              }
+            ]
+          },
+          {
+            "y": 831,
+            "cells": [
+              {
+                "text": "9~12일",
+                "bbox": [
+                  93,
+                  831,
+                  147,
+                  857
+                ]
+              },
+              {
+                "text": "작동·범위·급배수·정리상태확인",
+                "bbox": [
+                  204,
+                  833,
+                  407,
+                  855
+                ]
+              },
+              {
+                "text": "사업주/완료확인표",
+                "bbox": [
+                  661,
+                  835,
+                  786,
+                  859
+                ]
+              }
+            ]
+          }
+        ],
+        "lines": [
+          {
+            "text": "마음이음안전위생개발 서식",
+            "bbox": [
+              81,
+              48,
+              253,
+              69
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9363549947738647
+          },
+          {
+            "text": "가상예시/공식서식아님",
+            "bbox": [
+              779,
+              53,
+              933,
+              76
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8609996438026428
+          },
+          {
+            "text": "공사구역별 산출·작업 일정",
+            "bbox": [
+              99,
+              133,
+              426,
+              173
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9309906363487244
+          },
+          {
+            "text": "안전·위생현장관리기록|03·견적변호 TEST-Q-SAFETY-001",
+            "bbox": [
+              98,
+              184,
+              433,
+              207
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9276047945022583
+          },
+          {
+            "text": "품목·규격",
+            "bbox": [
+              97,
+              234,
+              164,
+              260
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9667388796806335
+          },
+          {
+            "text": "수량",
+            "bbox": [
+              502,
+              235,
+              541,
+              265
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9946285486221313
+          },
+          {
+            "text": "단가",
+            "bbox": [
+              594,
+              236,
+              634,
+              265
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.997525691986084
+          },
+          {
+            "text": "금액",
+            "bbox": [
+              767,
+              238,
+              805,
+              267
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9932089447975159
+          },
+          {
+            "text": "배기설비 보완",
+            "bbox": [
+              98,
+              273,
+              188,
+              294
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.928225576877594
+          },
+          {
+            "text": "1식",
+            "bbox": [
+              501,
+              283,
+              538,
+              313
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9941558837890625
+          },
+          {
+            "text": "조리구역후드·배기연결부점검후설치",
+            "bbox": [
+              97,
+              293,
+              337,
+              316
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.972704291343689
+          },
+          {
+            "text": "950,000원",
+            "bbox": [
+              593,
+              284,
+              668,
+              312
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.990027904510498
+          },
+          {
+            "text": "950,000원",
+            "bbox": [
+              767,
+              287,
+              842,
+              312
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9516177177429199
+          },
+          {
+            "text": "미끄럼방지바닥",
+            "bbox": [
+              98,
+              330,
+              200,
+              351
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9895439147949219
+          },
+          {
+            "text": "15m",
+            "bbox": [
+              501,
+              341,
+              547,
+              368
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.987231433391571
+          },
+          {
+            "text": "조리작업구역/자재·시공포함",
+            "bbox": [
+              96,
+              351,
+              287,
+              373
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9745049476623535
+          },
+          {
+            "text": "50,000원",
+            "bbox": [
+              594,
+              343,
+              660,
+              368
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9418287873268127
+          },
+          {
+            "text": "750,000원",
+            "bbox": [
+              767,
+              342,
+              840,
+              370
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9793643951416016
+          },
+          {
+            "text": "급·배수연결부정비",
+            "bbox": [
+              98,
+              388,
+              221,
+              409
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9800593852996826
+          },
+          {
+            "text": "세척대주변점검·연결구간보완",
+            "bbox": [
+              97,
+              407,
+              291,
+              431
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9654388427734375
+          },
+          {
+            "text": "1식",
+            "bbox": [
+              501,
+              398,
+              537,
+              426
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9986919164657593
+          },
+          {
+            "text": "400,000원",
+            "bbox": [
+              594,
+              401,
+              666,
+              425
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9213249683380127
+          },
+          {
+            "text": "400,000원",
+            "bbox": [
+              766,
+              400,
+              840,
+              428
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9509766101837158
+          },
+          {
+            "text": "공급가액",
+            "bbox": [
+              94,
+              441,
+              156,
+              471
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9953927993774414
+          },
+          {
+            "text": "2,100,000원",
+            "bbox": [
+              766,
+              448,
+              850,
+              473
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9143465161323547
+          },
+          {
+            "text": "부가세",
+            "bbox": [
+              94,
+              479,
+              144,
+              506
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9952287673950195
+          },
+          {
+            "text": "210,000원",
+            "bbox": [
+              765,
+              483,
+              839,
+              511
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9644443392753601
+          },
+          {
+            "text": "총액",
+            "bbox": [
+              93,
+              516,
+              131,
+              544
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8426555395126343
+          },
+          {
+            "text": "2,310,000원",
+            "bbox": [
+              766,
+              522,
+              850,
+              547
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9441065788269043
+          },
+          {
+            "text": "재원대조",
+            "bbox": [
+              85,
+              561,
+              158,
+              586
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9959889650344849
+          },
+          {
+            "text": "지원신청액",
+            "bbox": [
+              93,
+              598,
+              171,
+              625
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9942429661750793
+          },
+          {
+            "text": "자부담",
+            "bbox": [
+              299,
+              599,
+              352,
+              629
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9889586567878723
+          },
+          {
+            "text": "총사업비",
+            "bbox": [
+              495,
+              602,
+              559,
+              628
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9986557364463806
+          },
+          {
+            "text": "합계대조",
+            "bbox": [
+              694,
+              603,
+              758,
+              629
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9968208074569702
+          },
+          {
+            "text": "1,800,000원",
+            "bbox": [
+              94,
+              636,
+              178,
+              664
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9848340153694153
+          },
+          {
+            "text": "510,000원",
+            "bbox": [
+              302,
+              638,
+              375,
+              664
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9965798854827881
+          },
+          {
+            "text": "2,310,000원",
+            "bbox": [
+              495,
+              640,
+              579,
+              665
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9416364431381226
+          },
+          {
+            "text": "신청액+자부답=견적총액",
+            "bbox": [
+              695,
+              641,
+              863,
+              667
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.945682942867279
+          },
+          {
+            "text": "추진 일정",
+            "bbox": [
+              85,
+              680,
+              159,
+              708
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9078524708747864
+          },
+          {
+            "text": "시점",
+            "bbox": [
+              93,
+              718,
+              130,
+              748
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8975443840026855
+          },
+          {
+            "text": "작업·확인",
+            "bbox": [
+              203,
+              719,
+              271,
+              745
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9726478457450867
+          },
+          {
+            "text": "기록물",
+            "bbox": [
+              660,
+              723,
+              709,
+              749
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9994894862174988
+          },
+          {
+            "text": "1~3일",
+            "bbox": [
+              93,
+              756,
+              140,
+              784
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9539511799812317
+          },
+          {
+            "text": "작업 구역·점검범위·휴무일정조을",
+            "bbox": [
+              203,
+              756,
+              420,
+              782
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8940328359603882
+          },
+          {
+            "text": "사업주·공급업체/작업계획",
+            "bbox": [
+              661,
+              762,
+              832,
+              783
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.979659914970398
+          },
+          {
+            "text": "4~8일",
+            "bbox": [
+              93,
+              793,
+              140,
+              821
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9920185208320618
+          },
+          {
+            "text": "조리도구분리·설비와바닥시공",
+            "bbox": [
+              204,
+              795,
+              394,
+              818
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9656193852424622
+          },
+          {
+            "text": "공급업체/작업·자재내역",
+            "bbox": [
+              661,
+              798,
+              821,
+              822
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9791675209999084
+          },
+          {
+            "text": "9~12일",
+            "bbox": [
+              93,
+              831,
+              147,
+              857
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9845272302627563
+          },
+          {
+            "text": "작동·범위·급배수·정리상태확인",
+            "bbox": [
+              204,
+              833,
+              407,
+              855
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9792324900627136
+          },
+          {
+            "text": "사업주/완료확인표",
+            "bbox": [
+              661,
+              835,
+              786,
+              859
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9891326427459717
+          },
+          {
+            "text": "가상계획입니다.설치-제작·공사-비용 지급이실제로이루어졌다는 뜻이 아닙니다.",
+            "bbox": [
+              85,
+              877,
+              518,
+              900
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.856454074382782
+          },
+          {
+            "text": "가상자료:실제 신청·증명·계약·지급예사용할 수없습니다",
+            "bbox": [
+              77,
+              1315,
+              415,
+              1341
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9097822904586792
+          },
+          {
+            "text": "3/6",
+            "bbox": [
+              890,
+              1323,
+              930,
+              1351
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9761509299278259
+          }
+        ],
+        "fields": {
+          "totalAmount": "2310000",
+          "planText": "안전·위생현장관리기록|03·견적변호 TEST-Q-SAFETY-001\n가상자료:실제 신청·증명·계약·지급예사용할 수없습니다"
+        },
+        "evidence": {
+          "totalAmount": {
+            "bbox": [
+              766,
+              522,
+              850,
+              547
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9441065788269043
+          }
+        },
+        "photos": [],
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kindLabel": "사업계획서",
+        "previewKey": "e3b017a63987e159db48316a06beeca2c41b8fa702d986ad23a55a8862c12554.png",
+        "groupStart": false,
+        "ai": {
+          "pageNumber": 3,
+          "fields": {
+            "totalAmount": "2310000"
+          },
+          "evidence": {
+            "totalAmount": {
+              "lineIndex": 28,
+              "rawValue": "2,310,000원",
+              "bbox": [
+                766,
+                522,
+                850,
+                547
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            }
+          },
+          "suggestedKind": "ESTIMATE",
+          "kindEvidence": {
+            "lineIndex": 2,
+            "text": "공사구역별 산출·작업 일정"
+          },
+          "kindAgreement": false,
+          "kindLabel": "견적서"
+        }
+      },
+      {
+        "pageNumber": 4,
+        "pageCount": 6,
+        "kind": "PHOTO_SHEET",
+        "width": 992,
+        "height": 1403,
+        "textSource": "PADDLE_OCR",
+        "tableRows": [],
+        "lines": [
+          {
+            "text": "가상예시/공식 서식 아님",
+            "bbox": [
+              763,
+              42,
+              914,
+              66
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.909525990486145
+          },
+          {
+            "text": "마음이음안전위생개발서식",
+            "bbox": [
+              60,
+              57,
+              234,
+              81
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9717994332313538
+          },
+          {
+            "text": "구역별 현황·작업 분리도",
+            "bbox": [
+              82,
+              140,
+              377,
+              181
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9797206521034241
+          },
+          {
+            "text": "안전·위생현장관리기록|04·A생성현황예시/실제현장·활영·시공증거아님",
+            "bbox": [
+              81,
+              187,
+              512,
+              214
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.917512834072113
+          },
+          {
+            "text": "작업 구역",
+            "bbox": [
+              613,
+              316,
+              677,
+              342
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.921479344367981
+          },
+          {
+            "text": "운영조치",
+            "bbox": [
+              738,
+              313,
+              803,
+              341
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9929513931274414
+          },
+          {
+            "text": "조리구역",
+            "bbox": [
+              614,
+              353,
+              678,
+              378
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9921680688858032
+          },
+          {
+            "text": "작업중조리 중단",
+            "bbox": [
+              741,
+              350,
+              849,
+              376
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9204186201095581
+          },
+          {
+            "text": "도구",
+            "bbox": [
+              613,
+              390,
+              651,
+              418
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9971991777420044
+          },
+          {
+            "text": "작업장밖보관",
+            "bbox": [
+              741,
+              387,
+              835,
+              415
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9937474727630615
+          },
+          {
+            "text": "식재료",
+            "bbox": [
+              615,
+              427,
+              665,
+              456
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9931450486183167
+          },
+          {
+            "text": "덮개·분리 보관",
+            "bbox": [
+              742,
+              424,
+              838,
+              452
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9295809268951416
+          },
+          {
+            "text": "바닥",
+            "bbox": [
+              614,
+              464,
+              653,
+              493
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9969237446784973
+          },
+          {
+            "text": "통제·건조후개방",
+            "bbox": [
+              742,
+              462,
+              855,
+              488
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9311648607254028
+          },
+          {
+            "text": "구역 표시와 실제 분리 동선은공사전에 사업주·시공자가현장에서 확정합니다",
+            "bbox": [
+              78,
+              595,
+              489,
+              620
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8952978253364563
+          },
+          {
+            "text": "사진과계획의연결",
+            "bbox": [
+              80,
+              629,
+              214,
+              653
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9975346326828003
+          },
+          {
+            "text": "현황항목",
+            "bbox": [
+              86,
+              664,
+              153,
+              693
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9887732863426208
+          },
+          {
+            "text": "계획된확인",
+            "bbox": [
+              243,
+              666,
+              318,
+              687
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9728444218635559
+          },
+          {
+            "text": "환기",
+            "bbox": [
+              85,
+              697,
+              126,
+              730
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9967023134231567
+          },
+          {
+            "text": "기존 후드와배기설비 사용",
+            "bbox": [
+              244,
+              699,
+              405,
+              724
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9291770458221436
+          },
+          {
+            "text": "점검후필요한범위의교체·보완",
+            "bbox": [
+              580,
+              696,
+              777,
+              719
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9668068885803223
+          },
+          {
+            "text": "작업바닥",
+            "bbox": [
+              88,
+              735,
+              155,
+              764
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.991596519947052
+          },
+          {
+            "text": "작업 구역바닥정비 계획",
+            "bbox": [
+              245,
+              736,
+              393,
+              759
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9182375073432922
+          },
+          {
+            "text": "15제곱미터 시공범위 확인",
+            "bbox": [
+              581,
+              733,
+              741,
+              756
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9158028364181519
+          },
+          {
+            "text": "세척대",
+            "bbox": [
+              90,
+              775,
+              137,
+              798
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.996065616607666
+          },
+          {
+            "text": "급·배수연결부점검 필요",
+            "bbox": [
+              245,
+              773,
+              400,
+              796
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9355065822601318
+          },
+          {
+            "text": "점검기록에 따른 연결 구간정비",
+            "bbox": [
+              581,
+              770,
+              771,
+              792
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9130786657333374
+          },
+          {
+            "text": "AI생성 현황예시,실제 사업장·활영일·설비 상태·시공결과를증명하지않습니다",
+            "bbox": [
+              81,
+              812,
+              510,
+              836
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9138429760932922
+          },
+          {
+            "text": "가상자료; 실제 신청·증명·계약·지급에 사용할수없습니다",
+            "bbox": [
+              79,
+              1331,
+              413,
+              1351
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9141870737075806
+          },
+          {
+            "text": "4/6",
+            "bbox": [
+              897,
+              1325,
+              935,
+              1348
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9940244555473328
+          }
+        ],
+        "fields": {},
+        "evidence": {},
+        "photos": [
+          {
+            "bbox": [
+              78,
+              225,
+              930,
+              589
+            ],
+            "method": "OPENCV_CANDIDATE",
+            "storageKey": "be58924babb010e950398df11b6d5d4f88985a48e1cd64abc3f6a10580023dd6.png"
+          }
+        ],
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kindLabel": "현장 사진",
+        "previewKey": "87533e0c02150f7e7cd6b6d14c572e8b741bade386529f5569a81511a9a3ce72.png",
+        "groupStart": true
+      },
+      {
+        "pageNumber": 5,
+        "pageCount": 6,
+        "kind": "BUSINESS_CERT",
+        "width": 992,
+        "height": 1403,
+        "textSource": "PADDLE_OCR",
+        "tableRows": [],
+        "lines": [
+          {
+            "text": "마음이음|안전위생개발서식",
+            "bbox": [
+              71,
+              44,
+              251,
+              69
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9421108961105347
+          },
+          {
+            "text": "가상예시/공식서식아님",
+            "bbox": [
+              772,
+              51,
+              926,
+              76
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9727795124053955
+          },
+          {
+            "text": "첨부서류A/사업자정보대조용",
+            "bbox": [
+              84,
+              120,
+              267,
+              144
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9758011698722839
+          },
+          {
+            "text": "사업자등록증 예시(가상)",
+            "bbox": [
+              82,
+              151,
+              383,
+              195
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9562339782714844
+          },
+          {
+            "text": "실제세무기관 발급문서가 아니며 자격증빙으로사용할 수없습니다.",
+            "bbox": [
+              262,
+              190,
+              736,
+              219
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9159926176071167
+          },
+          {
+            "text": "등록번호",
+            "bbox": [
+              90,
+              271,
+              156,
+              303
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9787311553955078
+          },
+          {
+            "text": "000-00-00500",
+            "bbox": [
+              282,
+              275,
+              382,
+              302
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9987825751304626
+          },
+          {
+            "text": "상호",
+            "bbox": [
+              92,
+              351,
+              127,
+              375
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9960293173789978
+          },
+          {
+            "text": "가상바른분식",
+            "bbox": [
+              281,
+              349,
+              371,
+              377
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9778299927711487
+          },
+          {
+            "text": "성명(대표자)",
+            "bbox": [
+              90,
+              422,
+              179,
+              451
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9979624152183533
+          },
+          {
+            "text": "가상태호",
+            "bbox": [
+              280,
+              423,
+              345,
+              453
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9959424734115601
+          },
+          {
+            "text": "개업연월일",
+            "bbox": [
+              90,
+              499,
+              166,
+              524
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9982662200927734
+          },
+          {
+            "text": "2019년11월05일",
+            "bbox": [
+              281,
+              500,
+              400,
+              526
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9996687173843384
+          },
+          {
+            "text": "사업장소재지",
+            "bbox": [
+              90,
+              584,
+              182,
+              612
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9944450855255127
+          },
+          {
+            "text": "가상시 예시구정다운로9,1층",
+            "bbox": [
+              282,
+              587,
+              465,
+              613
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9267725348472595
+          },
+          {
+            "text": "업태: 음식점업",
+            "bbox": [
+              280,
+              678,
+              374,
+              706
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8881040811538696
+          },
+          {
+            "text": "사업의 종류",
+            "bbox": [
+              89,
+              688,
+              169,
+              715
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9713841080665588
+          },
+          {
+            "text": "종목: 분식 및 간이음식점",
+            "bbox": [
+              281,
+              700,
+              434,
+              728
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8911656737327576
+          },
+          {
+            "text": "사업자 유형",
+            "bbox": [
+              89,
+              775,
+              169,
+              804
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9455403685569763
+          },
+          {
+            "text": "개인사업자(가상 분류)",
+            "bbox": [
+              281,
+              777,
+              422,
+              805
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9640002846717834
+          },
+          {
+            "text": "시험자료 안내",
+            "bbox": [
+              88,
+              861,
+              179,
+              885
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9277052283287048
+          },
+          {
+            "text": "신청서와 상호·대표자-번호·개업일을대조하기 위한 가상사례입니다.실제 개인정보·관인·QR·발급기관표시는없습니다.",
+            "bbox": [
+              90,
+              896,
+              811,
+              925
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9113153219223022
+          },
+          {
+            "text": "2026년10월25일/마음이음테스트자료제작자(가상)",
+            "bbox": [
+              301,
+              962,
+              688,
+              994
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9811192154884338
+          },
+          {
+            "text": "가상자료:실제 신청·증명·계약·지금에 사용할수없습니다",
+            "bbox": [
+              68,
+              1317,
+              405,
+              1340
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9148298501968384
+          },
+          {
+            "text": "5/6",
+            "bbox": [
+              885,
+              1320,
+              926,
+              1349
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9937208294868469
+          }
+        ],
+        "fields": {
+          "businessName": "가상바른분식",
+          "businessNo": "0000000500",
+          "representative": "가상태호",
+          "openedOn": "2019-11-05",
+          "address": "가상시 예시구정다운로9,1층",
+          "businessType": "음식점업",
+          "businessItem": "분식 및 간이음식점"
+        },
+        "evidence": {
+          "businessName": {
+            "bbox": [
+              281,
+              349,
+              371,
+              377
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9778299927711487
+          },
+          "businessNo": {
+            "bbox": [
+              282,
+              275,
+              382,
+              302
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9987825751304626
+          },
+          "representative": {
+            "bbox": [
+              280,
+              423,
+              345,
+              453
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9959424734115601
+          },
+          "openedOn": {
+            "bbox": [
+              281,
+              500,
+              400,
+              526
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9996687173843384
+          },
+          "address": {
+            "bbox": [
+              282,
+              587,
+              465,
+              613
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9267725348472595
+          },
+          "businessType": {
+            "bbox": [
+              280,
+              678,
+              374,
+              706
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8881040811538696
+          },
+          "businessItem": {
+            "bbox": [
+              281,
+              700,
+              434,
+              728
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8911656737327576
+          }
+        },
+        "photos": [],
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kindLabel": "사업자등록증",
+        "previewKey": "0d79a873830153d0ed2490808d395784a90b1f36889dc976eedaa261b8583a74.png",
+        "groupStart": true,
+        "ai": {
+          "pageNumber": 5,
+          "fields": {
+            "businessName": "가상바른분식",
+            "representative": "가상태호",
+            "openedOn": "2019-11-05",
+            "address": "가상시 예시구정다운로9,1층",
+            "businessType": "음식점업",
+            "businessItem": "분식 및 간이음식점",
+            "businessNo": "0000000500"
+          },
+          "evidence": {
+            "businessName": {
+              "lineIndex": 8,
+              "rawValue": "가상바른분식",
+              "bbox": [
+                281,
+                349,
+                371,
+                377
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "representative": {
+              "lineIndex": 10,
+              "rawValue": "가상태호",
+              "bbox": [
+                280,
+                423,
+                345,
+                453
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "openedOn": {
+              "lineIndex": 12,
+              "rawValue": "2019년11월05일",
+              "bbox": [
+                281,
+                500,
+                400,
+                526
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "address": {
+              "lineIndex": 14,
+              "rawValue": "가상시 예시구정다운로9,1층",
+              "bbox": [
+                282,
+                587,
+                465,
+                613
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "businessType": {
+              "lineIndex": 15,
+              "rawValue": "음식점업",
+              "bbox": [
+                280,
+                678,
+                374,
+                706
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "businessItem": {
+              "lineIndex": 17,
+              "rawValue": "분식 및 간이음식점",
+              "bbox": [
+                281,
+                700,
+                434,
+                728
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "businessNo": {
+              "lineIndex": 6,
+              "rawValue": "000-00-00500",
+              "bbox": [
+                282,
+                275,
+                382,
+                302
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            }
+          },
+          "suggestedKind": "BUSINESS_CERT",
+          "kindEvidence": {
+            "lineIndex": 2,
+            "text": "첨부서류A/사업자정보대조용"
+          },
+          "kindAgreement": true,
+          "kindLabel": "사업자등록증"
+        }
+      },
+      {
+        "pageNumber": 6,
+        "pageCount": 6,
+        "kind": "ESTIMATE",
+        "width": 992,
+        "height": 1403,
+        "textSource": "PADDLE_OCR",
+        "tableRows": [
+          {
+            "y": 273,
+            "cells": [
+              {
+                "text": "예시위생설비",
+                "bbox": [
+                  625,
+                  273,
+                  710,
+                  297
+                ]
+              },
+              {
+                "text": "상호",
+                "bbox": [
+                  501,
+                  274,
+                  538,
+                  304
+                ]
+              }
+            ]
+          },
+          {
+            "y": 280,
+            "cells": [
+              {
+                "text": "상호",
+                "bbox": [
+                  83,
+                  280,
+                  121,
+                  310
+                ]
+              },
+              {
+                "text": "가상바른분식",
+                "bbox": [
+                  208,
+                  281,
+                  294,
+                  305
+                ]
+              }
+            ]
+          },
+          {
+            "y": 307,
+            "cells": [
+              {
+                "text": "가상나래",
+                "bbox": [
+                  625,
+                  307,
+                  686,
+                  336
+                ]
+              },
+              {
+                "text": "대표자",
+                "bbox": [
+                  502,
+                  311,
+                  552,
+                  337
+                ]
+              }
+            ]
+          },
+          {
+            "y": 314,
+            "cells": [
+              {
+                "text": "가상태호",
+                "bbox": [
+                  208,
+                  314,
+                  270,
+                  343
+                ]
+              },
+              {
+                "text": "대표자",
+                "bbox": [
+                  84,
+                  318,
+                  134,
+                  345
+                ]
+              }
+            ]
+          },
+          {
+            "y": 343,
+            "cells": [
+              {
+                "text": "사업자번호",
+                "bbox": [
+                  502,
+                  343,
+                  577,
+                  375
+                ]
+              },
+              {
+                "text": "000-00-00501",
+                "bbox": [
+                  627,
+                  344,
+                  722,
+                  371
+                ]
+              }
+            ]
+          },
+          {
+            "y": 353,
+            "cells": [
+              {
+                "text": "000-00-00500",
+                "bbox": [
+                  210,
+                  353,
+                  305,
+                  377
+                ]
+              },
+              {
+                "text": "사업자번호",
+                "bbox": [
+                  86,
+                  354,
+                  158,
+                  380
+                ]
+              }
+            ]
+          },
+          {
+            "y": 381,
+            "cells": [
+              {
+                "text": "유효기간",
+                "bbox": [
+                  503,
+                  381,
+                  565,
+                  411
+                ]
+              },
+              {
+                "text": "2026-11-15",
+                "bbox": [
+                  627,
+                  382,
+                  710,
+                  407
+                ]
+              }
+            ]
+          },
+          {
+            "y": 389,
+            "cells": [
+              {
+                "text": "2026-10-24",
+                "bbox": [
+                  210,
+                  389,
+                  291,
+                  414
+                ]
+              },
+              {
+                "text": "견적일",
+                "bbox": [
+                  85,
+                  391,
+                  134,
+                  418
+                ]
+              }
+            ]
+          },
+          {
+            "y": 428,
+            "cells": [
+              {
+                "text": "금액",
+                "bbox": [
+                  750,
+                  428,
+                  792,
+                  461
+                ]
+              },
+              {
+                "text": "단가",
+                "bbox": [
+                  577,
+                  433,
+                  617,
+                  463
+                ]
+              }
+            ]
+          },
+          {
+            "y": 478,
+            "cells": [
+              {
+                "text": "배기설비보완",
+                "bbox": [
+                  88,
+                  478,
+                  180,
+                  502
+                ]
+              },
+              {
+                "text": "950,000원",
+                "bbox": [
+                  754,
+                  479,
+                  826,
+                  504
+                ]
+              },
+              {
+                "text": "1식",
+                "bbox": [
+                  487,
+                  482,
+                  526,
+                  510
+                ]
+              },
+              {
+                "text": "950,000원",
+                "bbox": [
+                  581,
+                  482,
+                  654,
+                  507
+                ]
+              }
+            ]
+          },
+          {
+            "y": 535,
+            "cells": [
+              {
+                "text": "미끄럼방지바닥",
+                "bbox": [
+                  89,
+                  535,
+                  193,
+                  558
+                ]
+              },
+              {
+                "text": "750,000원",
+                "bbox": [
+                  756,
+                  535,
+                  828,
+                  561
+                ]
+              },
+              {
+                "text": "15m²",
+                "bbox": [
+                  489,
+                  537,
+                  535,
+                  566
+                ]
+              },
+              {
+                "text": "50,000원",
+                "bbox": [
+                  582,
+                  538,
+                  647,
+                  564
+                ]
+              }
+            ]
+          },
+          {
+            "y": 591,
+            "cells": [
+              {
+                "text": "400,000원",
+                "bbox": [
+                  582,
+                  591,
+                  658,
+                  624
+                ]
+              },
+              {
+                "text": "급·배수연결부정비",
+                "bbox": [
+                  90,
+                  592,
+                  213,
+                  615
+                ]
+              },
+              {
+                "text": "400,000원",
+                "bbox": [
+                  757,
+                  593,
+                  829,
+                  618
+                ]
+              },
+              {
+                "text": "1식",
+                "bbox": [
+                  489,
+                  596,
+                  527,
+                  625
+                ]
+              }
+            ]
+          }
+        ],
+        "lines": [
+          {
+            "text": "가상예시/공식서식아님",
+            "bbox": [
+              755,
+              50,
+              907,
+              74
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9879680275917053
+          },
+          {
+            "text": "마음이음|안전위생개발서식",
+            "bbox": [
+              63,
+              66,
+              233,
+              91
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9081354141235352
+          },
+          {
+            "text": "사업별견적서예시",
+            "bbox": [
+              82,
+              147,
+              307,
+              189
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9748564958572388
+          },
+          {
+            "text": "안전-위생현장관리기록|첨부·TEST-Q-SAFETY-OO01/가상거래·청구용아님",
+            "bbox": [
+              83,
+              189,
+              506,
+              223
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.881106436252594
+          },
+          {
+            "text": "공급받는자",
+            "bbox": [
+              83,
+              245,
+              161,
+              273
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9990125894546509
+          },
+          {
+            "text": "공급자",
+            "bbox": [
+              500,
+              239,
+              550,
+              266
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9987879395484924
+          },
+          {
+            "text": "상호",
+            "bbox": [
+              83,
+              280,
+              121,
+              310
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9970495700836182
+          },
+          {
+            "text": "가상바른분식",
+            "bbox": [
+              208,
+              281,
+              294,
+              305
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.956798255443573
+          },
+          {
+            "text": "상호",
+            "bbox": [
+              501,
+              274,
+              538,
+              304
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9687351584434509
+          },
+          {
+            "text": "예시위생설비",
+            "bbox": [
+              625,
+              273,
+              710,
+              297
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.979727566242218
+          },
+          {
+            "text": "대표자",
+            "bbox": [
+              84,
+              318,
+              134,
+              345
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9956116080284119
+          },
+          {
+            "text": "가상태호",
+            "bbox": [
+              208,
+              314,
+              270,
+              343
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9899389743804932
+          },
+          {
+            "text": "대표자",
+            "bbox": [
+              502,
+              311,
+              552,
+              337
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9928826689720154
+          },
+          {
+            "text": "가상나래",
+            "bbox": [
+              625,
+              307,
+              686,
+              336
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9769244194030762
+          },
+          {
+            "text": "사업자번호",
+            "bbox": [
+              86,
+              354,
+              158,
+              380
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9674713015556335
+          },
+          {
+            "text": "000-00-00500",
+            "bbox": [
+              210,
+              353,
+              305,
+              377
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9942402243614197
+          },
+          {
+            "text": "사업자번호",
+            "bbox": [
+              502,
+              343,
+              577,
+              375
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9782947301864624
+          },
+          {
+            "text": "000-00-00501",
+            "bbox": [
+              627,
+              344,
+              722,
+              371
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9761407971382141
+          },
+          {
+            "text": "견적일",
+            "bbox": [
+              85,
+              391,
+              134,
+              418
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9590470194816589
+          },
+          {
+            "text": "2026-10-24",
+            "bbox": [
+              210,
+              389,
+              291,
+              414
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9984915852546692
+          },
+          {
+            "text": "유효기간",
+            "bbox": [
+              503,
+              381,
+              565,
+              411
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9970120191574097
+          },
+          {
+            "text": "2026-11-15",
+            "bbox": [
+              627,
+              382,
+              710,
+              407
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9718992114067078
+          },
+          {
+            "text": "수량",
+            "bbox": [
+              486,
+              435,
+              526,
+              464
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9921019077301025
+          },
+          {
+            "text": "단가",
+            "bbox": [
+              577,
+              433,
+              617,
+              463
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.997209906578064
+          },
+          {
+            "text": "금액",
+            "bbox": [
+              750,
+              428,
+              792,
+              461
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9907793402671814
+          },
+          {
+            "text": "항목·규격",
+            "bbox": [
+              86,
+              442,
+              155,
+              468
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9836975336074829
+          },
+          {
+            "text": "배기설비보완",
+            "bbox": [
+              88,
+              478,
+              180,
+              502
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9750698208808899
+          },
+          {
+            "text": "1식",
+            "bbox": [
+              487,
+              482,
+              526,
+              510
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9990456104278564
+          },
+          {
+            "text": "950,000원",
+            "bbox": [
+              581,
+              482,
+              654,
+              507
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9393154978752136
+          },
+          {
+            "text": "950,000원",
+            "bbox": [
+              754,
+              479,
+              826,
+              504
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9692435264587402
+          },
+          {
+            "text": "조리구역후드·배기연결부점검후설치",
+            "bbox": [
+              87,
+              495,
+              327,
+              523
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8876258730888367
+          },
+          {
+            "text": "미끄럼방지바닥",
+            "bbox": [
+              89,
+              535,
+              193,
+              558
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9672361016273499
+          },
+          {
+            "text": "15m²",
+            "bbox": [
+              489,
+              537,
+              535,
+              566
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8312209248542786
+          },
+          {
+            "text": "50,000원",
+            "bbox": [
+              582,
+              538,
+              647,
+              564
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9982072114944458
+          },
+          {
+            "text": "750,000원",
+            "bbox": [
+              756,
+              535,
+              828,
+              561
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9737358093261719
+          },
+          {
+            "text": "조리작업구역/자재·시공포함",
+            "bbox": [
+              91,
+              557,
+              280,
+              578
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9844798445701599
+          },
+          {
+            "text": "급·배수연결부정비",
+            "bbox": [
+              90,
+              592,
+              213,
+              615
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9810606837272644
+          },
+          {
+            "text": "1식",
+            "bbox": [
+              489,
+              596,
+              527,
+              625
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9981316328048706
+          },
+          {
+            "text": "400,000원",
+            "bbox": [
+              582,
+              591,
+              658,
+              624
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9865888357162476
+          },
+          {
+            "text": "400,000원",
+            "bbox": [
+              757,
+              593,
+              829,
+              618
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9393302202224731
+          },
+          {
+            "text": "세척대주변 점검·연결 구간 보완",
+            "bbox": [
+              90,
+              612,
+              285,
+              635
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8893638849258423
+          },
+          {
+            "text": "공급가액",
+            "bbox": [
+              90,
+              645,
+              153,
+              675
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9967777729034424
+          },
+          {
+            "text": "2,100,000원",
+            "bbox": [
+              757,
+              638,
+              842,
+              665
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9965033531188965
+          },
+          {
+            "text": "부가세",
+            "bbox": [
+              89,
+              681,
+              140,
+              712
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9940142035484314
+          },
+          {
+            "text": "210,000원",
+            "bbox": [
+              759,
+              675,
+              832,
+              701
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9844539165496826
+          },
+          {
+            "text": "총건적금액",
+            "bbox": [
+              91,
+              718,
+              169,
+              746
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9061617851257324
+          },
+          {
+            "text": "2,310,000원",
+            "bbox": [
+              760,
+              710,
+              843,
+              740
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9826273918151855
+          },
+          {
+            "text": "거래조건·사업별확인사항",
+            "bbox": [
+              93,
+              774,
+              246,
+              797
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9723271727561951
+          },
+          {
+            "text": "환기설비설치 범위는 점검후확정.바닥15제곱미터 시공과급·배수 연결부 점검·정비 포함.정기청소·소독·소모품·법정검사비용제외",
+            "bbox": [
+              93,
+              802,
+              897,
+              834
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.892873227596283
+          },
+          {
+            "text": "공급업체확인:예시위생설비/가상나래(가상확인)",
+            "bbox": [
+              628,
+              847,
+              912,
+              871
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9878239631652832
+          },
+          {
+            "text": "6/6",
+            "bbox": [
+              876,
+              1300,
+              915,
+              1324
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9933776259422302
+          },
+          {
+            "text": "가상 자료: 실제 신청·증명·계약·지급에 사용할 수 없습니다",
+            "bbox": [
+              86,
+              1310,
+              409,
+              1333
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9174349308013916
+          }
+        ],
+        "fields": {
+          "businessName": "가상바른분식",
+          "businessNo": "0000000500",
+          "representative": "가상태호",
+          "totalAmount": "2310000"
+        },
+        "evidence": {
+          "businessName": {
+            "bbox": [
+              208,
+              281,
+              294,
+              305
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.956798255443573
+          },
+          "businessNo": {
+            "bbox": [
+              210,
+              353,
+              305,
+              377
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9942402243614197
+          },
+          "representative": {
+            "bbox": [
+              208,
+              314,
+              270,
+              343
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9899389743804932
+          },
+          "totalAmount": {
+            "lineIndex": 46,
+            "rawValue": "2,310,000원",
+            "bbox": [
+              760,
+              710,
+              843,
+              740
+            ],
+            "source": "PADDLE_OCR",
+            "method": "LLM_SOURCE_VERIFIED"
+          }
+        },
+        "photos": [],
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kindLabel": "견적서",
+        "previewKey": "75cbeccabc63b9e73048118922a2fd8e2fdd667ad40b446a3d96f62ce321dede.png",
+        "groupStart": true,
+        "ai": {
+          "pageNumber": 6,
+          "fields": {
+            "totalAmount": "2310000"
+          },
+          "evidence": {
+            "totalAmount": {
+              "lineIndex": 46,
+              "rawValue": "2,310,000원",
+              "bbox": [
+                760,
+                710,
+                843,
+                740
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            }
+          },
+          "suggestedKind": "ESTIMATE",
+          "kindEvidence": {
+            "lineIndex": 2,
+            "text": "사업별견적서예시"
+          },
+          "kindAgreement": true,
+          "kindLabel": "견적서"
+        }
+      }
+    ],
+    "groups": [
+      {
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kind": "APPLICATION",
+        "kindLabel": "신청서",
+        "pageNumbers": [
+          1
+        ],
+        "indexes": [
+          0
+        ],
+        "pdfKey": "fcc6e2ea9de5c4b8967ab9d6cf5bf202e9509f0a8375f41d6a893336f1a8d4b3.pdf"
+      },
+      {
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kind": "BUSINESS_PLAN",
+        "kindLabel": "사업계획서",
+        "pageNumbers": [
+          2,
+          3
+        ],
+        "indexes": [
+          1,
+          2
+        ],
+        "pdfKey": "b5fcc05c078ac912c6d5d5823e61c48df83c8bc22d0dbde0da4057efacc4b06b.pdf"
+      },
+      {
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kind": "PHOTO_SHEET",
+        "kindLabel": "현장 사진",
+        "pageNumbers": [
+          4
+        ],
+        "indexes": [
+          3
+        ],
+        "pdfKey": "8a92eb10795538d52c8fbec67383a9314bc7de244d36698cf5010b6b145f3ebb.pdf"
+      },
+      {
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kind": "BUSINESS_CERT",
+        "kindLabel": "사업자등록증",
+        "pageNumbers": [
+          5
+        ],
+        "indexes": [
+          4
+        ],
+        "pdfKey": "8c97a945c5c2826d0155acd7745741095d2c99b3a2d049f94d3dbde0e2c10baf.pdf"
+      },
+      {
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kind": "ESTIMATE",
+        "kindLabel": "견적서",
+        "pageNumbers": [
+          6
+        ],
+        "indexes": [
+          5
+        ],
+        "pdfKey": "395fac0f12d285469b3a8c7517204356df98b699169b7016e2bfd7d9fa1a8842.pdf"
+      }
+    ],
+    "fields": {
+      "businessName": "가상바른분식",
+      "businessNo": "0000000500",
+      "representative": "가상태호",
+      "openedOn": "2019-11-05",
+      "phone": "000-0000-0150",
+      "address": "가상시예시구정다운로9,1층",
+      "requestedAmount": "1800000",
+      "selfContribution": "510000",
+      "totalAmount": "2310000",
+      "planText": "안전·위생현장관리기록|02·바른분석의환기·바닥·급배수정비\n조리공간의 배기설비와작업 구역 바닥,세척대주변 배수동선을정비하려는가상매장입니다.사진만으로위생위반이나설비위험을판단하지\n배기설비1식을교체·보완하고 작업구역바닥15제곱미터를미끄럼방지방식으로시공합니다.세척대급·배수연결부는점검후필요한구간\n휴무일에시공하고 조리도구·식재료는작업 구역과 분리합니다.자재비와 시공비,공사구역을구분해건적받았습니다.정기청소·소독·세제갈\n배기 작동,바닥시공범위,급·배수정비 내역과작업후 정리상태를 확인합니다.법정 검사합격이나 위생인증취득을 주장하지 않습니다\n안전·위생현장관리기록|03·견적변호 TEST-Q-SAFETY-001\n가상자료:실제 신청·증명·계약·지급예사용할 수없습니다",
+      "businessType": "음식점업",
+      "businessItem": "분식 및 간이음식점"
+    },
+    "evidence": {
+      "businessName": {
+        "pageNumber": 6,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "businessNo": {
+        "pageNumber": 6,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "representative": {
+        "pageNumber": 6,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "openedOn": {
+        "pageNumber": 5,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "phone": {
+        "pageNumber": 1,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "address": {
+        "pageNumber": 1,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "requestedAmount": {
+        "pageNumber": 1,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "selfContribution": {
+        "pageNumber": 1,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "totalAmount": {
+        "pageNumber": 3,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "planText": {
+        "pageNumber": 2,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "businessType": {
+        "pageNumber": 5,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "businessItem": {
+        "pageNumber": 5,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      }
+    },
+    "conflicts": [
+      {
+        "field": "address",
+        "previous": "가상시예시구정다운로9,1층",
+        "candidate": "가상시 예시구정다운로9,1층",
+        "pageNumber": 5,
+        "sourceName": "신청서.pdf"
+      },
+      {
+        "field": "businessType",
+        "previous": "음식점업",
+        "candidate": "분식및간이음식점",
+        "pageNumber": 1,
+        "sourceName": "신청서.pdf"
+      },
+      {
+        "field": "planText",
+        "previous": "안전·위생현장관리기록|02·바른분석의환기·바닥·급배수정비\n조리공간의 배기설비와작업 구역 바닥,세척대주변 배수동선을정비하려는가상매장입니다.사진만으로위생위반이나설비위험을판단하지\n배기설비1식을교체·보완하고 작업구역바닥15제곱미터를미끄럼방지방식으로시공합니다.세척대급·배수연결부는점검후필요한구간\n휴무일에시공하고 조리도구·식재료는작업 구역과 분리합니다.자재비와 시공비,공사구역을구분해건적받았습니다.정기청소·소독·세제갈\n배기 작동,바닥시공범위,급·배수정비 내역과작업후 정리상태를 확인합니다.법정 검사합격이나 위생인증취득을 주장하지 않습니다\n안전·위생현장관리기록|03·견적변호 TEST-Q-SAFETY-001\n가상자료:실제 신청·증명·계약·지급예사용할 수없습니다",
+        "candidate": "휴무일공사를 가정합니다.식재료·조리도구를 작업 구역과 분리하고, 실제공사일은 작업범위확인뒤정합니다.",
+        "pageNumber": 1,
+        "sourceName": "신청서.pdf"
+      }
+    ],
+    "pageCount": 6,
+    "photoCount": 1,
+    "aiAnalyses": [
+      {
+        "provider": "openrouter",
+        "model": "google/gemma-4-26b-a4b-it",
+        "status": "SUCCEEDED",
+        "verifiedCount": 20,
+        "rejectedCount": 0,
+        "conflicts": [],
+        "pageResults": [
+          {
+            "pageNumber": 1,
+            "fields": {
+              "businessName": "가상바른분식",
+              "businessNo": "0000000500",
+              "representative": "가상태호",
+              "openedOn": "2019-11-05",
+              "phone": "000-0000-0150",
+              "address": "가상시예시구정다운로9,1층",
+              "businessType": "분식및간이음식점",
+              "requestedAmount": "1800000",
+              "selfContribution": "510000",
+              "totalAmount": "2310000",
+              "planText": "휴무일공사를 가정합니다.식재료·조리도구를 작업 구역과 분리하고, 실제공사일은 작업범위확인뒤정합니다."
+            },
+            "evidence": {
+              "businessName": {
+                "lineIndex": 5,
+                "rawValue": "가상바른분식",
+                "bbox": [
+                  229,
+                  233,
+                  314,
+                  261
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "businessNo": {
+                "lineIndex": 9,
+                "rawValue": "000-00-00500",
+                "bbox": [
+                  230,
+                  274,
+                  409,
+                  294
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "representative": {
+                "lineIndex": 7,
+                "rawValue": "가상태호",
+                "bbox": [
+                  662,
+                  236,
+                  723,
+                  262
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "openedOn": {
+                "lineIndex": 9,
+                "rawValue": "2019-11-05",
+                "bbox": [
+                  230,
+                  274,
+                  409,
+                  294
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "phone": {
+                "lineIndex": 11,
+                "rawValue": "000-0000-0150",
+                "bbox": [
+                  662,
+                  272,
+                  766,
+                  298
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "address": {
+                "lineIndex": 13,
+                "rawValue": "가상시예시구정다운로9,1층",
+                "bbox": [
+                  230,
+                  310,
+                  533,
+                  332
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "businessType": {
+                "lineIndex": 13,
+                "rawValue": "분식및간이음식점",
+                "bbox": [
+                  230,
+                  310,
+                  533,
+                  332
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "requestedAmount": {
+                "lineIndex": 31,
+                "rawValue": "1,800,000원",
+                "bbox": [
+                  96,
+                  619,
+                  179,
+                  646
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "selfContribution": {
+                "lineIndex": 32,
+                "rawValue": "510,000원",
+                "bbox": [
+                  376,
+                  621,
+                  448,
+                  646
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "totalAmount": {
+                "lineIndex": 33,
+                "rawValue": "2,310,000원",
+                "bbox": [
+                  658,
+                  624,
+                  742,
+                  648
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "planText": {
+                "lineIndex": 34,
+                "rawValue": "휴무일공사를 가정합니다.식재료·조리도구를 작업 구역과 분리하고, 실제공사일은 작업범위확인뒤정합니다.",
+                "bbox": [
+                  87,
+                  662,
+                  663,
+                  685
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              }
+            },
+            "suggestedKind": "APPLICATION",
+            "kindEvidence": {
+              "lineIndex": 2,
+              "text": "지원사업 신청서"
+            },
+            "kindAgreement": true,
+            "kindLabel": "신청서"
+          },
+          {
+            "pageNumber": 3,
+            "fields": {
+              "totalAmount": "2310000"
+            },
+            "evidence": {
+              "totalAmount": {
+                "lineIndex": 28,
+                "rawValue": "2,310,000원",
+                "bbox": [
+                  766,
+                  522,
+                  850,
+                  547
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              }
+            },
+            "suggestedKind": "ESTIMATE",
+            "kindEvidence": {
+              "lineIndex": 2,
+              "text": "공사구역별 산출·작업 일정"
+            },
+            "kindAgreement": false,
+            "kindLabel": "견적서"
+          },
+          {
+            "pageNumber": 5,
+            "fields": {
+              "businessName": "가상바른분식",
+              "representative": "가상태호",
+              "openedOn": "2019-11-05",
+              "address": "가상시 예시구정다운로9,1층",
+              "businessType": "음식점업",
+              "businessItem": "분식 및 간이음식점",
+              "businessNo": "0000000500"
+            },
+            "evidence": {
+              "businessName": {
+                "lineIndex": 8,
+                "rawValue": "가상바른분식",
+                "bbox": [
+                  281,
+                  349,
+                  371,
+                  377
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "representative": {
+                "lineIndex": 10,
+                "rawValue": "가상태호",
+                "bbox": [
+                  280,
+                  423,
+                  345,
+                  453
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "openedOn": {
+                "lineIndex": 12,
+                "rawValue": "2019년11월05일",
+                "bbox": [
+                  281,
+                  500,
+                  400,
+                  526
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "address": {
+                "lineIndex": 14,
+                "rawValue": "가상시 예시구정다운로9,1층",
+                "bbox": [
+                  282,
+                  587,
+                  465,
+                  613
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "businessType": {
+                "lineIndex": 15,
+                "rawValue": "음식점업",
+                "bbox": [
+                  280,
+                  678,
+                  374,
+                  706
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "businessItem": {
+                "lineIndex": 17,
+                "rawValue": "분식 및 간이음식점",
+                "bbox": [
+                  281,
+                  700,
+                  434,
+                  728
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "businessNo": {
+                "lineIndex": 6,
+                "rawValue": "000-00-00500",
+                "bbox": [
+                  282,
+                  275,
+                  382,
+                  302
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              }
+            },
+            "suggestedKind": "BUSINESS_CERT",
+            "kindEvidence": {
+              "lineIndex": 2,
+              "text": "첨부서류A/사업자정보대조용"
+            },
+            "kindAgreement": true,
+            "kindLabel": "사업자등록증"
+          },
+          {
+            "pageNumber": 6,
+            "fields": {
+              "totalAmount": "2310000"
+            },
+            "evidence": {
+              "totalAmount": {
+                "lineIndex": 46,
+                "rawValue": "2,310,000원",
+                "bbox": [
+                  760,
+                  710,
+                  843,
+                  740
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              }
+            },
+            "suggestedKind": "ESTIMATE",
+            "kindEvidence": {
+              "lineIndex": 2,
+              "text": "사업별견적서예시"
+            },
+            "kindAgreement": true,
+            "kindLabel": "견적서"
+          }
+        ],
+        "supplementedCount": 3,
+        "agreementCount": 17,
+        "durationSeconds": 7.6,
+        "sourceName": "신청서.pdf"
+      }
+    ]
+  },
+  "aiPreparedAt": "2026-10-25T19:59:12.310316+00:00"
+}

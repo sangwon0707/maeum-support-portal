@@ -1,0 +1,17 @@
+services:
+  db:
+    image: mariadb:11.4@sha256:250e1609e93c0e6aecf64bfbab2d84d5e89d2481540fe77447ff6c855c3b1873
+    ports: ["127.0.0.1:13316:3306"]
+    environment:
+      MARIADB_DATABASE: support_portal
+      MARIADB_USER: support_app
+      MARIADB_PASSWORD: ${DB_PASSWORD:-local-support-password}
+      MARIADB_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:-local-root-password}
+    volumes: ["support-db:/var/lib/mysql"]
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+volumes:
+  support-db:

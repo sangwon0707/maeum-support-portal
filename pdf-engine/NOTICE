@@ -1,0 +1,6 @@
+마음이음 PDF 처리 모듈
+
+This module uses Apache PDFBox, FontBox and pdfbox-io from the Apache Software
+Foundation, Apache Commons Logging, and Jackson under the Apache License 2.0.
+The packaged JAR includes the dependency LICENSE and merged NOTICE resources.
+Original component copyright and attribution notices remain applicable.

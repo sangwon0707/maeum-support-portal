@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-25",
+  "mode": "built-in image_gen",
+  "scope": "별도 시각 검토 시안; 실제 JSP 미연결",
+  "assets": [
+    {
+      "file": "neighborhood-renewal-v1.png",
+      "prompt": "Use case: illustration-story. Asset type: premium Korean public-service website campaign banner, landscape 3:2. Create a beautifully art-directed contemporary illustration of a Korean neighborhood shopping street being renewed: three distinct compact shops with deep cobalt and mint fabric awnings, warm lit glazing, newly installed tidy shop sign panels with NO lettering, elegant exterior lamps, small planters and paving, two tiny stylized adult shopkeepers looking at a renovation plan. Refined dimensional editorial illustration with matte paper and soft ceramic materials, precise architectural detail, restrained joyful warmth, polished government digital-service campaign quality, not childish clip art, not a generic isolated toy shop. Composition fills the RIGHT TWO THIRDS, left third is calm pale sky blue negative space for live HTML copy. Sky blue and white background, saturated cobalt #256ef4 and mint accents, warm peach sunlight, cohesive soft ambient shadows. Slight elevated three-quarter view, beautiful readable silhouette, tasteful depth. No text, no letters, no numbers, no logos, no national emblems, no money, no fake UI, no watermark. This is a conceptual illustration, not a real funded-business photograph."
+    },
+    {
+      "file": "guide-apply-v1.png",
+      "transparent": true,
+      "prompt": "Use case: stylized-concept. Asset type: one premium large explanatory icon for a Korean government-style small-business application portal. A single compact 3D editorial icon, impeccable coherent matte ceramic and paper materials, cobalt blue #256ef4, white and pale sky blue, tiny mint accent, soft dimensional shadows, elevated front three-quarter camera view, readable simple silhouette at 96px, polished restrained professional public-service campaign design, not children's toy clipart. Center composition, generous clear transparent margins, isolated on genuinely transparent background. No words, letters, numbers, logos, watermark, background panel or surrounding circle. A thick white clipboard with three subtle embossed blank rows and an elegant cobalt blue pencil leaning diagonally against it. One single unified icon."
+    },
+    {
+      "file": "guide-upload-v1.png",
+      "transparent": true,
+      "prompt": "Use case: stylized-concept. Asset type: one premium large explanatory icon for a Korean government-style small-business application portal. A single compact 3D editorial icon, impeccable coherent matte ceramic and paper materials, cobalt blue #256ef4, white and pale sky blue, tiny mint accent, soft dimensional shadows, elevated front three-quarter camera view, readable simple silhouette at 96px, polished restrained professional public-service campaign design, not children's toy clipart. Center composition, generous clear transparent margins, isolated on genuinely transparent background. No words, letters, numbers, logos, watermark, background panel or surrounding circle. A cobalt blue open file folder holding two neat white sheets with a compact blue upward arrow in front. One single unified icon."
+    },
+    {
+      "file": "guide-review-v1.png",
+      "transparent": true,
+      "prompt": "Use case: stylized-concept. Asset type: one premium large explanatory icon for a Korean government-style small-business application portal. A single compact 3D editorial icon, impeccable coherent matte ceramic and paper materials, cobalt blue #256ef4, white and pale sky blue, tiny mint accent, soft dimensional shadows, elevated front three-quarter camera view, readable simple silhouette at 96px, polished restrained professional public-service campaign design, not children's toy clipart. Center composition, generous clear transparent margins, isolated on genuinely transparent background. No words, letters, numbers, logos, watermark, background panel or surrounding circle. A white application sheet behind a large cobalt blue magnifying glass with clear pale-blue lens, mint check shape on the paper. One single unified icon."
+    },
+    {
+      "file": "guide-result-v1.png",
+      "transparent": true,
+      "prompt": "Use case: stylized-concept. Asset type: one premium large explanatory icon for a Korean government-style small-business application portal. A single compact 3D editorial icon, impeccable coherent matte ceramic and paper materials, cobalt blue #256ef4, white and pale sky blue, tiny mint accent, soft dimensional shadows, elevated front three-quarter camera view, readable simple silhouette at 96px, polished restrained professional public-service campaign design, not children's toy clipart. Center composition, generous clear transparent margins, isolated on genuinely transparent background. No words, letters, numbers, logos, watermark, background panel or surrounding circle. A crisp white notification envelope with a cobalt blue round seal featuring a white checkmark, a small mint paper tab. One single unified icon."
+    }
+  ]
+}

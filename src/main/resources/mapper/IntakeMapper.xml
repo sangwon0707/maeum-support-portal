@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC '-//mybatis.org//DTD Mapper 3.0//EN' 'https://mybatis.org/dtd/mybatis-3-mapper.dtd'>
+<mapper namespace="kr.co.maeum.support.intake.IntakeMapper">
+  <insert id="insert" useGeneratedKeys="true" keyProperty="id">
+    INSERT INTO document_intake(application_id,created_by,layout,request_key,request_hash,status,detail) VALUES(#{applicationId},#{createdBy},#{layout},#{requestKey},#{requestHash},'UPLOADED','업로드 완료 · 분석 시작 전')
+  </insert>
+  <insert id="source">
+    INSERT INTO intake_source(intake_id,kind,original_name,storage_key,mime_type,size_bytes)
+    VALUES(#{intakeId},#{kind},#{originalName},#{storageKey},#{mimeType},#{sizeBytes})
+  </insert>
+  <select id="find" resultType="map">SELECT * FROM document_intake WHERE id=#{id}</select>
+  <select id="lock" resultType="map">SELECT * FROM document_intake WHERE id=#{id} FOR UPDATE</select>
+  <select id="latest" resultType="map">SELECT * FROM document_intake WHERE application_id=#{applicationId} ORDER BY id DESC LIMIT 1</select>
+  <select id="byRequest" resultType="map">SELECT * FROM document_intake WHERE application_id=#{applicationId} AND request_key=#{requestKey}</select>
+  <select id="activeForProgram" resultType="map">
+    SELECT j.id,j.application_id,j.status,j.progress FROM document_intake j
+    JOIN application a ON a.id=j.application_id
+    WHERE a.workspace_id=#{workspaceId} AND a.owner_id=#{ownerId} AND a.program_id=#{programId}
+      AND a.status='DRAFT' AND j.status IN ('QUEUED','PROCESSING') ORDER BY j.id DESC LIMIT 1
+  </select>
+  <select id="sources" resultType="map">SELECT * FROM intake_source WHERE intake_id=#{intakeId} ORDER BY id</select>
+  <select id="pending" resultType="long">SELECT id FROM document_intake WHERE status='QUEUED' AND execution_mode='LIVE' ORDER BY id LIMIT 1</select>
+  <update id="enqueue">
+    UPDATE document_intake SET execution_mode='LIVE',status='QUEUED',stage='UPLOADED',detail='분석 대기',updated_at=UTC_TIMESTAMP(6)
+    WHERE id=#{id} AND status='UPLOADED'
+  </update>
+  <update id="claim">
+    UPDATE document_intake SET status='PROCESSING',stage='READING',progress=10,claim_token=#{token},lease_until=TIMESTAMPADD(MINUTE,25,UTC_TIMESTAMP(6)),updated_at=UTC_TIMESTAMP(6)
+    WHERE id=#{id} AND status='QUEUED'
+  </update>
+  <update id="progress">
+    UPDATE document_intake SET stage=#{stage},progress=#{progress},detail=#{detail},updated_at=UTC_TIMESTAMP(6)
+    WHERE id=#{id} AND claim_token=#{token} AND status='PROCESSING'
+  </update>
+  <update id="finish">
+    UPDATE document_intake SET status='READY',stage='COMPLETE',progress=100,detail='원본·분할 문서·추출 사진 정리 완료',result_json=#{result},lease_until=NULL,updated_at=UTC_TIMESTAMP(6)
+    WHERE id=#{id} AND claim_token=#{token} AND status='PROCESSING'
+  </update>
+  <update id="fail">
+    UPDATE document_intake SET status='FAILED',error_code=#{error},lease_until=NULL,updated_at=UTC_TIMESTAMP(6)
+    WHERE id=#{id} AND claim_token=#{token} AND status='PROCESSING'
+  </update>
+  <update id="applied">UPDATE document_intake SET status='APPLIED',result_json=#{result},updated_at=UTC_TIMESTAMP(6) WHERE id=#{id} AND status='READY'</update>
+  <update id="expireInterrupted">
+    UPDATE document_intake FORCE INDEX(ix_intake_live_expiry) SET status='FAILED',error_code='PROCESSING_INTERRUPTED',updated_at=UTC_TIMESTAMP(6)
+    WHERE execution_mode='LIVE' AND status='PROCESSING' AND lease_until &lt; UTC_TIMESTAMP(6)
+  </update>
+  <select id="cacheScope" resultType="map">
+    SELECT a.workspace_id,a.owner_id,j.request_hash FROM document_intake j JOIN application a ON a.id=j.application_id WHERE j.id=#{id}
+  </select>
+  <select id="cached" resultType="string">
+    SELECT payload FROM intake_analysis_cache WHERE workspace_id=#{scope.workspace_id} AND owner_id=#{scope.owner_id} AND request_hash=#{scope.request_hash} AND pipeline_version=#{version}
+  </select>
+  <insert id="cache">
+    INSERT INTO intake_analysis_cache(workspace_id,owner_id,request_hash,pipeline_version,payload)
+    VALUES(#{scope.workspace_id},#{scope.owner_id},#{scope.request_hash},#{version},#{payload})
+    ON DUPLICATE KEY UPDATE payload=VALUES(payload),created_at=UTC_TIMESTAMP(6)
+  </insert>
+  <update id="beginPrepared">
+    UPDATE document_intake SET execution_mode='PREPARED',status='PROCESSING',stage='LOADING',progress=5,detail='준비된 인식 결과 불러오기',replay_started_at=UTC_TIMESTAMP(6),claim_token='prepared',lease_until=NULL,updated_at=UTC_TIMESTAMP(6)
+    WHERE id=#{id} AND status='UPLOADED'
+  </update>
+  <select id="replaying" resultType="map">
+    SELECT *,TIMESTAMPDIFF(MICROSECOND,replay_started_at,UTC_TIMESTAMP(6))/1000000.0 AS elapsed_seconds FROM document_intake
+    WHERE status='PROCESSING' AND execution_mode='PREPARED' ORDER BY id LIMIT 20
+  </select>
+  <update id="replayProgress">
+    UPDATE document_intake SET stage=#{stage},progress=#{progress},detail=#{detail},updated_at=UTC_TIMESTAMP(6)
+    WHERE id=#{id} AND execution_mode='PREPARED' AND status='PROCESSING'
+  </update>
+</mapper>

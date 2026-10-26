@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC '-//mybatis.org//DTD Mapper 3.0//EN'
+  'https://mybatis.org/dtd/mybatis-3-mapper.dtd'>
+<mapper namespace="kr.co.maeum.support.demo.DemoMapper">
+  <select id="scenario" resultType="long">
+    SELECT id
+    FROM demo_scenario
+    WHERE code=#{code}
+  </select>
+  <insert id="insertWorkspace" useGeneratedKeys="true" keyProperty="id">
+    INSERT INTO workspace(kind,session_token_hash,scenario_id,expires_at)
+    VALUES('DEMO',#{tokenHash},#{scenarioId},TIMESTAMPADD(HOUR,24,UTC_TIMESTAMP(6)))
+  </insert>
+  <update id="expire">
+    UPDATE workspace
+    SET expires_at=UTC_TIMESTAMP(6)
+    WHERE id=#{workspaceId}
+    AND kind='DEMO'
+  </update>
+</mapper>

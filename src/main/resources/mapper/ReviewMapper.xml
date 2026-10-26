@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC '-//mybatis.org//DTD Mapper 3.0//EN'
+  'https://mybatis.org/dtd/mybatis-3-mapper.dtd'>
+<mapper namespace="kr.co.maeum.support.review.ReviewMapper">
+  <insert id="saveReview">
+    INSERT INTO review(application_id,reviewer_id,check_items,decision,reason)
+    VALUES(#{applicationId},#{reviewerId},#{checkItems},#{decision},#{reason})
+    ON DUPLICATE KEY UPDATE reviewer_id=VALUES(reviewer_id),check_items=VALUES(check_items),decision=VALUES(decision),reason=VALUES(reason),updated_at=UTC_TIMESTAMP(6)
+  </insert>
+  <select id="findReview" resultType="map">
+    SELECT *
+    FROM review
+    WHERE application_id=#{applicationId}
+  </select>
+  <insert id="insertSupplement" useGeneratedKeys="true" keyProperty="id">
+    INSERT INTO supplement_request(application_id,requested_by,reason,due_at)
+    VALUES(#{applicationId},#{requestedBy},#{reason},#{dueAt})
+  </insert>
+  <insert id="insertItem">
+    INSERT INTO supplement_item(request_id,target_code,instruction)
+    VALUES(#{requestId},#{target},#{instruction})
+  </insert>
+  <select id="openSupplement" resultType="kr.co.maeum.support.review.SupplementRequest">
+    SELECT *
+    FROM supplement_request
+    WHERE application_id=#{applicationId}
+    AND status='OPEN'
+    ORDER BY id DESC
+    LIMIT 1
+  </select>
+  <select id="targets" resultType="string">
+    SELECT target_code
+    FROM supplement_item
+    WHERE request_id=#{requestId}
+    ORDER BY id
+  </select>
+  <insert id="answer">
+    INSERT INTO supplement_response(request_id,revision_id,response_text,responded_by)
+    VALUES(#{requestId},#{revisionId},#{text},#{actorId})
+  </insert>
+  <update id="closeSupplement">
+    UPDATE supplement_request
+    SET status='RESPONDED'
+    WHERE id=#{requestId}
+    AND status='OPEN'
+  </update>
+</mapper>

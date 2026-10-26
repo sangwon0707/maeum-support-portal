@@ -1,0 +1,102 @@
+{
+  "datasetVersion": "support-application-comparison",
+  "purpose": "가상 문서 기반 화면·항목 추출 연동 점검",
+  "synthetic": true,
+  "application": {
+    "programTitle": "2026 소상공인 매장 환경개선 지원사업",
+    "applicationDate": "2026-11-02",
+    "businessName": "가상문구점",
+    "businessNo": "0000000002",
+    "representative": "예시대표",
+    "openedOn": "2023-06-15",
+    "phone": "000-0000-0002",
+    "address": "예시시 가상구 배움로 45, 1층",
+    "businessType": "도매 및 소매업",
+    "businessItem": "문구용품 소매",
+    "planText": "문구점 간판 교체, LED 조명 8개 교체 및 배선 점검·정비를 통해 학습용품 구매 환경을 개선합니다. (가상 신청)",
+    "requestedAmount": 2400000,
+    "selfContribution": 240000,
+    "totalProjectCost": 2640000
+  },
+  "estimate": {
+    "quoteNo": "TEST-Q-2026-002",
+    "issuedOn": "2026-10-29",
+    "validUntil": "2026-11-29",
+    "supplierName": "예시간판제작소",
+    "supplierBusinessNo": "0000000003",
+    "supplyAmount": 2400000,
+    "taxAmount": 240000,
+    "totalAmount": 2640000,
+    "items": [
+      {
+        "name": "출입구 간판 교체",
+        "specification": "기존 간판 철거 및 문구점 LED 간판 설치",
+        "quantity": 1,
+        "unit": "식",
+        "unitPrice": 1400000,
+        "amount": 1400000
+      },
+      {
+        "name": "진열 통로 조명 개선",
+        "specification": "천장 LED 조명 8개 교체",
+        "quantity": 8,
+        "unit": "개",
+        "unitPrice": 75000,
+        "amount": 600000
+      },
+      {
+        "name": "전기 회로 점검·정비",
+        "specification": "노후 배선 점검·교체 및 안전 확인",
+        "quantity": 1,
+        "unit": "식",
+        "unitPrice": 400000,
+        "amount": 400000
+      }
+    ],
+    "supplierRepresentative": "예시설치자"
+  },
+  "documents": {
+    "checklist": {
+      "pdfPage": 1
+    },
+    "application": {
+      "pdfPage": 2
+    },
+    "plan": {
+      "pdfPage": 3
+    },
+    "budget": {
+      "pdfPage": 4
+    },
+    "photos": {
+      "pdfPage": 5
+    },
+    "businessCertificate": {
+      "pdfPage": 6,
+      "expectedFields": {
+        "businessName": "가상문구점",
+        "businessNo": "0000000002",
+        "representative": "예시대표",
+        "openedOn": "2023-06-15"
+      }
+    },
+    "estimate": {
+      "pdfPage": 7
+    }
+  },
+  "scenarios": {
+    "NORMAL": {
+      "expectedMismatches": [],
+      "requiredDocuments": [
+        "BUSINESS_CERT",
+        "ESTIMATE"
+      ]
+    }
+  },
+  "evaluationBoundary": {
+    "originalBusinessCount": 1,
+    "independentEvaluationSet": false,
+    "note": "정상·상호 불일치·보완은 같은 원본 사례의 변형이다. 엔진 일반화 정확도를 증명하는 평가셋으로 사용하지 않는다. 정답 파일은 OCR 서비스 요청에 전달하지 않는다."
+  },
+  "note": "같은 서식의 대체 정상 사례. 원본과 섞지 말고 각 사례 안의 일관성을 확인한다. 공통 정책·항목명은 변경하지 않는다."
+}

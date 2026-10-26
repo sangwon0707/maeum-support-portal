@@ -1,0 +1,21 @@
+services:
+  app:
+    image: egov-portfolio-app:local
+    build: .
+    ports: ["127.0.0.1:8088:8080"]
+    environment:
+      DB_URL: jdbc:mariadb://db:3306/support_portal
+      DB_USER: support_app
+      DB_PASSWORD: ${DB_PASSWORD:-local-support-password}
+      LOCAL_SEED: "true"
+      PUBLIC_DEMO_LOGIN: ${PUBLIC_DEMO_LOGIN:-applicant}
+      FILE_MAX_BYTES: ${FILE_MAX_BYTES:-536870912}
+      FILE_MIN_FREE_BYTES: ${FILE_MIN_FREE_BYTES:-1073741824}
+      DOCUMENT_PIPELINE_VERSION: ${DOCUMENT_PIPELINE_VERSION:-pdfbox-3.0.8-paddle-v5-ko-layout-v2}
+      LEGAL_OPERATOR_NAME: ${LEGAL_OPERATOR_NAME:-}
+      LEGAL_CONTACT_EMAIL: ${LEGAL_CONTACT_EMAIL:-}
+      LEGAL_HOSTING_PROVIDER: ${LEGAL_HOSTING_PROVIDER:-}
+    volumes: ["./.local/files:/var/lib/support/files"]
+    depends_on:
+      db:
+        condition: service_healthy

@@ -1,0 +1,4904 @@
+{
+  "pipelineVersion": "pdfbox-3.0.8-paddle-v5-ko-layout-v2",
+  "pdfProcessor": "Apache PDFBox 3.0.8",
+  "sourceSha256": "174a38a8246af041f9a23be35348d5de7eef77162e2dd79b1432e054f5de675d",
+  "engine": "PaddleOCR",
+  "modelVersion": "PP-OCRv5_mobile_det+korean_PP-OCRv5_mobile_rec",
+  "preparedAt": "2026-10-25T19:56:38.176300+00:00",
+  "result": {
+    "pages": [
+      {
+        "pageNumber": 1,
+        "pageCount": 6,
+        "kind": "APPLICATION",
+        "width": 992,
+        "height": 1403,
+        "textSource": "PADDLE_OCR",
+        "tableRows": [],
+        "lines": [
+          {
+            "text": "가상예시/공식서식아님",
+            "bbox": [
+              758,
+              55,
+              906,
+              78
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9891641139984131
+          },
+          {
+            "text": "마음이음ㅣ온라인판로개별서식",
+            "bbox": [
+              61,
+              64,
+              245,
+              90
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.917493462562561
+          },
+          {
+            "text": "온라인판로/ 제작의뢰서/01",
+            "bbox": [
+              71,
+              139,
+              242,
+              166
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9369494318962097
+          },
+          {
+            "text": "지원사업신청서",
+            "bbox": [
+              71,
+              172,
+              266,
+              210
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9949241280555725
+          },
+          {
+            "text": "2026소상공인온라인판로준비지원사업",
+            "bbox": [
+              666,
+              191,
+              900,
+              215
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9763399362564087
+          },
+          {
+            "text": "상호",
+            "bbox": [
+              80,
+              247,
+              119,
+              275
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9955217838287354
+          },
+          {
+            "text": "가상온기공방",
+            "bbox": [
+              210,
+              245,
+              297,
+              271
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9809484481811523
+          },
+          {
+            "text": "대표자",
+            "bbox": [
+              503,
+              242,
+              551,
+              265
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.99637770652771
+          },
+          {
+            "text": "가상예린",
+            "bbox": [
+              622,
+              238,
+              684,
+              264
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9721238017082214
+          },
+          {
+            "text": "000-00-00400",
+            "bbox": [
+              213,
+              281,
+              308,
+              305
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9422330856323242
+          },
+          {
+            "text": "개업일",
+            "bbox": [
+              503,
+              276,
+              553,
+              302
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9973487257957458
+          },
+          {
+            "text": "2023-07-10",
+            "bbox": [
+              622,
+              273,
+              704,
+              298
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9626486897468567
+          },
+          {
+            "text": "사업자번호",
+            "bbox": [
+              82,
+              281,
+              155,
+              311
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9795053601264954
+          },
+          {
+            "text": "주소·연락처",
+            "bbox": [
+              84,
+              320,
+              164,
+              345
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9810691475868225
+          },
+          {
+            "text": "가상시예시구빛음로46,2총/000-0000-0140",
+            "bbox": [
+              214,
+              315,
+              497,
+              340
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.978839099407196
+          },
+          {
+            "text": "콘텐츠 제작과업지시 요약",
+            "bbox": [
+              76,
+              360,
+              261,
+              387
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.925913393497467
+          },
+          {
+            "text": "납품물",
+            "bbox": [
+              85,
+              401,
+              133,
+              426
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9551073908805847
+          },
+          {
+            "text": "수량·규격",
+            "bbox": [
+              251,
+              398,
+              319,
+              423
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8774792551994324
+          },
+          {
+            "text": "검수 기준",
+            "bbox": [
+              591,
+              390,
+              656,
+              419
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8205968141555786
+          },
+          {
+            "text": "상품사진",
+            "bbox": [
+              85,
+              434,
+              150,
+              463
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9961771965026855
+          },
+          {
+            "text": "보정JPG20컷",
+            "bbox": [
+              253,
+              433,
+              347,
+              457
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9818143844604492
+          },
+          {
+            "text": "것수·색상·파일열림",
+            "bbox": [
+              593,
+              427,
+              726,
+              454
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8915209770202637
+          },
+          {
+            "text": "상세페이지",
+            "bbox": [
+              87,
+              473,
+              159,
+              498
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9778283834457397
+          },
+          {
+            "text": "규격·재질·관리방법3종",
+            "bbox": [
+              253,
+              468,
+              403,
+              495
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9106585383415222
+          },
+          {
+            "text": "표기 내용·이미지크기",
+            "bbox": [
+              594,
+              464,
+              732,
+              487
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9255704879760742
+          },
+          {
+            "text": "소개영상",
+            "bbox": [
+              86,
+              508,
+              152,
+              534
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9942657947540283
+          },
+          {
+            "text": "제품 사용 장면 MP4 2편",
+            "bbox": [
+              255,
+              505,
+              400,
+              529
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8871513605117798
+          },
+          {
+            "text": "재생·수량·길이협의",
+            "bbox": [
+              593,
+              500,
+              726,
+              526
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9475568532943726
+          },
+          {
+            "text": "예산·이용범위",
+            "bbox": [
+              79,
+              552,
+              190,
+              576
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9791964888572693
+          },
+          {
+            "text": "지원액",
+            "bbox": [
+              87,
+              589,
+              137,
+              616
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9954678416252136
+          },
+          {
+            "text": "자부담",
+            "bbox": [
+              368,
+              584,
+              420,
+              614
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9960579872131348
+          },
+          {
+            "text": "총액",
+            "bbox": [
+              650,
+              582,
+              689,
+              608
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9958552122116089
+          },
+          {
+            "text": "2,000,000원",
+            "bbox": [
+              90,
+              627,
+              173,
+              652
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.94053715467453
+          },
+          {
+            "text": "640,000원",
+            "bbox": [
+              370,
+              623,
+              442,
+              647
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9693518877029419
+          },
+          {
+            "text": "2,640,000원",
+            "bbox": [
+              651,
+              616,
+              735,
+              644
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9478925466537476
+          },
+          {
+            "text": "조안 수정 2회,자사 온라인 판매 채널이용범위와 원본파일제공 여부는 계약 전에명시할계획입니다.",
+            "bbox": [
+              82,
+              650,
+              603,
+              677
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8959620594978333
+          },
+          {
+            "text": "작성일2026-10-25-테스트용가상신청서",
+            "bbox": [
+              668,
+              676,
+              913,
+              701
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9706897139549255
+          },
+          {
+            "text": "1/6",
+            "bbox": [
+              894,
+              1297,
+              931,
+              1322
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9898093342781067
+          },
+          {
+            "text": "가상자료:실제 신청·증명·계약·지급에 사용할 수없습니다",
+            "bbox": [
+              90,
+              1308,
+              425,
+              1331
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.929813027381897
+          }
+        ],
+        "fields": {
+          "businessName": "가상온기공방",
+          "businessNo": "0000000400",
+          "representative": "가상예린",
+          "openedOn": "2023-07-10",
+          "phone": "000-0000-0140",
+          "address": "가상시예시구빛음로46,2총",
+          "requestedAmount": "2000000",
+          "selfContribution": "640000",
+          "totalAmount": "2640000"
+        },
+        "evidence": {
+          "businessName": {
+            "bbox": [
+              210,
+              245,
+              297,
+              271
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9809484481811523
+          },
+          "businessNo": {
+            "bbox": [
+              213,
+              281,
+              308,
+              305
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9422330856323242
+          },
+          "representative": {
+            "bbox": [
+              622,
+              238,
+              684,
+              264
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9721238017082214
+          },
+          "openedOn": {
+            "bbox": [
+              622,
+              273,
+              704,
+              298
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9626486897468567
+          },
+          "phone": {
+            "bbox": [
+              214,
+              315,
+              497,
+              340
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.978839099407196
+          },
+          "address": {
+            "bbox": [
+              214,
+              315,
+              497,
+              340
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.978839099407196
+          },
+          "requestedAmount": {
+            "bbox": [
+              90,
+              627,
+              173,
+              652
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.94053715467453
+          },
+          "selfContribution": {
+            "bbox": [
+              370,
+              623,
+              442,
+              647
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9693518877029419
+          },
+          "totalAmount": {
+            "bbox": [
+              651,
+              616,
+              735,
+              644
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9478925466537476
+          }
+        },
+        "photos": [],
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kindLabel": "신청서",
+        "previewKey": "c2356cde19bb742fdcac998ddeef944c4bdb79c761db957540f5710bd01cac4e.png",
+        "groupStart": true,
+        "ai": {
+          "pageNumber": 1,
+          "fields": {
+            "businessName": "가상온기공방",
+            "representative": "가상예린",
+            "businessNo": "0000000400",
+            "openedOn": "2023-07-10",
+            "address": "가상시예시구빛음로46,2총/000-0000-0140",
+            "requestedAmount": "2000000",
+            "selfContribution": "640000",
+            "totalAmount": "2640000"
+          },
+          "evidence": {
+            "businessName": {
+              "lineIndex": 6,
+              "rawValue": "가상온기공방",
+              "bbox": [
+                210,
+                245,
+                297,
+                271
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "representative": {
+              "lineIndex": 8,
+              "rawValue": "가상예린",
+              "bbox": [
+                622,
+                238,
+                684,
+                264
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "businessNo": {
+              "lineIndex": 9,
+              "rawValue": "000-00-00400",
+              "bbox": [
+                213,
+                281,
+                308,
+                305
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "openedOn": {
+              "lineIndex": 11,
+              "rawValue": "2023-07-10",
+              "bbox": [
+                622,
+                273,
+                704,
+                298
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "address": {
+              "lineIndex": 14,
+              "rawValue": "가상시예시구빛음로46,2총/000-0000-0140",
+              "bbox": [
+                214,
+                315,
+                497,
+                340
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "requestedAmount": {
+              "lineIndex": 32,
+              "rawValue": "2,000,000원",
+              "bbox": [
+                90,
+                627,
+                173,
+                652
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "selfContribution": {
+              "lineIndex": 33,
+              "rawValue": "640,000원",
+              "bbox": [
+                370,
+                623,
+                442,
+                647
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "totalAmount": {
+              "lineIndex": 34,
+              "rawValue": "2,640,000원",
+              "bbox": [
+                651,
+                616,
+                735,
+                644
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            }
+          },
+          "suggestedKind": "APPLICATION",
+          "kindEvidence": {
+            "lineIndex": 0,
+            "text": "가상예시/공식서식아님"
+          },
+          "kindAgreement": true,
+          "kindLabel": "신청서"
+        }
+      },
+      {
+        "pageNumber": 2,
+        "pageCount": 6,
+        "kind": "BUSINESS_PLAN",
+        "width": 992,
+        "height": 1403,
+        "textSource": "PADDLE_OCR",
+        "tableRows": [
+          {
+            "y": 54,
+            "cells": [
+              {
+                "text": "마음이음|온라인판로개발서식",
+                "bbox": [
+                  83,
+                  54,
+                  264,
+                  71
+                ]
+              },
+              {
+                "text": "가상예시/공식서식아님",
+                "bbox": [
+                  780,
+                  55,
+                  926,
+                  75
+                ]
+              }
+            ]
+          },
+          {
+            "y": 229,
+            "cells": [
+              {
+                "text": "납품 규격",
+                "bbox": [
+                  250,
+                  229,
+                  314,
+                  257
+                ]
+              },
+              {
+                "text": "과업",
+                "bbox": [
+                  98,
+                  230,
+                  134,
+                  254
+                ]
+              },
+              {
+                "text": "수량",
+                "bbox": [
+                  524,
+                  232,
+                  560,
+                  257
+                ]
+              },
+              {
+                "text": "검수·관리조건",
+                "bbox": [
+                  616,
+                  233,
+                  711,
+                  256
+                ]
+              }
+            ]
+          },
+          {
+            "y": 263,
+            "cells": [
+              {
+                "text": "보정JPG",
+                "bbox": [
+                  250,
+                  263,
+                  315,
+                  294
+                ]
+              },
+              {
+                "text": "상품사진",
+                "bbox": [
+                  99,
+                  264,
+                  160,
+                  293
+                ]
+              },
+              {
+                "text": "20컷",
+                "bbox": [
+                  522,
+                  268,
+                  563,
+                  296
+                ]
+              }
+            ]
+          },
+          {
+            "y": 301,
+            "cells": [
+              {
+                "text": "상세페이지",
+                "bbox": [
+                  99,
+                  301,
+                  172,
+                  326
+                ]
+              },
+              {
+                "text": "규격·재질·관리표기",
+                "bbox": [
+                  253,
+                  303,
+                  381,
+                  326
+                ]
+              },
+              {
+                "text": "3종",
+                "bbox": [
+                  521,
+                  304,
+                  556,
+                  333
+                ]
+              }
+            ]
+          },
+          {
+            "y": 335,
+            "cells": [
+              {
+                "text": "소개영상",
+                "bbox": [
+                  98,
+                  335,
+                  160,
+                  365
+                ]
+              },
+              {
+                "text": "MP4",
+                "bbox": [
+                  251,
+                  340,
+                  290,
+                  366
+                ]
+              }
+            ]
+          },
+          {
+            "y": 341,
+            "cells": [
+              {
+                "text": "2편",
+                "bbox": [
+                  521,
+                  341,
+                  555,
+                  367
+                ]
+              },
+              {
+                "text": "자사채널이용범위 협의",
+                "bbox": [
+                  617,
+                  344,
+                  764,
+                  364
+                ]
+              }
+            ]
+          },
+          {
+            "y": 1318,
+            "cells": [
+              {
+                "text": "2/6",
+                "bbox": [
+                  895,
+                  1318,
+                  931,
+                  1342
+                ]
+              },
+              {
+                "text": "가상자료: 실제 신청·증명·계약·지급에사용할수없습니다",
+                "bbox": [
+                  86,
+                  1319,
+                  417,
+                  1339
+                ]
+              }
+            ]
+          }
+        ],
+        "lines": [
+          {
+            "text": "마음이음|온라인판로개발서식",
+            "bbox": [
+              83,
+              54,
+              264,
+              71
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9209089875221252
+          },
+          {
+            "text": "가상예시/공식서식아님",
+            "bbox": [
+              780,
+              55,
+              926,
+              75
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9769447445869446
+          },
+          {
+            "text": "온라인판로/제작의뢰서/02",
+            "bbox": [
+              93,
+              125,
+              260,
+              146
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9805278182029724
+          },
+          {
+            "text": "콘텐츠제작 과업서",
+            "bbox": [
+              95,
+              158,
+              315,
+              189
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9560591578483582
+          },
+          {
+            "text": "온기공방의 도자기온라인소개자료 제작",
+            "bbox": [
+              689,
+              191,
+              917,
+              212
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9452005624771118
+          },
+          {
+            "text": "과업",
+            "bbox": [
+              98,
+              230,
+              134,
+              254
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9991062879562378
+          },
+          {
+            "text": "납품 규격",
+            "bbox": [
+              250,
+              229,
+              314,
+              257
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.931773841381073
+          },
+          {
+            "text": "수량",
+            "bbox": [
+              524,
+              232,
+              560,
+              257
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9898091554641724
+          },
+          {
+            "text": "검수·관리조건",
+            "bbox": [
+              616,
+              233,
+              711,
+              256
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9853847622871399
+          },
+          {
+            "text": "상품사진",
+            "bbox": [
+              99,
+              264,
+              160,
+              293
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9969383478164673
+          },
+          {
+            "text": "보정JPG",
+            "bbox": [
+              250,
+              263,
+              315,
+              294
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9866371154785156
+          },
+          {
+            "text": "20컷",
+            "bbox": [
+              522,
+              268,
+              563,
+              296
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9448443055152893
+          },
+          {
+            "text": "색상기준·원본제공협의",
+            "bbox": [
+              617,
+              270,
+              768,
+              293
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9777450561523438
+          },
+          {
+            "text": "상세페이지",
+            "bbox": [
+              99,
+              301,
+              172,
+              326
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9881726503372192
+          },
+          {
+            "text": "규격·재질·관리표기",
+            "bbox": [
+              253,
+              303,
+              381,
+              326
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9709762334823608
+          },
+          {
+            "text": "3종",
+            "bbox": [
+              521,
+              304,
+              556,
+              333
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9970310926437378
+          },
+          {
+            "text": "초안후수정2회",
+            "bbox": [
+              618,
+              307,
+              716,
+              328
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9566181898117065
+          },
+          {
+            "text": "소개영상",
+            "bbox": [
+              98,
+              335,
+              160,
+              365
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.990196168422699
+          },
+          {
+            "text": "MP4",
+            "bbox": [
+              251,
+              340,
+              290,
+              366
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9806280732154846
+          },
+          {
+            "text": "2편",
+            "bbox": [
+              521,
+              341,
+              555,
+              367
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9766335487365723
+          },
+          {
+            "text": "자사채널이용범위 협의",
+            "bbox": [
+              617,
+              344,
+              764,
+              364
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.947011411190033
+          },
+          {
+            "text": "계약서에저작재산권 귀속,사용기간-매체,원본 파일제공여부,제3자 폰트·음원권리를 구분해 적도록합니다.",
+            "bbox": [
+              92,
+              383,
+              663,
+              407
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9222972393035889
+          },
+          {
+            "text": "제작 목표와 대상상품",
+            "bbox": [
+              90,
+              426,
+              245,
+              452
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9206227660179138
+          },
+          {
+            "text": "제작목표와대상 상품",
+            "bbox": [
+              100,
+              465,
+              226,
+              488
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9536200761795044
+          },
+          {
+            "text": "직접만든머그와 소형화병을매장에서판매하고있습니다.휴대전화로활영한사진은배경과색표현이 일정하지않아상품별크기·재질·사용",
+            "bbox": [
+              101,
+              501,
+              919,
+              527
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9380229115486145
+          },
+          {
+            "text": "방법을비교하기쉬운 온라인소개자료가 필요합니다.",
+            "bbox": [
+              100,
+              521,
+              415,
+              544
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9420151710510254
+          },
+          {
+            "text": "납품규격·산출물",
+            "bbox": [
+              91,
+              568,
+              216,
+              595
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9706825017929077
+          },
+          {
+            "text": "남품규격·산출물",
+            "bbox": [
+              98,
+              608,
+              203,
+              634
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9180856943130493
+          },
+          {
+            "text": "상품사진20컷, 상세페이지 3종,짧은소개영상2편을제작합니다.상품별 규격과 관리 방법을 먼저정리하고활영구도·색상확인기준과수정",
+            "bbox": [
+              100,
+              643,
+              922,
+              673
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9062605500221252
+          },
+          {
+            "text": "범위를 공급자와 협의합니다",
+            "bbox": [
+              100,
+              666,
+              271,
+              690
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9258891940116882
+          },
+          {
+            "text": "수정·검수·관리협의",
+            "bbox": [
+              92,
+              715,
+              241,
+              739
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9811934232711792
+          },
+          {
+            "text": "수정·검수·관리협의",
+            "bbox": [
+              100,
+              752,
+              222,
+              777
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9722963571548462
+          },
+          {
+            "text": "활영 대상과 컷목록을확정하고 시안을 검토합니다.건적에는납품 파일행식,원본제공 여부,수정 횟수와사용할수있는 채널범위를 기재했습",
+            "bbox": [
+              101,
+              790,
+              921,
+              816
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9020058512687683
+          },
+          {
+            "text": "니다.광고 집행비나 판매 플랫품 수수료는 포함하지 않습니다",
+            "bbox": [
+              100,
+              812,
+              459,
+              835
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9009153842926025
+          },
+          {
+            "text": "파일·수량검수",
+            "bbox": [
+              89,
+              858,
+              201,
+              885
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9685345888137817
+          },
+          {
+            "text": "파일·수량검수",
+            "bbox": [
+              99,
+              899,
+              191,
+              923
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9570106267929077
+          },
+          {
+            "text": "납품수량20컷-3종·2편,제품규격 표기, 파일열람과 사용범위를 확인합니다.실제 매출이나 입점 승인결과를 성과로 주장하지않습니다",
+            "bbox": [
+              100,
+              936,
+              897,
+              960
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8926018476486206
+          },
+          {
+            "text": "가상자료: 실제 신청·증명·계약·지급에사용할수없습니다",
+            "bbox": [
+              86,
+              1319,
+              417,
+              1339
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9262062311172485
+          },
+          {
+            "text": "2/6",
+            "bbox": [
+              895,
+              1318,
+              931,
+              1342
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9972096085548401
+          }
+        ],
+        "fields": {
+          "planText": "계약서에저작재산권 귀속,사용기간-매체,원본 파일제공여부,제3자 폰트·음원권리를 구분해 적도록합니다.\n직접만든머그와 소형화병을매장에서판매하고있습니다.휴대전화로활영한사진은배경과색표현이 일정하지않아상품별크기·재질·사용\n상품사진20컷, 상세페이지 3종,짧은소개영상2편을제작합니다.상품별 규격과 관리 방법을 먼저정리하고활영구도·색상확인기준과수정\n활영 대상과 컷목록을확정하고 시안을 검토합니다.건적에는납품 파일행식,원본제공 여부,수정 횟수와사용할수있는 채널범위를 기재했습\n니다.광고 집행비나 판매 플랫품 수수료는 포함하지 않습니다\n납품수량20컷-3종·2편,제품규격 표기, 파일열람과 사용범위를 확인합니다.실제 매출이나 입점 승인결과를 성과로 주장하지않습니다\n가상자료: 실제 신청·증명·계약·지급에사용할수없습니다"
+        },
+        "evidence": {},
+        "photos": [],
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kindLabel": "사업계획서",
+        "previewKey": "a838abbfd07a6037b3a6c2256932914c62f96f25deb550e45c282a31efe2ee01.png",
+        "groupStart": true,
+        "ai": {
+          "pageNumber": 2,
+          "fields": {},
+          "evidence": {},
+          "suggestedKind": "BUSINESS_PLAN",
+          "kindEvidence": {
+            "lineIndex": 0,
+            "text": "마음이음|온라인판로개발서식"
+          },
+          "kindAgreement": true,
+          "kindLabel": "사업계획서"
+        }
+      },
+      {
+        "pageNumber": 3,
+        "pageCount": 6,
+        "kind": "BUSINESS_PLAN",
+        "width": 992,
+        "height": 1403,
+        "textSource": "PADDLE_OCR",
+        "tableRows": [
+          {
+            "y": 233,
+            "cells": [
+              {
+                "text": "금액",
+                "bbox": [
+                  759,
+                  233,
+                  798,
+                  262
+                ]
+              },
+              {
+                "text": "단가",
+                "bbox": [
+                  586,
+                  234,
+                  626,
+                  263
+                ]
+              },
+              {
+                "text": "수량",
+                "bbox": [
+                  494,
+                  235,
+                  534,
+                  263
+                ]
+              }
+            ]
+          },
+          {
+            "y": 276,
+            "cells": [
+              {
+                "text": "상품사진활영",
+                "bbox": [
+                  92,
+                  276,
+                  184,
+                  300
+                ]
+              },
+              {
+                "text": "900,000원",
+                "bbox": [
+                  760,
+                  280,
+                  833,
+                  305
+                ]
+              },
+              {
+                "text": "45,000원",
+                "bbox": [
+                  586,
+                  281,
+                  655,
+                  310
+                ]
+              }
+            ]
+          },
+          {
+            "y": 342,
+            "cells": [
+              {
+                "text": "900,000원",
+                "bbox": [
+                  762,
+                  342,
+                  834,
+                  364
+                ]
+              },
+              {
+                "text": "3종",
+                "bbox": [
+                  495,
+                  343,
+                  532,
+                  367
+                ]
+              },
+              {
+                "text": "300,000원",
+                "bbox": [
+                  590,
+                  343,
+                  661,
+                  365
+                ]
+              }
+            ]
+          },
+          {
+            "y": 398,
+            "cells": [
+              {
+                "text": "600,000원",
+                "bbox": [
+                  763,
+                  398,
+                  835,
+                  423
+                ]
+              },
+              {
+                "text": "2편",
+                "bbox": [
+                  495,
+                  399,
+                  533,
+                  426
+                ]
+              },
+              {
+                "text": "300,000원",
+                "bbox": [
+                  589,
+                  400,
+                  662,
+                  424
+                ]
+              }
+            ]
+          },
+          {
+            "y": 442,
+            "cells": [
+              {
+                "text": "2,400,000원",
+                "bbox": [
+                  762,
+                  442,
+                  846,
+                  471
+                ]
+              },
+              {
+                "text": "공급가액",
+                "bbox": [
+                  90,
+                  446,
+                  154,
+                  475
+                ]
+              }
+            ]
+          },
+          {
+            "y": 479,
+            "cells": [
+              {
+                "text": "240,000원",
+                "bbox": [
+                  761,
+                  479,
+                  836,
+                  507
+                ]
+              },
+              {
+                "text": "부가세",
+                "bbox": [
+                  90,
+                  481,
+                  141,
+                  512
+                ]
+              }
+            ]
+          },
+          {
+            "y": 517,
+            "cells": [
+              {
+                "text": "총액",
+                "bbox": [
+                  90,
+                  517,
+                  130,
+                  550
+                ]
+              },
+              {
+                "text": "2,640,000원",
+                "bbox": [
+                  763,
+                  518,
+                  847,
+                  543
+                ]
+              }
+            ]
+          },
+          {
+            "y": 600,
+            "cells": [
+              {
+                "text": "총사업비",
+                "bbox": [
+                  491,
+                  600,
+                  557,
+                  629
+                ]
+              },
+              {
+                "text": "합계대조",
+                "bbox": [
+                  692,
+                  600,
+                  757,
+                  626
+                ]
+              },
+              {
+                "text": "자부담",
+                "bbox": [
+                  298,
+                  601,
+                  350,
+                  631
+                ]
+              },
+              {
+                "text": "지원신청액",
+                "bbox": [
+                  92,
+                  604,
+                  169,
+                  629
+                ]
+              }
+            ]
+          },
+          {
+            "y": 637,
+            "cells": [
+              {
+                "text": "2,640,000원",
+                "bbox": [
+                  491,
+                  637,
+                  576,
+                  665
+                ]
+              },
+              {
+                "text": "640,000원",
+                "bbox": [
+                  299,
+                  638,
+                  374,
+                  667
+                ]
+              },
+              {
+                "text": "신청액+자부담=건적총액",
+                "bbox": [
+                  695,
+                  638,
+                  862,
+                  662
+                ]
+              },
+              {
+                "text": "2,000,000원",
+                "bbox": [
+                  93,
+                  641,
+                  179,
+                  669
+                ]
+              }
+            ]
+          },
+          {
+            "y": 719,
+            "cells": [
+              {
+                "text": "기록물",
+                "bbox": [
+                  657,
+                  719,
+                  709,
+                  749
+                ]
+              },
+              {
+                "text": "시점",
+                "bbox": [
+                  92,
+                  722,
+                  130,
+                  751
+                ]
+              },
+              {
+                "text": "작업·확인",
+                "bbox": [
+                  202,
+                  723,
+                  270,
+                  749
+                ]
+              }
+            ]
+          },
+          {
+            "y": 758,
+            "cells": [
+              {
+                "text": "사업주/활영-표기 목록",
+                "bbox": [
+                  661,
+                  758,
+                  808,
+                  782
+                ]
+              },
+              {
+                "text": "1~4일",
+                "bbox": [
+                  93,
+                  759,
+                  141,
+                  787
+                ]
+              },
+              {
+                "text": "상품·활영컷 목록·규격정리",
+                "bbox": [
+                  205,
+                  762,
+                  375,
+                  783
+                ]
+              }
+            ]
+          },
+          {
+            "y": 795,
+            "cells": [
+              {
+                "text": "촬영·상세페이지·영상초안제작",
+                "bbox": [
+                  203,
+                  795,
+                  401,
+                  821
+                ]
+              },
+              {
+                "text": "제작업체/초안 파일",
+                "bbox": [
+                  661,
+                  795,
+                  786,
+                  819
+                ]
+              },
+              {
+                "text": "5~12일",
+                "bbox": [
+                  93,
+                  797,
+                  147,
+                  824
+                ]
+              }
+            ]
+          },
+          {
+            "y": 835,
+            "cells": [
+              {
+                "text": "13~20일",
+                "bbox": [
+                  93,
+                  835,
+                  155,
+                  861
+                ]
+              },
+              {
+                "text": "색상·표기수정·수량·이용범위확인",
+                "bbox": [
+                  205,
+                  835,
+                  424,
+                  857
+                ]
+              },
+              {
+                "text": "사업주·제작업체/납품목록",
+                "bbox": [
+                  662,
+                  835,
+                  833,
+                  856
+                ]
+              }
+            ]
+          },
+          {
+            "y": 1316,
+            "cells": [
+              {
+                "text": "3/6",
+                "bbox": [
+                  894,
+                  1316,
+                  933,
+                  1344
+                ]
+              },
+              {
+                "text": "가상자료:실제 신청·증명·계약·지급에사용할수없습니다.",
+                "bbox": [
+                  79,
+                  1320,
+                  411,
+                  1340
+                ]
+              }
+            ]
+          }
+        ],
+        "lines": [
+          {
+            "text": "마음이음|온라인판로개별서식",
+            "bbox": [
+              73,
+              58,
+              259,
+              79
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9442011713981628
+          },
+          {
+            "text": "가상예시/공식서식아님",
+            "bbox": [
+              772,
+              50,
+              923,
+              73
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9770781993865967
+          },
+          {
+            "text": "온라인 판로/제작의뢰서/03",
+            "bbox": [
+              81,
+              130,
+              253,
+              154
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9544198513031006
+          },
+          {
+            "text": "제작단위별 산출·검수 일정",
+            "bbox": [
+              82,
+              163,
+              407,
+              199
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9473271369934082
+          },
+          {
+            "text": "견적변호TEST-Q-ONLINE-001",
+            "bbox": [
+              726,
+              192,
+              912,
+              213
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9415020942687988
+          },
+          {
+            "text": "품목·규격",
+            "bbox": [
+              89,
+              239,
+              159,
+              264
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9640824198722839
+          },
+          {
+            "text": "수량",
+            "bbox": [
+              494,
+              235,
+              534,
+              263
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9989256858825684
+          },
+          {
+            "text": "단가",
+            "bbox": [
+              586,
+              234,
+              626,
+              263
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9934724569320679
+          },
+          {
+            "text": "금액",
+            "bbox": [
+              759,
+              233,
+              798,
+              262
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9885309934616089
+          },
+          {
+            "text": "상품사진활영",
+            "bbox": [
+              92,
+              276,
+              184,
+              300
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.973318338394165
+          },
+          {
+            "text": "20컷",
+            "bbox": [
+              494,
+              283,
+              538,
+              310
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9986741542816162
+          },
+          {
+            "text": "45,000원",
+            "bbox": [
+              586,
+              281,
+              655,
+              310
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9494714736938477
+          },
+          {
+            "text": "900,000원",
+            "bbox": [
+              760,
+              280,
+              833,
+              305
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9953212738037109
+          },
+          {
+            "text": "머그-화병/보정JPG납품",
+            "bbox": [
+              91,
+              298,
+              253,
+              319
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9387062788009644
+          },
+          {
+            "text": "상세페이지제작",
+            "bbox": [
+              92,
+              333,
+              193,
+              357
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9654254913330078
+          },
+          {
+            "text": "3종",
+            "bbox": [
+              495,
+              343,
+              532,
+              367
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9888632297515869
+          },
+          {
+            "text": "300,000원",
+            "bbox": [
+              590,
+              343,
+              661,
+              365
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9613690972328186
+          },
+          {
+            "text": "900,000원",
+            "bbox": [
+              762,
+              342,
+              834,
+              364
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9972444772720337
+          },
+          {
+            "text": "규격·재질·관리방법포함",
+            "bbox": [
+              92,
+              354,
+              251,
+              377
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9465128779411316
+          },
+          {
+            "text": "상품 소개 영상",
+            "bbox": [
+              91,
+              389,
+              184,
+              417
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9114128351211548
+          },
+          {
+            "text": "2편",
+            "bbox": [
+              495,
+              399,
+              533,
+              426
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.937889814376831
+          },
+          {
+            "text": "300,000원",
+            "bbox": [
+              589,
+              400,
+              662,
+              424
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9963327646255493
+          },
+          {
+            "text": "600,000원",
+            "bbox": [
+              763,
+              398,
+              835,
+              423
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9628683924674988
+          },
+          {
+            "text": "제품 사용 장면/MP4파일",
+            "bbox": [
+              93,
+              414,
+              251,
+              434
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9155802130699158
+          },
+          {
+            "text": "공급가액",
+            "bbox": [
+              90,
+              446,
+              154,
+              475
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.998996913433075
+          },
+          {
+            "text": "2,400,000원",
+            "bbox": [
+              762,
+              442,
+              846,
+              471
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9533072710037231
+          },
+          {
+            "text": "부가세",
+            "bbox": [
+              90,
+              481,
+              141,
+              512
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9953163266181946
+          },
+          {
+            "text": "240,000원",
+            "bbox": [
+              761,
+              479,
+              836,
+              507
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.944806694984436
+          },
+          {
+            "text": "총액",
+            "bbox": [
+              90,
+              517,
+              130,
+              550
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9962146282196045
+          },
+          {
+            "text": "2,640,000원",
+            "bbox": [
+              763,
+              518,
+              847,
+              543
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9797884225845337
+          },
+          {
+            "text": "재원대조",
+            "bbox": [
+              82,
+              566,
+              157,
+              593
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9971378445625305
+          },
+          {
+            "text": "지원신청액",
+            "bbox": [
+              92,
+              604,
+              169,
+              629
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9889814257621765
+          },
+          {
+            "text": "자부담",
+            "bbox": [
+              298,
+              601,
+              350,
+              631
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9965172410011292
+          },
+          {
+            "text": "총사업비",
+            "bbox": [
+              491,
+              600,
+              557,
+              629
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.996796190738678
+          },
+          {
+            "text": "합계대조",
+            "bbox": [
+              692,
+              600,
+              757,
+              626
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9965527653694153
+          },
+          {
+            "text": "2,000,000원",
+            "bbox": [
+              93,
+              641,
+              179,
+              669
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9383684992790222
+          },
+          {
+            "text": "640,000원",
+            "bbox": [
+              299,
+              638,
+              374,
+              667
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9886869788169861
+          },
+          {
+            "text": "2,640,000원",
+            "bbox": [
+              491,
+              637,
+              576,
+              665
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9964949488639832
+          },
+          {
+            "text": "신청액+자부담=건적총액",
+            "bbox": [
+              695,
+              638,
+              862,
+              662
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9327924251556396
+          },
+          {
+            "text": "추진일정",
+            "bbox": [
+              84,
+              684,
+              158,
+              713
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9900988340377808
+          },
+          {
+            "text": "시점",
+            "bbox": [
+              92,
+              722,
+              130,
+              751
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9865376353263855
+          },
+          {
+            "text": "작업·확인",
+            "bbox": [
+              202,
+              723,
+              270,
+              749
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9473166465759277
+          },
+          {
+            "text": "기록물",
+            "bbox": [
+              657,
+              719,
+              709,
+              749
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9238533973693848
+          },
+          {
+            "text": "1~4일",
+            "bbox": [
+              93,
+              759,
+              141,
+              787
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9892958998680115
+          },
+          {
+            "text": "상품·활영컷 목록·규격정리",
+            "bbox": [
+              205,
+              762,
+              375,
+              783
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8772379755973816
+          },
+          {
+            "text": "사업주/활영-표기 목록",
+            "bbox": [
+              661,
+              758,
+              808,
+              782
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9192023873329163
+          },
+          {
+            "text": "5~12일",
+            "bbox": [
+              93,
+              797,
+              147,
+              824
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9777069091796875
+          },
+          {
+            "text": "촬영·상세페이지·영상초안제작",
+            "bbox": [
+              203,
+              795,
+              401,
+              821
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9469947218894958
+          },
+          {
+            "text": "제작업체/초안 파일",
+            "bbox": [
+              661,
+              795,
+              786,
+              819
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9187518358230591
+          },
+          {
+            "text": "13~20일",
+            "bbox": [
+              93,
+              835,
+              155,
+              861
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9951207041740417
+          },
+          {
+            "text": "색상·표기수정·수량·이용범위확인",
+            "bbox": [
+              205,
+              835,
+              424,
+              857
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9430034756660461
+          },
+          {
+            "text": "사업주·제작업체/납품목록",
+            "bbox": [
+              662,
+              835,
+              833,
+              856
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9615519046783447
+          },
+          {
+            "text": "가상 계획입니다.설치-제작공사·비용 지급이실제로 이루어졌다는 뜻이 아닙니다.",
+            "bbox": [
+              85,
+              880,
+              515,
+              902
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8663796782493591
+          },
+          {
+            "text": "가상자료:실제 신청·증명·계약·지급에사용할수없습니다.",
+            "bbox": [
+              79,
+              1320,
+              411,
+              1340
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9236723780632019
+          },
+          {
+            "text": "3/6",
+            "bbox": [
+              894,
+              1316,
+              933,
+              1344
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9895166754722595
+          }
+        ],
+        "fields": {
+          "totalAmount": "2640000",
+          "planText": "가상자료:실제 신청·증명·계약·지급에사용할수없습니다."
+        },
+        "evidence": {
+          "totalAmount": {
+            "bbox": [
+              763,
+              518,
+              847,
+              543
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9797884225845337
+          }
+        },
+        "photos": [],
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kindLabel": "사업계획서",
+        "previewKey": "ef9cab1b466b82cc540c5a51d10e136fac1d76849bf10d9c2ba896848cf37bf2.png",
+        "groupStart": false,
+        "ai": {
+          "pageNumber": 3,
+          "fields": {
+            "totalAmount": "2640000"
+          },
+          "evidence": {
+            "totalAmount": {
+              "lineIndex": 29,
+              "rawValue": "2,640,000원",
+              "bbox": [
+                763,
+                518,
+                847,
+                543
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            }
+          },
+          "suggestedKind": "ESTIMATE",
+          "kindEvidence": {
+            "lineIndex": 0,
+            "text": "마음이음|온라인판로개별서식"
+          },
+          "kindAgreement": false,
+          "kindLabel": "견적서"
+        }
+      },
+      {
+        "pageNumber": 4,
+        "pageCount": 6,
+        "kind": "PHOTO_SHEET",
+        "width": 992,
+        "height": 1403,
+        "textSource": "PADDLE_OCR",
+        "tableRows": [],
+        "lines": [
+          {
+            "text": "마음이음온라인판로개발서식",
+            "bbox": [
+              86,
+              54,
+              268,
+              73
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9484179615974426
+          },
+          {
+            "text": "가상예시/공식서식아님",
+            "bbox": [
+              778,
+              59,
+              924,
+              79
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9830074310302734
+          },
+          {
+            "text": "온라인판로/제작의회서/04",
+            "bbox": [
+              95,
+              128,
+              264,
+              149
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9501259922981262
+          },
+          {
+            "text": "상품·촬영환경참고자료",
+            "bbox": [
+              96,
+              158,
+              383,
+              194
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9699826836585999
+          },
+          {
+            "text": "AI생성현황예시/실제현장·활영·시공증거아님",
+            "bbox": [
+              635,
+              196,
+              912,
+              216
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9646989703178406
+          },
+          {
+            "text": "현황참고이미지",
+            "bbox": [
+              104,
+              237,
+              199,
+              254
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9907574653625488
+          },
+          {
+            "text": "AI생성현황 예시실제 사업장·활영일·설비 상태·시공결과를 증명하지 않습니다.",
+            "bbox": [
+              89,
+              767,
+              512,
+              788
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8866195678710938
+          },
+          {
+            "text": "사진과 계획의연결",
+            "bbox": [
+              89,
+              796,
+              224,
+              822
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9462864995002747
+          },
+          {
+            "text": "현황항목",
+            "bbox": [
+              97,
+              836,
+              162,
+              861
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9941784143447876
+          },
+          {
+            "text": "계획된확인",
+            "bbox": [
+              251,
+              838,
+              325,
+              860
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9948407411575317
+          },
+          {
+            "text": "상품사진",
+            "bbox": [
+              99,
+              874,
+              161,
+              896
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9946373701095581
+          },
+          {
+            "text": "배경·색표현이일정하지않음",
+            "bbox": [
+              251,
+              874,
+              429,
+              896
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9716509580612183
+          },
+          {
+            "text": "사진20컷과 색상 확인 기준준비",
+            "bbox": [
+              583,
+              876,
+              771,
+              897
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8883524537086487
+          },
+          {
+            "text": "상품설명",
+            "bbox": [
+              98,
+              909,
+              161,
+              934
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9944944977760315
+          },
+          {
+            "text": "규격·관리방법 정리 필요",
+            "bbox": [
+              253,
+              912,
+              403,
+              932
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9166226983070374
+          },
+          {
+            "text": "상세페이지3종으로규격표기",
+            "bbox": [
+              584,
+              913,
+              757,
+              934
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9314851760864258
+          },
+          {
+            "text": "사용 장면",
+            "bbox": [
+              97,
+              946,
+              161,
+              972
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.846847653388977
+          },
+          {
+            "text": "온라인 소개 영상 없음",
+            "bbox": [
+              252,
+              947,
+              381,
+              971
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8788316249847412
+          },
+          {
+            "text": "영상2편·납품형식·사용범위 확인",
+            "bbox": [
+              583,
+              949,
+              790,
+              971
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.929192304611206
+          },
+          {
+            "text": "AI생성현황예시실제 사업장·활영일·실비 상태·시공 결과를증명하지 않습니다.",
+            "bbox": [
+              88,
+              986,
+              510,
+              1005
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8990240097045898
+          },
+          {
+            "text": "가상자료:실제 신청·증명·계약·지급에 사용할수 없습니다",
+            "bbox": [
+              80,
+              1286,
+              411,
+              1305
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9356086850166321
+          },
+          {
+            "text": "4/6",
+            "bbox": [
+              887,
+              1287,
+              923,
+              1311
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9840899109840393
+          }
+        ],
+        "fields": {},
+        "evidence": {},
+        "photos": [
+          {
+            "bbox": [
+              95,
+              231,
+              928,
+              762
+            ],
+            "method": "OPENCV_CANDIDATE",
+            "storageKey": "30586fe11f380e57105b01de6aa9a18c0d90699d64dd074e885061650f425b1f.png"
+          }
+        ],
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kindLabel": "현장 사진",
+        "previewKey": "385071d4dd1044ddfbfbc93417b0e5521e23ea2474ec52572195a18448df9609.png",
+        "groupStart": true
+      },
+      {
+        "pageNumber": 5,
+        "pageCount": 6,
+        "kind": "BUSINESS_CERT",
+        "width": 992,
+        "height": 1403,
+        "textSource": "PADDLE_OCR",
+        "tableRows": [],
+        "lines": [
+          {
+            "text": "가상예시/공식서식 아님",
+            "bbox": [
+              763,
+              33,
+              914,
+              61
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9499118328094482
+          },
+          {
+            "text": "마음이음|온라인판로개별 서식",
+            "bbox": [
+              57,
+              52,
+              244,
+              78
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9060722589492798
+          },
+          {
+            "text": "정부서류A/사업자정보대조용",
+            "bbox": [
+              67,
+              124,
+              254,
+              154
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9523751139640808
+          },
+          {
+            "text": "사업자등록증예시(가상)",
+            "bbox": [
+              69,
+              155,
+              370,
+              200
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9927433133125305
+          },
+          {
+            "text": "실제세무기관 발급 문서가 아니며 자격 증빙으로사용할 수 없습니다.",
+            "bbox": [
+              249,
+              179,
+              726,
+              218
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8894383907318115
+          },
+          {
+            "text": "동록변호",
+            "bbox": [
+              79,
+              279,
+              143,
+              305
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9271255731582642
+          },
+          {
+            "text": "000-00-00400",
+            "bbox": [
+              274,
+              272,
+              371,
+              301
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9536022543907166
+          },
+          {
+            "text": "상호",
+            "bbox": [
+              78,
+              348,
+              122,
+              383
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9960505962371826
+          },
+          {
+            "text": "가상온기공방",
+            "bbox": [
+              274,
+              350,
+              363,
+              375
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9852589964866638
+          },
+          {
+            "text": "성명 (대표자)",
+            "bbox": [
+              83,
+              424,
+              172,
+              455
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8895976543426514
+          },
+          {
+            "text": "가상예린",
+            "bbox": [
+              276,
+              422,
+              338,
+              448
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9801468849182129
+          },
+          {
+            "text": "개업연월일",
+            "bbox": [
+              84,
+              500,
+              160,
+              527
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9871665835380554
+          },
+          {
+            "text": "2023년07월10일",
+            "bbox": [
+              277,
+              494,
+              394,
+              523
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9994123578071594
+          },
+          {
+            "text": "사업장소재지",
+            "bbox": [
+              88,
+              587,
+              179,
+              616
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9941694140434265
+          },
+          {
+            "text": "가상시예시구빛음로 46,2층",
+            "bbox": [
+              280,
+              581,
+              460,
+              609
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9512631893157959
+          },
+          {
+            "text": "업태:제조업",
+            "bbox": [
+              280,
+              674,
+              364,
+              705
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9741639494895935
+          },
+          {
+            "text": "사업의 종류",
+            "bbox": [
+              90,
+              689,
+              168,
+              718
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9795411229133606
+          },
+          {
+            "text": "종목:생활용도자기제조",
+            "bbox": [
+              282,
+              694,
+              434,
+              723
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9808513522148132
+          },
+          {
+            "text": "사업자 유형",
+            "bbox": [
+              91,
+              774,
+              170,
+              805
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.927577555179596
+          },
+          {
+            "text": "개인사업자(가상분류)",
+            "bbox": [
+              283,
+              772,
+              425,
+              799
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9770154356956482
+          },
+          {
+            "text": "시험 자료 안내",
+            "bbox": [
+              93,
+              859,
+              184,
+              887
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9081004858016968
+          },
+          {
+            "text": "신청서와상호-대표자·번호·개업일을대조하기위한 가상사례입니다.실제개인정보·관인·QR·발급기관표시는없습니다.",
+            "bbox": [
+              96,
+              882,
+              819,
+              921
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9258862137794495
+          },
+          {
+            "text": "2026년10월25일/마음이음테스트 자료제작자(가상)",
+            "bbox": [
+              309,
+              949,
+              700,
+              985
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9715837836265564
+          },
+          {
+            "text": "5/6",
+            "bbox": [
+              901,
+              1305,
+              946,
+              1337
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9886083602905273
+          },
+          {
+            "text": "가상자료:실제 신청·종명·계약·지급에사용할수없습니다",
+            "bbox": [
+              89,
+              1319,
+              423,
+              1345
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9254462122917175
+          }
+        ],
+        "fields": {
+          "businessName": "가상온기공방",
+          "representative": "가상예린",
+          "openedOn": "2023-07-10",
+          "address": "가상시예시구빛음로 46,2층",
+          "businessType": "제조업",
+          "businessItem": "생활용도자기제조",
+          "businessNo": "0000000400"
+        },
+        "evidence": {
+          "businessName": {
+            "bbox": [
+              274,
+              350,
+              363,
+              375
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9852589964866638
+          },
+          "representative": {
+            "bbox": [
+              276,
+              422,
+              338,
+              448
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9801468849182129
+          },
+          "openedOn": {
+            "bbox": [
+              277,
+              494,
+              394,
+              523
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9994123578071594
+          },
+          "address": {
+            "bbox": [
+              280,
+              581,
+              460,
+              609
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9512631893157959
+          },
+          "businessType": {
+            "bbox": [
+              280,
+              674,
+              364,
+              705
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9741639494895935
+          },
+          "businessItem": {
+            "bbox": [
+              282,
+              694,
+              434,
+              723
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9808513522148132
+          },
+          "businessNo": {
+            "lineIndex": 6,
+            "rawValue": "000-00-00400",
+            "bbox": [
+              274,
+              272,
+              371,
+              301
+            ],
+            "source": "PADDLE_OCR",
+            "method": "LLM_SOURCE_VERIFIED"
+          }
+        },
+        "photos": [],
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kindLabel": "사업자등록증",
+        "previewKey": "7c5a8ed60311676e9b354aa7500b17edaf83a450dedf675f8b1561ecf69af43e.png",
+        "groupStart": true,
+        "ai": {
+          "pageNumber": 5,
+          "fields": {
+            "businessName": "가상온기공방",
+            "representative": "가상예린",
+            "businessNo": "0000000400",
+            "openedOn": "2023-07-10",
+            "address": "가상시예시구빛음로 46,2층",
+            "businessType": "제조업",
+            "businessItem": "생활용도자기제조"
+          },
+          "evidence": {
+            "businessName": {
+              "lineIndex": 8,
+              "rawValue": "가상온기공방",
+              "bbox": [
+                274,
+                350,
+                363,
+                375
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "representative": {
+              "lineIndex": 10,
+              "rawValue": "가상예린",
+              "bbox": [
+                276,
+                422,
+                338,
+                448
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "businessNo": {
+              "lineIndex": 6,
+              "rawValue": "000-00-00400",
+              "bbox": [
+                274,
+                272,
+                371,
+                301
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "openedOn": {
+              "lineIndex": 12,
+              "rawValue": "2023년07월10일",
+              "bbox": [
+                277,
+                494,
+                394,
+                523
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "address": {
+              "lineIndex": 14,
+              "rawValue": "가상시예시구빛음로 46,2층",
+              "bbox": [
+                280,
+                581,
+                460,
+                609
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "businessType": {
+              "lineIndex": 15,
+              "rawValue": "제조업",
+              "bbox": [
+                280,
+                674,
+                364,
+                705
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "businessItem": {
+              "lineIndex": 17,
+              "rawValue": "생활용도자기제조",
+              "bbox": [
+                282,
+                694,
+                434,
+                723
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            }
+          },
+          "suggestedKind": "BUSINESS_CERT",
+          "kindEvidence": {
+            "lineIndex": 0,
+            "text": "가상예시/공식서식 아님"
+          },
+          "kindAgreement": true,
+          "kindLabel": "사업자등록증"
+        }
+      },
+      {
+        "pageNumber": 6,
+        "pageCount": 6,
+        "kind": "ESTIMATE",
+        "width": 992,
+        "height": 1403,
+        "textSource": "PADDLE_OCR",
+        "tableRows": [
+          {
+            "y": 55,
+            "cells": [
+              {
+                "text": "가상예시/공식서식아님",
+                "bbox": [
+                  765,
+                  55,
+                  915,
+                  76
+                ]
+              },
+              {
+                "text": "마음이음|온라인판로개별 서식",
+                "bbox": [
+                  67,
+                  59,
+                  254,
+                  83
+                ]
+              }
+            ]
+          },
+          {
+            "y": 235,
+            "cells": [
+              {
+                "text": "공급자",
+                "bbox": [
+                  506,
+                  235,
+                  558,
+                  266
+                ]
+              },
+              {
+                "text": "공급받는자",
+                "bbox": [
+                  89,
+                  240,
+                  168,
+                  268
+                ]
+              }
+            ]
+          },
+          {
+            "y": 270,
+            "cells": [
+              {
+                "text": "상호",
+                "bbox": [
+                  505,
+                  270,
+                  548,
+                  303
+                ]
+              },
+              {
+                "text": "예시콘텐츠제작",
+                "bbox": [
+                  634,
+                  271,
+                  733,
+                  298
+                ]
+              }
+            ]
+          },
+          {
+            "y": 276,
+            "cells": [
+              {
+                "text": "상호",
+                "bbox": [
+                  88,
+                  276,
+                  128,
+                  306
+                ]
+              },
+              {
+                "text": "가상온기공방",
+                "bbox": [
+                  216,
+                  277,
+                  302,
+                  302
+                ]
+              }
+            ]
+          },
+          {
+            "y": 308,
+            "cells": [
+              {
+                "text": "가상민재",
+                "bbox": [
+                  633,
+                  308,
+                  697,
+                  337
+                ]
+              },
+              {
+                "text": "대표자",
+                "bbox": [
+                  508,
+                  310,
+                  559,
+                  337
+                ]
+              },
+              {
+                "text": "가상예린",
+                "bbox": [
+                  214,
+                  311,
+                  278,
+                  340
+                ]
+              },
+              {
+                "text": "대표자",
+                "bbox": [
+                  88,
+                  312,
+                  140,
+                  342
+                ]
+              }
+            ]
+          },
+          {
+            "y": 345,
+            "cells": [
+              {
+                "text": "000-00-00401",
+                "bbox": [
+                  635,
+                  345,
+                  732,
+                  373
+                ]
+              },
+              {
+                "text": "사업자번호",
+                "bbox": [
+                  511,
+                  347,
+                  583,
+                  373
+                ]
+              },
+              {
+                "text": "000-00-00400",
+                "bbox": [
+                  217,
+                  350,
+                  312,
+                  375
+                ]
+              }
+            ]
+          },
+          {
+            "y": 381,
+            "cells": [
+              {
+                "text": "유효기간",
+                "bbox": [
+                  509,
+                  381,
+                  573,
+                  410
+                ]
+              },
+              {
+                "text": "건적일",
+                "bbox": [
+                  90,
+                  383,
+                  141,
+                  414
+                ]
+              },
+              {
+                "text": "2026-11-14",
+                "bbox": [
+                  636,
+                  383,
+                  719,
+                  408
+                ]
+              },
+              {
+                "text": "2026-10-23",
+                "bbox": [
+                  216,
+                  384,
+                  299,
+                  412
+                ]
+              }
+            ]
+          },
+          {
+            "y": 433,
+            "cells": [
+              {
+                "text": "단가",
+                "bbox": [
+                  583,
+                  433,
+                  626,
+                  465
+                ]
+              },
+              {
+                "text": "금액",
+                "bbox": [
+                  757,
+                  433,
+                  796,
+                  463
+                ]
+              },
+              {
+                "text": "수량",
+                "bbox": [
+                  493,
+                  435,
+                  533,
+                  464
+                ]
+              }
+            ]
+          },
+          {
+            "y": 482,
+            "cells": [
+              {
+                "text": "20컷",
+                "bbox": [
+                  492,
+                  482,
+                  538,
+                  512
+                ]
+              },
+              {
+                "text": "45,000원",
+                "bbox": [
+                  585,
+                  482,
+                  652,
+                  510
+                ]
+              },
+              {
+                "text": "900,000원",
+                "bbox": [
+                  759,
+                  482,
+                  834,
+                  509
+                ]
+              }
+            ]
+          },
+          {
+            "y": 541,
+            "cells": [
+              {
+                "text": "300,000원",
+                "bbox": [
+                  586,
+                  541,
+                  659,
+                  566
+                ]
+              },
+              {
+                "text": "900,000원",
+                "bbox": [
+                  761,
+                  541,
+                  834,
+                  566
+                ]
+              },
+              {
+                "text": "3종",
+                "bbox": [
+                  495,
+                  543,
+                  530,
+                  568
+                ]
+              }
+            ]
+          },
+          {
+            "y": 594,
+            "cells": [
+              {
+                "text": "상품 소개 영상",
+                "bbox": [
+                  95,
+                  594,
+                  186,
+                  615
+                ]
+              },
+              {
+                "text": "2편",
+                "bbox": [
+                  495,
+                  598,
+                  533,
+                  628
+                ]
+              },
+              {
+                "text": "600,000원",
+                "bbox": [
+                  762,
+                  598,
+                  834,
+                  623
+                ]
+              },
+              {
+                "text": "300,000원",
+                "bbox": [
+                  589,
+                  599,
+                  661,
+                  625
+                ]
+              }
+            ]
+          },
+          {
+            "y": 645,
+            "cells": [
+              {
+                "text": "공급가액",
+                "bbox": [
+                  92,
+                  645,
+                  156,
+                  675
+                ]
+              },
+              {
+                "text": "2,400,000원",
+                "bbox": [
+                  761,
+                  645,
+                  847,
+                  673
+                ]
+              }
+            ]
+          },
+          {
+            "y": 681,
+            "cells": [
+              {
+                "text": "240,000원",
+                "bbox": [
+                  761,
+                  681,
+                  837,
+                  709
+                ]
+              },
+              {
+                "text": "부가세",
+                "bbox": [
+                  92,
+                  682,
+                  145,
+                  712
+                ]
+              }
+            ]
+          },
+          {
+            "y": 717,
+            "cells": [
+              {
+                "text": "2,640,000원",
+                "bbox": [
+                  762,
+                  717,
+                  847,
+                  746
+                ]
+              },
+              {
+                "text": "총 견적금액",
+                "bbox": [
+                  93,
+                  719,
+                  173,
+                  748
+                ]
+              }
+            ]
+          },
+          {
+            "y": 1311,
+            "cells": [
+              {
+                "text": "6/6",
+                "bbox": [
+                  893,
+                  1311,
+                  933,
+                  1339
+                ]
+              },
+              {
+                "text": "가상자료:실제신청·증명·계약·지급에사용할수없습니다",
+                "bbox": [
+                  80,
+                  1316,
+                  415,
+                  1336
+                ]
+              }
+            ]
+          }
+        ],
+        "lines": [
+          {
+            "text": "마음이음|온라인판로개별 서식",
+            "bbox": [
+              67,
+              59,
+              254,
+              83
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9128513336181641
+          },
+          {
+            "text": "가상예시/공식서식아님",
+            "bbox": [
+              765,
+              55,
+              915,
+              76
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9686351418495178
+          },
+          {
+            "text": "온라인판로/제작의뢰서/첨부",
+            "bbox": [
+              78,
+              132,
+              262,
+              160
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9761858582496643
+          },
+          {
+            "text": "사업별견적서예시",
+            "bbox": [
+              81,
+              167,
+              305,
+              202
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9640966653823853
+          },
+          {
+            "text": "TEST-Q-ONLINE-001/가상거래·청구용아님",
+            "bbox": [
+              635,
+              192,
+              907,
+              215
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9499649405479431
+          },
+          {
+            "text": "공급받는자",
+            "bbox": [
+              89,
+              240,
+              168,
+              268
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9988372921943665
+          },
+          {
+            "text": "공급자",
+            "bbox": [
+              506,
+              235,
+              558,
+              266
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9990832209587097
+          },
+          {
+            "text": "상호",
+            "bbox": [
+              88,
+              276,
+              128,
+              306
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9974830150604248
+          },
+          {
+            "text": "가상온기공방",
+            "bbox": [
+              216,
+              277,
+              302,
+              302
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9724181294441223
+          },
+          {
+            "text": "상호",
+            "bbox": [
+              505,
+              270,
+              548,
+              303
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9972038269042969
+          },
+          {
+            "text": "예시콘텐츠제작",
+            "bbox": [
+              634,
+              271,
+              733,
+              298
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.984192430973053
+          },
+          {
+            "text": "대표자",
+            "bbox": [
+              88,
+              312,
+              140,
+              342
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9916958808898926
+          },
+          {
+            "text": "가상예린",
+            "bbox": [
+              214,
+              311,
+              278,
+              340
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9768489599227905
+          },
+          {
+            "text": "대표자",
+            "bbox": [
+              508,
+              310,
+              559,
+              337
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9959983825683594
+          },
+          {
+            "text": "가상민재",
+            "bbox": [
+              633,
+              308,
+              697,
+              337
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9751860499382019
+          },
+          {
+            "text": "사업자번호",
+            "bbox": [
+              91,
+              351,
+              164,
+              377
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9810402989387512
+          },
+          {
+            "text": "000-00-00400",
+            "bbox": [
+              217,
+              350,
+              312,
+              375
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9950070381164551
+          },
+          {
+            "text": "사업자번호",
+            "bbox": [
+              511,
+              347,
+              583,
+              373
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9830625653266907
+          },
+          {
+            "text": "000-00-00401",
+            "bbox": [
+              635,
+              345,
+              732,
+              373
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9806370735168457
+          },
+          {
+            "text": "건적일",
+            "bbox": [
+              90,
+              383,
+              141,
+              414
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9408462047576904
+          },
+          {
+            "text": "2026-10-23",
+            "bbox": [
+              216,
+              384,
+              299,
+              412
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9991011619567871
+          },
+          {
+            "text": "유효기간",
+            "bbox": [
+              509,
+              381,
+              573,
+              410
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9963976740837097
+          },
+          {
+            "text": "2026-11-14",
+            "bbox": [
+              636,
+              383,
+              719,
+              408
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9993382692337036
+          },
+          {
+            "text": "항목·규격",
+            "bbox": [
+              91,
+              439,
+              161,
+              465
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9880729913711548
+          },
+          {
+            "text": "수량",
+            "bbox": [
+              493,
+              435,
+              533,
+              464
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9953609704971313
+          },
+          {
+            "text": "단가",
+            "bbox": [
+              583,
+              433,
+              626,
+              465
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9965335130691528
+          },
+          {
+            "text": "금액",
+            "bbox": [
+              757,
+              433,
+              796,
+              463
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9909803867340088
+          },
+          {
+            "text": "상품 사진 촬영",
+            "bbox": [
+              94,
+              475,
+              186,
+              500
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8636770248413086
+          },
+          {
+            "text": "20컷",
+            "bbox": [
+              492,
+              482,
+              538,
+              512
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9920957088470459
+          },
+          {
+            "text": "45,000원",
+            "bbox": [
+              585,
+              482,
+              652,
+              510
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9588667750358582
+          },
+          {
+            "text": "900,000원",
+            "bbox": [
+              759,
+              482,
+              834,
+              509
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9975417852401733
+          },
+          {
+            "text": "머그·화병/보정JPG 납품",
+            "bbox": [
+              93,
+              497,
+              258,
+              521
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9393900036811829
+          },
+          {
+            "text": "상세페이지 제작",
+            "bbox": [
+              93,
+              532,
+              195,
+              558
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9510281085968018
+          },
+          {
+            "text": "3종",
+            "bbox": [
+              495,
+              543,
+              530,
+              568
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.989348292350769
+          },
+          {
+            "text": "300,000원",
+            "bbox": [
+              586,
+              541,
+              659,
+              566
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9360040426254272
+          },
+          {
+            "text": "900,000원",
+            "bbox": [
+              761,
+              541,
+              834,
+              566
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9844821691513062
+          },
+          {
+            "text": "규격·재질·관리방법 포함",
+            "bbox": [
+              94,
+              554,
+              255,
+              578
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9460293054580688
+          },
+          {
+            "text": "상품 소개 영상",
+            "bbox": [
+              95,
+              594,
+              186,
+              615
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9259408116340637
+          },
+          {
+            "text": "2편",
+            "bbox": [
+              495,
+              598,
+              533,
+              628
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9863077998161316
+          },
+          {
+            "text": "300,000원",
+            "bbox": [
+              589,
+              599,
+              661,
+              625
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9973807334899902
+          },
+          {
+            "text": "600,000원",
+            "bbox": [
+              762,
+              598,
+              834,
+              623
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9427379369735718
+          },
+          {
+            "text": "제품 사용 장면/MP4 파일",
+            "bbox": [
+              94,
+              611,
+              255,
+              635
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9167327284812927
+          },
+          {
+            "text": "공급가액",
+            "bbox": [
+              92,
+              645,
+              156,
+              675
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9982903003692627
+          },
+          {
+            "text": "2,400,000원",
+            "bbox": [
+              761,
+              645,
+              847,
+              673
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.989456832408905
+          },
+          {
+            "text": "부가세",
+            "bbox": [
+              92,
+              682,
+              145,
+              712
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9957019686698914
+          },
+          {
+            "text": "240,000원",
+            "bbox": [
+              761,
+              681,
+              837,
+              709
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9571874737739563
+          },
+          {
+            "text": "총 견적금액",
+            "bbox": [
+              93,
+              719,
+              173,
+              748
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9009394645690918
+          },
+          {
+            "text": "2,640,000원",
+            "bbox": [
+              762,
+              717,
+              847,
+              746
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9783908724784851
+          },
+          {
+            "text": "거래조건·사업별 확인사항",
+            "bbox": [
+              95,
+              777,
+              251,
+              801
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9082413911819458
+          },
+          {
+            "text": "사진 JPG20컷,상세페이지이미지3종,MP4영상2면 납품.초안후수정2회,자사온라인 판매채널 이용을위한가상사용범위확인.광고집",
+            "bbox": [
+              96,
+              813,
+              917,
+              835
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9204656481742859
+          },
+          {
+            "text": "행·플랫품 수수료 제외",
+            "bbox": [
+              97,
+              836,
+              236,
+              856
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8721773624420166
+          },
+          {
+            "text": "공급업체 확인:예시콘텐츠제작/가상민재(가상 확인)",
+            "bbox": [
+              616,
+              875,
+              913,
+              899
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.955833911895752
+          },
+          {
+            "text": "가상자료:실제신청·증명·계약·지급에사용할수없습니다",
+            "bbox": [
+              80,
+              1316,
+              415,
+              1336
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9770688414573669
+          },
+          {
+            "text": "6/6",
+            "bbox": [
+              893,
+              1311,
+              933,
+              1339
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.990108072757721
+          }
+        ],
+        "fields": {
+          "businessName": "가상온기공방",
+          "businessNo": "0000000400",
+          "representative": "가상예린",
+          "totalAmount": "2640000"
+        },
+        "evidence": {
+          "businessName": {
+            "bbox": [
+              216,
+              277,
+              302,
+              302
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9724181294441223
+          },
+          "businessNo": {
+            "bbox": [
+              217,
+              350,
+              312,
+              375
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9950070381164551
+          },
+          "representative": {
+            "bbox": [
+              214,
+              311,
+              278,
+              340
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9768489599227905
+          },
+          "totalAmount": {
+            "bbox": [
+              762,
+              717,
+              847,
+              746
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9783908724784851
+          }
+        },
+        "photos": [],
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kindLabel": "견적서",
+        "previewKey": "e4409a177cf5aca083a2184823e2e85bdcc8a366509f13e3d232ece0f090acfe.png",
+        "groupStart": true,
+        "ai": {
+          "pageNumber": 6,
+          "fields": {
+            "businessName": "가상온기공방",
+            "representative": "가상민재",
+            "businessNo": "0000000401",
+            "totalAmount": "2640000"
+          },
+          "evidence": {
+            "businessName": {
+              "lineIndex": 8,
+              "rawValue": "가상온기공방",
+              "bbox": [
+                216,
+                277,
+                302,
+                302
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "representative": {
+              "lineIndex": 14,
+              "rawValue": "가상민재",
+              "bbox": [
+                633,
+                308,
+                697,
+                337
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "businessNo": {
+              "lineIndex": 18,
+              "rawValue": "000-00-00401",
+              "bbox": [
+                635,
+                345,
+                732,
+                373
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "totalAmount": {
+              "lineIndex": 47,
+              "rawValue": "2,640,000원",
+              "bbox": [
+                762,
+                717,
+                847,
+                746
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            }
+          },
+          "suggestedKind": "ESTIMATE",
+          "kindEvidence": {
+            "lineIndex": 0,
+            "text": "마음이음|온라인판로개별 서식"
+          },
+          "kindAgreement": true,
+          "kindLabel": "견적서"
+        }
+      }
+    ],
+    "groups": [
+      {
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kind": "APPLICATION",
+        "kindLabel": "신청서",
+        "pageNumbers": [
+          1
+        ],
+        "indexes": [
+          0
+        ],
+        "pdfKey": "2aaf56e6d61251d0697e191e91a08a8d9de67c5632b1dfc7257e150f26617f69.pdf"
+      },
+      {
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kind": "BUSINESS_PLAN",
+        "kindLabel": "사업계획서",
+        "pageNumbers": [
+          2,
+          3
+        ],
+        "indexes": [
+          1,
+          2
+        ],
+        "pdfKey": "8176b70d8390f7cbabd7ee01419cc48c62bc96c44644df885ca8b06b28be62ff.pdf"
+      },
+      {
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kind": "PHOTO_SHEET",
+        "kindLabel": "현장 사진",
+        "pageNumbers": [
+          4
+        ],
+        "indexes": [
+          3
+        ],
+        "pdfKey": "63981c12f5521f4fbcce06edcfb660df3a801f3aca4fcf5395f6e82462d17468.pdf"
+      },
+      {
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kind": "BUSINESS_CERT",
+        "kindLabel": "사업자등록증",
+        "pageNumbers": [
+          5
+        ],
+        "indexes": [
+          4
+        ],
+        "pdfKey": "aa057dc8948222d5a7c73db46a95e0299f2c8a308153e3af3f8c42d95082e255.pdf"
+      },
+      {
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kind": "ESTIMATE",
+        "kindLabel": "견적서",
+        "pageNumbers": [
+          6
+        ],
+        "indexes": [
+          5
+        ],
+        "pdfKey": "583ef6121db56eb7e3de41d4d8aa47f57d5a2d7307c0a967c549b02dadb42eda.pdf"
+      }
+    ],
+    "fields": {
+      "businessName": "가상온기공방",
+      "businessNo": "0000000400",
+      "representative": "가상예린",
+      "openedOn": "2023-07-10",
+      "phone": "000-0000-0140",
+      "address": "가상시예시구빛음로46,2총",
+      "requestedAmount": "2000000",
+      "selfContribution": "640000",
+      "totalAmount": "2640000",
+      "planText": "계약서에저작재산권 귀속,사용기간-매체,원본 파일제공여부,제3자 폰트·음원권리를 구분해 적도록합니다.\n직접만든머그와 소형화병을매장에서판매하고있습니다.휴대전화로활영한사진은배경과색표현이 일정하지않아상품별크기·재질·사용\n상품사진20컷, 상세페이지 3종,짧은소개영상2편을제작합니다.상품별 규격과 관리 방법을 먼저정리하고활영구도·색상확인기준과수정\n활영 대상과 컷목록을확정하고 시안을 검토합니다.건적에는납품 파일행식,원본제공 여부,수정 횟수와사용할수있는 채널범위를 기재했습\n니다.광고 집행비나 판매 플랫품 수수료는 포함하지 않습니다\n납품수량20컷-3종·2편,제품규격 표기, 파일열람과 사용범위를 확인합니다.실제 매출이나 입점 승인결과를 성과로 주장하지않습니다\n가상자료: 실제 신청·증명·계약·지급에사용할수없습니다\n가상자료:실제 신청·증명·계약·지급에사용할수없습니다.",
+      "businessType": "제조업",
+      "businessItem": "생활용도자기제조"
+    },
+    "evidence": {
+      "businessName": {
+        "pageNumber": 6,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "businessNo": {
+        "pageNumber": 6,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "representative": {
+        "pageNumber": 6,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "openedOn": {
+        "pageNumber": 5,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "phone": {
+        "pageNumber": 1,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "address": {
+        "pageNumber": 1,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "requestedAmount": {
+        "pageNumber": 1,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "selfContribution": {
+        "pageNumber": 1,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "totalAmount": {
+        "pageNumber": 6,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "planText": {
+        "pageNumber": 2,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "businessType": {
+        "pageNumber": 5,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "businessItem": {
+        "pageNumber": 5,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      }
+    },
+    "conflicts": [
+      {
+        "field": "address",
+        "previous": "가상시예시구빛음로46,2총",
+        "candidate": "가상시예시구빛음로 46,2층",
+        "pageNumber": 5,
+        "sourceName": "신청서.pdf"
+      },
+      {
+        "pageNumber": 1,
+        "field": "address",
+        "previous": "가상시예시구빛음로46,2총",
+        "candidate": "가상시예시구빛음로46,2총/000-0000-0140",
+        "sourceName": "신청서.pdf",
+        "method": "LLM_SOURCE_VERIFIED"
+      },
+      {
+        "pageNumber": 6,
+        "field": "representative",
+        "previous": "가상예린",
+        "candidate": "가상민재",
+        "sourceName": "신청서.pdf",
+        "method": "LLM_SOURCE_VERIFIED"
+      },
+      {
+        "pageNumber": 6,
+        "field": "businessNo",
+        "previous": "0000000400",
+        "candidate": "0000000401",
+        "sourceName": "신청서.pdf",
+        "method": "LLM_SOURCE_VERIFIED"
+      }
+    ],
+    "pageCount": 6,
+    "photoCount": 1,
+    "aiAnalyses": [
+      {
+        "provider": "openrouter",
+        "model": "google/gemma-4-26b-a4b-it",
+        "status": "SUCCEEDED",
+        "verifiedCount": 20,
+        "rejectedCount": 1,
+        "conflicts": [
+          {
+            "pageNumber": 1,
+            "field": "address",
+            "previous": "가상시예시구빛음로46,2총",
+            "candidate": "가상시예시구빛음로46,2총/000-0000-0140"
+          },
+          {
+            "pageNumber": 6,
+            "field": "representative",
+            "previous": "가상예린",
+            "candidate": "가상민재"
+          },
+          {
+            "pageNumber": 6,
+            "field": "businessNo",
+            "previous": "0000000400",
+            "candidate": "0000000401"
+          }
+        ],
+        "pageResults": [
+          {
+            "pageNumber": 1,
+            "fields": {
+              "businessName": "가상온기공방",
+              "representative": "가상예린",
+              "businessNo": "0000000400",
+              "openedOn": "2023-07-10",
+              "address": "가상시예시구빛음로46,2총/000-0000-0140",
+              "requestedAmount": "2000000",
+              "selfContribution": "640000",
+              "totalAmount": "2640000"
+            },
+            "evidence": {
+              "businessName": {
+                "lineIndex": 6,
+                "rawValue": "가상온기공방",
+                "bbox": [
+                  210,
+                  245,
+                  297,
+                  271
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "representative": {
+                "lineIndex": 8,
+                "rawValue": "가상예린",
+                "bbox": [
+                  622,
+                  238,
+                  684,
+                  264
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "businessNo": {
+                "lineIndex": 9,
+                "rawValue": "000-00-00400",
+                "bbox": [
+                  213,
+                  281,
+                  308,
+                  305
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "openedOn": {
+                "lineIndex": 11,
+                "rawValue": "2023-07-10",
+                "bbox": [
+                  622,
+                  273,
+                  704,
+                  298
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "address": {
+                "lineIndex": 14,
+                "rawValue": "가상시예시구빛음로46,2총/000-0000-0140",
+                "bbox": [
+                  214,
+                  315,
+                  497,
+                  340
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "requestedAmount": {
+                "lineIndex": 32,
+                "rawValue": "2,000,000원",
+                "bbox": [
+                  90,
+                  627,
+                  173,
+                  652
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "selfContribution": {
+                "lineIndex": 33,
+                "rawValue": "640,000원",
+                "bbox": [
+                  370,
+                  623,
+                  442,
+                  647
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "totalAmount": {
+                "lineIndex": 34,
+                "rawValue": "2,640,000원",
+                "bbox": [
+                  651,
+                  616,
+                  735,
+                  644
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              }
+            },
+            "suggestedKind": "APPLICATION",
+            "kindEvidence": {
+              "lineIndex": 0,
+              "text": "가상예시/공식서식아님"
+            },
+            "kindAgreement": true,
+            "kindLabel": "신청서"
+          },
+          {
+            "pageNumber": 2,
+            "fields": {},
+            "evidence": {},
+            "suggestedKind": "BUSINESS_PLAN",
+            "kindEvidence": {
+              "lineIndex": 0,
+              "text": "마음이음|온라인판로개발서식"
+            },
+            "kindAgreement": true,
+            "kindLabel": "사업계획서"
+          },
+          {
+            "pageNumber": 3,
+            "fields": {
+              "totalAmount": "2640000"
+            },
+            "evidence": {
+              "totalAmount": {
+                "lineIndex": 29,
+                "rawValue": "2,640,000원",
+                "bbox": [
+                  763,
+                  518,
+                  847,
+                  543
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              }
+            },
+            "suggestedKind": "ESTIMATE",
+            "kindEvidence": {
+              "lineIndex": 0,
+              "text": "마음이음|온라인판로개별서식"
+            },
+            "kindAgreement": false,
+            "kindLabel": "견적서"
+          },
+          {
+            "pageNumber": 5,
+            "fields": {
+              "businessName": "가상온기공방",
+              "representative": "가상예린",
+              "businessNo": "0000000400",
+              "openedOn": "2023-07-10",
+              "address": "가상시예시구빛음로 46,2층",
+              "businessType": "제조업",
+              "businessItem": "생활용도자기제조"
+            },
+            "evidence": {
+              "businessName": {
+                "lineIndex": 8,
+                "rawValue": "가상온기공방",
+                "bbox": [
+                  274,
+                  350,
+                  363,
+                  375
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "representative": {
+                "lineIndex": 10,
+                "rawValue": "가상예린",
+                "bbox": [
+                  276,
+                  422,
+                  338,
+                  448
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "businessNo": {
+                "lineIndex": 6,
+                "rawValue": "000-00-00400",
+                "bbox": [
+                  274,
+                  272,
+                  371,
+                  301
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "openedOn": {
+                "lineIndex": 12,
+                "rawValue": "2023년07월10일",
+                "bbox": [
+                  277,
+                  494,
+                  394,
+                  523
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "address": {
+                "lineIndex": 14,
+                "rawValue": "가상시예시구빛음로 46,2층",
+                "bbox": [
+                  280,
+                  581,
+                  460,
+                  609
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "businessType": {
+                "lineIndex": 15,
+                "rawValue": "제조업",
+                "bbox": [
+                  280,
+                  674,
+                  364,
+                  705
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "businessItem": {
+                "lineIndex": 17,
+                "rawValue": "생활용도자기제조",
+                "bbox": [
+                  282,
+                  694,
+                  434,
+                  723
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              }
+            },
+            "suggestedKind": "BUSINESS_CERT",
+            "kindEvidence": {
+              "lineIndex": 0,
+              "text": "가상예시/공식서식 아님"
+            },
+            "kindAgreement": true,
+            "kindLabel": "사업자등록증"
+          },
+          {
+            "pageNumber": 6,
+            "fields": {
+              "businessName": "가상온기공방",
+              "representative": "가상민재",
+              "businessNo": "0000000401",
+              "totalAmount": "2640000"
+            },
+            "evidence": {
+              "businessName": {
+                "lineIndex": 8,
+                "rawValue": "가상온기공방",
+                "bbox": [
+                  216,
+                  277,
+                  302,
+                  302
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "representative": {
+                "lineIndex": 14,
+                "rawValue": "가상민재",
+                "bbox": [
+                  633,
+                  308,
+                  697,
+                  337
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "businessNo": {
+                "lineIndex": 18,
+                "rawValue": "000-00-00401",
+                "bbox": [
+                  635,
+                  345,
+                  732,
+                  373
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "totalAmount": {
+                "lineIndex": 47,
+                "rawValue": "2,640,000원",
+                "bbox": [
+                  762,
+                  717,
+                  847,
+                  746
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              }
+            },
+            "suggestedKind": "ESTIMATE",
+            "kindEvidence": {
+              "lineIndex": 0,
+              "text": "마음이음|온라인판로개별 서식"
+            },
+            "kindAgreement": true,
+            "kindLabel": "견적서"
+          }
+        ],
+        "supplementedCount": 1,
+        "agreementCount": 16,
+        "durationSeconds": 11.26,
+        "sourceName": "신청서.pdf"
+      }
+    ]
+  },
+  "aiPreparedAt": "2026-10-25T19:57:46.089246+00:00"
+}

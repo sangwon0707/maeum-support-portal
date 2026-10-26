@@ -1,0 +1,36 @@
+# docker compose --env-file .env.local --env-file .env.ocr -f compose.yml -f compose.app.yml -f compose.ocr.yml up -d --build
+services:
+  ocr:
+    platform: linux/amd64
+    build:
+      context: .
+      dockerfile: ocr/Dockerfile
+    environment:
+      OCR_API_TOKEN: ${OCR_API_TOKEN:?내부 OCR 토큰 필요}
+      AI_PROVIDER: ${AI_PROVIDER:-disabled}
+      AI_TIMEOUT_SECONDS: ${AI_TIMEOUT_SECONDS:-60}
+      NVIDIA_API_KEY: ${NVIDIA_API_KEY:-}
+      NVIDIA_TEXT_MODEL: ${NVIDIA_TEXT_MODEL:-}
+      OPENROUTER_API_KEY: ${OPENROUTER_API_KEY:-}
+      OPENROUTER_TEXT_MODEL: ${OPENROUTER_TEXT_MODEL:-}
+    volumes: ["ocr-models:/var/cache/paddle"]
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import os,urllib.request; urllib.request.urlopen(urllib.request.Request('http://127.0.0.1:8091/health',headers={'Authorization':'Bearer '+os.environ['OCR_API_TOKEN']}),timeout=3)"]
+      interval: 15s
+      timeout: 5s
+      retries: 20
+      start_period: 120s
+  app:
+    environment:
+      OCR_LIVE_ENABLED: "true"
+      OCR_AI_ENABLED: ${OCR_AI_ENABLED:-false}
+      OCR_API_URL: http://ocr:8091
+      OCR_API_TOKEN: ${OCR_API_TOKEN:?내부 OCR 토큰 필요}
+      AI_LIMIT_PER_DAY: ${AI_LIMIT_PER_DAY:-2}
+      AI_LIMIT_GLOBAL_PER_DAY: ${AI_LIMIT_GLOBAL_PER_DAY:-20}
+    depends_on:
+      ocr:
+        condition: service_healthy
+volumes:
+  ocr-models:

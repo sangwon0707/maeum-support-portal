@@ -1,0 +1,5 @@
+# B안 수정 프롬프트
+
+기존 B안의 하트·사람 연상 심벌이 복지기관처럼 보일 수 있어 교체했다. 입력은 `src/main/webapp/assets/brand/maeum-logo-b-v1.png`, 결과는 `maeum-logo-b-v2.png`다. 기본 제공 이미지 생성 도구의 편집 기능과 투명 배경을 사용했다.
+
+Edit this horizontal logo while preserving the correctly spelled Korean wordmark "마음이음", its dark navy lettering, the transparent background and overall horizontal layout. Replace the entire left pictorial heart/people/speech mark with a NEW compact geometric modular symbol: two offset softly rounded square ribbon tabs interlocking at a small shared corner, warm apricot orange #F29B62 and muted violet #7166C9, with clever open negative space suggesting connection. No literal heart, person, head, hands, speech bubbles, circular movement or embrace. It must clearly feel like a distinctive independent consumer software brand, never a welfare agency, government institution, charity, public authority or official certification. Crisp flat vector-like shapes without gradients or shadows. Make the symbol visually balanced with the unchanged wordmark. No subtitle, English, flags, Taegeuk, seals, wreaths, badge or additional content. Genuinely transparent background.

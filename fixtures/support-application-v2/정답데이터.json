@@ -1,0 +1,102 @@
+{
+  "datasetVersion": "support-application-v2",
+  "purpose": "가상 문서 기반 화면·항목 추출 연동 점검",
+  "synthetic": true,
+  "application": {
+    "programTitle": "2026 소상공인 매장 환경개선 지원사업",
+    "applicationDate": "2026-10-23",
+    "businessName": "가상상점",
+    "businessNo": "0000000000",
+    "representative": "가상대표",
+    "openedOn": "2024-01-01",
+    "phone": "000-0000-0000",
+    "address": "가상시 예시구 도움로 123, 1층",
+    "businessType": "도매 및 소매업",
+    "businessItem": "생활잡화 소매",
+    "planText": "노후 간판 교체, 매장 조명 개선, 전기 배선 정비를 통해 방문 고객의 이용 편의를 높이고자 합니다. (가상 신청)",
+    "requestedAmount": 3000000,
+    "selfContribution": 300000,
+    "totalProjectCost": 3300000
+  },
+  "estimate": {
+    "quoteNo": "TEST-Q-2026-001",
+    "issuedOn": "2026-10-20",
+    "validUntil": "2026-11-20",
+    "supplierName": "가상간판공방",
+    "supplierBusinessNo": "0000000001",
+    "supplyAmount": 3000000,
+    "taxAmount": 300000,
+    "totalAmount": 3300000,
+    "items": [
+      {
+        "name": "외부 간판 교체",
+        "specification": "기존 간판 철거 및 LED 간판 설치",
+        "quantity": 1,
+        "unit": "식",
+        "unitPrice": 1800000,
+        "amount": 1800000
+      },
+      {
+        "name": "매장 조명 개선",
+        "specification": "천장 LED 조명 10개 교체",
+        "quantity": 10,
+        "unit": "개",
+        "unitPrice": 70000,
+        "amount": 700000
+      },
+      {
+        "name": "전기 배선 정비",
+        "specification": "노후 배선 점검·교체 및 안전 확인",
+        "quantity": 1,
+        "unit": "식",
+        "unitPrice": 500000,
+        "amount": 500000
+      }
+    ],
+    "supplierRepresentative": "가상시공자"
+  },
+  "documents": {
+    "checklist": {
+      "pdfPage": 1
+    },
+    "application": {
+      "pdfPage": 2
+    },
+    "plan": {
+      "pdfPage": 3
+    },
+    "budget": {
+      "pdfPage": 4
+    },
+    "photos": {
+      "pdfPage": 5
+    },
+    "businessCertificate": {
+      "pdfPage": 6,
+      "expectedFields": {
+        "businessName": "가상상점",
+        "businessNo": "0000000000",
+        "representative": "가상대표",
+        "openedOn": "2024-01-01"
+      }
+    },
+    "estimate": {
+      "pdfPage": 7
+    }
+  },
+  "scenarios": {
+    "NORMAL": {
+      "expectedMismatches": [],
+      "requiredDocuments": [
+        "BUSINESS_CERT",
+        "ESTIMATE"
+      ]
+    }
+  },
+  "evaluationBoundary": {
+    "originalBusinessCount": 1,
+    "independentEvaluationSet": false,
+    "note": "정상·상호 불일치·보완은 같은 원본 사례의 변형이다. 엔진 일반화 정확도를 증명하는 평가셋으로 사용하지 않는다. 정답 파일은 OCR 서비스 요청에 전달하지 않는다."
+  },
+  "note": "개정 2판은 정상 사례 1건이다. 불일치·보완 변형은 v1에 있으며 이 버전으로 새로 생성하지 않았다."
+}

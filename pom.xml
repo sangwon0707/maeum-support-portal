@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>kr.co.maeum</groupId><artifactId>support-portal</artifactId><version>0.1.0</version><packaging>war</packaging>
+  <properties><maven.compiler.release>21</maven.compiler.release><project.build.sourceEncoding>UTF-8</project.build.sourceEncoding><spring.version>6.2.11</spring.version><security.version>6.5.5</security.version><tomcat.version>10.1.48</tomcat.version></properties>
+  <repositories><repository><id>egovframe</id><url>https://maven.egovframe.go.kr/maven/</url></repository></repositories>
+  <dependencyManagement><dependencies><dependency><groupId>org.springframework</groupId><artifactId>spring-framework-bom</artifactId><version>${spring.version}</version><type>pom</type><scope>import</scope></dependency><dependency><groupId>org.springframework.security</groupId><artifactId>spring-security-bom</artifactId><version>${security.version}</version><type>pom</type><scope>import</scope></dependency></dependencies></dependencyManagement>
+  <dependencies>
+    <dependency><groupId>org.egovframe.rte</groupId><artifactId>egovframe-rte-ptl-mvc</artifactId><version>5.0.2</version></dependency>
+    <dependency><groupId>org.egovframe.rte</groupId><artifactId>egovframe-rte-psl-dataaccess</artifactId><version>5.0.2</version></dependency>
+    <dependency><groupId>org.egovframe.rte</groupId><artifactId>egovframe-rte-fdl-cmmn</artifactId><version>5.0.2</version></dependency>
+    <dependency><groupId>org.springframework.security</groupId><artifactId>spring-security-web</artifactId></dependency>
+    <dependency><groupId>org.springframework.security</groupId><artifactId>spring-security-config</artifactId></dependency>
+    <dependency><groupId>com.zaxxer</groupId><artifactId>HikariCP</artifactId><version>6.3.3</version></dependency>
+    <dependency><groupId>org.mariadb.jdbc</groupId><artifactId>mariadb-java-client</artifactId><version>3.5.6</version></dependency>
+    <dependency><groupId>org.flywaydb</groupId><artifactId>flyway-core</artifactId><version>11.14.1</version></dependency>
+    <dependency><groupId>org.flywaydb</groupId><artifactId>flyway-mysql</artifactId><version>11.14.1</version></dependency>
+    <dependency><groupId>com.fasterxml.jackson.core</groupId><artifactId>jackson-databind</artifactId><version>2.19.2</version></dependency>
+    <dependency><groupId>com.fasterxml.jackson.datatype</groupId><artifactId>jackson-datatype-jsr310</artifactId><version>2.19.2</version></dependency>
+    <dependency><groupId>jakarta.servlet.jsp.jstl</groupId><artifactId>jakarta.servlet.jsp.jstl-api</artifactId><version>3.0.2</version></dependency>
+    <dependency><groupId>org.glassfish.web</groupId><artifactId>jakarta.servlet.jsp.jstl</artifactId><version>3.0.1</version></dependency>
+    <dependency><groupId>org.apache.tomcat.embed</groupId><artifactId>tomcat-embed-core</artifactId><version>${tomcat.version}</version><scope>provided</scope></dependency>
+    <dependency><groupId>org.apache.tomcat.embed</groupId><artifactId>tomcat-embed-jasper</artifactId><version>${tomcat.version}</version><scope>provided</scope></dependency>
+    <dependency><groupId>org.junit.jupiter</groupId><artifactId>junit-jupiter</artifactId><version>5.12.1</version><scope>test</scope></dependency>
+    <dependency><groupId>org.springframework</groupId><artifactId>spring-test</artifactId><scope>test</scope></dependency>
+    <dependency><groupId>org.springframework.security</groupId><artifactId>spring-security-test</artifactId><scope>test</scope></dependency>
+    <dependency><groupId>org.hamcrest</groupId><artifactId>hamcrest</artifactId><version>3.0</version><scope>test</scope></dependency>
+    <dependency><groupId>org.apache.logging.log4j</groupId><artifactId>log4j-slf4j2-impl</artifactId><version>2.25.3</version></dependency>
+  </dependencies>
+  <build><finalName>support-portal</finalName><resources><resource><directory>src/main/resources</directory></resource><resource><directory>${project.basedir}</directory><targetPath>META-INF</targetPath><includes><include>THIRD_PARTY_NOTICES.md</include></includes></resource></resources><plugins>
+    <plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-compiler-plugin</artifactId><version>3.14.0</version><configuration><parameters>true</parameters></configuration></plugin>
+    <plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-war-plugin</artifactId><version>3.4.0</version><configuration><failOnMissingWebXml>false</failOnMissingWebXml></configuration></plugin>
+    <plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-surefire-plugin</artifactId><version>3.5.2</version><configuration><systemPropertyVariables><DB_URL>jdbc:mariadb://127.0.0.1:13316/support_portal_test</DB_URL><FILE_ROOT>.local/test-files</FILE_ROOT></systemPropertyVariables></configuration></plugin>
+    <plugin><groupId>org.codehaus.mojo</groupId><artifactId>exec-maven-plugin</artifactId><version>3.5.0</version><configuration><mainClass>kr.co.maeum.support.config.LocalServer</mainClass><classpathScope>compile</classpathScope></configuration></plugin>
+  </plugins></build>
+</project>

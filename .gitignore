@@ -1,0 +1,73 @@
+target/
+.tools/
+.local/
+.ref/**/.git/
+.ref/egovframe/runtime/
+.ref/krds/source/
+.playwright-cli/
+output/
+.env
+*.log
+.DS_Store
+
+# 이전 작업물 및 재사용 검토용 외부 프로젝트
+/.archive/
+# 다운로드한 참고 소스 폴더
+/*-main/
+
+# 문서 렌더링·OCR 실험의 임시 파일과 파이썬 실행 환경
+/tmp/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.cache/
+
+# 로컬별 설정과 인증 자료 (설정 예시는 소스에 포함)
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# 문서 생성 코드에서 재생성하는 페이지 이미지·배포용 PDF·해시 목록
+# 정답 JSON, 원본 사진, 제작 정보, 생성 코드는 추적한다.
+/fixtures/support-application-v2/서류-*.png
+/fixtures/support-application-v2/image-only/
+/fixtures/*/생성목록.json
+/src/main/webapp/assets/samples/*.pdf
+
+# 향후 OCR 모델 다운로드·추론 출력은 코드와 분리
+/ocr/models/
+/ocr/model-cache/
+/ocr/output/
+
+# 개인 IDE 상태
+.idea/
+*.iml
+.vscode/
+
+# 공개 배포 범위에 포함하지 않는 참고 HTML 원본
+/.ref/wireframe/*.html
+
+# 정책 검토용 외부 페이지 원본 (공개 연락처 포함)
+/.ref/legal-pages/
+
+# Java PDF 처리 모듈 빌드 산출물
+/pdf-engine/target/
+
+# 정부 사이트 조사 캡처는 공개 저장소에 포함하지 않는다.
+/.ref/government-sites-20261025/**/*.png
+/.ref/government-sites-20261025/**/*.jpg
+/.ref/government-sites-20261025/**/*.jpeg
+/.ref/government-sites-20261025/**/*.webp
+
+# 원본 참고 자료는 로컬 보존 전용. 공개 출처는 .docs/references에서 관리한다.
+/.ref/

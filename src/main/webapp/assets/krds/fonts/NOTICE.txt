@@ -1,0 +1,11 @@
+Pretendard GOV
+
+Copyright © 2023 Kil Hyung-jin
+Copyright © 2023 길형진
+
+위 저작권 표기는 배포 중인 Pretendard GOV 폰트 6개의 name metadata에
+포함된 원문을 보존한 것이다. 폰트 파일의 이름·메타데이터를 변경하지 않았다.
+
+Upstream: https://github.com/orioncactus/pretendard
+Pinned license: https://github.com/orioncactus/pretendard/blob/v1.3.9/LICENSE
+License: SIL Open Font License, Version 1.1. See OFL.txt in this directory.

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC '-//mybatis.org//DTD Mapper 3.0//EN'
+  'https://mybatis.org/dtd/mybatis-3-mapper.dtd'>
+<mapper namespace="kr.co.maeum.support.program.ProgramMapper">
+  <select id="find" resultType="kr.co.maeum.support.program.Program">
+    SELECT *
+    FROM program
+    WHERE id=#{id}
+  </select>
+  <update id="bindSeedKey">
+    UPDATE program SET seed_key=#{seedKey} WHERE id=#{id} AND seed_key IS NULL
+  </update>
+  <select id="findBySeedKey" resultType="kr.co.maeum.support.program.Program">
+    SELECT * FROM program WHERE seed_key=#{seedKey}
+  </select>
+  <select id="list" resultType="kr.co.maeum.support.program.Program">
+    SELECT *
+    FROM program
+    WHERE 1=1
+    <if test="!admin">
+      AND status!='DRAFT'
+    </if>
+    <if test="keyword != null and keyword != ''">
+      AND title LIKE CONCAT('%',#{keyword},'%')
+    </if>
+    <if test="state == 'OPEN'">
+      AND status='PUBLISHED'
+      AND opens_at &lt;= UTC_TIMESTAMP(6)
+      AND closes_at &gt; UTC_TIMESTAMP(6)
+    </if>
+    <if test="state == 'CLOSED'">
+      AND (status='CLOSED'
+      OR closes_at &lt;= UTC_TIMESTAMP(6))
+    </if>
+    ORDER BY id DESC
+  </select>
+  <insert id="insert" useGeneratedKeys="true" keyProperty="id">
+    INSERT INTO program(seed_key,title,body,status,opens_at,closes_at,max_amount,target_text,support_text,exclusion_text,selection_text,contact_text)
+    VALUES(#{seedKey},#{title},#{body},#{status},#{opensAt},#{closesAt},#{maxAmount},#{targetText},#{supportText},#{exclusionText},#{selectionText},#{contactText})
+  </insert>
+  <update id="update">
+    UPDATE program
+    SET title=#{title},body=#{body},status=#{status},opens_at=#{opensAt},closes_at=#{closesAt},max_amount=#{maxAmount},target_text=#{targetText},support_text=#{supportText},exclusion_text=#{exclusionText},selection_text=#{selectionText},contact_text=#{contactText},version=version+1
+    WHERE id=#{id}
+    AND version=#{version}
+  </update>
+  <select id="requiredTypes" resultType="string">
+    SELECT type_code
+    FROM program_document_rule
+    WHERE program_id=#{programId}
+    AND required=TRUE
+    ORDER BY id
+  </select>
+  <insert id="insertRule">
+    INSERT INTO program_document_rule(program_id,type_code)
+    VALUES(#{programId},#{type})
+  </insert>
+  <select id="count" resultType="long">
+    SELECT COUNT(*)
+    FROM program
+  </select>
+</mapper>

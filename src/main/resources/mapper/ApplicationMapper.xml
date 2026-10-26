@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC '-//mybatis.org//DTD Mapper 3.0//EN'
+  'https://mybatis.org/dtd/mybatis-3-mapper.dtd'>
+<mapper namespace="kr.co.maeum.support.application.ApplicationMapper">
+  <sql id="columns">
+    SELECT a.*,p.title program_title
+    FROM application a
+    JOIN program p ON p.id=a.program_id
+  </sql>
+  <select id="appliedIntakeId" resultType="long">SELECT MAX(id) FROM document_intake WHERE application_id=#{applicationId} AND status='APPLIED'</select>
+  <select id="find" resultType="kr.co.maeum.support.application.Application">
+    <include refid="columns"/>
+    WHERE a.id=#{id}
+  </select>
+  <select id="lock" resultType="kr.co.maeum.support.application.Application">
+    SELECT *
+    FROM application
+    WHERE id=#{id} FOR UPDATE
+  </select>
+  <select id="findOwned" resultType="kr.co.maeum.support.application.Application">
+    <include refid="columns"/>
+    WHERE a.workspace_id=#{workspaceId}
+    AND a.owner_id=#{ownerId}
+    AND a.program_id=#{programId}
+    ORDER BY a.application_round DESC LIMIT 1 FOR UPDATE
+  </select>
+  <sql id="filter">
+    WHERE a.workspace_id=#{workspaceId}
+    <if test="ownerId != null">
+      AND a.owner_id=#{ownerId}
+    </if>
+    <if test="staffId != null">
+      AND EXISTS(SELECT 1
+      FROM staff_assignment s
+      WHERE s.application_id=a.id
+      AND s.staff_id=#{staffId})
+    </if>
+    <if test="status != null and status != ''">
+      AND a.status=#{status}
+    </if>
+    <if test="keyword != null and keyword != ''">
+      AND (a.business_name LIKE CONCAT('%',#{keyword},'%')
+      OR a.receipt_no LIKE CONCAT('%',#{keyword},'%'))
+    </if>
+    <if test="from != null">
+      AND a.submitted_at &gt;= #{from}
+    </if>
+    <if test="until != null">
+      AND a.submitted_at &lt; #{until}
+    </if>
+  </sql>
+  <select id="list" resultType="kr.co.maeum.support.application.Application">
+    <include refid="columns"/>
+    <include refid="filter"/>
+    ORDER BY a.updated_at DESC,a.id DESC
+    LIMIT #{limit}
+    OFFSET #{offset}
+  </select>
+  <select id="count" resultType="long">
+    SELECT COUNT(*)
+    FROM application a
+    <include refid="filter"/>
+  </select>
+  <select id="statusCounts" resultType="map">
+    SELECT a.status,COUNT(*) AS total FROM application a
+    WHERE a.workspace_id=#{workspaceId} AND a.owner_id=#{ownerId}
+    GROUP BY a.status
+  </select>
+  <select id="isAssigned" resultType="int">
+    SELECT COUNT(*)
+    FROM staff_assignment
+    WHERE application_id=#{applicationId}
+    AND staff_id=#{staffId}
+  </select>
+  <insert id="insert" useGeneratedKeys="true" keyProperty="id">
+    INSERT INTO application(workspace_id,program_id,owner_id)
+    VALUES(#{workspaceId},#{programId},#{ownerId})
+  </insert>
+  <select id="lockOwner" resultType="java.lang.Long">
+    SELECT id FROM app_user WHERE id=#{ownerId} FOR UPDATE
+  </select>
+  <insert id="insertPracticeRound" useGeneratedKeys="true" keyProperty="id">
+    INSERT INTO application(workspace_id,program_id,owner_id,application_round)
+    SELECT #{workspaceId},#{programId},#{ownerId},COALESCE(MAX(application_round),0)+1
+    FROM application
+    WHERE workspace_id=#{workspaceId} AND program_id=#{programId} AND owner_id=#{ownerId}
+  </insert>
+  <update id="update">
+    UPDATE application
+    SET address=#{address},business_type=#{businessType},business_item=#{businessItem},self_contribution=#{selfContribution},business_name=#{businessName},business_no=#{businessNo},representative=#{representative},opened_on=#{openedOn},phone=#{phone},plan_text=#{planText},requested_amount=#{requestedAmount},receipt_no=#{receiptNo},status=#{status},submitted_at=#{submittedAt},updated_at=UTC_TIMESTAMP(6),version=version+1
+    WHERE id=#{id}
+    AND version=#{version}
+  </update>
+  <insert id="assign">
+    INSERT INTO staff_assignment(application_id,staff_id,assigned_by,reason)
+    VALUES(#{applicationId},#{staffId},#{assignedBy},#{reason})
+    ON DUPLICATE KEY UPDATE staff_id=VALUES(staff_id),assigned_by=VALUES(assigned_by),reason=VALUES(reason),assigned_at=UTC_TIMESTAMP(6)
+  </insert>
+  <insert id="history">
+    INSERT INTO application_status_history(application_id,from_status,to_status,actor_id,reason)
+    VALUES(#{applicationId},#{from},#{to},#{actorId},#{reason})
+  </insert>
+  <select id="historyList" resultType="map">
+    SELECT h.*,u.display_name
+    FROM application_status_history h
+    JOIN app_user u ON u.id=h.actor_id
+    WHERE application_id=#{applicationId}
+    ORDER BY h.id
+  </select>
+  <insert id="revision" useGeneratedKeys="true" keyProperty="id">
+    INSERT INTO application_revision(application_id,revision_no,snapshot,submitted_by) SELECT #{applicationId},COALESCE(MAX(revision_no),0)+1,#{snapshot},#{submittedBy}
+    FROM application_revision
+    WHERE application_id=#{applicationId}
+  </insert>
+  <insert id="revisionDocument">
+    INSERT INTO revision_document(revision_id,document_id)
+    VALUES(#{revisionId},#{documentId})
+  </insert>
+  <select id="revisions" resultType="map">
+    SELECT id,revision_no,submitted_at
+    FROM application_revision
+    WHERE application_id=#{applicationId}
+    ORDER BY revision_no DESC
+  </select>
+  <select id="submittedCommand" resultType="long">
+    SELECT revision_id
+    FROM submission_command
+    WHERE application_id=#{applicationId}
+    AND idempotency_key=#{key}
+    AND payload_hash=#{hash}
+  </select>
+  <select id="commandExists" resultType="int">
+    SELECT COUNT(*)
+    FROM submission_command
+    WHERE application_id=#{applicationId}
+    AND idempotency_key=#{key}
+  </select>
+  <insert id="command">
+    INSERT INTO submission_command(application_id,idempotency_key,payload_hash,revision_id)
+    VALUES(#{applicationId},#{key},#{hash},#{revisionId})
+  </insert>
+  <select id="changedDocument" resultType="int">
+    SELECT COUNT(*)
+    FROM document d
+    WHERE d.application_id=#{applicationId}
+    AND d.type_code=#{type}
+    AND d.version=(SELECT MAX(n.version)
+    FROM document n
+    WHERE n.application_id=d.application_id
+    AND n.type_code=d.type_code)
+    AND NOT EXISTS(SELECT 1
+    FROM revision_document rd
+    JOIN application_revision r ON r.id=rd.revision_id
+    WHERE rd.document_id=d.id
+    AND r.application_id=#{applicationId}
+    AND r.revision_no=(SELECT MAX(revision_no)
+    FROM application_revision
+    WHERE application_id=#{applicationId}))
+  </select>
+  <select id="revisionDetail" resultType="map">
+    SELECT *
+    FROM application_revision
+    WHERE application_id=#{applicationId}
+    AND id=#{revisionId}
+  </select>
+  <select id="revisionDocuments" resultType="kr.co.maeum.support.document.Document">
+    SELECT d.*
+    FROM document d
+    JOIN revision_document rd ON rd.document_id=d.id
+    WHERE rd.revision_id=#{revisionId}
+    ORDER BY d.type_code
+  </select>
+</mapper>

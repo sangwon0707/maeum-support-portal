@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC '-//mybatis.org//DTD Mapper 3.0//EN' 'https://mybatis.org/dtd/mybatis-3-mapper.dtd'>
+<mapper namespace="kr.co.maeum.support.maintenance.MaintenanceMapper">
+  <select id="candidates" resultType="long">SELECT a.id FROM application a JOIN app_user u ON a.owner_id=u.id AND a.workspace_id=u.workspace_id AND u.login_id=#{login} AND a.created_at &lt; #{cutoff} AND EXISTS(SELECT 1 FROM user_role ur WHERE ur.user_id=u.id AND ur.role_code='APPLICANT') ORDER BY a.id LIMIT 100</select>
+  <select id="lockCandidate" resultType="long">SELECT a.id FROM application a JOIN app_user u ON a.owner_id=u.id AND a.workspace_id=u.workspace_id AND u.login_id=#{login} AND a.created_at &lt; #{cutoff} AND EXISTS(SELECT 1 FROM user_role ur WHERE ur.user_id=u.id AND ur.role_code='APPLICANT') WHERE a.id=#{id} FOR UPDATE</select>
+  <select id="activeJobs" resultType="int">
+    SELECT (SELECT COUNT(*) FROM document_intake WHERE application_id=#{id} AND status IN ('QUEUED','PROCESSING'))
+      + (SELECT COUNT(*) FROM ocr_job j JOIN document d ON d.id=j.document_id WHERE d.application_id=#{id} AND j.status IN ('PENDING','RUNNING'))
+  </select>
+  <select id="documentKeys" resultType="string">SELECT storage_key FROM document</select>
+  <select id="intakeKeys" resultType="string">SELECT storage_key FROM intake_source</select>
+  <select id="resultPayloads" resultType="string">SELECT result_json FROM document_intake WHERE result_json IS NOT NULL</select>
+  <select id="cachePayloads" resultType="string">SELECT payload FROM intake_analysis_cache</select>
+  <delete id="expireCache">DELETE c FROM intake_analysis_cache c JOIN app_user u ON u.id=c.owner_id AND u.workspace_id=c.workspace_id WHERE u.login_id=#{login} AND c.created_at &lt; #{cutoff}</delete>
+  <delete id="deleteConfirmations">DELETE f FROM field_confirmation f JOIN document d ON d.id=f.document_id WHERE d.application_id=#{id}</delete>
+  <delete id="deleteOcrResults">DELETE r FROM ocr_result r JOIN ocr_job j ON j.id=r.job_id JOIN document d ON d.id=j.document_id WHERE d.application_id=#{id}</delete>
+  <delete id="deleteOcrJobs">DELETE j FROM ocr_job j JOIN document d ON d.id=j.document_id WHERE d.application_id=#{id}</delete>
+  <delete id="deleteRevisionDocuments">DELETE rd FROM revision_document rd JOIN application_revision r ON r.id=rd.revision_id WHERE r.application_id=#{id}</delete>
+  <delete id="deleteSupplementResponses">DELETE r FROM supplement_response r JOIN supplement_request s ON s.id=r.request_id WHERE s.application_id=#{id}</delete>
+  <delete id="deleteSupplementItems">DELETE i FROM supplement_item i JOIN supplement_request s ON s.id=i.request_id WHERE s.application_id=#{id}</delete>
+  <delete id="deleteSupplements">DELETE FROM supplement_request WHERE application_id=#{id}</delete>
+  <delete id="deleteCommands">DELETE FROM submission_command WHERE application_id=#{id}</delete>
+  <delete id="deleteRevisions">DELETE FROM application_revision WHERE application_id=#{id}</delete>
+  <delete id="deleteDocuments">DELETE FROM document WHERE application_id=#{id}</delete>
+  <delete id="deleteIntakeSources">DELETE s FROM intake_source s JOIN document_intake j ON j.id=s.intake_id WHERE j.application_id=#{id}</delete>
+  <delete id="deleteIntakes">DELETE FROM document_intake WHERE application_id=#{id}</delete>
+  <delete id="deleteReviews">DELETE FROM review WHERE application_id=#{id}</delete>
+  <delete id="deleteAssignments">DELETE FROM staff_assignment WHERE application_id=#{id}</delete>
+  <delete id="deleteHistory">DELETE FROM application_status_history WHERE application_id=#{id}</delete>
+  <delete id="deleteAudit">DELETE FROM audit_event WHERE application_id=#{id}</delete>
+  <delete id="deleteApplication">DELETE FROM application WHERE id=#{id}</delete>
+</mapper>

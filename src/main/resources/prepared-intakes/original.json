@@ -1,0 +1,5388 @@
+{
+  "pipelineVersion": "pdfbox-3.0.8-paddle-v5-ko-layout-v2",
+  "pdfProcessor": "Apache PDFBox 3.0.8",
+  "sourceSha256": "305c348d53312032e605ebbee04f40eb285fd03735ca1ad3d855a5b6c6f303ae",
+  "engine": "PaddleOCR",
+  "modelVersion": "PP-OCRv5_mobile_det+korean_PP-OCRv5_mobile_rec",
+  "preparedAt": "2026-10-25T19:57:48.223487+00:00",
+  "result": {
+    "pages": [
+      {
+        "pageNumber": 1,
+        "pageCount": 7,
+        "kind": "APPLICATION",
+        "width": 992,
+        "height": 1403,
+        "textSource": "PADDLE_OCR",
+        "tableRows": [],
+        "lines": [
+          {
+            "text": "마음이음작성완료예시·개정2판",
+            "bbox": [
+              72,
+              32,
+              272,
+              49
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9766170978546143
+          },
+          {
+            "text": "테스트용가상문서/공식서식아님",
+            "bbox": [
+              721,
+              32,
+              919,
+              49
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9780701398849487
+          },
+          {
+            "text": "[가상서식1]",
+            "bbox": [
+              87,
+              102,
+              184,
+              127
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9886022210121155
+          },
+          {
+            "text": "신청 서류 확인표",
+            "bbox": [
+              401,
+              147,
+              609,
+              181
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9511263966560364
+          },
+          {
+            "text": "2026소상공인 매장 환경개선 지원사업",
+            "bbox": [
+              371,
+              201,
+              638,
+              221
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9881712794303894
+          },
+          {
+            "text": "구분",
+            "bbox": [
+              89,
+              261,
+              128,
+              289
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9969319701194763
+          },
+          {
+            "text": "제출자료",
+            "bbox": [
+              169,
+              264,
+              236,
+              286
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9962638020515442
+          },
+          {
+            "text": "해당 쪽",
+            "bbox": [
+              718,
+              262,
+              775,
+              288
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9001495242118835
+          },
+          {
+            "text": "확인",
+            "bbox": [
+              823,
+              259,
+              867,
+              291
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.999346137046814
+          },
+          {
+            "text": "지원사업신청서",
+            "bbox": [
+              171,
+              314,
+              276,
+              335
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9813693165779114
+          },
+          {
+            "text": "2쪽",
+            "bbox": [
+              717,
+              310,
+              752,
+              342
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9993080496788025
+          },
+          {
+            "text": "제출",
+            "bbox": [
+              826,
+              311,
+              866,
+              340
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9953957200050354
+          },
+          {
+            "text": "사업계획서",
+            "bbox": [
+              170,
+              362,
+              247,
+              387
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9989282488822937
+          },
+          {
+            "text": "3쪽",
+            "bbox": [
+              717,
+              361,
+              753,
+              393
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9990036487579346
+          },
+          {
+            "text": "제출",
+            "bbox": [
+              825,
+              361,
+              865,
+              390
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9968547821044922
+          },
+          {
+            "text": "신청",
+            "bbox": [
+              90,
+              386,
+              127,
+              414
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9989368915557861
+          },
+          {
+            "text": "사업비 산출및 추진 일정",
+            "bbox": [
+              172,
+              415,
+              327,
+              435
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8843125700950623
+          },
+          {
+            "text": "4쪽",
+            "bbox": [
+              716,
+              410,
+              754,
+              447
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9988875389099121
+          },
+          {
+            "text": "제출",
+            "bbox": [
+              826,
+              411,
+              866,
+              440
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9974039793014526
+          },
+          {
+            "text": "사업장현황사진대지",
+            "bbox": [
+              172,
+              464,
+              306,
+              485
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9902403950691223
+          },
+          {
+            "text": "5쪽",
+            "bbox": [
+              717,
+              460,
+              753,
+              497
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9968624114990234
+          },
+          {
+            "text": "제출",
+            "bbox": [
+              825,
+              460,
+              866,
+              493
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9985702037811279
+          },
+          {
+            "text": "사업자등록증예시(가상)",
+            "bbox": [
+              172,
+              514,
+              330,
+              535
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9455146789550781
+          },
+          {
+            "text": "6쪽",
+            "bbox": [
+              717,
+              509,
+              754,
+              545
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9924777746200562
+          },
+          {
+            "text": "제출",
+            "bbox": [
+              826,
+              511,
+              865,
+              540
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9987417459487915
+          },
+          {
+            "text": "증빙",
+            "bbox": [
+              89,
+              535,
+              127,
+              564
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9945731163024902
+          },
+          {
+            "text": "시공견적서(가상)",
+            "bbox": [
+              170,
+              562,
+              290,
+              588
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9608094692230225
+          },
+          {
+            "text": "7쪽",
+            "bbox": [
+              718,
+              560,
+              752,
+              592
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9991881847381592
+          },
+          {
+            "text": "제출",
+            "bbox": [
+              824,
+              559,
+              866,
+              592
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.998742401599884
+          },
+          {
+            "text": "1.가상사업의신청조건",
+            "bbox": [
+              79,
+              614,
+              268,
+              643
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9804359078407288
+          },
+          {
+            "text": "예시문서에 적용하는테스트기준",
+            "bbox": [
+              92,
+              667,
+              321,
+              689
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9651564359664917
+          },
+          {
+            "text": "·간판·조명·배선개선을하나의매장환경개선과제로신청합니다",
+            "bbox": [
+              95,
+              731,
+              503,
+              748
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9747344255447388
+          },
+          {
+            "text": "·이사례의지원 신청액은공급가액3,000,000원,자부담은부가세300,000원입니다",
+            "bbox": [
+              93,
+              755,
+              616,
+              772
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9609626531600952
+          },
+          {
+            "text": "•선정 통보 후30일이내 추진하는 가상계획입니다",
+            "bbox": [
+              94,
+              781,
+              409,
+              798
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.900605320930481
+          },
+          {
+            "text": "위 기준은데모사례의가정이며 실제기관의 지원 요건·보조율이아닙니다",
+            "bbox": [
+              92,
+              806,
+              560,
+              823
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9213894605636597
+          },
+          {
+            "text": "2.신청전확인",
+            "bbox": [
+              79,
+              872,
+              196,
+              896
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9685530662536621
+          },
+          {
+            "text": "자료확인 및사용범위",
+            "bbox": [
+              92,
+              924,
+              251,
+              944
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9489229917526245
+          },
+          {
+            "text": "확인 완료:신청서와증빙의 상호·대표자·번호·개업일이일치합니다",
+            "bbox": [
+              94,
+              986,
+              518,
+              1003
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9466221928596497
+          },
+          {
+            "text": "확인 완료:품목별 산출액, 공급가액, 부가세, 총액의합계가일치합니다",
+            "bbox": [
+              94,
+              1011,
+              529,
+              1028
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9111722707748413
+          },
+          {
+            "text": "확인 완료: 사진2장은 A로생성한 테스트용자료입니다.",
+            "bbox": [
+              94,
+              1036,
+              438,
+              1053
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.923157811164856
+          },
+          {
+            "text": "모든 정보는가상이며실제신청·계약·지급·개인정보 동의의 효력은없습니다",
+            "bbox": [
+              94,
+              1061,
+              574,
+              1078
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9370161294937134
+          },
+          {
+            "text": "2026년10월23일",
+            "bbox": [
+              430,
+              1132,
+              561,
+              1153
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9983971118927002
+          },
+          {
+            "text": "신청인:가상대표(테스트서명)",
+            "bbox": [
+              697,
+              1173,
+              909,
+              1193
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9905226230621338
+          },
+          {
+            "text": "마음이음지원사업검토담당자귀하(가상수신처)",
+            "bbox": [
+              82,
+              1220,
+              388,
+              1237
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9869778156280518
+          },
+          {
+            "text": "모든정보는가상입니다.실제 신청증명·계약·지급에사용할수없습니다",
+            "bbox": [
+              71,
+              1345,
+              479,
+              1362
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9404444098472595
+          },
+          {
+            "text": "-1-",
+            "bbox": [
+              890,
+              1343,
+              922,
+              1367
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9854554533958435
+          }
+        ],
+        "fields": {
+          "businessName": "가상대표(테스트서명)"
+        },
+        "evidence": {
+          "businessName": {
+            "bbox": [
+              697,
+              1173,
+              909,
+              1193
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9905226230621338
+          }
+        },
+        "photos": [],
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kindLabel": "신청서",
+        "previewKey": "56650444aa86309868ab738e7f1d4f60cb60de6b5b584c7d0e27d0e62969f30b.png",
+        "groupStart": true
+      },
+      {
+        "pageNumber": 2,
+        "pageCount": 7,
+        "kind": "APPLICATION",
+        "width": 992,
+        "height": 1403,
+        "textSource": "PADDLE_OCR",
+        "tableRows": [],
+        "lines": [
+          {
+            "text": "마음이음작성완료예시·개정2판",
+            "bbox": [
+              71,
+              30,
+              273,
+              50
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9641469120979309
+          },
+          {
+            "text": "테스트용가상문서/공식서식아님",
+            "bbox": [
+              720,
+              30,
+              920,
+              50
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9655447006225586
+          },
+          {
+            "text": "[가상서식2]",
+            "bbox": [
+              86,
+              103,
+              186,
+              127
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9903277158737183
+          },
+          {
+            "text": "지원사업신청서",
+            "bbox": [
+              387,
+              149,
+              624,
+              180
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9998937845230103
+          },
+          {
+            "text": "2026소상공인매장환경개선지원사업",
+            "bbox": [
+              370,
+              199,
+              639,
+              222
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9960070848464966
+          },
+          {
+            "text": "접수번호",
+            "bbox": [
+              90,
+              262,
+              154,
+              287
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9953246116638184
+          },
+          {
+            "text": "TEST-APP-2026-001",
+            "bbox": [
+              194,
+              263,
+              335,
+              284
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9971974492073059
+          },
+          {
+            "text": "신청일",
+            "bbox": [
+              529,
+              260,
+              581,
+              290
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9986760020256042
+          },
+          {
+            "text": "2026.10.23",
+            "bbox": [
+              640,
+              264,
+              722,
+              285
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.999303936958313
+          },
+          {
+            "text": "상호",
+            "bbox": [
+              190,
+              312,
+              230,
+              342
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9969194531440735
+          },
+          {
+            "text": "가상상점",
+            "bbox": [
+              339,
+              312,
+              405,
+              341
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9957535266876221
+          },
+          {
+            "text": "대표자",
+            "bbox": [
+              530,
+              314,
+              581,
+              340
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9926368594169617
+          },
+          {
+            "text": "가상대표",
+            "bbox": [
+              639,
+              313,
+              703,
+              338
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9966158866882324
+          },
+          {
+            "text": "사업자번호",
+            "bbox": [
+              191,
+              365,
+              268,
+              390
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9927407503128052
+          },
+          {
+            "text": "000-00-00000",
+            "bbox": [
+              341,
+              366,
+              442,
+              391
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9664096236228943
+          },
+          {
+            "text": "개업일",
+            "bbox": [
+              528,
+              364,
+              581,
+              394
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9950651526451111
+          },
+          {
+            "text": "2024.01.01",
+            "bbox": [
+              639,
+              366,
+              723,
+              391
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9995730519294739
+          },
+          {
+            "text": "기업현황",
+            "bbox": [
+              89,
+              416,
+              155,
+              444
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9971280097961426
+          },
+          {
+            "text": "연락처",
+            "bbox": [
+              190,
+              415,
+              245,
+              445
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9969552159309387
+          },
+          {
+            "text": "000-0000-0000",
+            "bbox": [
+              341,
+              418,
+              450,
+              442
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9743344783782959
+          },
+          {
+            "text": "사업자 유형",
+            "bbox": [
+              531,
+              418,
+              610,
+              442
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9169378280639648
+          },
+          {
+            "text": "개인사업자(가상)",
+            "bbox": [
+              641,
+              418,
+              756,
+              442
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9801386594772339
+          },
+          {
+            "text": "업태/종목",
+            "bbox": [
+              191,
+              466,
+              269,
+              495
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9904463887214661
+          },
+          {
+            "text": "도매및소매업/생활잡화소매",
+            "bbox": [
+              343,
+              470,
+              533,
+              491
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9798179864883423
+          },
+          {
+            "text": "사업장주소",
+            "bbox": [
+              191,
+              519,
+              269,
+              547
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9982150793075562
+          },
+          {
+            "text": "가상시예시구도움로123,1층",
+            "bbox": [
+              342,
+              523,
+              534,
+              543
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9555848836898804
+          },
+          {
+            "text": "개선분야",
+            "bbox": [
+              190,
+              571,
+              260,
+              599
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9987297058105469
+          },
+          {
+            "text": "간판교체조명개선배선점검·정비",
+            "bbox": [
+              345,
+              577,
+              619,
+              594
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9841424822807312
+          },
+          {
+            "text": "신청내용",
+            "bbox": [
+              90,
+              624,
+              154,
+              650
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9991127252578735
+          },
+          {
+            "text": "과제명",
+            "bbox": [
+              191,
+              624,
+              243,
+              651
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9993351101875305
+          },
+          {
+            "text": "매장 간판·조명및배선환경개선",
+            "bbox": [
+              343,
+              627,
+              547,
+              647
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9495700597763062
+          },
+          {
+            "text": "사업기간",
+            "bbox": [
+              189,
+              671,
+              257,
+              704
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9995244741439819
+          },
+          {
+            "text": "선정 통보 후30일 이내(가상 계획)",
+            "bbox": [
+              343,
+              678,
+              557,
+              699
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8847442865371704
+          },
+          {
+            "text": "지원신청액",
+            "bbox": [
+              191,
+              725,
+              275,
+              753
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9887052774429321
+          },
+          {
+            "text": "자부담(부가세)",
+            "bbox": [
+              338,
+              724,
+              444,
+              755
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.98845374584198
+          },
+          {
+            "text": "총사업비",
+            "bbox": [
+              638,
+              725,
+              707,
+              754
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9974575638771057
+          },
+          {
+            "text": "사업비",
+            "bbox": [
+              89,
+              752,
+              141,
+              778
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9983780980110168
+          },
+          {
+            "text": "3,000,000원",
+            "bbox": [
+              191,
+              779,
+              280,
+              804
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9888392686843872
+          },
+          {
+            "text": "300,000원",
+            "bbox": [
+              340,
+              779,
+              416,
+              804
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9507339596748352
+          },
+          {
+            "text": "3,300,000원",
+            "bbox": [
+              637,
+              776,
+              729,
+              806
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9939214587211609
+          },
+          {
+            "text": "신청내용확인",
+            "bbox": [
+              81,
+              835,
+              195,
+              860
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9976962208747864
+          },
+          {
+            "text": "작성완료예시",
+            "bbox": [
+              90,
+              882,
+              206,
+              909
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9867637753486633
+          },
+          {
+            "text": "노후간판교체,LED조명10개교체배선점검·정비를통해매장이용환경을개선하고자합니다사업자정보와견적내역을확인하고",
+            "bbox": [
+              93,
+              951,
+              914,
+              971
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9539783000946045
+          },
+          {
+            "text": "사업계획서·사진·증빙을함께 제출합니다",
+            "bbox": [
+              95,
+              974,
+              362,
+              995
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9447656869888306
+          },
+          {
+            "text": "본신청서는가상 자료입니다.실제 기관의자격심사· 지원금지급을요청하는문서가아닙니다",
+            "bbox": [
+              94,
+              1027,
+              669,
+              1044
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9347782731056213
+          },
+          {
+            "text": "2026년10월23일",
+            "bbox": [
+              430,
+              1100,
+              561,
+              1121
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9985875487327576
+          },
+          {
+            "text": "신청인:가상대표(테스트서명)",
+            "bbox": [
+              697,
+              1141,
+              909,
+              1161
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9905409216880798
+          },
+          {
+            "text": "마음이음지원사업 검토담당자귀하(가상수신처)",
+            "bbox": [
+              82,
+              1188,
+              388,
+              1205
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9675707817077637
+          },
+          {
+            "text": "모든정보는가상입니다.실제 신청·증명·계약·지급에사용할수없습니다",
+            "bbox": [
+              72,
+              1345,
+              479,
+              1362
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9218119382858276
+          },
+          {
+            "text": "-2-",
+            "bbox": [
+              890,
+              1342,
+              922,
+              1367
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9814708828926086
+          }
+        ],
+        "fields": {
+          "businessName": "가상상점",
+          "businessNo": "0000000000",
+          "representative": "가상대표",
+          "openedOn": "2024-01-01",
+          "phone": "000-0000-0000",
+          "address": "가상시예시구도움로123,1층",
+          "totalAmount": "3300000",
+          "businessType": "개인사업자(가상)",
+          "businessItem": "도매및소매업/생활잡화소매",
+          "requestedAmount": "3000000",
+          "selfContribution": "300000",
+          "planText": "노후간판교체,LED조명10개교체배선점검·정비를통해매장이용환경을개선하고자합니다사업자정보와견적내역을확인하고"
+        },
+        "evidence": {
+          "businessName": {
+            "bbox": [
+              339,
+              312,
+              405,
+              341
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9957535266876221
+          },
+          "businessNo": {
+            "bbox": [
+              341,
+              366,
+              442,
+              391
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9664096236228943
+          },
+          "representative": {
+            "bbox": [
+              639,
+              313,
+              703,
+              338
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9966158866882324
+          },
+          "openedOn": {
+            "bbox": [
+              639,
+              366,
+              723,
+              391
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9995730519294739
+          },
+          "phone": {
+            "bbox": [
+              341,
+              418,
+              450,
+              442
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9743344783782959
+          },
+          "address": {
+            "bbox": [
+              342,
+              523,
+              534,
+              543
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9555848836898804
+          },
+          "totalAmount": {
+            "bbox": [
+              637,
+              776,
+              729,
+              806
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9939214587211609
+          },
+          "businessType": {
+            "lineIndex": 21,
+            "rawValue": "개인사업자(가상)",
+            "bbox": [
+              641,
+              418,
+              756,
+              442
+            ],
+            "source": "PADDLE_OCR",
+            "method": "LLM_SOURCE_VERIFIED"
+          },
+          "businessItem": {
+            "lineIndex": 23,
+            "rawValue": "도매및소매업/생활잡화소매",
+            "bbox": [
+              343,
+              470,
+              533,
+              491
+            ],
+            "source": "PADDLE_OCR",
+            "method": "LLM_SOURCE_VERIFIED"
+          },
+          "requestedAmount": {
+            "lineIndex": 37,
+            "rawValue": "3,000,000원",
+            "bbox": [
+              191,
+              779,
+              280,
+              804
+            ],
+            "source": "PADDLE_OCR",
+            "method": "LLM_SOURCE_VERIFIED"
+          },
+          "selfContribution": {
+            "lineIndex": 38,
+            "rawValue": "300,000원",
+            "bbox": [
+              340,
+              779,
+              416,
+              804
+            ],
+            "source": "PADDLE_OCR",
+            "method": "LLM_SOURCE_VERIFIED"
+          },
+          "planText": {
+            "lineIndex": 42,
+            "rawValue": "노후간판교체,LED조명10개교체배선점검·정비를통해매장이용환경을개선하고자합니다사업자정보와견적내역을확인하고",
+            "bbox": [
+              93,
+              951,
+              914,
+              971
+            ],
+            "source": "PADDLE_OCR",
+            "method": "LLM_SOURCE_VERIFIED"
+          }
+        },
+        "photos": [],
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kindLabel": "신청서",
+        "previewKey": "77a77fe211bf19f960710230dda80570d17328065fc45ac22092c156973857ad.png",
+        "groupStart": false,
+        "ai": {
+          "pageNumber": 2,
+          "fields": {
+            "businessName": "가상상점",
+            "representative": "가상대표",
+            "businessNo": "0000000000",
+            "openedOn": "2024-01-01",
+            "phone": "000-0000-0000",
+            "address": "가상시예시구도움로123,1층",
+            "businessType": "개인사업자(가상)",
+            "businessItem": "도매및소매업/생활잡화소매",
+            "requestedAmount": "3000000",
+            "selfContribution": "300000",
+            "totalAmount": "3300000",
+            "planText": "노후간판교체,LED조명10개교체배선점검·정비를통해매장이용환경을개선하고자합니다사업자정보와견적내역을확인하고"
+          },
+          "evidence": {
+            "businessName": {
+              "lineIndex": 10,
+              "rawValue": "가상상점",
+              "bbox": [
+                339,
+                312,
+                405,
+                341
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "representative": {
+              "lineIndex": 12,
+              "rawValue": "가상대표",
+              "bbox": [
+                639,
+                313,
+                703,
+                338
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "businessNo": {
+              "lineIndex": 14,
+              "rawValue": "000-00-00000",
+              "bbox": [
+                341,
+                366,
+                442,
+                391
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "openedOn": {
+              "lineIndex": 16,
+              "rawValue": "2024.01.01",
+              "bbox": [
+                639,
+                366,
+                723,
+                391
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "phone": {
+              "lineIndex": 19,
+              "rawValue": "000-0000-0000",
+              "bbox": [
+                341,
+                418,
+                450,
+                442
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "address": {
+              "lineIndex": 25,
+              "rawValue": "가상시예시구도움로123,1층",
+              "bbox": [
+                342,
+                523,
+                534,
+                543
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "businessType": {
+              "lineIndex": 21,
+              "rawValue": "개인사업자(가상)",
+              "bbox": [
+                641,
+                418,
+                756,
+                442
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "businessItem": {
+              "lineIndex": 23,
+              "rawValue": "도매및소매업/생활잡화소매",
+              "bbox": [
+                343,
+                470,
+                533,
+                491
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "requestedAmount": {
+              "lineIndex": 37,
+              "rawValue": "3,000,000원",
+              "bbox": [
+                191,
+                779,
+                280,
+                804
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "selfContribution": {
+              "lineIndex": 38,
+              "rawValue": "300,000원",
+              "bbox": [
+                340,
+                779,
+                416,
+                804
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "totalAmount": {
+              "lineIndex": 39,
+              "rawValue": "3,300,000원",
+              "bbox": [
+                637,
+                776,
+                729,
+                806
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "planText": {
+              "lineIndex": 42,
+              "rawValue": "노후간판교체,LED조명10개교체배선점검·정비를통해매장이용환경을개선하고자합니다사업자정보와견적내역을확인하고",
+              "bbox": [
+                93,
+                951,
+                914,
+                971
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            }
+          },
+          "suggestedKind": "APPLICATION",
+          "kindEvidence": {
+            "lineIndex": 3,
+            "text": "지원사업신청서"
+          },
+          "kindAgreement": true,
+          "kindLabel": "신청서"
+        }
+      },
+      {
+        "pageNumber": 3,
+        "pageCount": 7,
+        "kind": "BUSINESS_PLAN",
+        "width": 992,
+        "height": 1403,
+        "textSource": "PADDLE_OCR",
+        "tableRows": [
+          {
+            "y": 34,
+            "cells": [
+              {
+                "text": "마음이음작성완료예시·개정2판",
+                "bbox": [
+                  73,
+                  34,
+                  271,
+                  48
+                ]
+              },
+              {
+                "text": "테스트용 가상 문서/공식 서식아님",
+                "bbox": [
+                  722,
+                  34,
+                  918,
+                  48
+                ]
+              }
+            ]
+          },
+          {
+            "y": 1343,
+            "cells": [
+              {
+                "text": "-3-",
+                "bbox": [
+                  890,
+                  1343,
+                  922,
+                  1367
+                ]
+              },
+              {
+                "text": "모든정보는가상입니다.실제신청·증명·계약·지급에사용할수없습니다",
+                "bbox": [
+                  70,
+                  1344,
+                  479,
+                  1362
+                ]
+              }
+            ]
+          }
+        ],
+        "lines": [
+          {
+            "text": "마음이음작성완료예시·개정2판",
+            "bbox": [
+              73,
+              34,
+              271,
+              48
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9898770451545715
+          },
+          {
+            "text": "테스트용 가상 문서/공식 서식아님",
+            "bbox": [
+              722,
+              34,
+              918,
+              48
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.931040346622467
+          },
+          {
+            "text": "[가상서식3]",
+            "bbox": [
+              88,
+              106,
+              182,
+              124
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9959579706192017
+          },
+          {
+            "text": "사업계획서",
+            "bbox": [
+              420,
+              145,
+              589,
+              182
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9999384880065918
+          },
+          {
+            "text": "2026소상공인 매장 환경개선 지원사업",
+            "bbox": [
+              371,
+              201,
+              638,
+              221
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9693436622619629
+          },
+          {
+            "text": "업체 및 주요 서비스 소개",
+            "bbox": [
+              96,
+              267,
+              264,
+              281
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9678154587745667
+          },
+          {
+            "text": "가상상점은 생활잡화와 주방·청소용품을 판매하는 가상 소매점입니다. 고객이 입구를 쉽게 찾고 진열 상품을 확인할 수 있는 매장 환경",
+            "bbox": [
+              95,
+              376,
+              904,
+              390
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9308906197547913
+          },
+          {
+            "text": "을 목표로 합니다. 상호·소재지·개업일은 신청서 및 가상 증빙과 동일하게 작성했습니다.",
+            "bbox": [
+              95,
+              400,
+              633,
+              414
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.931218147277832
+          },
+          {
+            "text": "환경개선 필요성 및 진행 예정 사항",
+            "bbox": [
+              96,
+              510,
+              322,
+              524
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.979148268699646
+          },
+          {
+            "text": "외부 간판은 표면이 낡고 글자가바래시인성 개선이 필요합니다.내부는천장 조명과 진열 통로의밝기가 고르지않은상황을 가정했습",
+            "bbox": [
+              93,
+              609,
+              904,
+              627
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9175014495849609
+          },
+          {
+            "text": "니다.",
+            "bbox": [
+              91,
+              633,
+              131,
+              656
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8533633351325989
+          },
+          {
+            "text": "기존 간판 철거 및 LED 간판 설치,천장LED 조명 10개 교체를 계획합니다.배선은 사진으로 상태를 판정하지 않고 시공 전별도 점검 후",
+            "bbox": [
+              95,
+              687,
+              911,
+              701
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9026877880096436
+          },
+          {
+            "text": "정비 범위를 확인합니다. 모든 시공 내용은 실제 작업이 없는 테스트 계획입니다.",
+            "bbox": [
+              96,
+              711,
+              578,
+              725
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9062741994857788
+          },
+          {
+            "text": "기대효과및완료확인방법",
+            "bbox": [
+              94,
+              812,
+              281,
+              832
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.987759530544281
+          },
+          {
+            "text": "출입구 식별과 진열 상품 확인이 쉬워지는 것을 목표로 합니다매출 증가율은 임의로 제시하지 않습니다",
+            "bbox": [
+              96,
+              905,
+              725,
+              919
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9118680357933044
+          },
+          {
+            "text": "완료 확인은 간판 점등 상태, 조명 교체 수량,점검·정비내역및동일 위치의전·후사진으로 진행하도록 계획합니다.완료증빙은 향후",
+            "bbox": [
+              96,
+              955,
+              904,
+              969
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9197898507118225
+          },
+          {
+            "text": "결과 보고 단계의 예시이며이번 자료에 실제 시공 결과를 포함하지 않습니다",
+            "bbox": [
+              96,
+              980,
+              559,
+              993
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9122596979141235
+          },
+          {
+            "text": "모든정보는가상입니다.실제신청·증명·계약·지급에사용할수없습니다",
+            "bbox": [
+              70,
+              1344,
+              479,
+              1362
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9378754496574402
+          },
+          {
+            "text": "-3-",
+            "bbox": [
+              890,
+              1343,
+              922,
+              1367
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9852994084358215
+          }
+        ],
+        "fields": {
+          "planText": "가상상점은 생활잡화와 주방·청소용품을 판매하는 가상 소매점입니다. 고객이 입구를 쉽게 찾고 진열 상품을 확인할 수 있는 매장 환경\n을 목표로 합니다. 상호·소재지·개업일은 신청서 및 가상 증빙과 동일하게 작성했습니다.\n외부 간판은 표면이 낡고 글자가바래시인성 개선이 필요합니다.내부는천장 조명과 진열 통로의밝기가 고르지않은상황을 가정했습\n기존 간판 철거 및 LED 간판 설치,천장LED 조명 10개 교체를 계획합니다.배선은 사진으로 상태를 판정하지 않고 시공 전별도 점검 후\n정비 범위를 확인합니다. 모든 시공 내용은 실제 작업이 없는 테스트 계획입니다.\n출입구 식별과 진열 상품 확인이 쉬워지는 것을 목표로 합니다매출 증가율은 임의로 제시하지 않습니다\n완료 확인은 간판 점등 상태, 조명 교체 수량,점검·정비내역및동일 위치의전·후사진으로 진행하도록 계획합니다.완료증빙은 향후\n결과 보고 단계의 예시이며이번 자료에 실제 시공 결과를 포함하지 않습니다\n모든정보는가상입니다.실제신청·증명·계약·지급에사용할수없습니다"
+        },
+        "evidence": {},
+        "photos": [],
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kindLabel": "사업계획서",
+        "previewKey": "0f1f8f1e241f04b5bad69d05698004c55ebf76cc0733c5f1ad47b6a7b764d2f3.png",
+        "groupStart": true,
+        "ai": {
+          "pageNumber": 3,
+          "fields": {},
+          "evidence": {},
+          "suggestedKind": "BUSINESS_PLAN",
+          "kindEvidence": {
+            "lineIndex": 3,
+            "text": "사업계획서"
+          },
+          "kindAgreement": true,
+          "kindLabel": "사업계획서"
+        }
+      },
+      {
+        "pageNumber": 4,
+        "pageCount": 7,
+        "kind": "BUSINESS_PLAN",
+        "width": 992,
+        "height": 1403,
+        "textSource": "PADDLE_OCR",
+        "tableRows": [
+          {
+            "y": 30,
+            "cells": [
+              {
+                "text": "마음이음작성완료예시·개정2판",
+                "bbox": [
+                  71,
+                  30,
+                  273,
+                  50
+                ]
+              },
+              {
+                "text": "테스트용가상문서/공식서식아님",
+                "bbox": [
+                  719,
+                  30,
+                  920,
+                  50
+                ]
+              }
+            ]
+          },
+          {
+            "y": 314,
+            "cells": [
+              {
+                "text": "수량",
+                "bbox": [
+                  472,
+                  314,
+                  519,
+                  351
+                ]
+              },
+              {
+                "text": "단가(원)",
+                "bbox": [
+                  565,
+                  315,
+                  630,
+                  348
+                ]
+              },
+              {
+                "text": "품목",
+                "bbox": [
+                  86,
+                  316,
+                  130,
+                  350
+                ]
+              },
+              {
+                "text": "공급가액(원)",
+                "bbox": [
+                  752,
+                  317,
+                  838,
+                  346
+                ]
+              }
+            ]
+          },
+          {
+            "y": 367,
+            "cells": [
+              {
+                "text": "1,800,000",
+                "bbox": [
+                  564,
+                  367,
+                  645,
+                  402
+                ]
+              },
+              {
+                "text": "외부간판교체",
+                "bbox": [
+                  88,
+                  368,
+                  188,
+                  399
+                ]
+              },
+              {
+                "text": "1,800,000",
+                "bbox": [
+                  750,
+                  368,
+                  827,
+                  401
+                ]
+              },
+              {
+                "text": "1식",
+                "bbox": [
+                  473,
+                  369,
+                  515,
+                  405
+                ]
+              }
+            ]
+          },
+          {
+            "y": 421,
+            "cells": [
+              {
+                "text": "10개",
+                "bbox": [
+                  475,
+                  421,
+                  522,
+                  454
+                ]
+              },
+              {
+                "text": "700,000",
+                "bbox": [
+                  750,
+                  421,
+                  818,
+                  454
+                ]
+              },
+              {
+                "text": "70,000",
+                "bbox": [
+                  565,
+                  422,
+                  625,
+                  453
+                ]
+              },
+              {
+                "text": "매장조명 개선",
+                "bbox": [
+                  91,
+                  425,
+                  187,
+                  450
+                ]
+              }
+            ]
+          },
+          {
+            "y": 473,
+            "cells": [
+              {
+                "text": "1식",
+                "bbox": [
+                  472,
+                  473,
+                  516,
+                  512
+                ]
+              },
+              {
+                "text": "500,000",
+                "bbox": [
+                  564,
+                  475,
+                  633,
+                  508
+                ]
+              },
+              {
+                "text": "500,000",
+                "bbox": [
+                  749,
+                  475,
+                  818,
+                  508
+                ]
+              },
+              {
+                "text": "전기 배선정비",
+                "bbox": [
+                  90,
+                  477,
+                  188,
+                  505
+                ]
+              }
+            ]
+          },
+          {
+            "y": 529,
+            "cells": [
+              {
+                "text": "3,000,000",
+                "bbox": [
+                  750,
+                  529,
+                  827,
+                  560
+                ]
+              },
+              {
+                "text": "공급가액합계",
+                "bbox": [
+                  91,
+                  532,
+                  184,
+                  556
+                ]
+              }
+            ]
+          },
+          {
+            "y": 581,
+            "cells": [
+              {
+                "text": "부가세",
+                "bbox": [
+                  87,
+                  581,
+                  142,
+                  614
+                ]
+              },
+              {
+                "text": "300,000",
+                "bbox": [
+                  751,
+                  583,
+                  816,
+                  613
+                ]
+              }
+            ]
+          },
+          {
+            "y": 634,
+            "cells": [
+              {
+                "text": "총사업비",
+                "bbox": [
+                  88,
+                  634,
+                  158,
+                  667
+                ]
+              },
+              {
+                "text": "3,300,000",
+                "bbox": [
+                  750,
+                  636,
+                  828,
+                  668
+                ]
+              }
+            ]
+          },
+          {
+            "y": 742,
+            "cells": [
+              {
+                "text": "지원신청액",
+                "bbox": [
+                  89,
+                  742,
+                  172,
+                  771
+                ]
+              },
+              {
+                "text": "총사업비",
+                "bbox": [
+                  652,
+                  742,
+                  721,
+                  772
+                ]
+              },
+              {
+                "text": "자부담(부가세)",
+                "bbox": [
+                  371,
+                  743,
+                  475,
+                  772
+                ]
+              }
+            ]
+          },
+          {
+            "y": 795,
+            "cells": [
+              {
+                "text": "3,000,000원",
+                "bbox": [
+                  88,
+                  795,
+                  179,
+                  827
+                ]
+              },
+              {
+                "text": "300,000원",
+                "bbox": [
+                  369,
+                  795,
+                  449,
+                  827
+                ]
+              },
+              {
+                "text": "3,300,000원",
+                "bbox": [
+                  652,
+                  797,
+                  743,
+                  825
+                ]
+              }
+            ]
+          },
+          {
+            "y": 900,
+            "cells": [
+              {
+                "text": "주요 내용",
+                "bbox": [
+                  428,
+                  900,
+                  501,
+                  937
+                ]
+              },
+              {
+                "text": "예정시점",
+                "bbox": [
+                  187,
+                  901,
+                  259,
+                  937
+                ]
+              },
+              {
+                "text": "단계",
+                "bbox": [
+                  86,
+                  903,
+                  131,
+                  942
+                ]
+              }
+            ]
+          },
+          {
+            "y": 964,
+            "cells": [
+              {
+                "text": "준비",
+                "bbox": [
+                  88,
+                  964,
+                  130,
+                  996
+                ]
+              },
+              {
+                "text": "선정통보후1~7일",
+                "bbox": [
+                  191,
+                  965,
+                  314,
+                  993
+                ]
+              }
+            ]
+          },
+          {
+            "y": 1035,
+            "cells": [
+              {
+                "text": "시공",
+                "bbox": [
+                  87,
+                  1035,
+                  129,
+                  1068
+                ]
+              },
+              {
+                "text": "8~21일",
+                "bbox": [
+                  188,
+                  1036,
+                  248,
+                  1066
+                ]
+              },
+              {
+                "text": "간판·조명교체,배선점검·정비",
+                "bbox": [
+                  435,
+                  1040,
+                  633,
+                  1061
+                ]
+              }
+            ]
+          },
+          {
+            "y": 1107,
+            "cells": [
+              {
+                "text": "확인",
+                "bbox": [
+                  86,
+                  1107,
+                  130,
+                  1140
+                ]
+              },
+              {
+                "text": "22~30일",
+                "bbox": [
+                  189,
+                  1110,
+                  254,
+                  1136
+                ]
+              },
+              {
+                "text": "수량·점등·정비내역확인,결과자료정리",
+                "bbox": [
+                  434,
+                  1112,
+                  695,
+                  1132
+                ]
+              }
+            ]
+          },
+          {
+            "y": 1342,
+            "cells": [
+              {
+                "text": "모든정보는가상입니다.실제 신청·증명-계약·지급에사용할수없습니다",
+                "bbox": [
+                  70,
+                  1342,
+                  480,
+                  1363
+                ]
+              },
+              {
+                "text": "-4-",
+                "bbox": [
+                  889,
+                  1342,
+                  923,
+                  1368
+                ]
+              }
+            ]
+          }
+        ],
+        "lines": [
+          {
+            "text": "마음이음작성완료예시·개정2판",
+            "bbox": [
+              71,
+              30,
+              273,
+              50
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9662951827049255
+          },
+          {
+            "text": "테스트용가상문서/공식서식아님",
+            "bbox": [
+              719,
+              30,
+              920,
+              50
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9751831889152527
+          },
+          {
+            "text": "[가상서식4]",
+            "bbox": [
+              86,
+              103,
+              186,
+              127
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9916437268257141
+          },
+          {
+            "text": "사업비 산출 및 추진 일정",
+            "bbox": [
+              354,
+              147,
+              657,
+              181
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9982553720474243
+          },
+          {
+            "text": "2026소상공인 매장환경개선 지원사업",
+            "bbox": [
+              370,
+              199,
+              640,
+              223
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9512842297554016
+          },
+          {
+            "text": "1.사업비산출 내역",
+            "bbox": [
+              79,
+              263,
+              230,
+              291
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9482132792472839
+          },
+          {
+            "text": "품목",
+            "bbox": [
+              86,
+              316,
+              130,
+              350
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9846558570861816
+          },
+          {
+            "text": "수량",
+            "bbox": [
+              472,
+              314,
+              519,
+              351
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9962064027786255
+          },
+          {
+            "text": "단가(원)",
+            "bbox": [
+              565,
+              315,
+              630,
+              348
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9885657429695129
+          },
+          {
+            "text": "공급가액(원)",
+            "bbox": [
+              752,
+              317,
+              838,
+              346
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9942340850830078
+          },
+          {
+            "text": "외부간판교체",
+            "bbox": [
+              88,
+              368,
+              188,
+              399
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9986183047294617
+          },
+          {
+            "text": "1식",
+            "bbox": [
+              473,
+              369,
+              515,
+              405
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9985048770904541
+          },
+          {
+            "text": "1,800,000",
+            "bbox": [
+              564,
+              367,
+              645,
+              402
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9551534652709961
+          },
+          {
+            "text": "1,800,000",
+            "bbox": [
+              750,
+              368,
+              827,
+              401
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9589210152626038
+          },
+          {
+            "text": "매장조명 개선",
+            "bbox": [
+              91,
+              425,
+              187,
+              450
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9361504912376404
+          },
+          {
+            "text": "10개",
+            "bbox": [
+              475,
+              421,
+              522,
+              454
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9970652461051941
+          },
+          {
+            "text": "70,000",
+            "bbox": [
+              565,
+              422,
+              625,
+              453
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9621168971061707
+          },
+          {
+            "text": "700,000",
+            "bbox": [
+              750,
+              421,
+              818,
+              454
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9215735197067261
+          },
+          {
+            "text": "전기 배선정비",
+            "bbox": [
+              90,
+              477,
+              188,
+              505
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9202800989151001
+          },
+          {
+            "text": "1식",
+            "bbox": [
+              472,
+              473,
+              516,
+              512
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9991005659103394
+          },
+          {
+            "text": "500,000",
+            "bbox": [
+              564,
+              475,
+              633,
+              508
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9887927770614624
+          },
+          {
+            "text": "500,000",
+            "bbox": [
+              749,
+              475,
+              818,
+              508
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9942598342895508
+          },
+          {
+            "text": "공급가액합계",
+            "bbox": [
+              91,
+              532,
+              184,
+              556
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9969310760498047
+          },
+          {
+            "text": "3,000,000",
+            "bbox": [
+              750,
+              529,
+              827,
+              560
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9898678660392761
+          },
+          {
+            "text": "부가세",
+            "bbox": [
+              87,
+              581,
+              142,
+              614
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9964879155158997
+          },
+          {
+            "text": "300,000",
+            "bbox": [
+              751,
+              583,
+              816,
+              613
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9880361557006836
+          },
+          {
+            "text": "총사업비",
+            "bbox": [
+              88,
+              634,
+              158,
+              667
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9971795082092285
+          },
+          {
+            "text": "3,300,000",
+            "bbox": [
+              750,
+              636,
+              828,
+              668
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9920200705528259
+          },
+          {
+            "text": "2.재원구성",
+            "bbox": [
+              76,
+              691,
+              177,
+              723
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9869222044944763
+          },
+          {
+            "text": "지원신청액",
+            "bbox": [
+              89,
+              742,
+              172,
+              771
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9953097105026245
+          },
+          {
+            "text": "자부담(부가세)",
+            "bbox": [
+              371,
+              743,
+              475,
+              772
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9881529808044434
+          },
+          {
+            "text": "총사업비",
+            "bbox": [
+              652,
+              742,
+              721,
+              772
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9982169270515442
+          },
+          {
+            "text": "3,000,000원",
+            "bbox": [
+              88,
+              795,
+              179,
+              827
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9731661677360535
+          },
+          {
+            "text": "300,000원",
+            "bbox": [
+              369,
+              795,
+              449,
+              827
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9863346219062805
+          },
+          {
+            "text": "3,300,000원",
+            "bbox": [
+              652,
+              797,
+              743,
+              825
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9472948908805847
+          },
+          {
+            "text": "3.추진일정및점검",
+            "bbox": [
+              78,
+              856,
+              235,
+              883
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9904830455780029
+          },
+          {
+            "text": "단계",
+            "bbox": [
+              86,
+              903,
+              131,
+              942
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9993969202041626
+          },
+          {
+            "text": "예정시점",
+            "bbox": [
+              187,
+              901,
+              259,
+              937
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.989349901676178
+          },
+          {
+            "text": "주요 내용",
+            "bbox": [
+              428,
+              900,
+              501,
+              937
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9535732269287109
+          },
+          {
+            "text": "준비",
+            "bbox": [
+              88,
+              964,
+              130,
+              996
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9974589347839355
+          },
+          {
+            "text": "선정통보후1~7일",
+            "bbox": [
+              191,
+              965,
+              314,
+              993
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9700909852981567
+          },
+          {
+            "text": "시공범위·일정협의,기존상태기록",
+            "bbox": [
+              434,
+              970,
+              660,
+              989
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9608727693557739
+          },
+          {
+            "text": "시공",
+            "bbox": [
+              87,
+              1035,
+              129,
+              1068
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9979016184806824
+          },
+          {
+            "text": "8~21일",
+            "bbox": [
+              188,
+              1036,
+              248,
+              1066
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9734927415847778
+          },
+          {
+            "text": "간판·조명교체,배선점검·정비",
+            "bbox": [
+              435,
+              1040,
+              633,
+              1061
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9452037811279297
+          },
+          {
+            "text": "확인",
+            "bbox": [
+              86,
+              1107,
+              130,
+              1140
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9996710419654846
+          },
+          {
+            "text": "22~30일",
+            "bbox": [
+              189,
+              1110,
+              254,
+              1136
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9777979254722595
+          },
+          {
+            "text": "수량·점등·정비내역확인,결과자료정리",
+            "bbox": [
+              434,
+              1112,
+              695,
+              1132
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9582034945487976
+          },
+          {
+            "text": "※시점은가상 계획입니다.실제지원사업의 계약· 착공·정산 절차를 대신하지 않습니다.",
+            "bbox": [
+              80,
+              1177,
+              564,
+              1197
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9083629846572876
+          },
+          {
+            "text": "모든정보는가상입니다.실제 신청·증명-계약·지급에사용할수없습니다",
+            "bbox": [
+              70,
+              1342,
+              480,
+              1363
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9299232363700867
+          },
+          {
+            "text": "-4-",
+            "bbox": [
+              889,
+              1342,
+              923,
+              1368
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8309557437896729
+          }
+        ],
+        "fields": {
+          "totalAmount": "3300000",
+          "planText": "모든정보는가상입니다.실제 신청·증명-계약·지급에사용할수없습니다"
+        },
+        "evidence": {
+          "totalAmount": {
+            "bbox": [
+              750,
+              636,
+              828,
+              668
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9920200705528259
+          }
+        },
+        "photos": [],
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kindLabel": "사업계획서",
+        "previewKey": "3692d25a4fd761d4978b69981c0128f45593fb9115287bbaf55fdbbce86e4c2b.png",
+        "groupStart": false
+      },
+      {
+        "pageNumber": 5,
+        "pageCount": 7,
+        "kind": "PHOTO_SHEET",
+        "width": 992,
+        "height": 1403,
+        "textSource": "PADDLE_OCR",
+        "tableRows": [],
+        "lines": [
+          {
+            "text": "마음이음작성완료예시·개정2판",
+            "bbox": [
+              70,
+              29,
+              273,
+              50
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9681806564331055
+          },
+          {
+            "text": "테스트용가상문서/공식서식아님",
+            "bbox": [
+              720,
+              32,
+              919,
+              49
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9755416512489319
+          },
+          {
+            "text": "[가상서식5]",
+            "bbox": [
+              86,
+              104,
+              184,
+              125
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9920920133590698
+          },
+          {
+            "text": "사업장 현황 및 개선 계획 사진대지",
+            "bbox": [
+              297,
+              149,
+              714,
+              180
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9826254844665527
+          },
+          {
+            "text": "2026소상공인매장환경개선지원사업",
+            "bbox": [
+              369,
+              199,
+              639,
+              222
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9888163805007935
+          },
+          {
+            "text": "사업장내·외부현황",
+            "bbox": [
+              94,
+              265,
+              241,
+              285
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.931689977645874
+          },
+          {
+            "text": "가상상점",
+            "bbox": [
+              187,
+              363,
+              376,
+              416
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9974514245986938
+          },
+          {
+            "text": "238",
+            "bbox": [
+              416,
+              395,
+              443,
+              410
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.4397001564502716
+          },
+          {
+            "text": "외부:출입구정면/기존간판이 보이는구도",
+            "bbox": [
+              93,
+              603,
+              333,
+              620
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9702014923095703
+          },
+          {
+            "text": "내부:출입구에서진열통로·천장조명을보는 구도",
+            "bbox": [
+              516,
+              604,
+              792,
+              621
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9688023328781128
+          },
+          {
+            "text": "A로생성한테스트용사진",
+            "bbox": [
+              91,
+              632,
+              240,
+              649
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9799566268920898
+          },
+          {
+            "text": "AI로생성한테스트용사진",
+            "bbox": [
+              513,
+              631,
+              662,
+              651
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9696407318115234
+          },
+          {
+            "text": "실제매장촬영 아님",
+            "bbox": [
+              92,
+              651,
+              204,
+              671
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9132215976715088
+          },
+          {
+            "text": "실제 매장촬영아님",
+            "bbox": [
+              515,
+              651,
+              625,
+              671
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8958247303962708
+          },
+          {
+            "text": "개선할부분및상세설명",
+            "bbox": [
+              93,
+              717,
+              265,
+              738
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9683982133865356
+          },
+          {
+            "text": "구분",
+            "bbox": [
+              88,
+              763,
+              128,
+              792
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9892430901527405
+          },
+          {
+            "text": "현재상태",
+            "bbox": [
+              211,
+              763,
+              279,
+              789
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9976450204849243
+          },
+          {
+            "text": "개선 계획",
+            "bbox": [
+              519,
+              764,
+              587,
+              789
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9091674089431763
+          },
+          {
+            "text": "외부간판",
+            "bbox": [
+              89,
+              838,
+              157,
+              863
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9967702031135559
+          },
+          {
+            "text": "표면노후및글자 퇴색",
+            "bbox": [
+              214,
+              840,
+              356,
+              861
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9365873336791992
+          },
+          {
+            "text": "기존간판철거및LED간판설치",
+            "bbox": [
+              523,
+              842,
+              724,
+              859
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9825658202171326
+          },
+          {
+            "text": "내부 조명",
+            "bbox": [
+              91,
+              938,
+              156,
+              963
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9013385772705078
+          },
+          {
+            "text": "진열 통로의 고르지 않은 밝기",
+            "bbox": [
+              216,
+              942,
+              395,
+              959
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.943570613861084
+          },
+          {
+            "text": "천장LED 조명10개교체",
+            "bbox": [
+              523,
+              940,
+              680,
+              960
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9554637670516968
+          },
+          {
+            "text": "배선점검",
+            "bbox": [
+              91,
+              1038,
+              156,
+              1063
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9968825578689575
+          },
+          {
+            "text": "사진만으로상태를판정할수없음",
+            "bbox": [
+              215,
+              1042,
+              423,
+              1059
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9964166879653931
+          },
+          {
+            "text": "별도점검후정비범위확인",
+            "bbox": [
+              523,
+              1040,
+              693,
+              1060
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9852876663208008
+          },
+          {
+            "text": "※ 사진은 두 개의별도생성장면입니다.실제찰영일·GPS 정보가 없으며 현장상태 또는 공사결과를증명하지 않습니다",
+            "bbox": [
+              82,
+              1121,
+              739,
+              1135
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9080085158348083
+          },
+          {
+            "text": "모든 정보는 가상입니다, 실제 신청·증명·계약·지급에 사용할 수없습니다",
+            "bbox": [
+              72,
+              1346,
+              478,
+              1360
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8990272879600525
+          },
+          {
+            "text": "-5-",
+            "bbox": [
+              890,
+              1342,
+              922,
+              1366
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9897690415382385
+          }
+        ],
+        "fields": {},
+        "evidence": {},
+        "photos": [
+          {
+            "bbox": [
+              84,
+              254,
+              927,
+              1103
+            ],
+            "method": "OPENCV_CANDIDATE",
+            "storageKey": "256f3c592e8810d8d8e092cc982e5667d89674dcbb6a3e1fcc395b0eaa867362.png"
+          }
+        ],
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kindLabel": "현장 사진",
+        "previewKey": "7d97eddb3238bddeb391157829323842e87a963d59ce03384c3a5436f41102ac.png",
+        "groupStart": true,
+        "ai": {
+          "pageNumber": 5,
+          "fields": {},
+          "evidence": {},
+          "suggestedKind": "PHOTO_SHEET",
+          "kindEvidence": {
+            "lineIndex": 3,
+            "text": "사업장 현황 및 개선 계획 사진대지"
+          },
+          "kindAgreement": true,
+          "kindLabel": "현장 사진"
+        }
+      },
+      {
+        "pageNumber": 6,
+        "pageCount": 7,
+        "kind": "BUSINESS_CERT",
+        "width": 992,
+        "height": 1403,
+        "textSource": "PADDLE_OCR",
+        "tableRows": [],
+        "lines": [
+          {
+            "text": "마음이음작성완료예시·개정2판",
+            "bbox": [
+              70,
+              29,
+              273,
+              50
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9735546708106995
+          },
+          {
+            "text": "테스트용가상문서/공식서식아님",
+            "bbox": [
+              720,
+              32,
+              919,
+              49
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9850615859031677
+          },
+          {
+            "text": "[가상서식첨부1]",
+            "bbox": [
+              87,
+              105,
+              213,
+              125
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9841345548629761
+          },
+          {
+            "text": "사업자등록증(가상)",
+            "bbox": [
+              380,
+              146,
+              629,
+              183
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.999555230140686
+          },
+          {
+            "text": "문서대조·OCR시험용/실제 세무기관발급문서아님",
+            "bbox": [
+              319,
+              199,
+              692,
+              222
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9439886212348938
+          },
+          {
+            "text": "등록번호",
+            "bbox": [
+              90,
+              277,
+              154,
+              302
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9792161583900452
+          },
+          {
+            "text": "000-00-00000",
+            "bbox": [
+              274,
+              277,
+              375,
+              301
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9929952621459961
+          },
+          {
+            "text": "상호",
+            "bbox": [
+              87,
+              352,
+              128,
+              384
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9918625354766846
+          },
+          {
+            "text": "가상상점",
+            "bbox": [
+              272,
+              356,
+              337,
+              382
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9763089418411255
+          },
+          {
+            "text": "성명(대표자)",
+            "bbox": [
+              91,
+              436,
+              181,
+              461
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9581674337387085
+          },
+          {
+            "text": "가상대표",
+            "bbox": [
+              272,
+              435,
+              337,
+              461
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9919335842132568
+          },
+          {
+            "text": "개업연월일",
+            "bbox": [
+              90,
+              517,
+              168,
+              542
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9955716133117676
+          },
+          {
+            "text": "2024년 01월01일",
+            "bbox": [
+              274,
+              518,
+              394,
+              539
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9631907343864441
+          },
+          {
+            "text": "사업장소재지",
+            "bbox": [
+              90,
+              608,
+              184,
+              632
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9898983836174011
+          },
+          {
+            "text": "가상시예시구도움로123,1층",
+            "bbox": [
+              274,
+              608,
+              468,
+              630
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9893973469734192
+          },
+          {
+            "text": "업태: 도매및소매업",
+            "bbox": [
+              275,
+              702,
+              403,
+              723
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9479696154594421
+          },
+          {
+            "text": "사업의 종류",
+            "bbox": [
+              91,
+              712,
+              172,
+              737
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9436750411987305
+          },
+          {
+            "text": "종목:생활잡화소매",
+            "bbox": [
+              275,
+              727,
+              402,
+              747
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9827214479446411
+          },
+          {
+            "text": "사업자유형",
+            "bbox": [
+              89,
+              808,
+              172,
+              836
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9954594373703003
+          },
+          {
+            "text": "개인사업자(가상 분류)",
+            "bbox": [
+              275,
+              810,
+              419,
+              833
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9505297541618347
+          },
+          {
+            "text": "시험자료안내",
+            "bbox": [
+              92,
+              877,
+              187,
+              898
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9964528679847717
+          },
+          {
+            "text": "등록번호·상호·대표자·개업일은신청서와대조하기위한가상값입니다.이문서에는실제개인정보·관인·인증QR이 없습니다.실제",
+            "bbox": [
+              92,
+              950,
+              911,
+              971
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.924272358417511
+          },
+          {
+            "text": "사업자여부를증명하거나지원 자격을판정할 수없습니다.",
+            "bbox": [
+              94,
+              978,
+              453,
+              994
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.950192928314209
+          },
+          {
+            "text": "2026년10월20일",
+            "bbox": [
+              429,
+              1066,
+              562,
+              1090
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9989659786224365
+          },
+          {
+            "text": "마음이음 테스트자료제작자(가상)",
+            "bbox": [
+              374,
+              1093,
+              616,
+              1118
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9594488739967346
+          },
+          {
+            "text": "모든 정보는 가상입니다 실제 신청·증명·계약·지급에 사용할 수없습니다",
+            "bbox": [
+              72,
+              1346,
+              478,
+              1360
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.906143307685852
+          },
+          {
+            "text": "-6-",
+            "bbox": [
+              889,
+              1342,
+              923,
+              1367
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9895291328430176
+          }
+        ],
+        "fields": {
+          "businessName": "가상상점",
+          "businessNo": "0000000000",
+          "representative": "가상대표",
+          "openedOn": "2024-01-01",
+          "address": "가상시예시구도움로123,1층",
+          "businessType": "도매및소매업",
+          "businessItem": "생활잡화소매"
+        },
+        "evidence": {
+          "businessName": {
+            "bbox": [
+              272,
+              356,
+              337,
+              382
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9763089418411255
+          },
+          "businessNo": {
+            "bbox": [
+              274,
+              277,
+              375,
+              301
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9929952621459961
+          },
+          "representative": {
+            "bbox": [
+              272,
+              435,
+              337,
+              461
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9919335842132568
+          },
+          "openedOn": {
+            "bbox": [
+              274,
+              518,
+              394,
+              539
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9631907343864441
+          },
+          "address": {
+            "bbox": [
+              274,
+              608,
+              468,
+              630
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9893973469734192
+          },
+          "businessType": {
+            "bbox": [
+              275,
+              702,
+              403,
+              723
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9479696154594421
+          },
+          "businessItem": {
+            "bbox": [
+              275,
+              727,
+              402,
+              747
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9827214479446411
+          }
+        },
+        "photos": [],
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kindLabel": "사업자등록증",
+        "previewKey": "788524680e18106c0b3e1cf6989a914d339158079771a9724dea1eb98ded5ba8.png",
+        "groupStart": true,
+        "ai": {
+          "pageNumber": 6,
+          "fields": {
+            "businessName": "가상상점",
+            "representative": "가상대표",
+            "businessNo": "0000000000",
+            "openedOn": "2024-01-01",
+            "address": "가상시예시구도움로123,1층",
+            "businessType": "개인사업자(가상 분류)",
+            "businessItem": "생활잡화소매"
+          },
+          "evidence": {
+            "businessName": {
+              "lineIndex": 8,
+              "rawValue": "가상상점",
+              "bbox": [
+                272,
+                356,
+                337,
+                382
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "representative": {
+              "lineIndex": 10,
+              "rawValue": "가상대표",
+              "bbox": [
+                272,
+                435,
+                337,
+                461
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "businessNo": {
+              "lineIndex": 6,
+              "rawValue": "000-00-00000",
+              "bbox": [
+                274,
+                277,
+                375,
+                301
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "openedOn": {
+              "lineIndex": 12,
+              "rawValue": "2024년 01월01일",
+              "bbox": [
+                274,
+                518,
+                394,
+                539
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "address": {
+              "lineIndex": 14,
+              "rawValue": "가상시예시구도움로123,1층",
+              "bbox": [
+                274,
+                608,
+                468,
+                630
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "businessType": {
+              "lineIndex": 19,
+              "rawValue": "개인사업자(가상 분류)",
+              "bbox": [
+                275,
+                810,
+                419,
+                833
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "businessItem": {
+              "lineIndex": 17,
+              "rawValue": "생활잡화소매",
+              "bbox": [
+                275,
+                727,
+                402,
+                747
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            }
+          },
+          "suggestedKind": "BUSINESS_CERT",
+          "kindEvidence": {
+            "lineIndex": 3,
+            "text": "사업자등록증(가상)"
+          },
+          "kindAgreement": true,
+          "kindLabel": "사업자등록증"
+        }
+      },
+      {
+        "pageNumber": 7,
+        "pageCount": 7,
+        "kind": "ESTIMATE",
+        "width": 992,
+        "height": 1403,
+        "textSource": "PADDLE_OCR",
+        "tableRows": [
+          {
+            "y": 30,
+            "cells": [
+              {
+                "text": "마음이음작성완료예시·개정2판",
+                "bbox": [
+                  71,
+                  30,
+                  273,
+                  50
+                ]
+              },
+              {
+                "text": "테스트용가상문서/공식서식아님",
+                "bbox": [
+                  719,
+                  30,
+                  920,
+                  50
+                ]
+              }
+            ]
+          },
+          {
+            "y": 258,
+            "cells": [
+              {
+                "text": "공급자",
+                "bbox": [
+                  510,
+                  258,
+                  565,
+                  290
+                ]
+              },
+              {
+                "text": "공급받는자",
+                "bbox": [
+                  90,
+                  261,
+                  171,
+                  286
+                ]
+              }
+            ]
+          },
+          {
+            "y": 307,
+            "cells": [
+              {
+                "text": "상호",
+                "bbox": [
+                  87,
+                  307,
+                  129,
+                  340
+                ]
+              },
+              {
+                "text": "상호",
+                "bbox": [
+                  510,
+                  307,
+                  551,
+                  341
+                ]
+              },
+              {
+                "text": "가상간판공방",
+                "bbox": [
+                  637,
+                  307,
+                  731,
+                  337
+                ]
+              },
+              {
+                "text": "가상상점",
+                "bbox": [
+                  215,
+                  308,
+                  281,
+                  337
+                ]
+              }
+            ]
+          },
+          {
+            "y": 355,
+            "cells": [
+              {
+                "text": "가상대표",
+                "bbox": [
+                  215,
+                  355,
+                  281,
+                  384
+                ]
+              },
+              {
+                "text": "가상시공자",
+                "bbox": [
+                  638,
+                  355,
+                  715,
+                  384
+                ]
+              },
+              {
+                "text": "대표자",
+                "bbox": [
+                  88,
+                  356,
+                  141,
+                  386
+                ]
+              },
+              {
+                "text": "대표자",
+                "bbox": [
+                  512,
+                  356,
+                  565,
+                  387
+                ]
+              }
+            ]
+          },
+          {
+            "y": 405,
+            "cells": [
+              {
+                "text": "사업자번호",
+                "bbox": [
+                  513,
+                  405,
+                  591,
+                  433
+                ]
+              },
+              {
+                "text": "사업자번호",
+                "bbox": [
+                  89,
+                  406,
+                  168,
+                  433
+                ]
+              },
+              {
+                "text": "000-00-00001",
+                "bbox": [
+                  639,
+                  406,
+                  738,
+                  430
+                ]
+              },
+              {
+                "text": "000-00-00000",
+                "bbox": [
+                  217,
+                  407,
+                  317,
+                  430
+                ]
+              }
+            ]
+          },
+          {
+            "y": 450,
+            "cells": [
+              {
+                "text": "견적일",
+                "bbox": [
+                  87,
+                  450,
+                  141,
+                  484
+                ]
+              },
+              {
+                "text": "연락처",
+                "bbox": [
+                  511,
+                  451,
+                  565,
+                  482
+                ]
+              },
+              {
+                "text": "2026.10.20",
+                "bbox": [
+                  217,
+                  453,
+                  300,
+                  478
+                ]
+              },
+              {
+                "text": "000-0000-0000",
+                "bbox": [
+                  640,
+                  453,
+                  748,
+                  478
+                ]
+              }
+            ]
+          },
+          {
+            "y": 500,
+            "cells": [
+              {
+                "text": "공급가액(원)",
+                "bbox": [
+                  751,
+                  500,
+                  837,
+                  530
+                ]
+              },
+              {
+                "text": "품목/규격",
+                "bbox": [
+                  89,
+                  501,
+                  168,
+                  529
+                ]
+              },
+              {
+                "text": "수량",
+                "bbox": [
+                  475,
+                  501,
+                  516,
+                  530
+                ]
+              },
+              {
+                "text": "단가(원)",
+                "bbox": [
+                  566,
+                  501,
+                  630,
+                  530
+                ]
+              }
+            ]
+          },
+          {
+            "y": 572,
+            "cells": [
+              {
+                "text": "1식",
+                "bbox": [
+                  473,
+                  572,
+                  515,
+                  605
+                ]
+              },
+              {
+                "text": "1,800,000",
+                "bbox": [
+                  565,
+                  572,
+                  645,
+                  604
+                ]
+              },
+              {
+                "text": "1,800,000",
+                "bbox": [
+                  750,
+                  573,
+                  828,
+                  604
+                ]
+              }
+            ]
+          },
+          {
+            "y": 669,
+            "cells": [
+              {
+                "text": "10개",
+                "bbox": [
+                  475,
+                  669,
+                  521,
+                  697
+                ]
+              },
+              {
+                "text": "70,000",
+                "bbox": [
+                  566,
+                  669,
+                  626,
+                  698
+                ]
+              },
+              {
+                "text": "700,000",
+                "bbox": [
+                  751,
+                  670,
+                  815,
+                  696
+                ]
+              }
+            ]
+          },
+          {
+            "y": 763,
+            "cells": [
+              {
+                "text": "1식",
+                "bbox": [
+                  474,
+                  763,
+                  514,
+                  793
+                ]
+              },
+              {
+                "text": "500,000",
+                "bbox": [
+                  750,
+                  764,
+                  816,
+                  793
+                ]
+              },
+              {
+                "text": "500,000",
+                "bbox": [
+                  566,
+                  765,
+                  631,
+                  791
+                ]
+              }
+            ]
+          },
+          {
+            "y": 838,
+            "cells": [
+              {
+                "text": "3,000,000",
+                "bbox": [
+                  751,
+                  838,
+                  828,
+                  866
+                ]
+              },
+              {
+                "text": "공급가액합계",
+                "bbox": [
+                  91,
+                  839,
+                  183,
+                  864
+                ]
+              }
+            ]
+          },
+          {
+            "y": 886,
+            "cells": [
+              {
+                "text": "부가세",
+                "bbox": [
+                  88,
+                  886,
+                  142,
+                  917
+                ]
+              },
+              {
+                "text": "300,000",
+                "bbox": [
+                  750,
+                  887,
+                  814,
+                  916
+                ]
+              }
+            ]
+          },
+          {
+            "y": 941,
+            "cells": [
+              {
+                "text": "3,300,000",
+                "bbox": [
+                  751,
+                  941,
+                  827,
+                  970
+                ]
+              },
+              {
+                "text": "총견적금액",
+                "bbox": [
+                  90,
+                  942,
+                  170,
+                  967
+                ]
+              }
+            ]
+          },
+          {
+            "y": 1342,
+            "cells": [
+              {
+                "text": "-7-",
+                "bbox": [
+                  890,
+                  1342,
+                  922,
+                  1368
+                ]
+              },
+              {
+                "text": "모든정보는가상입니다.실제 신청·증명·계약·지급에사용할수없습니다",
+                "bbox": [
+                  72,
+                  1345,
+                  479,
+                  1362
+                ]
+              }
+            ]
+          }
+        ],
+        "lines": [
+          {
+            "text": "마음이음작성완료예시·개정2판",
+            "bbox": [
+              71,
+              30,
+              273,
+              50
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9632304310798645
+          },
+          {
+            "text": "테스트용가상문서/공식서식아님",
+            "bbox": [
+              719,
+              30,
+              920,
+              50
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9632307887077332
+          },
+          {
+            "text": "[가상서식첨부2]",
+            "bbox": [
+              87,
+              103,
+              214,
+              126
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9931495189666748
+          },
+          {
+            "text": "견적서",
+            "bbox": [
+              451,
+              145,
+              558,
+              184
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9996424317359924
+          },
+          {
+            "text": "TEST-Q-2026-001/가상거래견적·실제청구용아님",
+            "bbox": [
+              315,
+              199,
+              695,
+              223
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9818805456161499
+          },
+          {
+            "text": "공급받는자",
+            "bbox": [
+              90,
+              261,
+              171,
+              286
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9980617761611938
+          },
+          {
+            "text": "공급자",
+            "bbox": [
+              510,
+              258,
+              565,
+              290
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9984915256500244
+          },
+          {
+            "text": "상호",
+            "bbox": [
+              87,
+              307,
+              129,
+              340
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9974485635757446
+          },
+          {
+            "text": "가상상점",
+            "bbox": [
+              215,
+              308,
+              281,
+              337
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9954071044921875
+          },
+          {
+            "text": "상호",
+            "bbox": [
+              510,
+              307,
+              551,
+              341
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9948723316192627
+          },
+          {
+            "text": "가상간판공방",
+            "bbox": [
+              637,
+              307,
+              731,
+              337
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.996979296207428
+          },
+          {
+            "text": "대표자",
+            "bbox": [
+              88,
+              356,
+              141,
+              386
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9956488609313965
+          },
+          {
+            "text": "가상대표",
+            "bbox": [
+              215,
+              355,
+              281,
+              384
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9959946870803833
+          },
+          {
+            "text": "대표자",
+            "bbox": [
+              512,
+              356,
+              565,
+              387
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9954579472541809
+          },
+          {
+            "text": "가상시공자",
+            "bbox": [
+              638,
+              355,
+              715,
+              384
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9942839741706848
+          },
+          {
+            "text": "사업자번호",
+            "bbox": [
+              89,
+              406,
+              168,
+              433
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9859980344772339
+          },
+          {
+            "text": "000-00-00000",
+            "bbox": [
+              217,
+              407,
+              317,
+              430
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9509652256965637
+          },
+          {
+            "text": "사업자번호",
+            "bbox": [
+              513,
+              405,
+              591,
+              433
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9770574569702148
+          },
+          {
+            "text": "000-00-00001",
+            "bbox": [
+              639,
+              406,
+              738,
+              430
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9641356468200684
+          },
+          {
+            "text": "견적일",
+            "bbox": [
+              87,
+              450,
+              141,
+              484
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9797526001930237
+          },
+          {
+            "text": "2026.10.20",
+            "bbox": [
+              217,
+              453,
+              300,
+              478
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9983220100402832
+          },
+          {
+            "text": "연락처",
+            "bbox": [
+              511,
+              451,
+              565,
+              482
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9979200959205627
+          },
+          {
+            "text": "000-0000-0000",
+            "bbox": [
+              640,
+              453,
+              748,
+              478
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9947988986968994
+          },
+          {
+            "text": "품목/규격",
+            "bbox": [
+              89,
+              501,
+              168,
+              529
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9938367605209351
+          },
+          {
+            "text": "수량",
+            "bbox": [
+              475,
+              501,
+              516,
+              530
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.999542236328125
+          },
+          {
+            "text": "단가(원)",
+            "bbox": [
+              566,
+              501,
+              630,
+              530
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9902766346931458
+          },
+          {
+            "text": "공급가액(원)",
+            "bbox": [
+              751,
+              500,
+              837,
+              530
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9969870448112488
+          },
+          {
+            "text": "외부간판교체",
+            "bbox": [
+              91,
+              563,
+              187,
+              587
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9978809952735901
+          },
+          {
+            "text": "1식",
+            "bbox": [
+              473,
+              572,
+              515,
+              605
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9971218705177307
+          },
+          {
+            "text": "1,800,000",
+            "bbox": [
+              565,
+              572,
+              645,
+              604
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9870865941047668
+          },
+          {
+            "text": "1,800,000",
+            "bbox": [
+              750,
+              573,
+              828,
+              604
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9656595587730408
+          },
+          {
+            "text": "기존간판철거및LED간판설치",
+            "bbox": [
+              92,
+              590,
+              294,
+              611
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9772980809211731
+          },
+          {
+            "text": "매장 조명개선",
+            "bbox": [
+              91,
+              659,
+              187,
+              683
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9379739761352539
+          },
+          {
+            "text": "10개",
+            "bbox": [
+              475,
+              669,
+              521,
+              697
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9968223571777344
+          },
+          {
+            "text": "70,000",
+            "bbox": [
+              566,
+              669,
+              626,
+              698
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9463359713554382
+          },
+          {
+            "text": "700,000",
+            "bbox": [
+              751,
+              670,
+              815,
+              696
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9429439306259155
+          },
+          {
+            "text": "천장LED 조명10개교체",
+            "bbox": [
+              92,
+              685,
+              250,
+              705
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9592026472091675
+          },
+          {
+            "text": "전기배선정비",
+            "bbox": [
+              91,
+              753,
+              187,
+              777
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9906927943229675
+          },
+          {
+            "text": "1식",
+            "bbox": [
+              474,
+              763,
+              514,
+              793
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9976103901863098
+          },
+          {
+            "text": "500,000",
+            "bbox": [
+              566,
+              765,
+              631,
+              791
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9985207915306091
+          },
+          {
+            "text": "500,000",
+            "bbox": [
+              750,
+              764,
+              816,
+              793
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9936609268188477
+          },
+          {
+            "text": "노후배선점검·교체및안전확인",
+            "bbox": [
+              92,
+              780,
+              301,
+              800
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9795621633529663
+          },
+          {
+            "text": "공급가액합계",
+            "bbox": [
+              91,
+              839,
+              183,
+              864
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9945418238639832
+          },
+          {
+            "text": "3,000,000",
+            "bbox": [
+              751,
+              838,
+              828,
+              866
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9893013834953308
+          },
+          {
+            "text": "부가세",
+            "bbox": [
+              88,
+              886,
+              142,
+              917
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.995074450969696
+          },
+          {
+            "text": "300,000",
+            "bbox": [
+              750,
+              887,
+              814,
+              916
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9989463686943054
+          },
+          {
+            "text": "총견적금액",
+            "bbox": [
+              90,
+              942,
+              170,
+              967
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.972705066204071
+          },
+          {
+            "text": "3,300,000",
+            "bbox": [
+              751,
+              941,
+              827,
+              970
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9885426759719849
+          },
+          {
+            "text": "거래 조건및확인",
+            "bbox": [
+              91,
+              994,
+              203,
+              1018
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9406770467758179
+          },
+          {
+            "text": "유효기간:2026.11.20까지/완료예정:일정협의후30일이내",
+            "bbox": [
+              93,
+              1064,
+              481,
+              1084
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9608561992645264
+          },
+          {
+            "text": "시공예정지:가상시예시구도움로123,1층",
+            "bbox": [
+              93,
+              1090,
+              365,
+              1110
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9835255742073059
+          },
+          {
+            "text": "위견적의품목·수량·금액을 확인합니다.공급업체:가상간판공방(테스트확인)",
+            "bbox": [
+              92,
+              1113,
+              581,
+              1135
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9523761868476868
+          },
+          {
+            "text": "실제 계약·시공·계약금입금이없는 가상거래자료입니다",
+            "bbox": [
+              95,
+              1141,
+              452,
+              1158
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9452316164970398
+          },
+          {
+            "text": "모든정보는가상입니다.실제 신청·증명·계약·지급에사용할수없습니다",
+            "bbox": [
+              72,
+              1345,
+              479,
+              1362
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9218119382858276
+          },
+          {
+            "text": "-7-",
+            "bbox": [
+              890,
+              1342,
+              922,
+              1368
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9794661998748779
+          }
+        ],
+        "fields": {
+          "businessName": "가상상점",
+          "businessNo": "0000000000",
+          "representative": "가상대표",
+          "phone": "000-0000-0000",
+          "totalAmount": "3300000"
+        },
+        "evidence": {
+          "businessName": {
+            "bbox": [
+              215,
+              308,
+              281,
+              337
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9954071044921875
+          },
+          "businessNo": {
+            "bbox": [
+              217,
+              407,
+              317,
+              430
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9509652256965637
+          },
+          "representative": {
+            "bbox": [
+              215,
+              355,
+              281,
+              384
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9959946870803833
+          },
+          "phone": {
+            "bbox": [
+              640,
+              453,
+              748,
+              478
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9947988986968994
+          },
+          "totalAmount": {
+            "bbox": [
+              751,
+              941,
+              827,
+              970
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9885426759719849
+          }
+        },
+        "photos": [],
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kindLabel": "견적서",
+        "previewKey": "c415732d0413db89e3f28bec58b6b3da914543f176406e06281ff800e3401750.png",
+        "groupStart": true,
+        "ai": {
+          "pageNumber": 7,
+          "fields": {
+            "businessName": "가상상점",
+            "totalAmount": "3300000"
+          },
+          "evidence": {
+            "businessName": {
+              "lineIndex": 8,
+              "rawValue": "가상상점",
+              "bbox": [
+                215,
+                308,
+                281,
+                337
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "totalAmount": {
+              "lineIndex": 47,
+              "rawValue": "3,300,000",
+              "bbox": [
+                751,
+                941,
+                827,
+                970
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            }
+          },
+          "suggestedKind": "ESTIMATE",
+          "kindEvidence": {
+            "lineIndex": 3,
+            "text": "견적서"
+          },
+          "kindAgreement": true,
+          "kindLabel": "견적서"
+        }
+      }
+    ],
+    "groups": [
+      {
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kind": "APPLICATION",
+        "kindLabel": "신청서",
+        "pageNumbers": [
+          1,
+          2
+        ],
+        "indexes": [
+          0,
+          1
+        ],
+        "pdfKey": "312f932521ae0b0c8df09de0db813da3c3df4a2bd39c6f82b6fb674b9039140c.pdf"
+      },
+      {
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kind": "BUSINESS_PLAN",
+        "kindLabel": "사업계획서",
+        "pageNumbers": [
+          3,
+          4
+        ],
+        "indexes": [
+          2,
+          3
+        ],
+        "pdfKey": "4b59ed4fcae1aa7b143028547012f740fb1844bafc0c949ad61f4aed456e9887.pdf"
+      },
+      {
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kind": "PHOTO_SHEET",
+        "kindLabel": "현장 사진",
+        "pageNumbers": [
+          5
+        ],
+        "indexes": [
+          4
+        ],
+        "pdfKey": "cc56c5fc6255ff859e90e5fa2688f767272e42d55ae6f334c0e4412af0ec0553.pdf"
+      },
+      {
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kind": "BUSINESS_CERT",
+        "kindLabel": "사업자등록증",
+        "pageNumbers": [
+          6
+        ],
+        "indexes": [
+          5
+        ],
+        "pdfKey": "242213e02c1efe545e93b2350d31e2c3ab7d0722fd8835c5ea17efbb6f84cb95.pdf"
+      },
+      {
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kind": "ESTIMATE",
+        "kindLabel": "견적서",
+        "pageNumbers": [
+          7
+        ],
+        "indexes": [
+          6
+        ],
+        "pdfKey": "b0d1639ae944dee13396fc7243e332f736c2fff7d1a7c906141284e45e05751a.pdf"
+      }
+    ],
+    "fields": {
+      "businessName": "가상대표(테스트서명)",
+      "businessNo": "0000000000",
+      "representative": "가상대표",
+      "openedOn": "2024-01-01",
+      "phone": "000-0000-0000",
+      "address": "가상시예시구도움로123,1층",
+      "totalAmount": "3300000",
+      "planText": "가상상점은 생활잡화와 주방·청소용품을 판매하는 가상 소매점입니다. 고객이 입구를 쉽게 찾고 진열 상품을 확인할 수 있는 매장 환경\n을 목표로 합니다. 상호·소재지·개업일은 신청서 및 가상 증빙과 동일하게 작성했습니다.\n외부 간판은 표면이 낡고 글자가바래시인성 개선이 필요합니다.내부는천장 조명과 진열 통로의밝기가 고르지않은상황을 가정했습\n기존 간판 철거 및 LED 간판 설치,천장LED 조명 10개 교체를 계획합니다.배선은 사진으로 상태를 판정하지 않고 시공 전별도 점검 후\n정비 범위를 확인합니다. 모든 시공 내용은 실제 작업이 없는 테스트 계획입니다.\n출입구 식별과 진열 상품 확인이 쉬워지는 것을 목표로 합니다매출 증가율은 임의로 제시하지 않습니다\n완료 확인은 간판 점등 상태, 조명 교체 수량,점검·정비내역및동일 위치의전·후사진으로 진행하도록 계획합니다.완료증빙은 향후\n결과 보고 단계의 예시이며이번 자료에 실제 시공 결과를 포함하지 않습니다\n모든정보는가상입니다.실제신청·증명·계약·지급에사용할수없습니다\n모든정보는가상입니다.실제 신청·증명-계약·지급에사용할수없습니다",
+      "businessType": "도매및소매업",
+      "businessItem": "생활잡화소매",
+      "requestedAmount": "3000000",
+      "selfContribution": "300000"
+    },
+    "evidence": {
+      "businessName": {
+        "pageNumber": 1,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "businessNo": {
+        "pageNumber": 7,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "representative": {
+        "pageNumber": 7,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "openedOn": {
+        "pageNumber": 6,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "phone": {
+        "pageNumber": 7,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "address": {
+        "pageNumber": 6,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "totalAmount": {
+        "pageNumber": 7,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "planText": {
+        "pageNumber": 3,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "businessType": {
+        "pageNumber": 6,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "businessItem": {
+        "pageNumber": 6,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "requestedAmount": {
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "pageNumber": 2,
+        "textSource": "PADDLE_OCR"
+      },
+      "selfContribution": {
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "pageNumber": 2,
+        "textSource": "PADDLE_OCR"
+      }
+    },
+    "conflicts": [
+      {
+        "field": "businessName",
+        "previous": "가상대표(테스트서명)",
+        "candidate": "가상상점",
+        "pageNumber": 2,
+        "sourceName": "신청서.pdf"
+      },
+      {
+        "field": "businessName",
+        "previous": "가상대표(테스트서명)",
+        "candidate": "가상상점",
+        "pageNumber": 6,
+        "sourceName": "신청서.pdf"
+      },
+      {
+        "field": "businessName",
+        "previous": "가상대표(테스트서명)",
+        "candidate": "가상상점",
+        "pageNumber": 7,
+        "sourceName": "신청서.pdf"
+      },
+      {
+        "field": "businessType",
+        "previous": "도매및소매업",
+        "candidate": "개인사업자(가상)",
+        "pageNumber": 2,
+        "sourceName": "신청서.pdf"
+      },
+      {
+        "field": "businessItem",
+        "previous": "생활잡화소매",
+        "candidate": "도매및소매업/생활잡화소매",
+        "pageNumber": 2,
+        "sourceName": "신청서.pdf"
+      },
+      {
+        "field": "planText",
+        "previous": "가상상점은 생활잡화와 주방·청소용품을 판매하는 가상 소매점입니다. 고객이 입구를 쉽게 찾고 진열 상품을 확인할 수 있는 매장 환경\n을 목표로 합니다. 상호·소재지·개업일은 신청서 및 가상 증빙과 동일하게 작성했습니다.\n외부 간판은 표면이 낡고 글자가바래시인성 개선이 필요합니다.내부는천장 조명과 진열 통로의밝기가 고르지않은상황을 가정했습\n기존 간판 철거 및 LED 간판 설치,천장LED 조명 10개 교체를 계획합니다.배선은 사진으로 상태를 판정하지 않고 시공 전별도 점검 후\n정비 범위를 확인합니다. 모든 시공 내용은 실제 작업이 없는 테스트 계획입니다.\n출입구 식별과 진열 상품 확인이 쉬워지는 것을 목표로 합니다매출 증가율은 임의로 제시하지 않습니다\n완료 확인은 간판 점등 상태, 조명 교체 수량,점검·정비내역및동일 위치의전·후사진으로 진행하도록 계획합니다.완료증빙은 향후\n결과 보고 단계의 예시이며이번 자료에 실제 시공 결과를 포함하지 않습니다\n모든정보는가상입니다.실제신청·증명·계약·지급에사용할수없습니다\n모든정보는가상입니다.실제 신청·증명-계약·지급에사용할수없습니다",
+        "candidate": "노후간판교체,LED조명10개교체배선점검·정비를통해매장이용환경을개선하고자합니다사업자정보와견적내역을확인하고",
+        "pageNumber": 2,
+        "sourceName": "신청서.pdf"
+      },
+      {
+        "pageNumber": 6,
+        "field": "businessType",
+        "previous": "도매및소매업",
+        "candidate": "개인사업자(가상 분류)",
+        "sourceName": "신청서.pdf",
+        "method": "LLM_SOURCE_VERIFIED"
+      }
+    ],
+    "pageCount": 7,
+    "photoCount": 1,
+    "aiAnalyses": [
+      {
+        "provider": "openrouter",
+        "model": "google/gemma-4-26b-a4b-it",
+        "status": "SUCCEEDED",
+        "verifiedCount": 21,
+        "rejectedCount": 1,
+        "conflicts": [
+          {
+            "pageNumber": 6,
+            "field": "businessType",
+            "previous": "도매및소매업",
+            "candidate": "개인사업자(가상 분류)"
+          }
+        ],
+        "pageResults": [
+          {
+            "pageNumber": 2,
+            "fields": {
+              "businessName": "가상상점",
+              "representative": "가상대표",
+              "businessNo": "0000000000",
+              "openedOn": "2024-01-01",
+              "phone": "000-0000-0000",
+              "address": "가상시예시구도움로123,1층",
+              "businessType": "개인사업자(가상)",
+              "businessItem": "도매및소매업/생활잡화소매",
+              "requestedAmount": "3000000",
+              "selfContribution": "300000",
+              "totalAmount": "3300000",
+              "planText": "노후간판교체,LED조명10개교체배선점검·정비를통해매장이용환경을개선하고자합니다사업자정보와견적내역을확인하고"
+            },
+            "evidence": {
+              "businessName": {
+                "lineIndex": 10,
+                "rawValue": "가상상점",
+                "bbox": [
+                  339,
+                  312,
+                  405,
+                  341
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "representative": {
+                "lineIndex": 12,
+                "rawValue": "가상대표",
+                "bbox": [
+                  639,
+                  313,
+                  703,
+                  338
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "businessNo": {
+                "lineIndex": 14,
+                "rawValue": "000-00-00000",
+                "bbox": [
+                  341,
+                  366,
+                  442,
+                  391
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "openedOn": {
+                "lineIndex": 16,
+                "rawValue": "2024.01.01",
+                "bbox": [
+                  639,
+                  366,
+                  723,
+                  391
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "phone": {
+                "lineIndex": 19,
+                "rawValue": "000-0000-0000",
+                "bbox": [
+                  341,
+                  418,
+                  450,
+                  442
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "address": {
+                "lineIndex": 25,
+                "rawValue": "가상시예시구도움로123,1층",
+                "bbox": [
+                  342,
+                  523,
+                  534,
+                  543
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "businessType": {
+                "lineIndex": 21,
+                "rawValue": "개인사업자(가상)",
+                "bbox": [
+                  641,
+                  418,
+                  756,
+                  442
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "businessItem": {
+                "lineIndex": 23,
+                "rawValue": "도매및소매업/생활잡화소매",
+                "bbox": [
+                  343,
+                  470,
+                  533,
+                  491
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "requestedAmount": {
+                "lineIndex": 37,
+                "rawValue": "3,000,000원",
+                "bbox": [
+                  191,
+                  779,
+                  280,
+                  804
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "selfContribution": {
+                "lineIndex": 38,
+                "rawValue": "300,000원",
+                "bbox": [
+                  340,
+                  779,
+                  416,
+                  804
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "totalAmount": {
+                "lineIndex": 39,
+                "rawValue": "3,300,000원",
+                "bbox": [
+                  637,
+                  776,
+                  729,
+                  806
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "planText": {
+                "lineIndex": 42,
+                "rawValue": "노후간판교체,LED조명10개교체배선점검·정비를통해매장이용환경을개선하고자합니다사업자정보와견적내역을확인하고",
+                "bbox": [
+                  93,
+                  951,
+                  914,
+                  971
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              }
+            },
+            "suggestedKind": "APPLICATION",
+            "kindEvidence": {
+              "lineIndex": 3,
+              "text": "지원사업신청서"
+            },
+            "kindAgreement": true,
+            "kindLabel": "신청서"
+          },
+          {
+            "pageNumber": 3,
+            "fields": {},
+            "evidence": {},
+            "suggestedKind": "BUSINESS_PLAN",
+            "kindEvidence": {
+              "lineIndex": 3,
+              "text": "사업계획서"
+            },
+            "kindAgreement": true,
+            "kindLabel": "사업계획서"
+          },
+          {
+            "pageNumber": 5,
+            "fields": {},
+            "evidence": {},
+            "suggestedKind": "PHOTO_SHEET",
+            "kindEvidence": {
+              "lineIndex": 3,
+              "text": "사업장 현황 및 개선 계획 사진대지"
+            },
+            "kindAgreement": true,
+            "kindLabel": "현장 사진"
+          },
+          {
+            "pageNumber": 6,
+            "fields": {
+              "businessName": "가상상점",
+              "representative": "가상대표",
+              "businessNo": "0000000000",
+              "openedOn": "2024-01-01",
+              "address": "가상시예시구도움로123,1층",
+              "businessType": "개인사업자(가상 분류)",
+              "businessItem": "생활잡화소매"
+            },
+            "evidence": {
+              "businessName": {
+                "lineIndex": 8,
+                "rawValue": "가상상점",
+                "bbox": [
+                  272,
+                  356,
+                  337,
+                  382
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "representative": {
+                "lineIndex": 10,
+                "rawValue": "가상대표",
+                "bbox": [
+                  272,
+                  435,
+                  337,
+                  461
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "businessNo": {
+                "lineIndex": 6,
+                "rawValue": "000-00-00000",
+                "bbox": [
+                  274,
+                  277,
+                  375,
+                  301
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "openedOn": {
+                "lineIndex": 12,
+                "rawValue": "2024년 01월01일",
+                "bbox": [
+                  274,
+                  518,
+                  394,
+                  539
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "address": {
+                "lineIndex": 14,
+                "rawValue": "가상시예시구도움로123,1층",
+                "bbox": [
+                  274,
+                  608,
+                  468,
+                  630
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "businessType": {
+                "lineIndex": 19,
+                "rawValue": "개인사업자(가상 분류)",
+                "bbox": [
+                  275,
+                  810,
+                  419,
+                  833
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "businessItem": {
+                "lineIndex": 17,
+                "rawValue": "생활잡화소매",
+                "bbox": [
+                  275,
+                  727,
+                  402,
+                  747
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              }
+            },
+            "suggestedKind": "BUSINESS_CERT",
+            "kindEvidence": {
+              "lineIndex": 3,
+              "text": "사업자등록증(가상)"
+            },
+            "kindAgreement": true,
+            "kindLabel": "사업자등록증"
+          },
+          {
+            "pageNumber": 7,
+            "fields": {
+              "businessName": "가상상점",
+              "totalAmount": "3300000"
+            },
+            "evidence": {
+              "businessName": {
+                "lineIndex": 8,
+                "rawValue": "가상상점",
+                "bbox": [
+                  215,
+                  308,
+                  281,
+                  337
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "totalAmount": {
+                "lineIndex": 47,
+                "rawValue": "3,300,000",
+                "bbox": [
+                  751,
+                  941,
+                  827,
+                  970
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              }
+            },
+            "suggestedKind": "ESTIMATE",
+            "kindEvidence": {
+              "lineIndex": 3,
+              "text": "견적서"
+            },
+            "kindAgreement": true,
+            "kindLabel": "견적서"
+          }
+        ],
+        "supplementedCount": 5,
+        "agreementCount": 15,
+        "durationSeconds": 9.12,
+        "sourceName": "신청서.pdf"
+      }
+    ]
+  },
+  "aiPreparedAt": "2026-10-25T19:58:26.545831+00:00"
+}

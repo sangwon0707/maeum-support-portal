@@ -1,0 +1,5310 @@
+{
+  "pipelineVersion": "pdfbox-3.0.8-paddle-v5-ko-layout-v2",
+  "pdfProcessor": "Apache PDFBox 3.0.8",
+  "sourceSha256": "5fe859ebd3dc670eb228a0be8b52df84fc419da5a73148b8b643a279f7987a08",
+  "engine": "PaddleOCR",
+  "modelVersion": "PP-OCRv5_mobile_det+korean_PP-OCRv5_mobile_rec",
+  "preparedAt": "2026-10-25T19:55:46.363088+00:00",
+  "result": {
+    "pages": [
+      {
+        "pageNumber": 1,
+        "pageCount": 6,
+        "kind": "APPLICATION",
+        "width": 992,
+        "height": 1403,
+        "textSource": "PADDLE_OCR",
+        "tableRows": [],
+        "lines": [
+          {
+            "text": "마음이음에너지절감개별서식",
+            "bbox": [
+              82,
+              51,
+              267,
+              73
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9311363697052002
+          },
+          {
+            "text": "가상예시/공식서식 아님",
+            "bbox": [
+              769,
+              57,
+              917,
+              80
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9290454983711243
+          },
+          {
+            "text": "에너지개선/01",
+            "bbox": [
+              101,
+              139,
+              199,
+              167
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.974124550819397
+          },
+          {
+            "text": "지원사업 신청서",
+            "bbox": [
+              255,
+              137,
+              445,
+              175
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9356462955474854
+          },
+          {
+            "text": "2026소상공인에너지절감설비전환지원사업",
+            "bbox": [
+              92,
+              186,
+              333,
+              212
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9523884654045105
+          },
+          {
+            "text": "사업자기본정보",
+            "bbox": [
+              99,
+              224,
+              198,
+              250
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9970373511314392
+          },
+          {
+            "text": "신청인 가상새벽꽃집",
+            "bbox": [
+              102,
+              260,
+              224,
+              285
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9490506052970886
+          },
+          {
+            "text": "대표자 가상하준",
+            "bbox": [
+              516,
+              266,
+              613,
+              287
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9267624616622925
+          },
+          {
+            "text": "등록번호 000-00-00200",
+            "bbox": [
+              102,
+              298,
+              249,
+              319
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9532278776168823
+          },
+          {
+            "text": "개업일2020-09-07",
+            "bbox": [
+              516,
+              302,
+              633,
+              323
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9980707764625549
+          },
+          {
+            "text": "사업장가상시예시구꽃길72,1층",
+            "bbox": [
+              101,
+              333,
+              302,
+              356
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9713400602340698
+          },
+          {
+            "text": "연락처000-0000-0120",
+            "bbox": [
+              515,
+              334,
+              658,
+              360
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9420698285102844
+          },
+          {
+            "text": "업태종목도매 및소매업/화초및 식물 소매",
+            "bbox": [
+              100,
+              367,
+              363,
+              393
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9035617113113403
+          },
+          {
+            "text": "사례가상신청",
+            "bbox": [
+              514,
+              370,
+              605,
+              397
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9465131759643555
+          },
+          {
+            "text": "교체 대상설비대조",
+            "bbox": [
+              91,
+              408,
+              229,
+              436
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9526258111000061
+          },
+          {
+            "text": "구분",
+            "bbox": [
+              96,
+              446,
+              135,
+              475
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9980427622795105
+          },
+          {
+            "text": "기존 설비",
+            "bbox": [
+              221,
+              449,
+              285,
+              475
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9160968661308289
+          },
+          {
+            "text": "교체·개선대상",
+            "bbox": [
+              577,
+              454,
+              671,
+              478
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9752210974693298
+          },
+          {
+            "text": "냉장진열",
+            "bbox": [
+              97,
+              481,
+              162,
+              509
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9830528497695923
+          },
+          {
+            "text": "꽃 냉장진열장 1대",
+            "bbox": [
+              221,
+              484,
+              337,
+              510
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8951600790023804
+          },
+          {
+            "text": "가상 모델 FL-E11대",
+            "bbox": [
+              576,
+              488,
+              700,
+              514
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.922138512134552
+          },
+          {
+            "text": "조명",
+            "bbox": [
+              94,
+              517,
+              136,
+              547
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9969756007194519
+          },
+          {
+            "text": "천장 조명12개",
+            "bbox": [
+              221,
+              520,
+              315,
+              546
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9599721431732178
+          },
+          {
+            "text": "가상모델 LT-E2 LED12개",
+            "bbox": [
+              577,
+              525,
+              734,
+              548
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9532694816589355
+          },
+          {
+            "text": "철거·설치",
+            "bbox": [
+              98,
+              554,
+              166,
+              580
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9291309118270874
+          },
+          {
+            "text": "기존설비처리 필요",
+            "bbox": [
+              223,
+              559,
+              340,
+              580
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9292852878570557
+          },
+          {
+            "text": "철거·운반및시운전",
+            "bbox": [
+              576,
+              562,
+              698,
+              585
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.964849054813385
+          },
+          {
+            "text": "제품 사양효을 동급은 제품자료로확인합니다.현황 예시사진만으로소비전력이나 절감 효과를 판정하지 않습니다.",
+            "bbox": [
+              88,
+              592,
+              674,
+              619
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8747556805610657
+          },
+          {
+            "text": "사업비구성",
+            "bbox": [
+              87,
+              622,
+              177,
+              652
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9977802038192749
+          },
+          {
+            "text": "지원신청액",
+            "bbox": [
+              97,
+              665,
+              173,
+              687
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9879118800163269
+          },
+          {
+            "text": "자부담",
+            "bbox": [
+              370,
+              661,
+              426,
+              695
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9931001663208008
+          },
+          {
+            "text": "총사업비",
+            "bbox": [
+              651,
+              669,
+              714,
+              694
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9979011416435242
+          },
+          {
+            "text": "5,000,000원",
+            "bbox": [
+              96,
+              697,
+              180,
+              725
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9736316800117493
+          },
+          {
+            "text": "1,820,000원",
+            "bbox": [
+              375,
+              702,
+              457,
+              726
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9965707659721375
+          },
+          {
+            "text": "6,820,000원",
+            "bbox": [
+              650,
+              704,
+              733,
+              728
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9950593709945679
+          },
+          {
+            "text": "신청일:2026-10-25/전기사용시간과 기준·교체제품수치는 확인자료 수집 전까지미학인",
+            "bbox": [
+              88,
+              741,
+              553,
+              765
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9430041909217834
+          },
+          {
+            "text": "작성일2026-10-25·테스트용가상신청서",
+            "bbox": [
+              666,
+              779,
+              906,
+              802
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9630364775657654
+          },
+          {
+            "text": "가상자료:실제 신청·증명·계약·지급에사용할 수없습니다",
+            "bbox": [
+              78,
+              1310,
+              414,
+              1335
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9450958967208862
+          },
+          {
+            "text": "1/6",
+            "bbox": [
+              886,
+              1321,
+              923,
+              1345
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9973376393318176
+          }
+        ],
+        "fields": {
+          "businessName": "가상새벽꽃집",
+          "businessNo": "0000000200",
+          "representative": "가상하준",
+          "requestedAmount": "5000000",
+          "selfContribution": "1820000",
+          "totalAmount": "6820000",
+          "openedOn": "2020-09-07",
+          "phone": "000-0000-0120",
+          "address": "가상시예시구꽃길72,1층",
+          "businessType": "도매 및소매업",
+          "businessItem": "화초및 식물 소매"
+        },
+        "evidence": {
+          "businessName": {
+            "bbox": [
+              102,
+              260,
+              224,
+              285
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9490506052970886
+          },
+          "businessNo": {
+            "bbox": [
+              102,
+              298,
+              249,
+              319
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9532278776168823
+          },
+          "representative": {
+            "bbox": [
+              516,
+              266,
+              613,
+              287
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9267624616622925
+          },
+          "requestedAmount": {
+            "bbox": [
+              96,
+              697,
+              180,
+              725
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9736316800117493
+          },
+          "selfContribution": {
+            "bbox": [
+              375,
+              702,
+              457,
+              726
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9965707659721375
+          },
+          "totalAmount": {
+            "bbox": [
+              650,
+              704,
+              733,
+              728
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9950593709945679
+          },
+          "openedOn": {
+            "lineIndex": 9,
+            "rawValue": "2020-09-07",
+            "bbox": [
+              516,
+              302,
+              633,
+              323
+            ],
+            "source": "PADDLE_OCR",
+            "method": "LLM_SOURCE_VERIFIED"
+          },
+          "phone": {
+            "lineIndex": 11,
+            "rawValue": "000-0000-0120",
+            "bbox": [
+              515,
+              334,
+              658,
+              360
+            ],
+            "source": "PADDLE_OCR",
+            "method": "LLM_SOURCE_VERIFIED"
+          },
+          "address": {
+            "lineIndex": 10,
+            "rawValue": "가상시예시구꽃길72,1층",
+            "bbox": [
+              101,
+              333,
+              302,
+              356
+            ],
+            "source": "PADDLE_OCR",
+            "method": "LLM_SOURCE_VERIFIED"
+          },
+          "businessType": {
+            "lineIndex": 12,
+            "rawValue": "도매 및소매업",
+            "bbox": [
+              100,
+              367,
+              363,
+              393
+            ],
+            "source": "PADDLE_OCR",
+            "method": "LLM_SOURCE_VERIFIED"
+          },
+          "businessItem": {
+            "lineIndex": 12,
+            "rawValue": "화초및 식물 소매",
+            "bbox": [
+              100,
+              367,
+              363,
+              393
+            ],
+            "source": "PADDLE_OCR",
+            "method": "LLM_SOURCE_VERIFIED"
+          }
+        },
+        "photos": [],
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kindLabel": "신청서",
+        "previewKey": "8d4543baf9995ebe22814ab78e74e88524b20ad85465ecd11466fc90fb6c9505.png",
+        "groupStart": true,
+        "ai": {
+          "pageNumber": 1,
+          "fields": {
+            "businessName": "가상새벽꽃집",
+            "representative": "가상하준",
+            "businessNo": "0000000200",
+            "openedOn": "2020-09-07",
+            "phone": "000-0000-0120",
+            "address": "가상시예시구꽃길72,1층",
+            "businessType": "도매 및소매업",
+            "businessItem": "화초및 식물 소매",
+            "requestedAmount": "5000000",
+            "selfContribution": "1820000",
+            "totalAmount": "6820000"
+          },
+          "evidence": {
+            "businessName": {
+              "lineIndex": 6,
+              "rawValue": "가상새벽꽃집",
+              "bbox": [
+                102,
+                260,
+                224,
+                285
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "representative": {
+              "lineIndex": 7,
+              "rawValue": "가상하준",
+              "bbox": [
+                516,
+                266,
+                613,
+                287
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "businessNo": {
+              "lineIndex": 8,
+              "rawValue": "000-00-00200",
+              "bbox": [
+                102,
+                298,
+                249,
+                319
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "openedOn": {
+              "lineIndex": 9,
+              "rawValue": "2020-09-07",
+              "bbox": [
+                516,
+                302,
+                633,
+                323
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "phone": {
+              "lineIndex": 11,
+              "rawValue": "000-0000-0120",
+              "bbox": [
+                515,
+                334,
+                658,
+                360
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "address": {
+              "lineIndex": 10,
+              "rawValue": "가상시예시구꽃길72,1층",
+              "bbox": [
+                101,
+                333,
+                302,
+                356
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "businessType": {
+              "lineIndex": 12,
+              "rawValue": "도매 및소매업",
+              "bbox": [
+                100,
+                367,
+                363,
+                393
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "businessItem": {
+              "lineIndex": 12,
+              "rawValue": "화초및 식물 소매",
+              "bbox": [
+                100,
+                367,
+                363,
+                393
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "requestedAmount": {
+              "lineIndex": 32,
+              "rawValue": "5,000,000원",
+              "bbox": [
+                96,
+                697,
+                180,
+                725
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "selfContribution": {
+              "lineIndex": 33,
+              "rawValue": "1,820,000원",
+              "bbox": [
+                375,
+                702,
+                457,
+                726
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "totalAmount": {
+              "lineIndex": 34,
+              "rawValue": "6,820,000원",
+              "bbox": [
+                650,
+                704,
+                733,
+                728
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            }
+          },
+          "suggestedKind": "APPLICATION",
+          "kindEvidence": {
+            "lineIndex": 3,
+            "text": "지원사업 신청서"
+          },
+          "kindAgreement": true,
+          "kindLabel": "신청서"
+        }
+      },
+      {
+        "pageNumber": 2,
+        "pageCount": 6,
+        "kind": "BUSINESS_PLAN",
+        "width": 992,
+        "height": 1403,
+        "textSource": "PADDLE_OCR",
+        "tableRows": [
+          {
+            "y": 51,
+            "cells": [
+              {
+                "text": "마음이음에너지절감개별서식",
+                "bbox": [
+                  78,
+                  51,
+                  264,
+                  71
+                ]
+              },
+              {
+                "text": "가상예시/공식서식아님",
+                "bbox": [
+                  780,
+                  56,
+                  931,
+                  80
+                ]
+              }
+            ]
+          },
+          {
+            "y": 140,
+            "cells": [
+              {
+                "text": "에너지개선/02",
+                "bbox": [
+                  95,
+                  140,
+                  194,
+                  168
+                ]
+              },
+              {
+                "text": "설비 교체및 사용량 확인계획",
+                "bbox": [
+                  254,
+                  140,
+                  600,
+                  174
+                ]
+              }
+            ]
+          },
+          {
+            "y": 225,
+            "cells": [
+              {
+                "text": "비교자료",
+                "bbox": [
+                  94,
+                  225,
+                  154,
+                  253
+                ]
+              },
+              {
+                "text": "기존설비",
+                "bbox": [
+                  235,
+                  229,
+                  300,
+                  254
+                ]
+              }
+            ]
+          },
+          {
+            "y": 231,
+            "cells": [
+              {
+                "text": "자료상태",
+                "bbox": [
+                  718,
+                  231,
+                  785,
+                  258
+                ]
+              },
+              {
+                "text": "교체설비",
+                "bbox": [
+                  479,
+                  233,
+                  541,
+                  255
+                ]
+              }
+            ]
+          },
+          {
+            "y": 263,
+            "cells": [
+              {
+                "text": "모델명",
+                "bbox": [
+                  93,
+                  263,
+                  143,
+                  290
+                ]
+              },
+              {
+                "text": "기존냉장 진열장",
+                "bbox": [
+                  236,
+                  266,
+                  342,
+                  290
+                ]
+              }
+            ]
+          },
+          {
+            "y": 269,
+            "cells": [
+              {
+                "text": "FL-E1가상모델",
+                "bbox": [
+                  477,
+                  269,
+                  581,
+                  293
+                ]
+              },
+              {
+                "text": "제품자료 대조 예정",
+                "bbox": [
+                  720,
+                  271,
+                  837,
+                  293
+                ]
+              }
+            ]
+          },
+          {
+            "y": 298,
+            "cells": [
+              {
+                "text": "미확인",
+                "bbox": [
+                  232,
+                  298,
+                  286,
+                  330
+                ]
+              },
+              {
+                "text": "소비전력",
+                "bbox": [
+                  93,
+                  299,
+                  154,
+                  327
+                ]
+              }
+            ]
+          },
+          {
+            "y": 304,
+            "cells": [
+              {
+                "text": "미확인",
+                "bbox": [
+                  476,
+                  304,
+                  526,
+                  330
+                ]
+              },
+              {
+                "text": "명판-사양서확인전미확인",
+                "bbox": [
+                  721,
+                  307,
+                  888,
+                  330
+                ]
+              }
+            ]
+          },
+          {
+            "y": 336,
+            "cells": [
+              {
+                "text": "미확인",
+                "bbox": [
+                  233,
+                  336,
+                  286,
+                  366
+                ]
+              },
+              {
+                "text": "사용시간",
+                "bbox": [
+                  94,
+                  337,
+                  155,
+                  363
+                ]
+              }
+            ]
+          },
+          {
+            "y": 342,
+            "cells": [
+              {
+                "text": "미확인",
+                "bbox": [
+                  477,
+                  342,
+                  525,
+                  365
+                ]
+              },
+              {
+                "text": "같은기간으로기록예정",
+                "bbox": [
+                  721,
+                  343,
+                  867,
+                  366
+                ]
+              }
+            ]
+          },
+          {
+            "y": 374,
+            "cells": [
+              {
+                "text": "조명 수량",
+                "bbox": [
+                  93,
+                  374,
+                  158,
+                  400
+                ]
+              },
+              {
+                "text": "12개",
+                "bbox": [
+                  234,
+                  374,
+                  276,
+                  402
+                ]
+              },
+              {
+                "text": "LED 12개",
+                "bbox": [
+                  478,
+                  379,
+                  543,
+                  401
+                ]
+              }
+            ]
+          }
+        ],
+        "lines": [
+          {
+            "text": "마음이음에너지절감개별서식",
+            "bbox": [
+              78,
+              51,
+              264,
+              71
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9583706259727478
+          },
+          {
+            "text": "가상예시/공식서식아님",
+            "bbox": [
+              780,
+              56,
+              931,
+              80
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9823736548423767
+          },
+          {
+            "text": "에너지개선/02",
+            "bbox": [
+              95,
+              140,
+              194,
+              168
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.975312352180481
+          },
+          {
+            "text": "설비 교체및 사용량 확인계획",
+            "bbox": [
+              254,
+              140,
+              600,
+              174
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9128191471099854
+          },
+          {
+            "text": "새벽꽃집의 냉장·조명설비교체",
+            "bbox": [
+              87,
+              191,
+              256,
+              210
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9040252566337585
+          },
+          {
+            "text": "비교자료",
+            "bbox": [
+              94,
+              225,
+              154,
+              253
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9922389984130859
+          },
+          {
+            "text": "기존설비",
+            "bbox": [
+              235,
+              229,
+              300,
+              254
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9976037740707397
+          },
+          {
+            "text": "교체설비",
+            "bbox": [
+              479,
+              233,
+              541,
+              255
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9961858987808228
+          },
+          {
+            "text": "자료상태",
+            "bbox": [
+              718,
+              231,
+              785,
+              258
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.995315432548523
+          },
+          {
+            "text": "모델명",
+            "bbox": [
+              93,
+              263,
+              143,
+              290
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.999201238155365
+          },
+          {
+            "text": "기존냉장 진열장",
+            "bbox": [
+              236,
+              266,
+              342,
+              290
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9291124939918518
+          },
+          {
+            "text": "FL-E1가상모델",
+            "bbox": [
+              477,
+              269,
+              581,
+              293
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9841165542602539
+          },
+          {
+            "text": "제품자료 대조 예정",
+            "bbox": [
+              720,
+              271,
+              837,
+              293
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9244378209114075
+          },
+          {
+            "text": "소비전력",
+            "bbox": [
+              93,
+              299,
+              154,
+              327
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9964348077774048
+          },
+          {
+            "text": "미확인",
+            "bbox": [
+              232,
+              298,
+              286,
+              330
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9978540539741516
+          },
+          {
+            "text": "미확인",
+            "bbox": [
+              476,
+              304,
+              526,
+              330
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9905381798744202
+          },
+          {
+            "text": "명판-사양서확인전미확인",
+            "bbox": [
+              721,
+              307,
+              888,
+              330
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.918560266494751
+          },
+          {
+            "text": "사용시간",
+            "bbox": [
+              94,
+              337,
+              155,
+              363
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9990648031234741
+          },
+          {
+            "text": "미확인",
+            "bbox": [
+              233,
+              336,
+              286,
+              366
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9981623291969299
+          },
+          {
+            "text": "미확인",
+            "bbox": [
+              477,
+              342,
+              525,
+              365
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9969604015350342
+          },
+          {
+            "text": "같은기간으로기록예정",
+            "bbox": [
+              721,
+              343,
+              867,
+              366
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9743497967720032
+          },
+          {
+            "text": "조명 수량",
+            "bbox": [
+              93,
+              374,
+              158,
+              400
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.906218409538269
+          },
+          {
+            "text": "12개",
+            "bbox": [
+              234,
+              374,
+              276,
+              402
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9947338104248047
+          },
+          {
+            "text": "LED 12개",
+            "bbox": [
+              478,
+              379,
+              543,
+              401
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9718213677406311
+          },
+          {
+            "text": "실물·건적대조예정",
+            "bbox": [
+              721,
+              380,
+              845,
+              404
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9360017776489258
+          },
+          {
+            "text": "사용시간및 소비전력확인표:현재 값은 확인되지않아미확인으로 돌니다.추정 절감량을 계선하거나 확정하지 않습니다",
+            "bbox": [
+              85,
+              413,
+              705,
+              442
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8957878351211548
+          },
+          {
+            "text": "기존설비 기준",
+            "bbox": [
+              84,
+              463,
+              191,
+              489
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9347361326217651
+          },
+          {
+            "text": "기존설비기준",
+            "bbox": [
+              93,
+              501,
+              181,
+              525
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.995786190032959
+          },
+          {
+            "text": "절화를보관하는냉장 진열장1대와천장조명 12개를 사용합니다.제품규격과사용시간을정리해 교체 전후비교기준을 마련하고,꽃보관공",
+            "bbox": [
+              96,
+              537,
+              917,
+              566
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.942828357219696
+          },
+          {
+            "text": "간과 작업대 조명을 함께개선하려고 합니다",
+            "bbox": [
+              94,
+              558,
+              353,
+              583
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9320364594459534
+          },
+          {
+            "text": "교체 대상과자료확인",
+            "bbox": [
+              86,
+              607,
+              239,
+              632
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9525534510612488
+          },
+          {
+            "text": "교체대상과자료 확인",
+            "bbox": [
+              94,
+              645,
+              221,
+              668
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9470071792602539
+          },
+          {
+            "text": "영업용 꽃냉장 진열장 1대를 교체하고 조명12개를 LED로 바급니다.기존 제품과 교체 제품의 모델·소비전력 자료를 확보한 뒤사용시간을같",
+            "bbox": [
+              94,
+              679,
+              917,
+              712
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8735479712486267
+          },
+          {
+            "text": "은기준으로비교하도록 계획했습니다.",
+            "bbox": [
+              93,
+              701,
+              320,
+              726
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9390674233436584
+          },
+          {
+            "text": "사용시간기록방식",
+            "bbox": [
+              83,
+              750,
+              221,
+              777
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.997174859046936
+          },
+          {
+            "text": "사용시간기록방식",
+            "bbox": [
+              92,
+              791,
+              204,
+              814
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9974570274353027
+          },
+          {
+            "text": "꽃재고가 적은날냉장설비를교체하고임시보관 장소를먼저준비합니다.설치비와 기존설비 처리비를 따로견적받았습니다.효을 등급이나",
+            "bbox": [
+              93,
+              828,
+              914,
+              856
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.926426112651825
+          },
+          {
+            "text": "절감량은 사진으로 판정하지않고제품자료와사용 기록으로검토합니다",
+            "bbox": [
+              93,
+              849,
+              521,
+              874
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9474814534187317
+          },
+          {
+            "text": "사후확인방법",
+            "bbox": [
+              83,
+              897,
+              188,
+              923
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9927499294281006
+          },
+          {
+            "text": "사후확인방법",
+            "bbox": [
+              90,
+              935,
+              179,
+              962
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9911059737205505
+          },
+          {
+            "text": "냉장설정·작동여부와 조명교체수량을확인하고일정기간사용기록을남깁니다.아직설치하지않은설비의 전력절감수치를실제성과로기",
+            "bbox": [
+              92,
+              974,
+              922,
+              1002
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9437326788902283
+          },
+          {
+            "text": "재하지 않습니다.",
+            "bbox": [
+              92,
+              994,
+              196,
+              1018
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9399329423904419
+          },
+          {
+            "text": "가상 자료; 실제 신청·증명·계약·지급에 사용할 수 없습니다",
+            "bbox": [
+              72,
+              1319,
+              410,
+              1343
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9170528650283813
+          },
+          {
+            "text": "2/6",
+            "bbox": [
+              883,
+              1327,
+              920,
+              1351
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9808468222618103
+          }
+        ],
+        "fields": {
+          "planText": "사용시간및 소비전력확인표:현재 값은 확인되지않아미확인으로 돌니다.추정 절감량을 계선하거나 확정하지 않습니다\n절화를보관하는냉장 진열장1대와천장조명 12개를 사용합니다.제품규격과사용시간을정리해 교체 전후비교기준을 마련하고,꽃보관공\n영업용 꽃냉장 진열장 1대를 교체하고 조명12개를 LED로 바급니다.기존 제품과 교체 제품의 모델·소비전력 자료를 확보한 뒤사용시간을같\n꽃재고가 적은날냉장설비를교체하고임시보관 장소를먼저준비합니다.설치비와 기존설비 처리비를 따로견적받았습니다.효을 등급이나\n절감량은 사진으로 판정하지않고제품자료와사용 기록으로검토합니다\n냉장설정·작동여부와 조명교체수량을확인하고일정기간사용기록을남깁니다.아직설치하지않은설비의 전력절감수치를실제성과로기"
+        },
+        "evidence": {},
+        "photos": [],
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kindLabel": "사업계획서",
+        "previewKey": "4c6f60b07fdeee1c132f774917d45f712640be5cb73b3e4215997df4fd9a7d29.png",
+        "groupStart": true,
+        "ai": {
+          "pageNumber": 2,
+          "fields": {},
+          "evidence": {},
+          "suggestedKind": "BUSINESS_PLAN",
+          "kindEvidence": {
+            "lineIndex": 3,
+            "text": "설비 교체및 사용량 확인계획"
+          },
+          "kindAgreement": true,
+          "kindLabel": "사업계획서"
+        }
+      },
+      {
+        "pageNumber": 3,
+        "pageCount": 6,
+        "kind": "BUSINESS_PLAN",
+        "width": 992,
+        "height": 1403,
+        "textSource": "PADDLE_OCR",
+        "tableRows": [
+          {
+            "y": 62,
+            "cells": [
+              {
+                "text": "마음이음에너지절감개별서식",
+                "bbox": [
+                  84,
+                  62,
+                  267,
+                  83
+                ]
+              },
+              {
+                "text": "가상예시/공식서식아님",
+                "bbox": [
+                  766,
+                  64,
+                  915,
+                  87
+                ]
+              }
+            ]
+          },
+          {
+            "y": 146,
+            "cells": [
+              {
+                "text": "설비대조·교체비용과 확인일정",
+                "bbox": [
+                  255,
+                  146,
+                  629,
+                  182
+                ]
+              },
+              {
+                "text": "에너지개션/03",
+                "bbox": [
+                  102,
+                  150,
+                  200,
+                  174
+                ]
+              }
+            ]
+          },
+          {
+            "y": 234,
+            "cells": [
+              {
+                "text": "품목·규격",
+                "bbox": [
+                  100,
+                  234,
+                  169,
+                  259
+                ]
+              },
+              {
+                "text": "수량",
+                "bbox": [
+                  496,
+                  234,
+                  534,
+                  263
+                ]
+              },
+              {
+                "text": "단가",
+                "bbox": [
+                  584,
+                  234,
+                  624,
+                  264
+                ]
+              },
+              {
+                "text": "금액",
+                "bbox": [
+                  753,
+                  236,
+                  792,
+                  264
+                ]
+              }
+            ]
+          },
+          {
+            "y": 281,
+            "cells": [
+              {
+                "text": "1대",
+                "bbox": [
+                  494,
+                  281,
+                  531,
+                  310
+                ]
+              },
+              {
+                "text": "4,200,000원",
+                "bbox": [
+                  585,
+                  283,
+                  669,
+                  311
+                ]
+              },
+              {
+                "text": "4,200,000원",
+                "bbox": [
+                  755,
+                  286,
+                  837,
+                  311
+                ]
+              }
+            ]
+          },
+          {
+            "y": 340,
+            "cells": [
+              {
+                "text": "12개",
+                "bbox": [
+                  496,
+                  340,
+                  538,
+                  367
+                ]
+              },
+              {
+                "text": "80,000원",
+                "bbox": [
+                  586,
+                  342,
+                  648,
+                  364
+                ]
+              },
+              {
+                "text": "960,000원",
+                "bbox": [
+                  755,
+                  344,
+                  825,
+                  366
+                ]
+              }
+            ]
+          },
+          {
+            "y": 396,
+            "cells": [
+              {
+                "text": "740,000원",
+                "bbox": [
+                  586,
+                  396,
+                  658,
+                  425
+                ]
+              },
+              {
+                "text": "1식",
+                "bbox": [
+                  495,
+                  397,
+                  531,
+                  425
+                ]
+              },
+              {
+                "text": "740,000원",
+                "bbox": [
+                  754,
+                  397,
+                  826,
+                  426
+                ]
+              }
+            ]
+          },
+          {
+            "y": 454,
+            "cells": [
+              {
+                "text": "300,000원",
+                "bbox": [
+                  585,
+                  454,
+                  657,
+                  482
+                ]
+              },
+              {
+                "text": "1식",
+                "bbox": [
+                  496,
+                  455,
+                  529,
+                  480
+                ]
+              },
+              {
+                "text": "300,000원",
+                "bbox": [
+                  755,
+                  456,
+                  826,
+                  482
+                ]
+              }
+            ]
+          },
+          {
+            "y": 496,
+            "cells": [
+              {
+                "text": "공급가액",
+                "bbox": [
+                  99,
+                  496,
+                  161,
+                  525
+                ]
+              },
+              {
+                "text": "6,200,000원",
+                "bbox": [
+                  754,
+                  501,
+                  837,
+                  528
+                ]
+              }
+            ]
+          },
+          {
+            "y": 649,
+            "cells": [
+              {
+                "text": "자부담",
+                "bbox": [
+                  300,
+                  649,
+                  351,
+                  681
+                ]
+              },
+              {
+                "text": "총사업비",
+                "bbox": [
+                  488,
+                  652,
+                  554,
+                  681
+                ]
+              },
+              {
+                "text": "지원신청액",
+                "bbox": [
+                  100,
+                  653,
+                  175,
+                  675
+                ]
+              }
+            ]
+          },
+          {
+            "y": 688,
+            "cells": [
+              {
+                "text": "5,000,000원",
+                "bbox": [
+                  100,
+                  688,
+                  182,
+                  712
+                ]
+              },
+              {
+                "text": "6,820,000원",
+                "bbox": [
+                  488,
+                  688,
+                  572,
+                  717
+                ]
+              },
+              {
+                "text": "1,820,000원",
+                "bbox": [
+                  303,
+                  690,
+                  385,
+                  714
+                ]
+              },
+              {
+                "text": "신청액+자부담=견적총액",
+                "bbox": [
+                  685,
+                  690,
+                  851,
+                  718
+                ]
+              }
+            ]
+          },
+          {
+            "y": 768,
+            "cells": [
+              {
+                "text": "시점",
+                "bbox": [
+                  97,
+                  768,
+                  136,
+                  796
+                ]
+              },
+              {
+                "text": "작업·확인",
+                "bbox": [
+                  205,
+                  768,
+                  274,
+                  796
+                ]
+              },
+              {
+                "text": "기록물",
+                "bbox": [
+                  652,
+                  773,
+                  702,
+                  800
+                ]
+              }
+            ]
+          },
+          {
+            "y": 805,
+            "cells": [
+              {
+                "text": "1~4일",
+                "bbox": [
+                  97,
+                  805,
+                  147,
+                  834
+                ]
+              },
+              {
+                "text": "기존·교체설비규격과사용시간정리",
+                "bbox": [
+                  207,
+                  808,
+                  426,
+                  832
+                ]
+              }
+            ]
+          },
+          {
+            "y": 840,
+            "cells": [
+              {
+                "text": "5~9일",
+                "bbox": [
+                  97,
+                  840,
+                  146,
+                  871
+                ]
+              },
+              {
+                "text": "꽃 임시 보관-기존 설비처리-신규설치",
+                "bbox": [
+                  206,
+                  842,
+                  434,
+                  869
+                ]
+              }
+            ]
+          },
+          {
+            "y": 880,
+            "cells": [
+              {
+                "text": "10~14일",
+                "bbox": [
+                  99,
+                  880,
+                  160,
+                  906
+                ]
+              },
+              {
+                "text": "냉장시운전·조명 수량및 사용기록확인",
+                "bbox": [
+                  207,
+                  881,
+                  442,
+                  906
+                ]
+              },
+              {
+                "text": "사업주/작동·사용기록",
+                "bbox": [
+                  654,
+                  885,
+                  797,
+                  910
+                ]
+              }
+            ]
+          }
+        ],
+        "lines": [
+          {
+            "text": "마음이음에너지절감개별서식",
+            "bbox": [
+              84,
+              62,
+              267,
+              83
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.928419828414917
+          },
+          {
+            "text": "가상예시/공식서식아님",
+            "bbox": [
+              766,
+              64,
+              915,
+              87
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9818114638328552
+          },
+          {
+            "text": "에너지개션/03",
+            "bbox": [
+              102,
+              150,
+              200,
+              174
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9649377465248108
+          },
+          {
+            "text": "설비대조·교체비용과 확인일정",
+            "bbox": [
+              255,
+              146,
+              629,
+              182
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9642302989959717
+          },
+          {
+            "text": "적호 TEST-Q-ENERGY-001",
+            "bbox": [
+              94,
+              195,
+              265,
+              218
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9708114862442017
+          },
+          {
+            "text": "품목·규격",
+            "bbox": [
+              100,
+              234,
+              169,
+              259
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9336742162704468
+          },
+          {
+            "text": "수량",
+            "bbox": [
+              496,
+              234,
+              534,
+              263
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9964255094528198
+          },
+          {
+            "text": "단가",
+            "bbox": [
+              584,
+              234,
+              624,
+              264
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9921532869338989
+          },
+          {
+            "text": "금액",
+            "bbox": [
+              753,
+              236,
+              792,
+              264
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9949760437011719
+          },
+          {
+            "text": "꽃 냉장 진열장",
+            "bbox": [
+              101,
+              272,
+              190,
+              293
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8886412978172302
+          },
+          {
+            "text": "1대",
+            "bbox": [
+              494,
+              281,
+              531,
+              310
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9983901977539062
+          },
+          {
+            "text": "가상모델FL-E1/기존공간규격에 맞취설치",
+            "bbox": [
+              101,
+              291,
+              362,
+              314
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.920078694820404
+          },
+          {
+            "text": "4,200,000원",
+            "bbox": [
+              585,
+              283,
+              669,
+              311
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9614130854606628
+          },
+          {
+            "text": "4,200,000원",
+            "bbox": [
+              755,
+              286,
+              837,
+              311
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.950114905834198
+          },
+          {
+            "text": "매장 LED조명",
+            "bbox": [
+              101,
+              327,
+              191,
+              351
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9272383451461792
+          },
+          {
+            "text": "가상모델LT-E2/작업대·전열 구역",
+            "bbox": [
+              101,
+              349,
+              311,
+              372
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9088721871376038
+          },
+          {
+            "text": "12개",
+            "bbox": [
+              496,
+              340,
+              538,
+              367
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9979949593544006
+          },
+          {
+            "text": "80,000원",
+            "bbox": [
+              586,
+              342,
+              648,
+              364
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9974415898323059
+          },
+          {
+            "text": "960,000원",
+            "bbox": [
+              755,
+              344,
+              825,
+              366
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9715098142623901
+          },
+          {
+            "text": "설치-시운전",
+            "bbox": [
+              100,
+              382,
+              180,
+              410
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9233694672584534
+          },
+          {
+            "text": "냉장설비배치 및 작동 확인",
+            "bbox": [
+              100,
+              402,
+              263,
+              430
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9196014404296875
+          },
+          {
+            "text": "1식",
+            "bbox": [
+              495,
+              397,
+              531,
+              425
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9884109497070312
+          },
+          {
+            "text": "740,000원",
+            "bbox": [
+              586,
+              396,
+              658,
+              425
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9330908060073853
+          },
+          {
+            "text": "740,000원",
+            "bbox": [
+              754,
+              397,
+              826,
+              426
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9511204957962036
+          },
+          {
+            "text": "기존설비처리",
+            "bbox": [
+              100,
+              440,
+              192,
+              464
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9915476441383362
+          },
+          {
+            "text": "냉장 진열장 철거·운반",
+            "bbox": [
+              101,
+              461,
+              236,
+              485
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8680298924446106
+          },
+          {
+            "text": "1식",
+            "bbox": [
+              496,
+              455,
+              529,
+              480
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.997789740562439
+          },
+          {
+            "text": "300,000원",
+            "bbox": [
+              585,
+              454,
+              657,
+              482
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.972113311290741
+          },
+          {
+            "text": "300,000원",
+            "bbox": [
+              755,
+              456,
+              826,
+              482
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9915324449539185
+          },
+          {
+            "text": "공급가액",
+            "bbox": [
+              99,
+              496,
+              161,
+              525
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9958716630935669
+          },
+          {
+            "text": "6,200,000원",
+            "bbox": [
+              754,
+              501,
+              837,
+              528
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9780868291854858
+          },
+          {
+            "text": "부가세",
+            "bbox": [
+              99,
+              532,
+              149,
+              561
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9915569424629211
+          },
+          {
+            "text": "620,000원",
+            "bbox": [
+              755,
+              539,
+              827,
+              564
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9899270534515381
+          },
+          {
+            "text": "총액",
+            "bbox": [
+              94,
+              563,
+              139,
+              600
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.7678053379058838
+          },
+          {
+            "text": "6,820,000원",
+            "bbox": [
+              754,
+              575,
+              837,
+              600
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9469374418258667
+          },
+          {
+            "text": "재원 대조",
+            "bbox": [
+              91,
+              612,
+              162,
+              637
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9116997718811035
+          },
+          {
+            "text": "지원신청액",
+            "bbox": [
+              100,
+              653,
+              175,
+              675
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9850927591323853
+          },
+          {
+            "text": "자부담",
+            "bbox": [
+              300,
+              649,
+              351,
+              681
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9921389222145081
+          },
+          {
+            "text": "총사업비",
+            "bbox": [
+              488,
+              652,
+              554,
+              681
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9981657266616821
+          },
+          {
+            "text": "합계 대조",
+            "bbox": [
+              684,
+              655,
+              748,
+              681
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9015547037124634
+          },
+          {
+            "text": "5,000,000원",
+            "bbox": [
+              100,
+              688,
+              182,
+              712
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9041980504989624
+          },
+          {
+            "text": "1,820,000원",
+            "bbox": [
+              303,
+              690,
+              385,
+              714
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9679714441299438
+          },
+          {
+            "text": "6,820,000원",
+            "bbox": [
+              488,
+              688,
+              572,
+              717
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.966224193572998
+          },
+          {
+            "text": "신청액+자부담=견적총액",
+            "bbox": [
+              685,
+              690,
+              851,
+              718
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9435288906097412
+          },
+          {
+            "text": "추진 일정",
+            "bbox": [
+              92,
+              728,
+              163,
+              757
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8974217176437378
+          },
+          {
+            "text": "시점",
+            "bbox": [
+              97,
+              768,
+              136,
+              796
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.980388879776001
+          },
+          {
+            "text": "작업·확인",
+            "bbox": [
+              205,
+              768,
+              274,
+              796
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9787322282791138
+          },
+          {
+            "text": "기록물",
+            "bbox": [
+              652,
+              773,
+              702,
+              800
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9901012778282166
+          },
+          {
+            "text": "1~4일",
+            "bbox": [
+              97,
+              805,
+              147,
+              834
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9977296590805054
+          },
+          {
+            "text": "기존·교체설비규격과사용시간정리",
+            "bbox": [
+              207,
+              808,
+              426,
+              832
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9946821928024292
+          },
+          {
+            "text": "사업주/비교기준표",
+            "bbox": [
+              653,
+              811,
+              776,
+              837
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.99112868309021
+          },
+          {
+            "text": "5~9일",
+            "bbox": [
+              97,
+              840,
+              146,
+              871
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9108114242553711
+          },
+          {
+            "text": "꽃 임시 보관-기존 설비처리-신규설치",
+            "bbox": [
+              206,
+              842,
+              434,
+              869
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8898414373397827
+          },
+          {
+            "text": "공급업체/설치내역",
+            "bbox": [
+              655,
+              849,
+              777,
+              873
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9955275654792786
+          },
+          {
+            "text": "10~14일",
+            "bbox": [
+              99,
+              880,
+              160,
+              906
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9896170496940613
+          },
+          {
+            "text": "냉장시운전·조명 수량및 사용기록확인",
+            "bbox": [
+              207,
+              881,
+              442,
+              906
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9452841877937317
+          },
+          {
+            "text": "사업주/작동·사용기록",
+            "bbox": [
+              654,
+              885,
+              797,
+              910
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9629307389259338
+          },
+          {
+            "text": "가상계획입니다.설치·제작·공사·비용 지급이 실제로이루어졌다는 뜻이 아닙니다.",
+            "bbox": [
+              91,
+              925,
+              514,
+              951
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8620445728302002
+          },
+          {
+            "text": "가상자료: 실제 신청-증명·계약·지급에사용할 수없습니다",
+            "bbox": [
+              90,
+              1304,
+              415,
+              1333
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9233646392822266
+          },
+          {
+            "text": "3/6",
+            "bbox": [
+              874,
+              1318,
+              913,
+              1344
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9889835715293884
+          }
+        ],
+        "fields": {
+          "totalAmount": "6820000",
+          "planText": "가상자료: 실제 신청-증명·계약·지급에사용할 수없습니다"
+        },
+        "evidence": {
+          "totalAmount": {
+            "bbox": [
+              754,
+              575,
+              837,
+              600
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9469374418258667
+          }
+        },
+        "photos": [],
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kindLabel": "사업계획서",
+        "previewKey": "38411371f22414d9eae8c141b7e1f51b1e0b2ee1c57ad9b45d688cd2f9405147.png",
+        "groupStart": false,
+        "ai": {
+          "pageNumber": 3,
+          "fields": {
+            "totalAmount": "6820000"
+          },
+          "evidence": {
+            "totalAmount": {
+              "lineIndex": 34,
+              "rawValue": "6,820,000원",
+              "bbox": [
+                754,
+                575,
+                837,
+                600
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            }
+          },
+          "suggestedKind": "ESTIMATE",
+          "kindEvidence": {
+            "lineIndex": 3,
+            "text": "설비대조·교체비용과 확인일정"
+          },
+          "kindAgreement": false,
+          "kindLabel": "견적서"
+        }
+      },
+      {
+        "pageNumber": 4,
+        "pageCount": 6,
+        "kind": "PHOTO_SHEET",
+        "width": 992,
+        "height": 1403,
+        "textSource": "PADDLE_OCR",
+        "tableRows": [],
+        "lines": [
+          {
+            "text": "가상예시/공식서색아님",
+            "bbox": [
+              770,
+              51,
+              917,
+              75
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.935045599937439
+          },
+          {
+            "text": "마음이음에너지절감개별서식",
+            "bbox": [
+              76,
+              62,
+              261,
+              84
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.895258903503418
+          },
+          {
+            "text": "에너지개선/04",
+            "bbox": [
+              97,
+              153,
+              194,
+              174
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9389325976371765
+          },
+          {
+            "text": "설비현황·교체전조사",
+            "bbox": [
+              252,
+              143,
+              520,
+              177
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9983213543891907
+          },
+          {
+            "text": "AI생성현황예시/실제현장·활영·시공증거아님",
+            "bbox": [
+              86,
+              195,
+              350,
+              219
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9205486178398132
+          },
+          {
+            "text": "설비 확인표",
+            "bbox": [
+              628,
+              295,
+              702,
+              319
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9364223480224609
+          },
+          {
+            "text": "확인값",
+            "bbox": [
+              761,
+              294,
+              810,
+              320
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9962489604949951
+          },
+          {
+            "text": "기준모델명",
+            "bbox": [
+              628,
+              334,
+              702,
+              355
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9906949996948242
+          },
+          {
+            "text": "미확인",
+            "bbox": [
+              762,
+              330,
+              810,
+              357
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9922206997871399
+          },
+          {
+            "text": "기존소비전력",
+            "bbox": [
+              628,
+              369,
+              714,
+              393
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9922292828559875
+          },
+          {
+            "text": "미확인",
+            "bbox": [
+              762,
+              366,
+              811,
+              393
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.996560275554657
+          },
+          {
+            "text": "사용시간",
+            "bbox": [
+              630,
+              406,
+              687,
+              427
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9995627403259277
+          },
+          {
+            "text": "미확인",
+            "bbox": [
+              762,
+              403,
+              812,
+              428
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9490902423858643
+          },
+          {
+            "text": "교체모델자료",
+            "bbox": [
+              630,
+              442,
+              717,
+              463
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9951340556144714
+          },
+          {
+            "text": "확인 예정",
+            "bbox": [
+              765,
+              440,
+              827,
+              462
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9405099153518677
+          },
+          {
+            "text": "비교기간",
+            "bbox": [
+              628,
+              477,
+              690,
+              502
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9975024461746216
+          },
+          {
+            "text": "설치후기록",
+            "bbox": [
+              765,
+              474,
+              844,
+              501
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9825990796089172
+          },
+          {
+            "text": "확인되지 않은 소비전력과 사용시간은 미확인으로표시했습니다.",
+            "bbox": [
+              94,
+              586,
+              422,
+              610
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8870426416397095
+          },
+          {
+            "text": "사진과계획의연결",
+            "bbox": [
+              96,
+              619,
+              227,
+              643
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9945746660232544
+          },
+          {
+            "text": "현황항목",
+            "bbox": [
+              104,
+              658,
+              167,
+              683
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9896858930587769
+          },
+          {
+            "text": "계획된확인",
+            "bbox": [
+              255,
+              655,
+              330,
+              683
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9553333520889282
+          },
+          {
+            "text": "꽃 보관",
+            "bbox": [
+              105,
+              696,
+              154,
+              718
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8808911442756653
+          },
+          {
+            "text": "냉장 진열장 1대 사용",
+            "bbox": [
+              257,
+              695,
+              381,
+              714
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8651032447814941
+          },
+          {
+            "text": "기준·교체모델자료와설치공간대조",
+            "bbox": [
+              587,
+              693,
+              805,
+              711
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9827519655227661
+          },
+          {
+            "text": "조명",
+            "bbox": [
+              103,
+              730,
+              139,
+              755
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9972043633460999
+          },
+          {
+            "text": "천장조명12개사용",
+            "bbox": [
+              258,
+              729,
+              377,
+              752
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9981558918952942
+          },
+          {
+            "text": "LED 교체 수량-규격확인",
+            "bbox": [
+              587,
+              728,
+              736,
+              748
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9007204174995422
+          },
+          {
+            "text": "효과확인",
+            "bbox": [
+              105,
+              766,
+              167,
+              788
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9948671460151672
+          },
+          {
+            "text": "설비별사용 기준정리 필요",
+            "bbox": [
+              259,
+              766,
+              417,
+              786
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9303433299064636
+          },
+          {
+            "text": "동일 사용시간 기준의 기록계획",
+            "bbox": [
+              587,
+              762,
+              774,
+              784
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9172028303146362
+          },
+          {
+            "text": "AI생성현황 예시, 실제 사업장·활영일·설비 상태·시공결과를 증명하지 않습니다.",
+            "bbox": [
+              97,
+              802,
+              516,
+              825
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8778954148292542
+          },
+          {
+            "text": "가상자료:실제신청·증명·계약·지급에사용할수없습니다",
+            "bbox": [
+              92,
+              1308,
+              418,
+              1330
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9551381468772888
+          },
+          {
+            "text": "4/6",
+            "bbox": [
+              896,
+              1304,
+              934,
+              1328
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.996847927570343
+          }
+        ],
+        "fields": {},
+        "evidence": {},
+        "photos": [
+          {
+            "bbox": [
+              93,
+              223,
+              929,
+              581
+            ],
+            "method": "OPENCV_CANDIDATE",
+            "storageKey": "49cd95d34843c980e02379c51a370c9bdf58e25fe33ba91582de0d506fa4f576.png"
+          }
+        ],
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kindLabel": "현장 사진",
+        "previewKey": "0a203720cca3d65eb3015a4d96a115a7c7a44d65b15a7e8613f128208dc72a86.png",
+        "groupStart": true
+      },
+      {
+        "pageNumber": 5,
+        "pageCount": 6,
+        "kind": "BUSINESS_CERT",
+        "width": 992,
+        "height": 1403,
+        "textSource": "PADDLE_OCR",
+        "tableRows": [],
+        "lines": [
+          {
+            "text": "가상예시/공식서식아님",
+            "bbox": [
+              756,
+              47,
+              907,
+              74
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.978813886642456
+          },
+          {
+            "text": "마음이음에너지절감개별서식",
+            "bbox": [
+              67,
+              60,
+              250,
+              85
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9199439287185669
+          },
+          {
+            "text": "첨부서류A/사업자정보대조용",
+            "bbox": [
+              76,
+              134,
+              258,
+              160
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9815996885299683
+          },
+          {
+            "text": "사업자등록증예시(가상)",
+            "bbox": [
+              75,
+              165,
+              371,
+              206
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9930434823036194
+          },
+          {
+            "text": "실제세무기관발급문서가 아니며 자격증빙으로사용할수없습니다.",
+            "bbox": [
+              254,
+              192,
+              725,
+              227
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9285199046134949
+          },
+          {
+            "text": "동록번호",
+            "bbox": [
+              85,
+              287,
+              149,
+              315
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9963027238845825
+          },
+          {
+            "text": "000-00-00200",
+            "bbox": [
+              277,
+              287,
+              374,
+              312
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9797625541687012
+          },
+          {
+            "text": "상호",
+            "bbox": [
+              86,
+              363,
+              126,
+              393
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9974790811538696
+          },
+          {
+            "text": "가상새벽꽃집",
+            "bbox": [
+              276,
+              360,
+              363,
+              388
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.991601288318634
+          },
+          {
+            "text": "성명(대표자)",
+            "bbox": [
+              89,
+              440,
+              176,
+              465
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9839133620262146
+          },
+          {
+            "text": "가상하준",
+            "bbox": [
+              277,
+              435,
+              342,
+              465
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9723990559577942
+          },
+          {
+            "text": "개업연월일",
+            "bbox": [
+              89,
+              513,
+              165,
+              542
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9955753087997437
+          },
+          {
+            "text": "2020년 09월07일",
+            "bbox": [
+              280,
+              509,
+              397,
+              536
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9648471474647522
+          },
+          {
+            "text": "사업장소재지",
+            "bbox": [
+              92,
+              601,
+              182,
+              626
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9958059787750244
+          },
+          {
+            "text": "가상시예시구꽃길72,1층",
+            "bbox": [
+              282,
+              597,
+              446,
+              623
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9677125215530396
+          },
+          {
+            "text": "사업의 종류",
+            "bbox": [
+              93,
+              701,
+              172,
+              728
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9473571181297302
+          },
+          {
+            "text": "업태: 도매및소매업",
+            "bbox": [
+              284,
+              690,
+              408,
+              715
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9435359835624695
+          },
+          {
+            "text": "종목:화초및식물소매",
+            "bbox": [
+              284,
+              710,
+              425,
+              733
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9840761423110962
+          },
+          {
+            "text": "사업자유형",
+            "bbox": [
+              94,
+              788,
+              173,
+              816
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.98078852891922
+          },
+          {
+            "text": "개인사업자(가상 분류)",
+            "bbox": [
+              286,
+              788,
+              425,
+              812
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9467124938964844
+          },
+          {
+            "text": "시험자료 안내",
+            "bbox": [
+              96,
+              871,
+              186,
+              897
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.946651041507721
+          },
+          {
+            "text": "신청서와상호·대표자·번호·개업일을대조하기위한 가상사례입니다.실제 개인정보·관인·QR·발급기관표시는없습니다.",
+            "bbox": [
+              97,
+              899,
+              816,
+              932
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9257058501243591
+          },
+          {
+            "text": "2026년10월25일/마음이음테스트 자료제작자(가상)",
+            "bbox": [
+              309,
+              967,
+              694,
+              996
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9678394794464111
+          },
+          {
+            "text": "5/6",
+            "bbox": [
+              893,
+              1306,
+              933,
+              1334
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9875809550285339
+          },
+          {
+            "text": "가상자료:실제 신청-증명-계약·지급에사용할수없습니다",
+            "bbox": [
+              87,
+              1314,
+              418,
+              1338
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9335383176803589
+          }
+        ],
+        "fields": {
+          "businessName": "가상새벽꽃집",
+          "representative": "가상하준",
+          "openedOn": "2020-09-07",
+          "address": "가상시예시구꽃길72,1층",
+          "businessType": "도매및소매업",
+          "businessItem": "화초및식물소매",
+          "businessNo": "0000000200"
+        },
+        "evidence": {
+          "businessName": {
+            "bbox": [
+              276,
+              360,
+              363,
+              388
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.991601288318634
+          },
+          "representative": {
+            "bbox": [
+              277,
+              435,
+              342,
+              465
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9723990559577942
+          },
+          "openedOn": {
+            "bbox": [
+              280,
+              509,
+              397,
+              536
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9648471474647522
+          },
+          "address": {
+            "bbox": [
+              282,
+              597,
+              446,
+              623
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9677125215530396
+          },
+          "businessType": {
+            "bbox": [
+              284,
+              690,
+              408,
+              715
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9435359835624695
+          },
+          "businessItem": {
+            "bbox": [
+              284,
+              710,
+              425,
+              733
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9840761423110962
+          },
+          "businessNo": {
+            "lineIndex": 6,
+            "rawValue": "000-00-00200",
+            "bbox": [
+              277,
+              287,
+              374,
+              312
+            ],
+            "source": "PADDLE_OCR",
+            "method": "LLM_SOURCE_VERIFIED"
+          }
+        },
+        "photos": [],
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kindLabel": "사업자등록증",
+        "previewKey": "d4227a076759bcb287eb7b7405665552df6198a7cbb38bde1833a7e912a740f8.png",
+        "groupStart": true,
+        "ai": {
+          "pageNumber": 5,
+          "fields": {
+            "businessName": "가상새벽꽃집",
+            "businessNo": "0000000200",
+            "representative": "가상하준",
+            "openedOn": "2020-09-07",
+            "address": "가상시예시구꽃길72,1층",
+            "businessType": "도매및소매업",
+            "businessItem": "화초및식물소매"
+          },
+          "evidence": {
+            "businessName": {
+              "lineIndex": 8,
+              "rawValue": "가상새벽꽃집",
+              "bbox": [
+                276,
+                360,
+                363,
+                388
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "businessNo": {
+              "lineIndex": 6,
+              "rawValue": "000-00-00200",
+              "bbox": [
+                277,
+                287,
+                374,
+                312
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "representative": {
+              "lineIndex": 10,
+              "rawValue": "가상하준",
+              "bbox": [
+                277,
+                435,
+                342,
+                465
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "openedOn": {
+              "lineIndex": 12,
+              "rawValue": "2020년 09월07일",
+              "bbox": [
+                280,
+                509,
+                397,
+                536
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "address": {
+              "lineIndex": 14,
+              "rawValue": "가상시예시구꽃길72,1층",
+              "bbox": [
+                282,
+                597,
+                446,
+                623
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "businessType": {
+              "lineIndex": 16,
+              "rawValue": "도매및소매업",
+              "bbox": [
+                284,
+                690,
+                408,
+                715
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "businessItem": {
+              "lineIndex": 17,
+              "rawValue": "화초및식물소매",
+              "bbox": [
+                284,
+                710,
+                425,
+                733
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            }
+          },
+          "suggestedKind": "BUSINESS_CERT",
+          "kindEvidence": {
+            "lineIndex": 3,
+            "text": "사업자등록증예시(가상)"
+          },
+          "kindAgreement": true,
+          "kindLabel": "사업자등록증"
+        }
+      },
+      {
+        "pageNumber": 6,
+        "pageCount": 6,
+        "kind": "ESTIMATE",
+        "width": 992,
+        "height": 1403,
+        "textSource": "PADDLE_OCR",
+        "tableRows": [
+          {
+            "y": 125,
+            "cells": [
+              {
+                "text": "사업별견적서예시",
+                "bbox": [
+                  255,
+                  125,
+                  482,
+                  166
+                ]
+              },
+              {
+                "text": "에너지개선/첨부",
+                "bbox": [
+                  97,
+                  128,
+                  206,
+                  156
+                ]
+              }
+            ]
+          },
+          {
+            "y": 214,
+            "cells": [
+              {
+                "text": "공급받는자",
+                "bbox": [
+                  96,
+                  214,
+                  175,
+                  239
+                ]
+              },
+              {
+                "text": "공급자",
+                "bbox": [
+                  518,
+                  218,
+                  571,
+                  248
+                ]
+              }
+            ]
+          },
+          {
+            "y": 249,
+            "cells": [
+              {
+                "text": "상호",
+                "bbox": [
+                  95,
+                  249,
+                  134,
+                  278
+                ]
+              },
+              {
+                "text": "가상새벽꽃집",
+                "bbox": [
+                  222,
+                  251,
+                  308,
+                  278
+                ]
+              },
+              {
+                "text": "상호",
+                "bbox": [
+                  517,
+                  253,
+                  559,
+                  286
+                ]
+              }
+            ]
+          },
+          {
+            "y": 284,
+            "cells": [
+              {
+                "text": "대표자",
+                "bbox": [
+                  94,
+                  284,
+                  146,
+                  314
+                ]
+              },
+              {
+                "text": "가상하준",
+                "bbox": [
+                  222,
+                  288,
+                  284,
+                  314
+                ]
+              }
+            ]
+          },
+          {
+            "y": 291,
+            "cells": [
+              {
+                "text": "가상서연",
+                "bbox": [
+                  642,
+                  291,
+                  706,
+                  322
+                ]
+              },
+              {
+                "text": "대표자",
+                "bbox": [
+                  519,
+                  292,
+                  569,
+                  319
+                ]
+              }
+            ]
+          },
+          {
+            "y": 321,
+            "cells": [
+              {
+                "text": "사업자번호",
+                "bbox": [
+                  95,
+                  321,
+                  170,
+                  349
+                ]
+              },
+              {
+                "text": "000-00-00200",
+                "bbox": [
+                  221,
+                  323,
+                  320,
+                  351
+                ]
+              }
+            ]
+          },
+          {
+            "y": 328,
+            "cells": [
+              {
+                "text": "사업자번호",
+                "bbox": [
+                  518,
+                  328,
+                  593,
+                  353
+                ]
+              },
+              {
+                "text": "000-00-00201",
+                "bbox": [
+                  644,
+                  330,
+                  739,
+                  357
+                ]
+              }
+            ]
+          },
+          {
+            "y": 359,
+            "cells": [
+              {
+                "text": "건적일",
+                "bbox": [
+                  95,
+                  359,
+                  145,
+                  385
+                ]
+              },
+              {
+                "text": "2026-10-21",
+                "bbox": [
+                  220,
+                  359,
+                  303,
+                  387
+                ]
+              },
+              {
+                "text": "유효기간",
+                "bbox": [
+                  517,
+                  361,
+                  583,
+                  393
+                ]
+              },
+              {
+                "text": "2026-11-12",
+                "bbox": [
+                  643,
+                  364,
+                  725,
+                  393
+                ]
+              }
+            ]
+          },
+          {
+            "y": 410,
+            "cells": [
+              {
+                "text": "항목·규격",
+                "bbox": [
+                  94,
+                  410,
+                  164,
+                  439
+                ]
+              },
+              {
+                "text": "단가",
+                "bbox": [
+                  592,
+                  415,
+                  633,
+                  447
+                ]
+              }
+            ]
+          },
+          {
+            "y": 417,
+            "cells": [
+              {
+                "text": "수량",
+                "bbox": [
+                  501,
+                  417,
+                  539,
+                  445
+                ]
+              },
+              {
+                "text": "금액",
+                "bbox": [
+                  766,
+                  421,
+                  803,
+                  446
+                ]
+              }
+            ]
+          },
+          {
+            "y": 462,
+            "cells": [
+              {
+                "text": "1대",
+                "bbox": [
+                  500,
+                  462,
+                  538,
+                  490
+                ]
+              },
+              {
+                "text": "4,200,000원",
+                "bbox": [
+                  593,
+                  462,
+                  678,
+                  490
+                ]
+              },
+              {
+                "text": "4,20,000원",
+                "bbox": [
+                  766,
+                  465,
+                  851,
+                  493
+                ]
+              }
+            ]
+          },
+          {
+            "y": 516,
+            "cells": [
+              {
+                "text": "12개",
+                "bbox": [
+                  500,
+                  516,
+                  545,
+                  546
+                ]
+              },
+              {
+                "text": "960,000원",
+                "bbox": [
+                  764,
+                  519,
+                  839,
+                  550
+                ]
+              },
+              {
+                "text": "80,000원",
+                "bbox": [
+                  593,
+                  521,
+                  659,
+                  546
+                ]
+              }
+            ]
+          },
+          {
+            "y": 574,
+            "cells": [
+              {
+                "text": "1식",
+                "bbox": [
+                  499,
+                  574,
+                  537,
+                  604
+                ]
+              },
+              {
+                "text": "740,000원",
+                "bbox": [
+                  593,
+                  575,
+                  665,
+                  604
+                ]
+              },
+              {
+                "text": "740,000원",
+                "bbox": [
+                  765,
+                  579,
+                  838,
+                  607
+                ]
+              }
+            ]
+          },
+          {
+            "y": 633,
+            "cells": [
+              {
+                "text": "1식",
+                "bbox": [
+                  500,
+                  633,
+                  537,
+                  661
+                ]
+              },
+              {
+                "text": "300,000원",
+                "bbox": [
+                  593,
+                  634,
+                  665,
+                  660
+                ]
+              },
+              {
+                "text": "300,000원",
+                "bbox": [
+                  764,
+                  634,
+                  837,
+                  663
+                ]
+              },
+              {
+                "text": "냉장 진열장철거·운반",
+                "bbox": [
+                  94,
+                  637,
+                  235,
+                  663
+                ]
+              }
+            ]
+          }
+        ],
+        "lines": [
+          {
+            "text": "마음이음에너지절감개별서식",
+            "bbox": [
+              79,
+              37,
+              266,
+              62
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.94764643907547
+          },
+          {
+            "text": "가상예시/공식서석아님",
+            "bbox": [
+              780,
+              49,
+              929,
+              73
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9573127627372742
+          },
+          {
+            "text": "에너지개선/첨부",
+            "bbox": [
+              97,
+              128,
+              206,
+              156
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9083672761917114
+          },
+          {
+            "text": "사업별견적서예시",
+            "bbox": [
+              255,
+              125,
+              482,
+              166
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9885289669036865
+          },
+          {
+            "text": "TEST-Q-ENERGY-O01/가상거래·청구용아님",
+            "bbox": [
+              88,
+              173,
+              347,
+              202
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9341604113578796
+          },
+          {
+            "text": "공급받는자",
+            "bbox": [
+              96,
+              214,
+              175,
+              239
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9967679977416992
+          },
+          {
+            "text": "공급자",
+            "bbox": [
+              518,
+              218,
+              571,
+              248
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9987387657165527
+          },
+          {
+            "text": "상호",
+            "bbox": [
+              95,
+              249,
+              134,
+              278
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9952808618545532
+          },
+          {
+            "text": "가상새벽꽃집",
+            "bbox": [
+              222,
+              251,
+              308,
+              278
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9804052710533142
+          },
+          {
+            "text": "상호",
+            "bbox": [
+              517,
+              253,
+              559,
+              286
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9965153336524963
+          },
+          {
+            "text": "예시절감설비",
+            "bbox": [
+              643,
+              258,
+              730,
+              285
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9947459101676941
+          },
+          {
+            "text": "대표자",
+            "bbox": [
+              94,
+              284,
+              146,
+              314
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9946191906929016
+          },
+          {
+            "text": "가상하준",
+            "bbox": [
+              222,
+              288,
+              284,
+              314
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9939010143280029
+          },
+          {
+            "text": "대표자",
+            "bbox": [
+              519,
+              292,
+              569,
+              319
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9945148825645447
+          },
+          {
+            "text": "가상서연",
+            "bbox": [
+              642,
+              291,
+              706,
+              322
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9889618754386902
+          },
+          {
+            "text": "사업자번호",
+            "bbox": [
+              95,
+              321,
+              170,
+              349
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9634966850280762
+          },
+          {
+            "text": "000-00-00200",
+            "bbox": [
+              221,
+              323,
+              320,
+              351
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9691917300224304
+          },
+          {
+            "text": "사업자번호",
+            "bbox": [
+              518,
+              328,
+              593,
+              353
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9755234718322754
+          },
+          {
+            "text": "000-00-00201",
+            "bbox": [
+              644,
+              330,
+              739,
+              357
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9979259967803955
+          },
+          {
+            "text": "건적일",
+            "bbox": [
+              95,
+              359,
+              145,
+              385
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.854059636592865
+          },
+          {
+            "text": "2026-10-21",
+            "bbox": [
+              220,
+              359,
+              303,
+              387
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9990304708480835
+          },
+          {
+            "text": "유효기간",
+            "bbox": [
+              517,
+              361,
+              583,
+              393
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9980425238609314
+          },
+          {
+            "text": "2026-11-12",
+            "bbox": [
+              643,
+              364,
+              725,
+              393
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9991869926452637
+          },
+          {
+            "text": "항목·규격",
+            "bbox": [
+              94,
+              410,
+              164,
+              439
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9725589752197266
+          },
+          {
+            "text": "수량",
+            "bbox": [
+              501,
+              417,
+              539,
+              445
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9660741686820984
+          },
+          {
+            "text": "단가",
+            "bbox": [
+              592,
+              415,
+              633,
+              447
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9973311424255371
+          },
+          {
+            "text": "금액",
+            "bbox": [
+              766,
+              421,
+              803,
+              446
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.990416407585144
+          },
+          {
+            "text": "꽃 냉장 진열장",
+            "bbox": [
+              95,
+              446,
+              189,
+              474
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9151015877723694
+          },
+          {
+            "text": "가상모델 FL-E1/기존공간규격에맞춰설치",
+            "bbox": [
+              95,
+              468,
+              367,
+              495
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9412079453468323
+          },
+          {
+            "text": "1대",
+            "bbox": [
+              500,
+              462,
+              538,
+              490
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9937728643417358
+          },
+          {
+            "text": "4,200,000원",
+            "bbox": [
+              593,
+              462,
+              678,
+              490
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9635809063911438
+          },
+          {
+            "text": "4,20,000원",
+            "bbox": [
+              766,
+              465,
+              851,
+              493
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9104032516479492
+          },
+          {
+            "text": "매장LED 조명",
+            "bbox": [
+              95,
+              504,
+              187,
+              527
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9409792423248291
+          },
+          {
+            "text": "가상모델LT-E2/ 작업대·진열 구역",
+            "bbox": [
+              94,
+              523,
+              315,
+              552
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9050351977348328
+          },
+          {
+            "text": "12개",
+            "bbox": [
+              500,
+              516,
+              545,
+              546
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9935466647148132
+          },
+          {
+            "text": "80,000원",
+            "bbox": [
+              593,
+              521,
+              659,
+              546
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9950290322303772
+          },
+          {
+            "text": "960,000원",
+            "bbox": [
+              764,
+              519,
+              839,
+              550
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9920560121536255
+          },
+          {
+            "text": "설치·시운전",
+            "bbox": [
+              96,
+              561,
+              176,
+              585
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9678987860679626
+          },
+          {
+            "text": "냉장 설비 배치 및 작동확인",
+            "bbox": [
+              94,
+              580,
+              263,
+              606
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.8801477551460266
+          },
+          {
+            "text": "1식",
+            "bbox": [
+              499,
+              574,
+              537,
+              604
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9952405691146851
+          },
+          {
+            "text": "740,000원",
+            "bbox": [
+              593,
+              575,
+              665,
+              604
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9803853034973145
+          },
+          {
+            "text": "740,000원",
+            "bbox": [
+              765,
+              579,
+              838,
+              607
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9694116115570068
+          },
+          {
+            "text": "기존설비처리",
+            "bbox": [
+              94,
+              615,
+              188,
+              643
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9911368489265442
+          },
+          {
+            "text": "냉장 진열장철거·운반",
+            "bbox": [
+              94,
+              637,
+              235,
+              663
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.898120105266571
+          },
+          {
+            "text": "1식",
+            "bbox": [
+              500,
+              633,
+              537,
+              661
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9959694147109985
+          },
+          {
+            "text": "300,000원",
+            "bbox": [
+              593,
+              634,
+              665,
+              660
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9969854354858398
+          },
+          {
+            "text": "300,000원",
+            "bbox": [
+              764,
+              634,
+              837,
+              663
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.977963924407959
+          },
+          {
+            "text": "공급가액",
+            "bbox": [
+              94,
+              674,
+              155,
+              700
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9959785342216492
+          },
+          {
+            "text": "6,200,000원",
+            "bbox": [
+              764,
+              683,
+              846,
+              707
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9947618246078491
+          },
+          {
+            "text": "부가세",
+            "bbox": [
+              93,
+              709,
+              143,
+              736
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9941497445106506
+          },
+          {
+            "text": "620,000원",
+            "bbox": [
+              765,
+              719,
+              836,
+              744
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9307252168655396
+          },
+          {
+            "text": "총 건적금액",
+            "bbox": [
+              93,
+              745,
+              171,
+              773
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9093053340911865
+          },
+          {
+            "text": "6,820,000원",
+            "bbox": [
+              764,
+              756,
+              846,
+              781
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9982641935348511
+          },
+          {
+            "text": "거래조건·사업별 확인사항",
+            "bbox": [
+              94,
+              800,
+              249,
+              826
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9384111762046814
+          },
+          {
+            "text": "기존설비 규격 확인 후교체 모델을확정합니다.꽃임시보관은 사업주가 준비합니다.설치비·기존설비처리비 포함,전기요금과 정기유지비",
+            "bbox": [
+              93,
+              836,
+              906,
+              870
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9192839860916138
+          },
+          {
+            "text": "제외",
+            "bbox": [
+              91,
+              856,
+              135,
+              883
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9668572545051575
+          },
+          {
+            "text": "공급업체 확인:예시절감설비/가상서연(가상 확인)",
+            "bbox": [
+              625,
+              906,
+              917,
+              935
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9465101957321167
+          },
+          {
+            "text": "가상자료:실제 신청·증명·계약·지급에 사용할 수없습니다",
+            "bbox": [
+              72,
+              1305,
+              406,
+              1332
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.924932599067688
+          },
+          {
+            "text": "6/6",
+            "bbox": [
+              878,
+              1312,
+              920,
+              1340
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.993360698223114
+          }
+        ],
+        "fields": {
+          "businessName": "가상새벽꽃집",
+          "businessNo": "0000000200",
+          "representative": "가상하준",
+          "totalAmount": "6820000"
+        },
+        "evidence": {
+          "businessName": {
+            "bbox": [
+              222,
+              251,
+              308,
+              278
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9804052710533142
+          },
+          "businessNo": {
+            "bbox": [
+              221,
+              323,
+              320,
+              351
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9691917300224304
+          },
+          "representative": {
+            "bbox": [
+              222,
+              288,
+              284,
+              314
+            ],
+            "source": "PADDLE_OCR",
+            "confidence": 0.9939010143280029
+          },
+          "totalAmount": {
+            "lineIndex": 52,
+            "rawValue": "6,820,000원",
+            "bbox": [
+              764,
+              756,
+              846,
+              781
+            ],
+            "source": "PADDLE_OCR",
+            "method": "LLM_SOURCE_VERIFIED"
+          }
+        },
+        "photos": [],
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kindLabel": "견적서",
+        "previewKey": "54a8d9106c5929a165fb292e5295fd446b7d5270ef124f4c7fa1b3c932aced10.png",
+        "groupStart": true,
+        "ai": {
+          "pageNumber": 6,
+          "fields": {
+            "businessName": "가상새벽꽃집",
+            "representative": "가상서연",
+            "businessNo": "0000000201",
+            "totalAmount": "6820000"
+          },
+          "evidence": {
+            "businessName": {
+              "lineIndex": 8,
+              "rawValue": "가상새벽꽃집",
+              "bbox": [
+                222,
+                251,
+                308,
+                278
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "representative": {
+              "lineIndex": 14,
+              "rawValue": "가상서연",
+              "bbox": [
+                642,
+                291,
+                706,
+                322
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "businessNo": {
+              "lineIndex": 18,
+              "rawValue": "000-00-00201",
+              "bbox": [
+                644,
+                330,
+                739,
+                357
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            },
+            "totalAmount": {
+              "lineIndex": 52,
+              "rawValue": "6,820,000원",
+              "bbox": [
+                764,
+                756,
+                846,
+                781
+              ],
+              "source": "PADDLE_OCR",
+              "method": "LLM_SOURCE_VERIFIED"
+            }
+          },
+          "suggestedKind": "ESTIMATE",
+          "kindEvidence": {
+            "lineIndex": 3,
+            "text": "사업별견적서예시"
+          },
+          "kindAgreement": true,
+          "kindLabel": "견적서"
+        }
+      }
+    ],
+    "groups": [
+      {
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kind": "APPLICATION",
+        "kindLabel": "신청서",
+        "pageNumbers": [
+          1
+        ],
+        "indexes": [
+          0
+        ],
+        "pdfKey": "bb548615a5cf3db98db9f9163aba46a19789b24569887a24e5d3c4afcc61e16e.pdf"
+      },
+      {
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kind": "BUSINESS_PLAN",
+        "kindLabel": "사업계획서",
+        "pageNumbers": [
+          2,
+          3
+        ],
+        "indexes": [
+          1,
+          2
+        ],
+        "pdfKey": "62d5aa4ef105b303c972db7fa79b0110a528529b26157e3cdb50f7f7dde469ce.pdf"
+      },
+      {
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kind": "PHOTO_SHEET",
+        "kindLabel": "현장 사진",
+        "pageNumbers": [
+          4
+        ],
+        "indexes": [
+          3
+        ],
+        "pdfKey": "6c0205fa1fc23b345dda5015e52ce06d188b163bb09fb4d1f87ea7a06d239885.pdf"
+      },
+      {
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kind": "BUSINESS_CERT",
+        "kindLabel": "사업자등록증",
+        "pageNumbers": [
+          5
+        ],
+        "indexes": [
+          4
+        ],
+        "pdfKey": "eaafe6c2acadf416846ecadeb6bfbf41d98a528a62105808e88f382ef6f9e3bb.pdf"
+      },
+      {
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "kind": "ESTIMATE",
+        "kindLabel": "견적서",
+        "pageNumbers": [
+          6
+        ],
+        "indexes": [
+          5
+        ],
+        "pdfKey": "ce16c22708946162a4aa42ebe62eef029197cd304bf4687fc204f3a7dd0f2c93.pdf"
+      }
+    ],
+    "fields": {
+      "businessName": "가상새벽꽃집",
+      "businessNo": "0000000200",
+      "representative": "가상하준",
+      "requestedAmount": "5000000",
+      "selfContribution": "1820000",
+      "totalAmount": "6820000",
+      "planText": "사용시간및 소비전력확인표:현재 값은 확인되지않아미확인으로 돌니다.추정 절감량을 계선하거나 확정하지 않습니다\n절화를보관하는냉장 진열장1대와천장조명 12개를 사용합니다.제품규격과사용시간을정리해 교체 전후비교기준을 마련하고,꽃보관공\n영업용 꽃냉장 진열장 1대를 교체하고 조명12개를 LED로 바급니다.기존 제품과 교체 제품의 모델·소비전력 자료를 확보한 뒤사용시간을같\n꽃재고가 적은날냉장설비를교체하고임시보관 장소를먼저준비합니다.설치비와 기존설비 처리비를 따로견적받았습니다.효을 등급이나\n절감량은 사진으로 판정하지않고제품자료와사용 기록으로검토합니다\n냉장설정·작동여부와 조명교체수량을확인하고일정기간사용기록을남깁니다.아직설치하지않은설비의 전력절감수치를실제성과로기\n가상자료: 실제 신청-증명·계약·지급에사용할 수없습니다",
+      "openedOn": "2020-09-07",
+      "address": "가상시예시구꽃길72,1층",
+      "businessType": "도매및소매업",
+      "businessItem": "화초및식물소매",
+      "phone": "000-0000-0120"
+    },
+    "evidence": {
+      "businessName": {
+        "pageNumber": 6,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "businessNo": {
+        "pageNumber": 6,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "representative": {
+        "pageNumber": 6,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "requestedAmount": {
+        "pageNumber": 1,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "selfContribution": {
+        "pageNumber": 1,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "totalAmount": {
+        "pageNumber": 3,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "planText": {
+        "pageNumber": 2,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "openedOn": {
+        "pageNumber": 5,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "address": {
+        "pageNumber": 5,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "businessType": {
+        "pageNumber": 5,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "businessItem": {
+        "pageNumber": 5,
+        "sourceName": "신청서.pdf",
+        "sourceId": 0,
+        "textSource": "PADDLE_OCR"
+      },
+      "phone": {
+        "sourceId": 0,
+        "sourceName": "신청서.pdf",
+        "pageNumber": 1,
+        "textSource": "PADDLE_OCR"
+      }
+    },
+    "conflicts": [
+      {
+        "field": "businessType",
+        "previous": "도매및소매업",
+        "candidate": "도매 및소매업",
+        "pageNumber": 1,
+        "sourceName": "신청서.pdf"
+      },
+      {
+        "field": "businessItem",
+        "previous": "화초및식물소매",
+        "candidate": "화초및 식물 소매",
+        "pageNumber": 1,
+        "sourceName": "신청서.pdf"
+      },
+      {
+        "pageNumber": 6,
+        "field": "representative",
+        "previous": "가상하준",
+        "candidate": "가상서연",
+        "sourceName": "신청서.pdf",
+        "method": "LLM_SOURCE_VERIFIED"
+      },
+      {
+        "pageNumber": 6,
+        "field": "businessNo",
+        "previous": "0000000200",
+        "candidate": "0000000201",
+        "sourceName": "신청서.pdf",
+        "method": "LLM_SOURCE_VERIFIED"
+      }
+    ],
+    "pageCount": 6,
+    "photoCount": 1,
+    "aiAnalyses": [
+      {
+        "provider": "openrouter",
+        "model": "google/gemma-4-26b-a4b-it",
+        "status": "SUCCEEDED",
+        "verifiedCount": 23,
+        "rejectedCount": 1,
+        "conflicts": [
+          {
+            "pageNumber": 6,
+            "field": "representative",
+            "previous": "가상하준",
+            "candidate": "가상서연"
+          },
+          {
+            "pageNumber": 6,
+            "field": "businessNo",
+            "previous": "0000000200",
+            "candidate": "0000000201"
+          }
+        ],
+        "pageResults": [
+          {
+            "pageNumber": 1,
+            "fields": {
+              "businessName": "가상새벽꽃집",
+              "representative": "가상하준",
+              "businessNo": "0000000200",
+              "openedOn": "2020-09-07",
+              "phone": "000-0000-0120",
+              "address": "가상시예시구꽃길72,1층",
+              "businessType": "도매 및소매업",
+              "businessItem": "화초및 식물 소매",
+              "requestedAmount": "5000000",
+              "selfContribution": "1820000",
+              "totalAmount": "6820000"
+            },
+            "evidence": {
+              "businessName": {
+                "lineIndex": 6,
+                "rawValue": "가상새벽꽃집",
+                "bbox": [
+                  102,
+                  260,
+                  224,
+                  285
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "representative": {
+                "lineIndex": 7,
+                "rawValue": "가상하준",
+                "bbox": [
+                  516,
+                  266,
+                  613,
+                  287
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "businessNo": {
+                "lineIndex": 8,
+                "rawValue": "000-00-00200",
+                "bbox": [
+                  102,
+                  298,
+                  249,
+                  319
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "openedOn": {
+                "lineIndex": 9,
+                "rawValue": "2020-09-07",
+                "bbox": [
+                  516,
+                  302,
+                  633,
+                  323
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "phone": {
+                "lineIndex": 11,
+                "rawValue": "000-0000-0120",
+                "bbox": [
+                  515,
+                  334,
+                  658,
+                  360
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "address": {
+                "lineIndex": 10,
+                "rawValue": "가상시예시구꽃길72,1층",
+                "bbox": [
+                  101,
+                  333,
+                  302,
+                  356
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "businessType": {
+                "lineIndex": 12,
+                "rawValue": "도매 및소매업",
+                "bbox": [
+                  100,
+                  367,
+                  363,
+                  393
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "businessItem": {
+                "lineIndex": 12,
+                "rawValue": "화초및 식물 소매",
+                "bbox": [
+                  100,
+                  367,
+                  363,
+                  393
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "requestedAmount": {
+                "lineIndex": 32,
+                "rawValue": "5,000,000원",
+                "bbox": [
+                  96,
+                  697,
+                  180,
+                  725
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "selfContribution": {
+                "lineIndex": 33,
+                "rawValue": "1,820,000원",
+                "bbox": [
+                  375,
+                  702,
+                  457,
+                  726
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "totalAmount": {
+                "lineIndex": 34,
+                "rawValue": "6,820,000원",
+                "bbox": [
+                  650,
+                  704,
+                  733,
+                  728
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              }
+            },
+            "suggestedKind": "APPLICATION",
+            "kindEvidence": {
+              "lineIndex": 3,
+              "text": "지원사업 신청서"
+            },
+            "kindAgreement": true,
+            "kindLabel": "신청서"
+          },
+          {
+            "pageNumber": 2,
+            "fields": {},
+            "evidence": {},
+            "suggestedKind": "BUSINESS_PLAN",
+            "kindEvidence": {
+              "lineIndex": 3,
+              "text": "설비 교체및 사용량 확인계획"
+            },
+            "kindAgreement": true,
+            "kindLabel": "사업계획서"
+          },
+          {
+            "pageNumber": 3,
+            "fields": {
+              "totalAmount": "6820000"
+            },
+            "evidence": {
+              "totalAmount": {
+                "lineIndex": 34,
+                "rawValue": "6,820,000원",
+                "bbox": [
+                  754,
+                  575,
+                  837,
+                  600
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              }
+            },
+            "suggestedKind": "ESTIMATE",
+            "kindEvidence": {
+              "lineIndex": 3,
+              "text": "설비대조·교체비용과 확인일정"
+            },
+            "kindAgreement": false,
+            "kindLabel": "견적서"
+          },
+          {
+            "pageNumber": 5,
+            "fields": {
+              "businessName": "가상새벽꽃집",
+              "businessNo": "0000000200",
+              "representative": "가상하준",
+              "openedOn": "2020-09-07",
+              "address": "가상시예시구꽃길72,1층",
+              "businessType": "도매및소매업",
+              "businessItem": "화초및식물소매"
+            },
+            "evidence": {
+              "businessName": {
+                "lineIndex": 8,
+                "rawValue": "가상새벽꽃집",
+                "bbox": [
+                  276,
+                  360,
+                  363,
+                  388
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "businessNo": {
+                "lineIndex": 6,
+                "rawValue": "000-00-00200",
+                "bbox": [
+                  277,
+                  287,
+                  374,
+                  312
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "representative": {
+                "lineIndex": 10,
+                "rawValue": "가상하준",
+                "bbox": [
+                  277,
+                  435,
+                  342,
+                  465
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "openedOn": {
+                "lineIndex": 12,
+                "rawValue": "2020년 09월07일",
+                "bbox": [
+                  280,
+                  509,
+                  397,
+                  536
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "address": {
+                "lineIndex": 14,
+                "rawValue": "가상시예시구꽃길72,1층",
+                "bbox": [
+                  282,
+                  597,
+                  446,
+                  623
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "businessType": {
+                "lineIndex": 16,
+                "rawValue": "도매및소매업",
+                "bbox": [
+                  284,
+                  690,
+                  408,
+                  715
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "businessItem": {
+                "lineIndex": 17,
+                "rawValue": "화초및식물소매",
+                "bbox": [
+                  284,
+                  710,
+                  425,
+                  733
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              }
+            },
+            "suggestedKind": "BUSINESS_CERT",
+            "kindEvidence": {
+              "lineIndex": 3,
+              "text": "사업자등록증예시(가상)"
+            },
+            "kindAgreement": true,
+            "kindLabel": "사업자등록증"
+          },
+          {
+            "pageNumber": 6,
+            "fields": {
+              "businessName": "가상새벽꽃집",
+              "representative": "가상서연",
+              "businessNo": "0000000201",
+              "totalAmount": "6820000"
+            },
+            "evidence": {
+              "businessName": {
+                "lineIndex": 8,
+                "rawValue": "가상새벽꽃집",
+                "bbox": [
+                  222,
+                  251,
+                  308,
+                  278
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "representative": {
+                "lineIndex": 14,
+                "rawValue": "가상서연",
+                "bbox": [
+                  642,
+                  291,
+                  706,
+                  322
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "businessNo": {
+                "lineIndex": 18,
+                "rawValue": "000-00-00201",
+                "bbox": [
+                  644,
+                  330,
+                  739,
+                  357
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              },
+              "totalAmount": {
+                "lineIndex": 52,
+                "rawValue": "6,820,000원",
+                "bbox": [
+                  764,
+                  756,
+                  846,
+                  781
+                ],
+                "source": "PADDLE_OCR",
+                "method": "LLM_SOURCE_VERIFIED"
+              }
+            },
+            "suggestedKind": "ESTIMATE",
+            "kindEvidence": {
+              "lineIndex": 3,
+              "text": "사업별견적서예시"
+            },
+            "kindAgreement": true,
+            "kindLabel": "견적서"
+          }
+        ],
+        "supplementedCount": 7,
+        "agreementCount": 14,
+        "durationSeconds": 17.25,
+        "sourceName": "신청서.pdf"
+      }
+    ]
+  },
+  "aiPreparedAt": "2026-10-25T19:57:34.818776+00:00"
+}

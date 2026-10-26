@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC '-//mybatis.org//DTD Mapper 3.0//EN'
+  'https://mybatis.org/dtd/mybatis-3-mapper.dtd'>
+<mapper namespace="kr.co.maeum.support.audit.AuditMapper">
+  <insert id="insert">
+    INSERT INTO audit_event(workspace_id,actor_id,application_id,action,target_type,target_id,request_id,summary)
+    VALUES(#{workspaceId},#{actorId},#{applicationId},#{action},#{targetType},#{targetId},#{requestId},#{summary})
+  </insert>
+  <select id="list" resultType="map">
+    SELECT e.*,u.display_name
+    FROM audit_event e
+    JOIN app_user u ON u.id=e.actor_id
+    WHERE e.workspace_id=#{workspaceId}
+    <if test="keyword != null and keyword != ''">
+      AND (e.action LIKE CONCAT('%',#{keyword},'%')
+      OR e.summary LIKE CONCAT('%',#{keyword},'%'))
+    </if>
+    ORDER BY e.id DESC
+    LIMIT 100
+  </select>
+</mapper>

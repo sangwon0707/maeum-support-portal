@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC '-//mybatis.org//DTD Mapper 3.0//EN'
+  'https://mybatis.org/dtd/mybatis-3-mapper.dtd'>
+<mapper namespace="kr.co.maeum.support.ocr.OcrMapper">
+  <select id="findDocumentJob" resultType="kr.co.maeum.support.ocr.OcrJob">
+    SELECT *
+    FROM ocr_job
+    WHERE document_id=#{documentId}
+    ORDER BY id DESC LIMIT 1
+  </select>
+  <select id="findModeJob" resultType="kr.co.maeum.support.ocr.OcrJob">
+    SELECT * FROM ocr_job WHERE document_id=#{documentId} AND provider_mode=#{mode}
+    ORDER BY id DESC LIMIT 1
+  </select>
+  <insert id="insert">
+    INSERT INTO ocr_job(document_id,provider_mode,provider_version)
+    VALUES(#{documentId},#{mode},#{version})
+  </insert>
+  <select id="countWorkspace" resultType="long">
+    SELECT COUNT(*)
+    FROM ocr_job j
+    JOIN document d ON d.id=j.document_id
+    JOIN application a ON a.id=d.application_id
+    WHERE a.workspace_id=#{workspaceId}
+  </select>
+  <select id="countOwnerToday" resultType="long">
+    SELECT COUNT(*) FROM ocr_job j JOIN document d ON d.id=j.document_id JOIN application a ON a.id=d.application_id
+    WHERE a.workspace_id=#{workspaceId} AND a.owner_id=#{ownerId} AND j.created_at &gt;= UTC_DATE()
+  </select>
+  <select id="pending" resultType="kr.co.maeum.support.ocr.OcrJob">
+    SELECT j.*
+    FROM ocr_job j
+    JOIN document d ON d.id=j.document_id
+    JOIN application a ON a.id=d.application_id
+    JOIN workspace w ON w.id=a.workspace_id
+    WHERE (w.kind='NORMAL'
+    OR w.expires_at&gt;UTC_TIMESTAMP(6))
+    AND j.attempts&lt;3
+    AND ((j.status='PENDING'
+    AND j.next_attempt_at&lt;=UTC_TIMESTAMP(6))
+    OR (j.status='RUNNING'
+    AND j.lease_until&lt;UTC_TIMESTAMP(6) AND j.provider_mode!='LIVE_AI'))
+    ORDER BY j.id
+    LIMIT 3
+  </select>
+  <update id="claim">
+    UPDATE ocr_job
+    SET status='RUNNING',attempts=attempts+1,claim_token=#{token},lease_until=TIMESTAMPADD(SECOND,240,UTC_TIMESTAMP(6))
+    WHERE id=#{id}
+    AND attempts&lt;3
+    AND ((status='PENDING'
+    AND next_attempt_at&lt;=UTC_TIMESTAMP(6))
+    OR (status='RUNNING'
+    AND lease_until&lt;UTC_TIMESTAMP(6) AND provider_mode!='LIVE_AI'))
+  </update>
+  <insert id="result">
+    INSERT INTO ocr_result(job_id,extracted_fields,evidence,raw_result)
+    VALUES(#{jobId},#{fields},#{evidence},#{raw})
+    ON DUPLICATE KEY UPDATE job_id=VALUES(job_id)
+  </insert>
+  <update id="finish">
+    UPDATE ocr_job
+    SET status='SUCCEEDED',lease_until=NULL,error_code=NULL
+    WHERE id=#{id}
+    AND claim_token=#{token}
+    AND status='RUNNING'
+  </update>
+  <update id="fail">
+    UPDATE ocr_job
+    SET status=
+    <choose>
+      <when test="retry">
+        'PENDING'
+      </when>
+      <otherwise>
+        'FAILED'
+      </otherwise>
+    </choose>
+    ,error_code=#{code},lease_until=NULL,next_attempt_at=TIMESTAMPADD(SECOND,5,UTC_TIMESTAMP(6))
+    WHERE id=#{id}
+    AND claim_token=#{token}
+    AND status='RUNNING'
+  </update>
+  <select id="resultFor" resultType="map">
+    SELECT r.*
+    FROM ocr_result r
+    JOIN ocr_job j ON j.id=r.job_id
+    WHERE j.document_id=#{documentId}
+    AND j.id=(SELECT MAX(latest.id) FROM ocr_job latest WHERE latest.document_id=#{documentId})
+    AND j.status='SUCCEEDED'
+    ORDER BY j.id DESC LIMIT 1
+  </select>
+  <select id="confirmations" resultType="map">
+    SELECT field_code,confirmed_value
+    FROM field_confirmation
+    WHERE document_id=#{documentId}
+    ORDER BY field_code
+  </select>
+  <insert id="confirm">
+    INSERT INTO field_confirmation(document_id,ocr_result_id,field_code,confirmed_value,confirmed_by)
+    VALUES(#{documentId},#{resultId},#{field},#{value},#{actorId})
+    ON DUPLICATE KEY UPDATE ocr_result_id=VALUES(ocr_result_id),confirmed_value=VALUES(confirmed_value),confirmed_by=VALUES(confirmed_by),confirmed_at=UTC_TIMESTAMP(6)
+  </insert>
+  <select id="scenario" resultType="string">
+    SELECT s.code
+    FROM application a
+    JOIN workspace w ON w.id=a.workspace_id
+    LEFT JOIN demo_scenario s ON s.id=w.scenario_id
+    WHERE a.id=#{applicationId}
+  </select>
+  <!-- 마지막 시도 도중 종료된 작업도 영원히 RUNNING에 남지 않게 한다. -->
+  <update id="expireExhausted">
+    UPDATE ocr_job SET status='FAILED', error_code='LEASE_EXPIRED', lease_until=NULL
+    WHERE status='RUNNING' AND (attempts &gt;= 3 OR provider_mode='LIVE_AI') AND lease_until &lt; UTC_TIMESTAMP(6)
+  </update>
+  <insert id="ensureAiQuota">
+    INSERT INTO ai_daily_usage(usage_day,scope_key) VALUES(UTC_DATE(),#{scope})
+    ON DUPLICATE KEY UPDATE scope_key=VALUES(scope_key)
+  </insert>
+  <update id="reserveAiQuota">
+    UPDATE ai_daily_usage SET requests=requests+1
+    WHERE usage_day=UTC_DATE() AND scope_key=#{scope} AND requests &lt; #{limit}
+  </update>
+</mapper>

@@ -6,11 +6,63 @@ document.querySelectorAll('[data-back]').forEach((button) => {
     else location.assign('./');
   });
 });
-document.querySelectorAll('form[data-confirm]').forEach((form) => {
-  form.addEventListener('submit', (event) => {
-    if (!window.confirm(form.dataset.confirm)) event.preventDefault();
+const confirmationDialog = document.querySelector('[data-action-confirmation]');
+if (confirmationDialog) {
+  const accept = confirmationDialog.querySelector('[data-action-confirm]');
+  let pending = null;
+  let approvedForm = null;
+  let returnFocus = null;
+  const submitting = new WeakSet();
+
+  document.querySelectorAll('form[data-confirm]').forEach(form => {
+    form.addEventListener('submit', event => {
+      if (submitting.has(form)) { event.preventDefault(); return; }
+      if (approvedForm === form) {
+        submitting.add(form);
+        return;
+      }
+      event.preventDefault();
+      if (confirmationDialog.open) return;
+      pending = { form, submitter: event.submitter };
+      returnFocus = event.submitter || document.activeElement;
+      confirmationDialog.querySelector('[data-action-confirmation-title]').textContent = form.dataset.confirmTitle || '변경 내용을 적용할까요?';
+      confirmationDialog.querySelector('[data-action-confirmation-message]').textContent = form.dataset.confirm;
+      const result = form.querySelector('#decision');
+      const summary = confirmationDialog.querySelector('[data-action-confirmation-summary]');
+      summary.hidden = !result;
+      summary.textContent = result ? `선택한 결과: ${result.selectedOptions[0].textContent}\n확정 사유: ${form.querySelector('#decisionReason').value.trim()}` : '';
+      accept.textContent = form.dataset.confirmLabel || '확인하고 적용';
+      accept.disabled = false;
+      confirmationDialog.showModal();
+      confirmationDialog.querySelector('.action-confirmation-actions [data-action-cancel]').focus();
+    });
   });
-});
+  confirmationDialog.querySelectorAll('[data-action-cancel]').forEach(button => {
+    button.addEventListener('click', () => confirmationDialog.close());
+  });
+  confirmationDialog.addEventListener('close', () => {
+    pending = null;
+    if (!approvedForm) returnFocus?.focus();
+  });
+  accept.addEventListener('click', () => {
+    if (!pending || accept.disabled) return;
+    const { form, submitter } = pending;
+    accept.disabled = true;
+    // 원래 제출 버튼과 브라우저 검증을 유지한다. 모달 확인은 서버 검증을 대신하지 않는다.
+    approvedForm = form;
+    confirmationDialog.close();
+    if (submitter) form.requestSubmit(submitter);
+    else form.requestSubmit();
+    approvedForm = null;
+  });
+  window.addEventListener('pageshow', () => {
+    document.querySelectorAll('form[data-confirm]').forEach(form => submitting.delete(form));
+    pending = null;
+    approvedForm = null;
+    accept.disabled = false;
+    if (confirmationDialog.open) confirmationDialog.close();
+  });
+}
 // OCR 대기 화면만 새로고침한다. 완료된 결과 화면은 자동으로 이동하지 않는다.
 if (document.querySelector('[data-ocr-pending]')) {
   window.setTimeout(() => location.reload(), 1800);

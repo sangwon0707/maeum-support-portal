@@ -130,7 +130,7 @@
               </c:forEach><button class="krds-btn medium secondary">확인값 저장</button>
             </form>
             <c:if test="${not empty confirmed}">
-              <form method="post" action="${base}/documents/${certificate.id}/apply-confirmed" data-confirm="저장한 확인값으로 신청서의 상호·번호·대표자·개업일을 바꿀까요?">
+              <form method="post" action="${base}/documents/${certificate.id}/apply-confirmed" data-confirm-title="확인한 정보를 신청서에 반영할까요?" data-confirm-label="신청서에 반영" data-confirm="저장한 확인값으로 신청서의 상호·번호·대표자·개업일을 바꿀까요?">
                 <t:csrf /><input type="hidden" name="version" value="${application.version}"><button class="krds-btn medium primary">확인한 사업자 정보를 신청서에 반영</button>
               </form>
             </c:if>

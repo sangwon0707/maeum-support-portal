@@ -41,7 +41,7 @@
       </thead>
       <tbody>
         <c:forEach var="application" items="${applications}">
-          <tr>
+          <tr data-guide-review-status="${application.status}">
             <td>
               <c:out value="${application.receiptNo}" default="미제출" />
             </td>

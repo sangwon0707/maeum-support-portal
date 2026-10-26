@@ -15,11 +15,11 @@
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="${base}/assets/krds/css/common/common.css">
   <link rel="stylesheet" href="${base}/assets/krds/css/component/component.css">
-  <link rel="stylesheet" href="${base}/assets/app.css">
+  <link rel="stylesheet" href="${base}/assets/app.css?v=20261026-confirm">
   <link rel="stylesheet" href="${base}/assets/portal-theme.css?v=20261026-admin-review">
-  <link rel="stylesheet" href="${base}/assets/portfolio-guide.css?v=10">
-  <script src="${base}/assets/app.js" defer></script>
-  <script src="${base}/assets/portfolio-guide.js?v=11" defer></script>
+  <link rel="stylesheet" href="${base}/assets/portfolio-guide.css?v=12">
+  <script src="${base}/assets/app.js?v=20261026-confirm" defer></script>
+  <script src="${base}/assets/portfolio-guide.js?v=12" defer></script>
 </head>
 
 <body data-actor-role="${empty actor?'VISITOR':actor.role}"><a class="skip" href="#content">본문 바로가기</a>
@@ -70,6 +70,13 @@
       </div>
     </div>
   </footer>
+  <dialog class="action-confirmation" data-action-confirmation role="alertdialog" aria-labelledby="action-confirmation-title" aria-describedby="action-confirmation-message">
+    <div class="action-confirmation-heading"><span class="action-confirmation-icon" aria-hidden="true">!</span><button type="button" class="text-button" data-action-cancel aria-label="확인창 닫기">×</button></div>
+    <h2 id="action-confirmation-title" data-action-confirmation-title>변경 내용을 적용할까요?</h2>
+    <p id="action-confirmation-message" data-action-confirmation-message></p>
+    <p class="action-confirmation-summary" data-action-confirmation-summary hidden></p>
+    <div class="action-confirmation-actions"><button type="button" class="krds-btn medium secondary" data-action-cancel>취소</button><button type="button" class="krds-btn medium primary" data-action-confirm>확인하고 적용</button></div>
+  </dialog>
   <div class="portfolio-guide-halo" hidden aria-hidden="true"></div>
   <div class="portfolio-guide-cue" hidden aria-hidden="true"><svg viewBox="0 0 56 64" class="guide-arrow"><path d="M18 4H38V32H51L28 59L5 32H18Z" fill="#2667e8" stroke="white" stroke-width="4" stroke-linejoin="round" /></svg></div>
 </body>

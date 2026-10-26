@@ -228,3 +228,16 @@ th { background: #f2f5f8; font-weight: 700; }
 .demo-login-policy { margin: 14px 0 24px; font-size: 14px; color: #475569; }
 .demo-login-actions { display: flex; justify-content: flex-end; gap: 10px; }
 @media(max-width: 600px) { .demo-login-dialog { padding: 20px; } .demo-login-dialog h2 { font-size: 23px; } .demo-login-actions > button { flex: 1; } }
+
+/* 상태 변경 확인은 공통 모달에서 처리하고 원래 폼의 입력 검증을 유지한다. */
+.action-confirmation { width: min(480px, calc(100vw - 32px)); max-height: calc(100dvh - 40px); overflow: auto; padding: 28px; border: 1px solid #d6dce3; border-radius: 18px; color: #1e293b; background: #fff; box-shadow: 0 24px 80px #0f234f33; }
+.action-confirmation::backdrop { background: #14213d88; backdrop-filter: blur(4px); }
+.action-confirmation-heading { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; }
+.action-confirmation-icon { display: grid; place-items: center; width: 42px; height: 42px; border-radius: 50%; background: #fff4d9; color: #966600; font-size: 26px; font-weight: 700; }
+.action-confirmation-heading > button { font-size: 28px; min-width: 40px; min-height: 40px; border: 0; border-radius: 8px; background: transparent; text-decoration: none; color: #526075; }
+.action-confirmation h2 { margin: 0 0 12px; font-size: 24px; line-height: 1.4; }
+.action-confirmation p { line-height: 1.7; }
+.action-confirmation-summary { white-space: pre-line; margin: 20px 0 0; padding: 14px 16px; border-radius: 8px; background: #f3f6fa; font-weight: 700; }
+.action-confirmation-summary[hidden] { display: none; }
+.action-confirmation-actions { display: flex; justify-content: flex-end; gap: 10px; margin-top: 28px; }
+@media(max-width:600px) { .action-confirmation { padding: 22px; } .action-confirmation-actions > button { flex: 1; } }

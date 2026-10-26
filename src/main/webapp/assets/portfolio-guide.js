@@ -13,6 +13,11 @@
   const pickerState = { kind: null, selected: null, opener: null, busy: false, previewReady: false, attachAfterPreview: false };
   const halo = document.querySelector('.portfolio-guide-halo');
   const cue = document.querySelector('.portfolio-guide-cue');
+  const adminEntryHalo = halo?.cloneNode(true);
+  const adminEntryCue = cue?.cloneNode(true);
+  [adminEntryHalo, adminEntryCue].forEach(element => {
+    if (element) { element.dataset.guideTheme = 'admin'; document.body.append(element); }
+  });
   const widget = document.querySelector('.portfolio-guide-widget');
   const guideStatus = document.querySelector('[data-tour-status]');
   const locateButton = document.querySelector('[data-tour-locate]');
@@ -171,7 +176,56 @@
     });
   }
 
+  function guideRole() {
+    const role = document.body.dataset.actorRole;
+    if (role === 'ADMIN') return 'admin';
+    if (role && role !== 'VISITOR') return 'applicant';
+    if (document.getElementById('username')?.value === 'admin') return 'admin';
+    return 'applicant';
+  }
+
+  function reviewerTarget() {
+    const path = location.pathname;
+    if (path.endsWith('/staff/applications')) {
+      const pending = firstVisible('[data-guide-review-status="UNDER_REVIEW"] a.table-link')
+        || firstVisible('[data-guide-review-status="SUBMITTED"] a.table-link');
+      return pending ? hint(pending, '접수된 신청을 열어 서류를 검토하세요.')
+        : hint(firstVisible('form[action$="/logout"] button'), '검토할 접수가 없습니다. 사용자 계정에서 신청을 제출할 수 있어요.');
+    }
+    const review = document.querySelector('[data-guide-review]');
+    if (review) {
+      const start = firstVisible('form[action$="/start"] button');
+      if (start) return hint(start, '신청 내용과 원본 서류를 확인하고 검토를 시작하세요.');
+      const decision = document.getElementById('decision');
+      if (decision) {
+        const supplement = document.getElementById('supplementReason');
+        if (supplement?.value.trim()) {
+          const dueAt = document.getElementById('dueAt');
+          if (!dueAt.value) return hint(dueAt, '보완 기한을 지정하세요.');
+          return hint(firstVisible('form[action$="/supplement"] button'), '보완 항목·사유·기한을 확인하고 요청을 보내세요.');
+        }
+        if (decision.dataset.guideConfirmed !== 'true') return hint(decision, '선정 또는 미선정을 선택하세요.');
+        const reason = document.getElementById('decisionReason');
+        if (!reason.value.trim()) return hint(reason, '선택한 결과의 사유를 입력하세요.');
+        const checked = document.querySelector('input[name="checked"]');
+        if (!checked.checked) return hint(checked.closest('label'), '서류와 신청 정보를 검토했다면 확인해 주세요.');
+        return hint(firstVisible('form[action$="/decision"] button'), '선택한 결과와 사유를 확인하고 확정하세요.');
+      }
+      return hint(firstVisible('form[action$="/logout"] button'), '사용자 계정으로 로그인하면 보완 요청이나 처리 결과를 확인할 수 있어요.');
+    }
+    return hint(firstVisible('a[href$="/staff/applications"]'), '접수 검토에서 신청 내용을 확인하세요.');
+  }
+
   function nextGuideTarget() {
+    const confirmation = document.querySelector('[data-action-confirmation]');
+    if (confirmation?.open) return hint(confirmation.querySelector('[data-action-confirm]'), '변경 내용을 확인한 뒤 적용하세요.');
+    const loginDialog = document.querySelector('[data-demo-login-dialog]');
+    if (loginDialog?.open) {
+      const acknowledgment = loginDialog.querySelector('[data-demo-login-acknowledgment]');
+      return !acknowledgment.checked ? hint(acknowledgment.closest('label'), '공개 계정 안내를 읽고 확인해 주세요.')
+        : hint(loginDialog.querySelector('[data-demo-login-confirm]'), '안내를 확인했다면 로그인하세요.');
+    }
+    if (document.body.dataset.actorRole === 'ADMIN') return reviewerTarget();
     if (picker?.open) {
       if (pickerState.busy) return null;
       return pickerState.selected
@@ -194,9 +248,9 @@
     }
     if (path.endsWith('/login')) {
       const emptyField = [...document.querySelectorAll('#username,#password')].find((field) => !field.value);
-      const fillTestAccount = document.querySelector('[data-fill-test-account]');
+      const fillTestAccount = document.querySelector('[data-fill-test-account="applicant"]');
       if (emptyField && !document.getElementById('username').value && fillTestAccount) return hint(fillTestAccount, '테스트 계정을 입력한 뒤 로그인하세요.');
-      return emptyField ? hint(emptyField, emptyField.id === 'username' ? '신청자 테스트 계정 아이디를 입력하세요.' : '비밀번호를 입력한 뒤 로그인하세요.')
+      return emptyField ? hint(emptyField, emptyField.id === 'username' ? '테스트 계정 아이디를 입력하세요.' : '비밀번호를 입력한 뒤 로그인하세요.')
         : hint(document.querySelector('form[action$="/login"] button[type="submit"]'), '이 버튼으로 로그인해 신청을 시작하세요.');
     }
     if (/\/applications\/\d+\/edit$/.test(path)) {
@@ -256,30 +310,53 @@
     const inlineToggle = document.querySelector('.picker-guide-toggle');
     if (inlineToggle) text('.picker-guide-toggle', enabled ? '안내 끄기' : '안내 켜기');
     widget.classList.toggle('guide-off', !enabled);
+    const previousTarget = activeTarget;
     activeTarget?.classList.remove('portfolio-guide-target');
     locateButton.hidden = true;
     cue.hidden = true;
     halo.hidden = true;
+    adminEntryHalo.hidden = true;
+    adminEntryCue.hidden = true;
     if (!enabled) return;
     const next = nextGuideTarget();
     activeTarget = next?.element || null;
     text('[data-tour-status]', next?.message || (document.querySelector('[data-ocr-pending]') ? '문자 인식 중이에요. 잠시 기다려 주세요.' : '이 단계의 안내를 마쳤어요. 화면의 진행 상태를 확인하세요.'));
-    if (!next) return;
-    const box = activeTarget.getBoundingClientRect();
+    const role = guideRole();
+    if (role === 'admin' && activeTarget && activeTarget !== previousTarget) {
+      const bounds = activeTarget.getBoundingClientRect();
+      const noticeHeight = notice?.getBoundingClientRect().height || 0;
+      if (bounds.top < noticeHeight || bounds.bottom > innerHeight) {
+        activeTarget.scrollIntoView({ behavior: 'instant', block: 'center' });
+      }
+    }
+    halo.dataset.guideTheme = role;
+    cue.dataset.guideTheme = role;
+    document.body.dataset.guideTheme = role;
+    if (next) paintGuide(next.element, halo, cue, true);
+    const username = document.getElementById('username');
+    if (location.pathname.endsWith('/login') && username && !username.value && !document.querySelector('dialog[open]')) {
+      const adminEntry = firstVisible('[data-fill-test-account="admin"]');
+      if (adminEntry) paintGuide(adminEntry, adminEntryHalo, adminEntryCue, false);
+    }
+  }
+
+  function paintGuide(target, halo, cue, primary) {
+    const box = target.getBoundingClientRect();
     if (box.bottom < 0 || box.top > innerHeight - 16) {
-      locateButton.hidden = false;
+      if (primary) locateButton.hidden = false;
       return;
     }
-    activeTarget.classList.add('portfolio-guide-target');
-    const host = picker?.open ? picker : document.body;
+    if (primary) target.classList.add('portfolio-guide-target');
+    const dialog = target.closest('dialog[open]');
+    const host = dialog || document.body;
     if (cue.parentNode !== host) host.append(cue);
     if (halo.parentNode !== host) host.append(halo);
-    if (activeTarget.matches('button,a,summary')) {
+    if (target.matches('button,a,summary,select') || halo.dataset.guideTheme === 'admin') {
       halo.style.left = `${box.left - 5}px`;
       halo.style.top = `${box.top - 5}px`;
       halo.style.width = `${box.width + 10}px`;
       halo.style.height = `${box.height + 10}px`;
-      halo.style.borderRadius = `${(parseFloat(getComputedStyle(activeTarget).borderTopLeftRadius) || 0) + 5}px`;
+      halo.style.borderRadius = `${(parseFloat(getComputedStyle(target).borderTopLeftRadius) || 0) + 5}px`;
       halo.hidden = false;
     }
     // 화살표는 다음 조작 대상의 네 면 바로 옆에서만 위치를 고른다.
@@ -291,7 +368,7 @@
       {x: box.right + gap, y: centerY - size / 2, angle: 90},
       {x: centerX - size / 2, y: box.bottom + gap, angle: 180}
     ];
-    const scope = picker?.open ? picker : document.querySelector('main');
+    const scope = dialog || document.querySelector('main');
     const occupied = [];
     const walker = document.createTreeWalker(scope, NodeFilter.SHOW_TEXT);
     while (walker.nextNode()) {
@@ -304,7 +381,7 @@
     scope.querySelectorAll('input,textarea,button,a,[data-picker-preview]').forEach(element => {
       if (visible(element)) occupied.push(element.getBoundingClientRect());
     });
-    const bounds = picker?.open ? picker.getBoundingClientRect() : {left: 0, right: innerWidth, top: 0, bottom: innerHeight};
+    const bounds = dialog ? dialog.getBoundingClientRect() : {left: 0, right: innerWidth, top: 0, bottom: innerHeight};
     const inBounds = positions.filter(p => p.x >= Math.max(2,bounds.left) && p.x + size <= Math.min(innerWidth-2,bounds.right) && p.y >= Math.max(2,bounds.top) && p.y + size <= Math.min(innerHeight-2,bounds.bottom));
     const spot = inBounds.find(p => !occupied.some(r => p.x < r.right + 2 && p.x + size > r.left - 2 && p.y < r.bottom + 2 && p.y + size > r.top - 2)) || inBounds[0];
     if (spot) {
@@ -333,10 +410,16 @@
     activeTarget?.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block: 'center' });
   });
   document.addEventListener('click', (event) => {
+    const decision = event.target.closest('#decision');
+    if (decision) decision.dataset.guideConfirmed = 'true';
     const link = event.target.closest('[data-tour-catalog]');
     if (link) completedLinks.add(link);
     scheduleGuide();
   });
+  document.getElementById('decision')?.addEventListener('change', event => { event.target.dataset.guideConfirmed = 'true'; });
+  document.querySelector('[data-action-confirmation]')?.addEventListener('close', scheduleGuide);
+  document.querySelector('[data-demo-login-dialog]')?.addEventListener('close', scheduleGuide);
+  document.addEventListener('submit', scheduleGuide, true);
   ['input', 'change', 'toggle'].forEach((event) => document.addEventListener(event, scheduleGuide, true));
   addEventListener('scroll', scheduleGuide, { passive: true });
   addEventListener('resize', scheduleGuide);

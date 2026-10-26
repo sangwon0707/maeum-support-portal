@@ -36,7 +36,7 @@
   <c:if test="${empty supplement && not empty sampleOptions}">
     <details class="content-panel example-help"><summary>작성 예시가 필요하신가요?</summary>
       <p>빈 신청서에 직접 입력하거나 아래 예시 정보를 불러와 수정할 수 있습니다. 예시를 불러오면 현재 저장된 입력값을 바꿉니다. 서류는 별도로 첨부해야 합니다.</p>
-      <form method="post" action="${base}/applications/${application.id}/example" data-confirm="현재 저장된 신청 정보를 선택한 예시로 바꿀까요?">
+      <form method="post" action="${base}/applications/${application.id}/example" data-confirm-title="신청 정보를 불러올까요?" data-confirm-label="불러오기" data-confirm="현재 저장된 신청 정보를 선택한 예시로 바꿀까요?">
         <t:csrf /><input type="hidden" name="version" value="${application.version}">
         <label for="application-example">예시 정보</label><select class="krds-form-select" id="application-example" name="dataset"><c:forEach var="sampleOption" items="${sampleOptions}"><option value="${sampleOption.code}"><c:out value="${sampleOption.label}" /></option></c:forEach></select>
         <button class="krds-btn small secondary">예시 정보 불러오기</button>

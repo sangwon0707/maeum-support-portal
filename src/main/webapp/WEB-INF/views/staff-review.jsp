@@ -12,7 +12,7 @@
     </h1>
     <t:status status="${application.status}" />
   </div>
-  <div class="review-layout">
+  <div class="review-layout" data-guide-review="${application.status}">
     <section class="content-panel">
       <h2>신청 정보·서류</h2>
       <dl class="definition-list">
@@ -77,7 +77,8 @@
         <section class="content-panel">
           <h2>결과 확정</h2>
           <form method="post" action="${base}/staff/applications/${application.id}/decision"
-            data-confirm="결과 확정 후에는 수정할 수 없습니다. 확정할까요?">
+            data-confirm-title="검토 결과를 확정할까요?" data-confirm-label="결과 확정"
+            data-confirm="결과를 확정하면 수정할 수 없습니다. 선택한 결과와 확정 사유를 다시 확인해 주세요.">
             <t:csrf /><input type="hidden" name="version" value="${application.version}">
             <div class="field"><label for="decision">결과</label><select class="krds-form-select" id="decision"
                 name="decision">

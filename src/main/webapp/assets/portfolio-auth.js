@@ -2,16 +2,16 @@
 (() => {
   'use strict';
   document.querySelectorAll('[data-fill-test-account]').forEach(fillButton => {
-  fillButton.addEventListener('click', () => {
-    const username = document.getElementById('username');
-    const password = document.getElementById('password');
-    const isAdmin = fillButton.dataset.fillTestAccount === 'admin';
-    username.value = isAdmin ? 'admin' : 'applicant';
-    password.value = 'Portfolio2026!';
-    [username, password].forEach(input => input.dispatchEvent(new Event('input', { bubbles: true })));
-    document.querySelector('[data-test-account-status]').textContent = `${isAdmin ? '관리자' : '사용자'} 테스트 계정을 입력했습니다. 로그인 버튼을 눌러 주세요.`;
-    fillButton.closest('form').querySelector('button[type="submit"], button:not([type])').focus();
-  });
+    fillButton.addEventListener('click', () => {
+      const username = document.getElementById('username');
+      const password = document.getElementById('password');
+      const isAdmin = fillButton.dataset.fillTestAccount === 'admin';
+      username.value = isAdmin ? 'admin' : 'applicant';
+      password.value = 'Portfolio2026!';
+      [username, password].forEach(input => input.dispatchEvent(new Event('input', { bubbles: true })));
+      document.querySelector('[data-test-account-status]').textContent = `${isAdmin ? '관리자' : '사용자'} 테스트 계정을 입력했습니다. 로그인 버튼을 눌러 주세요.`;
+      fillButton.closest('form').querySelector('button[type="submit"], button:not([type])').focus();
+    });
   });
 
   const loginForm = document.querySelector('[data-demo-login]');

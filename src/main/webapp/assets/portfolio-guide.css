@@ -157,3 +157,9 @@ body { padding-top: var(--site-notice-height, 32px); }
 .site-notice .project-intro-link:hover { background: #1e3d65; }
 .site-notice .project-intro-link:focus-visible { outline: 3px solid #f2bf30; outline-offset: 3px; }
 @media(max-width:750px) { .site-notice { padding: 10px 0; } .site-notice .notice-content { gap: 9px; } }
+
+/* 관리자 흐름은 업무 상태 색과 구별되는 핑크 안내로 표시한다. */
+.portfolio-guide-halo[data-guide-theme="admin"] { border-color: #df3991; box-shadow: 0 0 5px #f052a6a0, 0 0 13px #f052a655; }
+.portfolio-guide-halo[data-guide-theme="admin"]::before { background: conic-gradient(from var(--guide-neon-angle), #d83186 0deg, #fa6cba 80deg, #fff0f9 110deg, #fa6cba 140deg, #d83186 190deg, #d83186 260deg, #fff0f9 290deg, #d83186 330deg); }
+.portfolio-guide-cue[data-guide-theme="admin"] .guide-arrow path { fill: #dd338f; }
+body[data-guide-theme="admin"] .portfolio-guide-target { outline-color: #ed78b5 !important; }

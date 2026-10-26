@@ -4,8 +4,8 @@
 <%@ taglib prefix="t" tagdir="/WEB-INF/tags" %>
 <t:layout title="담당 업무">
   <div class="page-heading">
-    <h1>담당 업무</h1>
-    <p>배정된 신청의 서류를 확인하고 보완과 결과 처리를 진행하세요.</p>
+    <h1>${actor.role=='ADMIN'?'전체 접수 검토':'담당 업무'}</h1>
+    <p>${actor.role=='ADMIN'?'담당자 배정 없이 접수된 신청을 직접 검토하고 보완·결과를 처리할 수 있습니다.':'배정된 신청의 서류를 확인하고 보완과 결과 처리를 진행하세요.'}</p>
   </div>
   <form method="get" class="search-panel">
     <div class="field"><label for="keyword">상호·접수번호</label><input class="krds-input" id="keyword"
@@ -29,7 +29,7 @@
   <p>총 ${pagination.totalRecordCount}건</p>
   <div class="table-wrap">
     <table>
-      <caption>배정된 신청 목록</caption>
+      <caption>${actor.role=='ADMIN'?'전체 신청 목록':'배정된 신청 목록'}</caption>
       <thead>
         <tr>
           <th>접수번호</th>
@@ -57,7 +57,7 @@
         </c:forEach>
         <c:if test="${empty applications}">
           <tr>
-            <td colspan="5" class="empty-state">조건에 맞는 배정 업무가 없습니다.</td>
+            <td colspan="5" class="empty-state">조건에 맞는 신청이 없습니다.</td>
           </tr>
         </c:if>
       </tbody>

@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="${base}/assets/krds/css/common/common.css">
   <link rel="stylesheet" href="${base}/assets/krds/css/component/component.css">
   <link rel="stylesheet" href="${base}/assets/app.css">
-  <link rel="stylesheet" href="${base}/assets/portal-theme.css?v=20261025-journey-center">
+  <link rel="stylesheet" href="${base}/assets/portal-theme.css?v=20261026-admin-review">
   <link rel="stylesheet" href="${base}/assets/portfolio-guide.css?v=10">
   <script src="${base}/assets/app.js" defer></script>
   <script src="${base}/assets/portfolio-guide.js?v=11" defer></script>
@@ -41,7 +41,7 @@
         <a href="${base}/guide" aria-current="${title=='신청·서류 안내'?'page':'false'}">신청·서류 안내</a>
         <a href="${base}/${actor.role=='STAFF' || actor.role=='ADMIN'?'my':'mypage'}" aria-current="${title=='나의 신청' || title=='마이페이지'?'page':'false'}">${actor.role=='STAFF'?'담당 접수함':actor.role=='ADMIN'?'공고·배정 관리':'마이페이지'}</a>
         <c:if test="${actor.role=='STAFF'}"><a href="${base}/staff/reports">업무 통계</a></c:if>
-        <c:if test="${actor.role=='ADMIN'}"><a href="${base}/admin/reports">업무 통계</a><a href="${base}/admin/audit">감사 이력</a></c:if>
+        <c:if test="${actor.role=='ADMIN'}"><a href="${base}/staff/applications">접수 검토</a><a href="${base}/admin/reports">업무 통계</a><a href="${base}/admin/audit">감사 이력</a></c:if>
       </nav>
       <div class="account">
         <c:choose>

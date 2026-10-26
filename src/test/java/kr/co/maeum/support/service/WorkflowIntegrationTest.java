@@ -67,6 +67,127 @@ class WorkflowIntegrationTest {
         return applications.find(id).getVersion();
     }
 
+    private PortalPrincipal admin(PortalPrincipal applicant) {
+        String loginId = "review-admin-" + UUID.randomUUID();
+        demos.createUser(applicant.workspaceId(), loginId, "검토 관리자", "ADMIN", "Review-test-2026!");
+        return identities.findRole(applicant.workspaceId(), "ADMIN").principal();
+    }
+
+    @Test
+    @DisplayName("관리자는 담당자 배정 없이 검토하고 선정·미선정 결과를 확정한다")
+    void admin_reviews_unassigned_application_and_records_decision() {
+        for (String decision : java.util.List.of("APPROVED", "REJECTED")) {
+            var applicant = demo("NORMAL");
+            long id = id(applicant);
+            workflow.submit(applicant, id, version(id), UUID.randomUUID().toString(), null);
+            var admin = admin(applicant);
+            reviews.start(admin, id, version(id));
+            assertEquals("UNDER_REVIEW", applications.find(id).getStatus());
+            reviews.decide(admin, id, version(id), decision, "관리자 직접 검토 완료", true);
+            assertEquals(decision, workflow.view(applicant, id).getStatus());
+            assertEquals(0, applications.isAssigned(id, admin.id()));
+        }
+    }
+
+    @Test
+    @DisplayName("관리자는 직접 보완을 요청하고 신청자 재제출 후 검토를 마친다")
+    void admin_requests_supplement_and_reviews_resubmission() {
+        var applicant = demo("NORMAL");
+        long id = id(applicant);
+        workflow.submit(applicant, id, version(id), UUID.randomUUID().toString(), null);
+        var admin = admin(applicant);
+        reviews.start(admin, id, version(id));
+        reviews.supplement(
+                admin,
+                id,
+                version(id),
+                "ESTIMATE",
+                "견적 내역 확인",
+                java.time.LocalDateTime.now(java.time.Clock.systemUTC()).plusDays(1));
+        assertEquals("NEEDS_SUPPLEMENT", workflow.view(applicant, id).getStatus());
+        files.attachFixture(applicant, id, "ESTIMATE");
+        workflow.submit(applicant, id, version(id), UUID.randomUUID().toString(), "견적 교체");
+        reviews.start(admin, id, version(id));
+        reviews.decide(admin, id, version(id), "APPROVED", "보완 확인 완료", true);
+        assertEquals("APPROVED", workflow.view(applicant, id).getStatus());
+    }
+
+    @Test
+    @DisplayName("관리자라도 다른 운영 공간의 접수는 검토할 수 없다")
+    void admin_cannot_review_another_workspace() {
+        var applicant = demo("NORMAL");
+        long id = id(applicant);
+        workflow.submit(applicant, id, version(id), UUID.randomUUID().toString(), null);
+        var otherAdmin = admin(demo("NORMAL"));
+        assertEquals(
+                403,
+                assertThrows(
+                                BusinessException.class,
+                                () -> reviews.start(otherAdmin, id, version(id)))
+                        .getStatus());
+        assertEquals("SUBMITTED", applications.find(id).getStatus());
+    }
+
+    @Test
+    @DisplayName("신청자와 미배정 담당자는 검토할 수 없고 배정 후 담당자는 검토한다")
+    void applicant_and_unassigned_staff_cannot_review() {
+        var applicant = demo("NORMAL");
+        long id = id(applicant);
+        workflow.submit(applicant, id, version(id), UUID.randomUUID().toString(), null);
+        var admin = admin(applicant);
+        String loginId = "unassigned-" + UUID.randomUUID();
+        demos.createUser(applicant.workspaceId(), loginId, "미배정 담당자", "STAFF", "Review-test-2026!");
+        var staff =
+                identities.listStaff(applicant.workspaceId()).stream()
+                        .filter(account -> account.loginId().equals(loginId))
+                        .findFirst()
+                        .orElseThrow()
+                        .principal();
+        assertEquals(
+                403,
+                assertThrows(
+                                BusinessException.class,
+                                () -> reviews.start(applicant, id, version(id)))
+                        .getStatus());
+        assertEquals(
+                403,
+                assertThrows(BusinessException.class, () -> reviews.start(staff, id, version(id)))
+                        .getStatus());
+        reviews.assign(admin, id, staff.id(), "담당자 업무 유지 검증");
+        reviews.start(staff, id, version(id));
+        assertEquals("UNDER_REVIEW", applications.find(id).getStatus());
+    }
+
+    @Test
+    @DisplayName("검토 URL은 관리자·담당자에게만 열고 신청자는 차단한다")
+    void review_routes_enforce_security_roles() throws Exception {
+        var applicant = demo("NORMAL");
+        var admin = admin(applicant);
+        var staff = demos.switchRole(applicant, "STAFF");
+        var mvc =
+                MockMvcBuilders.webAppContextSetup(webContext)
+                        .apply(
+                                org.springframework.security.test.web.servlet.setup
+                                        .SecurityMockMvcConfigurers.springSecurity())
+                        .build();
+        for (var reviewer : java.util.List.of(admin, staff)) {
+            mvc.perform(
+                            MockMvcRequestBuilders.get("/staff/applications")
+                                    .with(
+                                            org.springframework.security.test.web.servlet.request
+                                                    .SecurityMockMvcRequestPostProcessors.user(
+                                                    reviewer)))
+                    .andExpect(MockMvcResultMatchers.status().isOk());
+        }
+        mvc.perform(
+                        MockMvcRequestBuilders.get("/staff/applications")
+                                .with(
+                                        org.springframework.security.test.web.servlet.request
+                                                .SecurityMockMvcRequestPostProcessors.user(
+                                                applicant)))
+                .andExpect(MockMvcResultMatchers.status().isForbidden());
+    }
+
     @Test
     @DisplayName("정상 제출과 재요청은 제출본을 한 번만 만든다")
     void submit_repeated_key_returns_same_revision() {

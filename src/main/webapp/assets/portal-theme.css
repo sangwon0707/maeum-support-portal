@@ -432,3 +432,7 @@ h3 { font-size: 2.1rem; }
 .application-photo-list figure { margin: 0; width: 240px; }
 .application-photo-list img { width: 100%; height: 160px; object-fit: contain; }
 .application-photo-list figcaption { font-size: 12px; color: #61758c; }
+
+/* 두 역할의 로그인 진입을 같은 비중으로 제공한다. */
+.test-account-buttons { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.test-account-buttons .krds-btn { width: 100%; min-width: 0; height: auto; min-height: 48px; white-space: normal; padding: 12px 8px; text-align: center; }

@@ -5,8 +5,9 @@
 <t:layout title="공고·배정 관리">
   <div class="page-heading">
     <h1>공고·담당자 배정 관리</h1>
-    <p>공고와 담당 업무를 관리합니다. 접수 시작 후 기간과 지원 한도 변경은 제한됩니다.</p>
+    <p>관리자는 담당자 배정 없이 직접 검토할 수 있습니다. 공고와 담당 업무를 관리합니다. 접수 시작 후 기간과 지원 한도 변경은 제한됩니다.</p>
   </div>
+  <p><a class="krds-btn medium primary" href="${base}/staff/applications">접수 검토하기</a></p>
   <section class="content-panel">
     <div class="section-heading">
       <h2>공고 관리</h2><a class="krds-btn medium primary" href="${base}/admin/programs/new">새 공고 작성</a>
@@ -54,7 +55,7 @@
           <c:forEach var="application" items="${applications}">
             <tr>
               <td>
-                <c:out value="${application.businessName}" /> (#${application.id})
+                <a href="${base}/staff/applications/${application.id}"><c:out value="${application.businessName}" /> (#${application.id}) · 검토하기 →</a>
               </td>
               <td>
                 <t:status status="${application.status}" />

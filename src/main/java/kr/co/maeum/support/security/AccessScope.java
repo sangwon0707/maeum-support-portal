@@ -56,8 +56,12 @@ public class AccessScope {
         view(actor, application);
     }
 
-    public void staff(PortalPrincipal actor, Application application) {
-        role(actor, "STAFF");
+    public void reviewer(PortalPrincipal actor, Application application) {
+        active(actor);
+        // 관리자는 같은 공간의 접수를 직접 검토하고, 담당자는 기존 배정 범위를 유지한다.
+        if (!"ADMIN".equals(actor.role()) && !"STAFF".equals(actor.role())) {
+            throw BusinessException.forbidden();
+        }
         view(actor, application);
     }
 }

@@ -51,7 +51,7 @@
           <p>신청 내용과 첨부 서류를 확인한 뒤 보완 요청 또는 결과 확정을 진행하세요.</p>
           <form method="post" action="${base}/staff/applications/${application.id}/start" class="inline-form">
             <t:csrf /><input type="hidden" name="version" value="${application.version}"><button
-              class="krds-btn medium primary" data-tour="배정된 신청의 검토를 시작하세요.">검토 시작</button>
+              class="krds-btn medium primary" data-tour="접수된 신청의 검토를 시작하세요.">검토 시작</button>
           </form>
         </section>
       </c:if>
@@ -108,7 +108,7 @@
             <c:out value="${review.reason}" />
           </p>
         </section>
-      </c:if><a class="krds-btn medium secondary" href="${base}/staff/applications">← 담당 업무 목록</a>
+      </c:if><a class="krds-btn medium secondary" href="${base}/staff/applications">← 접수 검토 목록</a>
     </aside>
   </div>
   <p><a href="${base}/applications/${application.id}/intake">원본·분할 서류·추출 사진 검토 →</a></p>

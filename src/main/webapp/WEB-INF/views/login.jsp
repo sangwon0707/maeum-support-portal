@@ -11,11 +11,14 @@
     <c:if test="${not empty param.error}">
       <div class="alert error" role="alert">아이디 또는 비밀번호를 확인해 주세요.</div>
     </c:if>
-    <script src="${base}/assets/portfolio-auth.js?v=2" defer></script>
+    <script src="${base}/assets/portfolio-auth.js?v=3" defer></script>
     <form method="post" action="${base}/login" class="content-panel" data-demo-login>
       <div class="test-account-entry">
-        <button type="button" class="krds-btn medium secondary full" data-fill-test-account>테스트 계정 입력</button>
-        <p class="field-help" data-test-account-status role="status">신청자 테스트 계정의 아이디와 비밀번호를 채웁니다.</p>
+        <div class="test-account-buttons">
+          <button type="button" class="krds-btn medium secondary" data-fill-test-account="applicant">사용자 테스트 계정</button>
+          <button type="button" class="krds-btn medium secondary" data-fill-test-account="admin">관리자 테스트 계정</button>
+        </div>
+        <p class="field-help" data-test-account-status role="status">사용자 또는 관리자 계정을 선택하면 아이디와 비밀번호를 채웁니다.</p>
       </div>
       <t:csrf />
       <div class="field"><label for="username">아이디</label><input class="krds-input" id="username"
@@ -42,7 +45,7 @@
       <div class="demo-login-actions"><button type="button" class="krds-btn medium secondary" data-demo-login-cancel>취소</button><button type="button" class="krds-btn medium primary" data-demo-login-confirm disabled>확인하고 로그인</button></div>
     </dialog>
     <p>처음 이용하시나요? <a href="${base}/register">신청자 회원가입</a></p>
-    <p class="field-help">담당자·관리자는 발급받은 업무 계정으로 로그인해 주세요.</p>
+    <p class="field-help">관리자 계정에서는 접수 검토·보완 요청·결과 처리를 확인할 수 있습니다.</p>
     <a href="${base}/guide">신청 절차와 준비 서류 확인</a>
   </div>
 </t:layout>

@@ -1,15 +1,17 @@
 /* 공개된 샘플 자격 증명만 입력한다. 인증은 기존 로그인 경로에서 수행한다. */
 (() => {
   'use strict';
-  const fillButton = document.querySelector('[data-fill-test-account]');
-  fillButton?.addEventListener('click', () => {
+  document.querySelectorAll('[data-fill-test-account]').forEach(fillButton => {
+  fillButton.addEventListener('click', () => {
     const username = document.getElementById('username');
     const password = document.getElementById('password');
-    username.value = 'applicant';
+    const isAdmin = fillButton.dataset.fillTestAccount === 'admin';
+    username.value = isAdmin ? 'admin' : 'applicant';
     password.value = 'Portfolio2026!';
     [username, password].forEach(input => input.dispatchEvent(new Event('input', { bubbles: true })));
-    document.querySelector('[data-test-account-status]').textContent = '신청자 테스트 계정을 입력했습니다. 로그인 버튼을 눌러 주세요.';
+    document.querySelector('[data-test-account-status]').textContent = `${isAdmin ? '관리자' : '사용자'} 테스트 계정을 입력했습니다. 로그인 버튼을 눌러 주세요.`;
     fillButton.closest('form').querySelector('button[type="submit"], button:not([type])').focus();
+  });
   });
 
   const loginForm = document.querySelector('[data-demo-login]');

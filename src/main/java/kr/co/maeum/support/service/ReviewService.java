@@ -79,7 +79,7 @@ public class ReviewService {
     @Transactional
     public void start(PortalPrincipal actor, long id, long version) {
         var application = applications.lock(id);
-        access.staff(actor, application);
+        access.reviewer(actor, application);
         policy.expectVersion(application, version);
         policy.expectStatus(application, ApplicationStatus.SUBMITTED);
         workflow.changeStatus(actor, application, ApplicationStatus.UNDER_REVIEW, "검토 시작");
@@ -95,7 +95,7 @@ public class ReviewService {
             String reason,
             LocalDateTime dueAt) {
         var application = applications.lock(id);
-        access.staff(actor, application);
+        access.reviewer(actor, application);
         policy.expectVersion(application, version);
         policy.expectStatus(application, ApplicationStatus.UNDER_REVIEW);
         if (!List.of("BUSINESS_CERT", "ESTIMATE", "businessName", "planText").contains(target)) {
@@ -125,7 +125,7 @@ public class ReviewService {
             String reason,
             boolean checked) {
         var application = applications.lock(id);
-        access.staff(actor, application);
+        access.reviewer(actor, application);
         policy.expectVersion(application, version);
         policy.expectStatus(application, ApplicationStatus.UNDER_REVIEW);
         if (!List.of("APPROVED", "REJECTED").contains(decision) || !checked) {

@@ -241,3 +241,7 @@ th { background: #f2f5f8; font-weight: 700; }
 .action-confirmation-summary[hidden] { display: none; }
 .action-confirmation-actions { display: flex; justify-content: flex-end; gap: 10px; margin-top: 28px; }
 @media(max-width:600px) { .action-confirmation { padding: 22px; } .action-confirmation-actions > button { flex: 1; } }
+
+.review-reason-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 8px; }
+.review-reason-heading > label { margin: 0; }
+.review-reason-heading > button { flex-shrink: 0; }

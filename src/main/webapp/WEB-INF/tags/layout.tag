@@ -15,11 +15,11 @@
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="${base}/assets/krds/css/common/common.css">
   <link rel="stylesheet" href="${base}/assets/krds/css/component/component.css">
-  <link rel="stylesheet" href="${base}/assets/app.css?v=20261026-confirm">
+  <link rel="stylesheet" href="${base}/assets/app.css?v=20261026-reason">
   <link rel="stylesheet" href="${base}/assets/portal-theme.css?v=20261026-admin-review">
   <link rel="stylesheet" href="${base}/assets/portfolio-guide.css?v=12">
-  <script src="${base}/assets/app.js?v=20261026-confirm" defer></script>
-  <script src="${base}/assets/portfolio-guide.js?v=12" defer></script>
+  <script src="${base}/assets/app.js?v=20261026-reason" defer></script>
+  <script src="${base}/assets/portfolio-guide.js?v=14" defer></script>
 </head>
 
 <body data-actor-role="${empty actor?'VISITOR':actor.role}"><a class="skip" href="#content">본문 바로가기</a>

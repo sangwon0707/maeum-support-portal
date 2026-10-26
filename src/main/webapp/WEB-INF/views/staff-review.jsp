@@ -85,8 +85,11 @@
                 <option value="APPROVED">선정</option>
                 <option value="REJECTED">미선정</option>
               </select></div>
-            <div class="field"><label for="decisionReason">확정 사유</label><textarea class="krds-input"
-                id="decisionReason" name="reason" rows="3" maxlength="1000" required></textarea></div><label
+            <div class="field">
+              <div class="review-reason-heading"><label for="decisionReason">확정 사유</label><button type="button" class="krds-btn small secondary" data-fill-decision-reason>사유 자동 입력</button></div>
+              <textarea class="krds-input" id="decisionReason" name="reason" rows="3" maxlength="1000" aria-describedby="decisionReasonHelp" required></textarea>
+              <p class="field-help" id="decisionReasonHelp">선택한 결과에 맞는 문구를 채웁니다. 검토 내용에 맞게 수정해 주세요.</p>
+            </div><label
               class="checkbox-label"><input type="checkbox" name="checked" value="true" required> 서류와 신청 정보를
               검토했습니다.</label><button class="krds-btn medium primary">결과 확정</button>
           </form>

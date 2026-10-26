@@ -84,3 +84,29 @@ if (requestedAmount && selfContribution && totalProjectCost) {
   selfContribution.addEventListener('input', updateTotal);
   updateTotal();
 }
+
+// 결과 변경 시 자동 문구만 갱신하고 담당자가 수정한 사유는 보존한다.
+const decisionSelect = document.getElementById('decision');
+const decisionReason = document.getElementById('decisionReason');
+const fillDecisionReason = document.querySelector('[data-fill-decision-reason]');
+if (decisionSelect && decisionReason && fillDecisionReason) {
+  const reasons = {
+    APPROVED: '신청 내용과 첨부 서류를 검토한 결과, 지원 요건을 충족하여 지원 대상으로 선정합니다.',
+    REJECTED: '신청 내용과 첨부 서류를 검토한 결과, 이번 지원사업의 선정 기준을 충족하지 않아 미선정합니다.'
+  };
+  let generatedReason = '';
+  const fillReason = () => {
+    const selectedReason = reasons[decisionSelect.value];
+    if (!selectedReason) return;
+    generatedReason = selectedReason;
+    decisionReason.value = selectedReason;
+    decisionReason.dispatchEvent(new Event('input', { bubbles: true }));
+  };
+  fillDecisionReason.addEventListener('click', () => {
+    fillReason();
+    decisionReason.focus();
+  });
+  decisionSelect.addEventListener('change', () => {
+    if (!decisionReason.value.trim() || decisionReason.value === generatedReason) fillReason();
+  });
+}

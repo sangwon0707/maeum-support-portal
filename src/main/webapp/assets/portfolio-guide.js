@@ -204,12 +204,12 @@
           if (!dueAt.value) return hint(dueAt, '보완 기한을 지정하세요.');
           return hint(firstVisible('form[action$="/supplement"] button'), '보완 항목·사유·기한을 확인하고 요청을 보내세요.');
         }
-        if (decision.dataset.guideConfirmed !== 'true') return hint(decision, '선정 또는 미선정을 선택하세요.');
         const reason = document.getElementById('decisionReason');
-        if (!reason.value.trim()) return hint(reason, '선택한 결과의 사유를 입력하세요.');
+        if (decision.dataset.guideConfirmed !== 'true' && !reason.value.trim()) return hint(decision, '선정 또는 미선정을 선택하세요.');
+        if (!reason.value.trim()) return hint(firstVisible('[data-fill-decision-reason]') || reason, '선택한 결과에 맞는 사유를 채우고 검토 내용에 맞게 수정하세요.');
         const checked = document.querySelector('input[name="checked"]');
         if (!checked.checked) return hint(checked.closest('label'), '서류와 신청 정보를 검토했다면 확인해 주세요.');
-        return hint(firstVisible('form[action$="/decision"] button'), '선택한 결과와 사유를 확인하고 확정하세요.');
+        return hint(firstVisible('form[action$="/decision"] button:not([type]),form[action$="/decision"] button[type="submit"]'), '선택한 결과와 사유를 확인하고 확정하세요.');
       }
       return hint(firstVisible('form[action$="/logout"] button'), '사용자 계정으로 로그인하면 보완 요청이나 처리 결과를 확인할 수 있어요.');
     }
@@ -291,7 +291,7 @@
       if (decision.value) {
         const checked = document.querySelector('input[name="checked"]');
         return checked && !checked.checked ? hint(checked.closest('label'), '서류 검토를 마쳤다면 확인해 주세요.')
-          : hint(firstVisible('form[action$="/decision"] button'), '선택한 결과와 사유를 확인하고 확정하세요.');
+          : hint(firstVisible('form[action$="/decision"] button:not([type]),form[action$="/decision"] button[type="submit"]'), '선택한 결과와 사유를 확인하고 확정하세요.');
       }
       const reason = document.getElementById('supplementReason');
       return reason?.value ? hint(firstVisible('form[action$="/supplement"] button'), '보완 항목·사유·기한을 확인하고 요청을 보내세요.')

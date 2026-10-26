@@ -3,10 +3,10 @@ package kr.co.maeum.support.config;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import kr.co.maeum.support.demo.DemoService;
-import kr.co.maeum.support.identity.IdentityMapper;
-import kr.co.maeum.support.program.Program;
-import kr.co.maeum.support.program.ProgramMapper;
+import kr.co.maeum.support.mapper.IdentityMapper;
+import kr.co.maeum.support.mapper.ProgramMapper;
+import kr.co.maeum.support.model.Program;
+import kr.co.maeum.support.service.DemoService;
 
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.context.event.EventListener;

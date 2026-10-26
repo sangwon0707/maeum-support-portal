@@ -2,13 +2,13 @@
 <!DOCTYPE mapper
   PUBLIC '-//mybatis.org//DTD Mapper 3.0//EN'
   'https://mybatis.org/dtd/mybatis-3-mapper.dtd'>
-<mapper namespace="kr.co.maeum.support.document.DocumentMapper">
-  <select id="find" resultType="kr.co.maeum.support.document.Document">
+<mapper namespace="kr.co.maeum.support.mapper.DocumentMapper">
+  <select id="find" resultType="kr.co.maeum.support.model.Document">
     SELECT *
     FROM document
     WHERE id=#{id}
   </select>
-  <select id="current" resultType="kr.co.maeum.support.document.Document">
+  <select id="current" resultType="kr.co.maeum.support.model.Document">
     SELECT d.*
     FROM document d
     WHERE application_id=#{applicationId}

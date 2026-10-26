@@ -161,3 +161,7 @@ docker compose --env-file .env.local --env-file .env.ocr \
 초기 SAMPLE/LIVE/LIVE_AI 표는 이미지 네 항목 API의 당시 계약이다. 현재 문서 검토는 PDFBox로 텍스트·페이지·사진을 추출하고, 스캔은 PaddleOCR로 인식한 뒤 Gemma 4로 문서 전체 항목을 해석한다. OCR 검토 데모는 사전 저장 결과를 사용하며 실제 OCR·LLM을 새로 실행하지 않는다.
 
 Oracle 새 컨테이너에서 텍스트 PDF 6쪽·사진 1개와 실제 OpenRouter 호출(원문 검증 23건), 2쪽 분할, 이미지 PDF 1쪽의 실제 OCR(57줄)을 통과했다. 각각 합산 48.62초와 OCR 111.49초였으며 전체 6쪽 스캔의 시간으로 표시하지 않는다. [33번 검증 기록](33-PDFBox전환및회귀검증.md)을 따른다.
+
+## Java 연동 코드 위치
+
+내부 API 호출은 `integration/ocr/IntakeProvider.java`·`PaddleOcrProvider.java`, 작업 실행은 `scheduler/IntakeWorker.java`·`OcrWorker.java`, 업무 반영은 `service/IntakeService.java`·`OcrService.java`에서 확인한다. 항목·원문 검증은 `service/policy/`, 전달 결과는 `dto/OcrExtraction.java`에 있다. 모두 `src/main/java/kr/co/maeum/support/` 아래 상대 경로다. Python API와 응답 계약은 패키지 정리로 변경하지 않았다.

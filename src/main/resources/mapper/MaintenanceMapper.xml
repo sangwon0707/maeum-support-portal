@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC '-//mybatis.org//DTD Mapper 3.0//EN' 'https://mybatis.org/dtd/mybatis-3-mapper.dtd'>
-<mapper namespace="kr.co.maeum.support.maintenance.MaintenanceMapper">
+<mapper namespace="kr.co.maeum.support.mapper.MaintenanceMapper">
   <select id="candidates" resultType="long">SELECT a.id FROM application a JOIN app_user u ON a.owner_id=u.id AND a.workspace_id=u.workspace_id AND u.login_id=#{login} AND a.created_at &lt; #{cutoff} AND EXISTS(SELECT 1 FROM user_role ur WHERE ur.user_id=u.id AND ur.role_code='APPLICANT') ORDER BY a.id LIMIT 100</select>
   <select id="lockCandidate" resultType="long">SELECT a.id FROM application a JOIN app_user u ON a.owner_id=u.id AND a.workspace_id=u.workspace_id AND u.login_id=#{login} AND a.created_at &lt; #{cutoff} AND EXISTS(SELECT 1 FROM user_role ur WHERE ur.user_id=u.id AND ur.role_code='APPLICANT') WHERE a.id=#{id} FOR UPDATE</select>
   <select id="activeJobs" resultType="int">

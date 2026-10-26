@@ -1,6 +1,6 @@
 package kr.co.maeum.support.config;
 
-import kr.co.maeum.support.identity.IdentityMapper;
+import kr.co.maeum.support.mapper.IdentityMapper;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

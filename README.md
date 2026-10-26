@@ -142,14 +142,14 @@ flowchart TB
 | 계층 | 책임 | 대표 코드 |
 | --- | --- | --- |
 | PDF 모듈 | PDF 렌더링·좌표·사진 영역·분할 | [PdfEngine](pdf-engine/src/main/java/kr/co/maeum/pdf/PdfEngine.java) |
-| Controller | 요청 바인딩, 검증 결과 전달, 화면·리다이렉트 | [IntakeController](src/main/java/kr/co/maeum/support/intake/IntakeController.java) |
-| Service | 역할·소유권·상태 검사, 업무 처리, 트랜잭션 | [ApplicationService](src/main/java/kr/co/maeum/support/application/ApplicationService.java), [IntakeService](src/main/java/kr/co/maeum/support/intake/IntakeService.java) |
-| Policy | 입력·상태·문서 경계의 업무 규칙 | [IntakePolicy](src/main/java/kr/co/maeum/support/intake/IntakePolicy.java), [IntakeGroupingPolicy](src/main/java/kr/co/maeum/support/intake/IntakeGroupingPolicy.java) |
+| Controller | 요청 바인딩, 검증 결과 전달, 화면·리다이렉트 | [IntakeController](src/main/java/kr/co/maeum/support/controller/IntakeController.java) |
+| Service | 역할·소유권·상태 검사, 업무 처리, 트랜잭션 | [ApplicationService](src/main/java/kr/co/maeum/support/service/ApplicationService.java), [IntakeService](src/main/java/kr/co/maeum/support/service/IntakeService.java) |
+| Policy | 입력·상태·문서 경계의 업무 규칙 | [IntakePolicy](src/main/java/kr/co/maeum/support/service/policy/IntakePolicy.java), [IntakeGroupingPolicy](src/main/java/kr/co/maeum/support/service/policy/IntakeGroupingPolicy.java) |
 | Mapper | 바인딩된 SQL과 저장·조회 | [Mapper XML](src/main/resources/mapper) |
-| Worker | 실제 인식 작업, 사전 결과 진행 표시, 정기 정리 | [문서 처리](src/main/java/kr/co/maeum/support/intake), [자료 정리](src/main/java/kr/co/maeum/support/maintenance) |
+| Worker | 실제 인식 작업, 사전 결과 진행 표시, 정기 정리 | [문서 처리](src/main/java/kr/co/maeum/support/scheduler/IntakeWorker.java), [자료 정리](src/main/java/kr/co/maeum/support/scheduler/MaintenanceScheduler.java) |
 | View | 화면 출력과 사용자 확인 | [JSP](src/main/webapp/WEB-INF/views), [공통 태그](src/main/webapp/WEB-INF/tags) |
 
-업무별 패키지 안에서 책임을 분리합니다. 모든 Service에 형식적인 인터페이스를 만들기보다 저장소·공급자처럼 교체가 필요한 경계에 인터페이스를 둡니다. 이름·계층·예외·주석 규칙은 [코드 컨벤션](.docs/11-코드컨벤션.md)을 따릅니다.
+`controller / service / mapper / dto / model`을 중심으로 MVC 계층별 패키지를 구성했습니다. 업무 규칙은 `service.policy`, 작업 실행은 `scheduler`, 외부 OCR 호출은 `integration.ocr`로 분리합니다. 모든 Service에 형식적인 인터페이스를 만들기보다 저장소·공급자처럼 교체가 필요한 경계에 인터페이스를 둡니다. 이름·계층·예외·주석 규칙은 [코드 컨벤션](.docs/11-코드컨벤션.md)을 따릅니다.
 
 ### KRDS와 화면 설계
 
@@ -189,16 +189,38 @@ erDiagram
 
 | 문제 | 선택과 이유 | 확인 위치 |
 | --- | --- | --- |
-| 업로드 후 바로 인식되어 취소·뒤로가기가 불명확함 | 원본 저장과 검토 요청을 `UPLOADED → QUEUED/PROCESSING`으로 분리 | [문서 접수 Service](src/main/java/kr/co/maeum/support/intake/IntakeService.java) |
+| 업로드 후 바로 인식되어 취소·뒤로가기가 불명확함 | 원본 저장과 검토 요청을 `UPLOADED → QUEUED/PROCESSING`으로 분리 | [문서 접수 Service](src/main/java/kr/co/maeum/support/service/IntakeService.java) |
 | 중복 클릭·응답 유실로 접수가 여러 번 생김 | 요청 UUID와 내용 해시를 함께 검사해 같은 요청은 재사용하고 내용이 달라지면 거부 | [요청 식별 스키마](src/main/resources/db/migration/V8__intake_request_identity.sql) |
-| 보완 후 기존 제출 내용까지 바뀔 수 있음 | 제출 스냅샷과 첨부 버전 연결을 별도로 보존 | [신청 Service](src/main/java/kr/co/maeum/support/application/ApplicationService.java) |
+| 보완 후 기존 제출 내용까지 바뀔 수 있음 | 제출 스냅샷과 첨부 버전 연결을 별도로 보존 | [신청 Service](src/main/java/kr/co/maeum/support/service/ApplicationService.java) |
 | 동시 저장·제출로 오래된 값이 덮어써질 수 있음 | 행 잠금·버전 검사·멱등 키를 업무 경계에 배치 | [설계 결정 이력](.docs/08-설계결정및변경이력.md) |
-| 통합 PDF의 페이지 수와 문서 수가 다름 | 종류·연속 페이지·사용자 경계 수정을 기준으로 묶어 분할 | [문서 그룹 Policy](src/main/java/kr/co/maeum/support/intake/IntakeGroupingPolicy.java) |
+| 통합 PDF의 페이지 수와 문서 수가 다름 | 종류·연속 페이지·사용자 경계 수정을 기준으로 묶어 분할 | [문서 그룹 Policy](src/main/java/kr/co/maeum/support/service/policy/IntakeGroupingPolicy.java) |
 | OCR 결과가 곧 신청값으로 덮어써질 위험 | 원문·추출 후보·직접 확인값·신청서 반영을 분리 | [OCR/AI 연동 보고서](.docs/19-OCR및AI연동보고서.md) |
 | 동일 파일을 계속 저장하면 디스크가 증가함 | 내용 해시 저장과 참조 공유, 미참조 파일 수거 | [저장 공간 관리](.docs/30-자료초기화및저장공간관리.md) |
 | 작은 무료 서버에서 인식이 너무 느림 | 실제 수행 시간을 공개하고 사전 결과 검토와 실제 인식을 분리 | [배포 기록](.docs/31-오라클무료서버배포.md) |
 
 [한글 폼 인코딩 유지보수 사례](.docs/14-유지보수사례-한글폼인코딩.md)에는 화면 입력부터 요청 파라미터·DB 저장까지 오류가 생기는 경계를 추적한 과정을 정리했습니다.
+
+## 코드 읽는 순서
+
+신청서 기능은 [ApplicationController](src/main/java/kr/co/maeum/support/controller/ApplicationController.java) → [ApplicationService](src/main/java/kr/co/maeum/support/service/ApplicationService.java) → [ApplicationMapper](src/main/java/kr/co/maeum/support/mapper/ApplicationMapper.java) → [SQL XML](src/main/resources/mapper/ApplicationMapper.xml) 순서로 확인할 수 있습니다. 입력값은 [ApplicationForm](src/main/java/kr/co/maeum/support/dto/ApplicationForm.java), 저장 데이터는 [Application](src/main/java/kr/co/maeum/support/model/Application.java)에 있습니다.
+
+```text
+src/main/java/kr/co/maeum/support/
+├── controller/       요청·응답·화면 연결
+├── service/          업무 처리·트랜잭션
+│   └── policy/       입력·상태·문서 처리 규칙
+├── mapper/           MyBatis 인터페이스
+├── dto/              요청 폼·결과 전달
+├── model/            업무 데이터
+├── config/           실행·DB·Spring 설정
+├── security/         로그인 주체·접근 검사
+├── integration/ocr/  OCR API·공급자 연결
+├── scheduler/        백그라운드 작업 실행
+├── storage/          비공개 파일 저장
+└── common/           공통 예외·변환
+src/main/resources/mapper/  SQL XML
+src/main/webapp/WEB-INF/    JSP·공통 태그
+```
 
 ## 문서·검증 데이터
 
@@ -284,7 +306,7 @@ Java 21, Maven, Docker Compose가 필요합니다. 실제 OCR은 별도 Python �
 
 - **Java·실제 MariaDB:** 권한·소유권·상태, 제출·보완·버전, 중복 요청, 파일 공유·수거와 저장 상한을 회귀 테스트합니다.
 - **Python API:** 내부 인증, 입력 제한, 인식 경계와 AI 응답 근거를 독립 테스트합니다.
-- **PDFBox 전환 회귀:** Java 업무 66개·PDF 모듈 3개·Python 33개, 총 102개 테스트와 스캔 문서의 실제 인식·AI 해석·반영·제출을 확인했습니다. [검증 기록](.docs/33-PDFBox전환및회귀검증.md)
+- **PDFBox 전환 회귀:** Java 업무 66개·PDF 모듈 3개·Python 33개, 총 102개 테스트와 스캔 문서의 실제 인식·AI 해석·반영·제출을 확인했습니다. 이후 MVC 패키지 리팩터링에서는 추가 잠금 회귀를 포함한 Java 67개·PDF 모듈 3개·Python 33개, 총 103개가 통과했습니다. [검증 기록](.docs/33-PDFBox전환및회귀검증.md)
 - **실제 OCR:** 이미지 기반 스캔 PDF를 PaddleOCR로 처리해 페이지·문서·사진·추출값과 원본 파일 접근을 확인합니다.
 - **브라우저:** 로그인 확인 모달, 홈 이동, 업로드 후 대기, 검토 요청과 결과, 화면 배치를 확인합니다.
 - **오라클 새 이미지 검증:** PDFBox 3.0.8 기반 linux/amd64 컨테이너에서 텍스트 PDF 6쪽·사진 1개·분할을 확인했습니다. 실제 OpenRouter Gemma 4 해석은 원문 검증 23건이며 PDF 처리와 합산 48.62초, 별도 스캔 1쪽 실제 PaddleOCR는 57줄·111.49초였습니다. 전체 6쪽 스캔 측정과 구분합니다. [실행 기록](.docs/33-PDFBox전환및회귀검증.md)

@@ -2,23 +2,23 @@
 <!DOCTYPE mapper
   PUBLIC '-//mybatis.org//DTD Mapper 3.0//EN'
   'https://mybatis.org/dtd/mybatis-3-mapper.dtd'>
-<mapper namespace="kr.co.maeum.support.application.ApplicationMapper">
+<mapper namespace="kr.co.maeum.support.mapper.ApplicationMapper">
   <sql id="columns">
     SELECT a.*,p.title program_title
     FROM application a
     JOIN program p ON p.id=a.program_id
   </sql>
   <select id="appliedIntakeId" resultType="long">SELECT MAX(id) FROM document_intake WHERE application_id=#{applicationId} AND status='APPLIED'</select>
-  <select id="find" resultType="kr.co.maeum.support.application.Application">
+  <select id="find" resultType="kr.co.maeum.support.model.Application">
     <include refid="columns"/>
     WHERE a.id=#{id}
   </select>
-  <select id="lock" resultType="kr.co.maeum.support.application.Application">
+  <select id="lock" resultType="kr.co.maeum.support.model.Application">
     SELECT *
     FROM application
     WHERE id=#{id} FOR UPDATE
   </select>
-  <select id="findOwned" resultType="kr.co.maeum.support.application.Application">
+  <select id="findOwned" resultType="kr.co.maeum.support.model.Application">
     <include refid="columns"/>
     WHERE a.workspace_id=#{workspaceId}
     AND a.owner_id=#{ownerId}
@@ -50,7 +50,7 @@
       AND a.submitted_at &lt; #{until}
     </if>
   </sql>
-  <select id="list" resultType="kr.co.maeum.support.application.Application">
+  <select id="list" resultType="kr.co.maeum.support.model.Application">
     <include refid="columns"/>
     <include refid="filter"/>
     ORDER BY a.updated_at DESC,a.id DESC
@@ -164,7 +164,7 @@
     WHERE application_id=#{applicationId}
     AND id=#{revisionId}
   </select>
-  <select id="revisionDocuments" resultType="kr.co.maeum.support.document.Document">
+  <select id="revisionDocuments" resultType="kr.co.maeum.support.model.Document">
     SELECT d.*
     FROM document d
     JOIN revision_document rd ON rd.document_id=d.id

@@ -89,3 +89,7 @@ Oracle의 새 OCR 이미지에서 OpenRouter Gemma 4 실제 호출을 추가 검
 운영 후속 반영에서는 OpenRouter 공급자와 Gemma 4 모델을 활성화했다. 개인정보 처리방침과 실제 검토 확인 문구에 추출 문구의 외부 AI 전송을 표시했다. 데모는 여전히 새 공급자 호출을 하지 않는다. 공급자 응답 성공과 앱의 최종 결과 저장은 구분하며 운영 전체 흐름은 31·33번 기록을 따른다.
 
 최종 공개 앱의 실제 검토에서도 OpenRouter Gemma 4 결과를 DB에 저장했다. 검토 작업 6번은 SUCCEEDED·원문 검증 20건이며, 앱의 PDF 처리·분할·결과 조회까지 합산 103.29초였다. 공급자 단독 응답 시간과 구분한다.
+
+## 계층별 Java 연결
+
+`scheduler/IntakeWorker`가 공급자 이벤트를 읽고 `service/policy/IntakeAiPolicy`로 원문 후보·차이·누락 보완을 검증한다. `integration/ocr/IntakeProvider`가 내부 Python API의 AI 사용 옵션을 전달하고 `service/IntakeService`가 사용자 확인 후 신청 반영을 수행한다. 모두 `src/main/java/kr/co/maeum/support/` 아래 경로다. Python의 `document_ai.py`·공급자 예산·프롬프트와 값 채택 규칙은 유지했다.

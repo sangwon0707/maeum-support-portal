@@ -43,3 +43,7 @@ Service의 @Transactional 안에서 신청 행을 FOR UPDATE로 잠그고 expect
 초기 설계 인덱스에 더해 V2에서 실제 정렬에 맞는 (workspace_id,updated_at,id), (workspace_id,status,updated_at,id)를 추가했다. 측정에서는 후보 인덱스를 IGNORE INDEX로 제외한 경우와 사용한 경우의 결과 정합성·EXPLAIN을 비교한다. 운영 전후 관측을 조작해 만든 수치가 아니라 로컬 비교 실험이다.
 
 스키마와 기본 키/제약은 V1, 조회 인덱스는 V2로 구분한다. 적용한 마이그레이션을 임의로 수정하지 않고 새 버전으로 변경한다. 실제 DDL은 src/main/resources/db/migration에 있다.
+
+## MVC 패키지와 SQL 매핑
+
+업무 이름별 혼합 패키지를 `controller`, `service`, `mapper`, `dto`, `model` 중심으로 정리했다. MyBatis XML namespace와 resultType은 새 인터페이스·모델 패키지로 갱신했고 SQL 문장·테이블·컬럼·마이그레이션은 유지했다. MapperConfigurer는 mapper 패키지만 스캔한다. 요청 경로·서비스 메서드의 업무 규칙과 트랜잭션 경계는 바꾸지 않았다.

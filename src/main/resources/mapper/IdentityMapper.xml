@@ -2,20 +2,20 @@
 <!DOCTYPE mapper
   PUBLIC '-//mybatis.org//DTD Mapper 3.0//EN'
   'https://mybatis.org/dtd/mybatis-3-mapper.dtd'>
-<mapper namespace="kr.co.maeum.support.identity.IdentityMapper">
+<mapper namespace="kr.co.maeum.support.mapper.IdentityMapper">
   <sql id="account">
     SELECT u.id,u.workspace_id,u.login_id,u.password_hash,u.display_name,r.role_code,w.kind workspace_kind
     FROM app_user u
     JOIN user_role r ON r.user_id=u.id
     JOIN workspace w ON w.id=u.workspace_id
   </sql>
-  <select id="findLogin" resultType="kr.co.maeum.support.identity.Account">
+  <select id="findLogin" resultType="kr.co.maeum.support.model.Account">
     <include refid="account"/>
     WHERE u.login_id=#{loginId}
     AND u.status='ACTIVE'
     AND w.kind='NORMAL'
   </select>
-  <select id="findRole" resultType="kr.co.maeum.support.identity.Account">
+  <select id="findRole" resultType="kr.co.maeum.support.model.Account">
     <include refid="account"/>
     WHERE w.id=#{workspaceId}
     AND r.role_code=#{role}
@@ -37,7 +37,7 @@
     INSERT INTO user_role(user_id,role_code)
     VALUES(#{userId},#{role})
   </insert>
-  <select id="listStaff" resultType="kr.co.maeum.support.identity.Account">
+  <select id="listStaff" resultType="kr.co.maeum.support.model.Account">
     <include refid="account"/>
     WHERE w.id=#{workspaceId}
     AND r.role_code='STAFF'

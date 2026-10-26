@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
   PUBLIC '-//mybatis.org//DTD Mapper 3.0//EN'
   'https://mybatis.org/dtd/mybatis-3-mapper.dtd'>
-<mapper namespace="kr.co.maeum.support.review.ReviewMapper">
+<mapper namespace="kr.co.maeum.support.mapper.ReviewMapper">
   <insert id="saveReview">
     INSERT INTO review(application_id,reviewer_id,check_items,decision,reason)
     VALUES(#{applicationId},#{reviewerId},#{checkItems},#{decision},#{reason})
@@ -21,7 +21,7 @@
     INSERT INTO supplement_item(request_id,target_code,instruction)
     VALUES(#{requestId},#{target},#{instruction})
   </insert>
-  <select id="openSupplement" resultType="kr.co.maeum.support.review.SupplementRequest">
+  <select id="openSupplement" resultType="kr.co.maeum.support.model.SupplementRequest">
     SELECT *
     FROM supplement_request
     WHERE application_id=#{applicationId}

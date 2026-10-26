@@ -21,7 +21,7 @@ public class DatabaseConfig {
     @Bean
     public static MapperConfigurer mapperConfigurer() {
         var configurer = new MapperConfigurer();
-        configurer.setBasePackage("kr.co.maeum.support");
+        configurer.setBasePackage("kr.co.maeum.support.mapper");
         configurer.setSqlSessionFactoryBeanName("sqlSessionFactory");
         return configurer;
     }
